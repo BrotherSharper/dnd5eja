@@ -5,4 +5,10 @@ D&D5版システム用のロカライゼーションファイルよび辞典が�
 
 インストール方法：
 以下のリンクをモッドとしてインストールしてください。
+
 https://raw.githubusercontent.com/BrotherSharper/dnd5eja/master/module.json
+
+
+参考画像：
+
+![インストール方法](https://i.imgur.com/4zYL873.jpg)
