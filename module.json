@@ -71,9 +71,9 @@
       "path": "./packs/treasure.db",
       "entity": "Item"
     }],
-	"url" : "",
+	"url" : "https://github.com/BrotherSharper/dnd5eja",
 	"download" : "",
-	"manifest" : "",
+	"manifest" : "https://github.com/BrotherSharper/dnd5eja/blob/master/module.json",
 	"minimumCoreVersion": "0.5.5"
     "compatibleCoreVersion": "0.5.5",
 }
