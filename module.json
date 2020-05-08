@@ -4,7 +4,6 @@
 	"description": "D&D5版システム用のロカライゼーションファイル、＋辞典。このモッドを使用するには必ずモッドを適用してから言語を変更してください",
 	"version": "0.2",
 	"author": "Brother Sharp, Asami",
-	"socket": true,
 	"languages": [
 		{
 			"lang": "ja",
@@ -14,8 +13,9 @@
 		}
 	],
 	"scripts": ["./cleansrd.js"],
-	"styles" : ["css/dnd5ejp.css"],
-  "packs": [{
+  "styles" : ["css/dnd5ejp.css"],
+  "packs": [
+    {
       "name": "heroes",
       "label": "スターター･ヒーロー【英語】",
       "system": "dnd5e",
