@@ -2,7 +2,7 @@
 	"name": "dnd5eja",
 	"title": "D&D5版日本語化モッド",
 	"description": "D&D5版システム用のロカライゼーションファイル、＋辞典。このモッドを使用するには必ずモッドを適用してから言語を変更してください",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"author": "Brother Sharp, Asami",
 	"languages": [
 		{
