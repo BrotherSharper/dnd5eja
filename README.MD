@@ -1,14 +1,27 @@
-# D&D5版用日本語化モッド
-D&D5版システム用のロカライゼーションファイルよび辞典が追加されます。
+# D&D5版用 日本語化モッド
 
-このモッドを使用するには先にモッドとしてインストールし、ゲーム内でモッドを有効化する必要があります。
+* **製作者**: Brother Sharp (ディスコード：Brother Sharp#6921)
+* **翻訳ファイル提供者**: Asami (ディスコード：Asami
+#8627)
+* **対応dnd5eバージョン**: 0.89 (0.88も可)
+* **modバージョン**: 0.3.1
 
-インストール方法：
+### インストール方法
+
 以下のリンクをモッドとしてインストールしてください。
 
-https://raw.githubusercontent.com/BrotherSharper/dnd5eja/master/module.json
+* リンク： https://raw.githubusercontent.com/BrotherSharper/dnd5eja/master/module.json
 
+### 内容
+D&D5版システム用のロカライゼーションファイルよび辞典が追加されます。追加機能として既存の英語の辞典を消して日本語版のみを見えるようにしてくれます（SRDのみ、日本語の無いものは英語のままで残る）
+
+このモッドを使用するには先にモッドとしてインストールし、ゲーム内でモッドを有効化する必要があります。
 
 参考画像：
 
 ![インストール方法](https://i.imgur.com/4zYL873.jpg)
+
+### 本体の日本語化
+FVTT本体の日本語化はこちらからどうぞ
+
+* https://github.com/BrotherSharper/foundryVTTja
