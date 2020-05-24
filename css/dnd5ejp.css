@@ -15,7 +15,7 @@
 /*  All D&D5e Apps                           */
 /* ----------------------------------------- */
 .dnd5e .window-content {
-  background: url("ui/parchment.jpg") repeat;
+  background: url("./ui/parchment.jpg") repeat;
   font-size: 13px;
   color: #191813;
 }
