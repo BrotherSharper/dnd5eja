@@ -10,53 +10,7 @@
   font-family: "Nodesto", "Signika", "Palatino Linotype", sans-serif;
   font-size: 20px;
 }
-/* ----------------------------------------- */
-/*  Sheet Styles                             */
-/* ----------------------------------------- */
-/* ----------------------------------------- */
-/*  Flexbox                                  */
-/* ----------------------------------------- */
-.flexrow {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-.flexrow > * {
-  flex: 1;
-}
-.flexrow .flex1 {
-  flex: 1;
-}
-.flexrow .flex2 {
-  flex: 2;
-}
-.flexrow .flex3 {
-  flex: 3;
-}
-.flexrow .flex4 {
-  flex: 4;
-}
-.flexcol {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
-.flexcol > * {
-  flex: 1;
-}
-.flexcol .flex1 {
-  flex: 1;
-}
-.flexcol .flex2 {
-  flex: 2;
-}
-.flexcol .flex3 {
-  flex: 3;
-}
-.flexcol .flex4 {
-  flex: 4;
-}
+
 /* ----------------------------------------- */
 /*  All D&D5e Apps                           */
 /* ----------------------------------------- */
@@ -77,78 +31,10 @@
   border: 1px solid #111;
   box-shadow: 0 0 8px red;
 }
-.dnd5e input:disabled,
-.dnd5e select:disabled,
 .dnd5e textarea:disabled {
   color: #4b4a44;
 }
-.dnd5e input:disabled:hover,
-.dnd5e select:disabled:hover,
-.dnd5e textarea:disabled:hover,
-.dnd5e input:disabled:focus,
-.dnd5e select:disabled:focus,
-.dnd5e textarea:disabled:focus {
-  box-shadow: none !important;
-  border: 1px solid transparent !important;
-  outline: none !important;
-}
-.dnd5e button {
-  background: rgba(0, 0, 0, 0.1);
-  border: 2px groove #eeede0;
-}
-.dnd5e label.checkbox {
-  flex: auto;
-  margin: 0;
-  line-height: 20px;
-  font-size: 11px;
-  text-align: right;
-}
-.dnd5e label.checkbox input[type="checkbox"] {
-  height: auto;
-  margin: 0 5px 0;
-  position: relative;
-  top: 3px;
-}
-.dnd5e .form-group label {
-  flex: 2;
-  color: #4b4a44;
-  font-weight: bold;
-}
-.dnd5e .form-group .form-fields {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-.dnd5e .form-group .form-fields > * {
-  flex: 1;
-}
-.dnd5e .form-group .form-fields .flex1 {
-  flex: 1;
-}
-.dnd5e .form-group .form-fields .flex2 {
-  flex: 2;
-}
-.dnd5e .form-group .form-fields .flex3 {
-  flex: 3;
-}
-.dnd5e .form-group .form-fields .flex4 {
-  flex: 4;
-}
-.dnd5e .form-group .form-fields > * {
-  margin: 0 3px 0 0;
-}
-.dnd5e .form-group .form-fields > *:last-child {
-  margin-right: 0;
-}
-.dnd5e .form-group.stacked label {
-  flex: 0 0 100%;
-  margin: 0;
-}
-.dnd5e .form-group.stacked label.checkbox {
-  flex: auto;
-  text-align: left;
-}
+
 .dnd5e .form-header {
   margin: 0 0 0.25em 0;
   padding: 0 2px;
@@ -178,41 +64,7 @@
   font-size: 13px;
   color: #191813;
 }
-.dnd5e.sheet .window-content form {
-  height: 100%;
-  overflow: hidden;
-}
-.dnd5e.sheet .window-content .tab {
-  height: 100%;
-  overflow-y: auto;
-  align-content: flex-start;
-}
-.dnd5e.sheet input[type="text"] {
-  background: none;
-  border: 1px solid transparent;
-}
-.dnd5e.sheet input[type="text"]:hover,
-.dnd5e.sheet input[type="text"]:focus {
-  border: 1px solid #111;
-}
-.dnd5e.sheet select {
-  flex: 1;
-  font-size: 12px;
-  height: 22px;
-  background: transparent;
-}
-.dnd5e.sheet .editable .rollable:hover {
-  color: #000;
-  text-shadow: 0 0 10px red;
-  cursor: pointer;
-}
-.dnd5e.sheet .editor {
-  height: 100%;
-}
-.dnd5e.sheet .editor .tox-toolbar-overlord,
-.dnd5e.sheet .editor .tox-toolbar__primary {
-  background: none;
-}
+
 .dnd5e.sheet .sheet-header {
   flex: 0 0 100px;
   border-bottom: 2px groove #eeede0;
@@ -222,101 +74,12 @@
   /* Profile Image */
   /* Header Summary Details */
 }
-.dnd5e.sheet .sheet-header h1 {
-  flex: 1;
-  border-bottom: none;
-  height: 60px;
-  margin: 0;
-  padding: 5px;
-}
-.dnd5e.sheet .sheet-header h1 input {
-  height: 50px;
-  font-size: 30px;
-}
-.dnd5e.sheet .sheet-header img.profile {
-  flex: 0 0 100px;
-  max-width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border: none;
-  border-right: 2px groove #eeede0;
-}
-.dnd5e.sheet .sheet-header .summary {
-  flex: 0 0 100%;
-  height: 40px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  border-top: 2px groove #eeede0;
-  border-bottom: none;
-}
-.dnd5e.sheet .sheet-header .summary li {
-  width: 33.33%;
-  float: left;
-  height: 34px;
-  margin: 2px 0;
-  padding: 0 3px;
-  border-right: 2px groove #eeede0;
-  line-height: 34px;
-  color: #4b4a44;
-}
-.dnd5e.sheet .sheet-header .summary li:last-child {
-  border-right: none;
-}
+
 .dnd5e.sheet .sheet-navigation {
   flex: 0 0 30px;
   margin-bottom: 5px;
   font-family: "Nodesto", "Signika", "Palatino Linotype", sans-serif;
   font-size: 20px;
-}
-.dnd5e.sheet .sheet-navigation .item {
-  height: 30px;
-  line-height: 32px;
-  margin: 0 24px;
-  border-bottom: 3px solid #b5b3a4;
-}
-.dnd5e.sheet .sheet-navigation .item.active {
-  border-bottom: 3px solid #44191A;
-}
-.dnd5e.sheet .sheet-body {
-  flex: 1;
-  overflow: hidden;
-}
-.dnd5e.sheet .filter-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  line-height: 16px;
-}
-.dnd5e.sheet .filter-list .filter-title {
-  flex: 3;
-}
-.dnd5e.sheet .filter-list .filter-item {
-  text-align: center;
-  font-size: 12px;
-  margin: 0 6px;
-  border-bottom: 3px solid #b5b3a4;
-  white-space: nowrap;
-}
-.dnd5e.sheet .filter-list .filter-item:hover {
-  text-shadow: 0 0 4px red;
-  border-bottom: 3px solid #7a7971;
-}
-.dnd5e.sheet .filter-list .filter-item.active {
-  border-bottom: 3px solid #44191A;
-}
-.dnd5e.sheet .trait-selector {
-  flex: 0 0 16px;
-  padding: 2px 0;
-  color: #999;
-  font-size: 10px;
-}
-.dnd5e.sheet .traits-list {
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: right;
 }
 /* ----------------------------------------- */
 /* Trait Selector
