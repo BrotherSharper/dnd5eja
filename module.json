@@ -2,7 +2,7 @@
 	"name": "dnd5eja",
 	"title": "日本語化（D&D5版）",
 	"description": "D&D5版システム用のロカライゼーションファイル、＋辞典。このモッドを使用するには必ずモッドを適用してから言語を変更してください",
-	"version": "0.4.3",
+	"version": "0.5",
 	"author": "Brother Sharp, Asami",
 	"languages": [
 		{
@@ -17,7 +17,7 @@
   "packs": [
     {
       "name": "heroes",
-      "label": "スターター･ヒーロー【英語】",
+      "label": "スターター･ヒーロー【日本語】",
       "system": "dnd5e",
       "path": "./packs/heroes.db",
       "entity": "Actor"
@@ -38,7 +38,7 @@
     },
     {
       "name": "tradegoods",
-      "label": "交易品SRD【英語】",
+      "label": "交易品SRD【日本語】",
       "system": "dnd5e",
       "path": "./packs/tradegoods.db",
       "entity": "Item"
