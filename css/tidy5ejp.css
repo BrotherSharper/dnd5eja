@@ -7,6 +7,14 @@
   font-family: "JapanSans", sans-serif;
 }*/
 
+.tidy5e.sheet.actor .spellcasting-ability h3 {
+ flex: 0 0 80px;
+}
+
+.dnd5e.sheet.item .sheet-body .editor-content::before {
+  content: '用途 / 来歴';
+}
+
 .tidy5e.sheet.actor.npc .spellcasting-ability {
     background: url(ui/parchment.jpg)!important;
 }
