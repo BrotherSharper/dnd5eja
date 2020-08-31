@@ -15,10 +15,6 @@
   content: '用途 / 来歴'!important;
 }
 
-.tidy5e.sheet.actor .spellcasting-ability h3.spell-dc {
-    font-size: 20px!important;
-}
-
 .tidy5e.sheet.actor.npc .spellcasting-ability {
     background: url(ui/parchment.jpg)!important;
 }
