@@ -1,14 +1,14 @@
 .tidy5e.sheet.actor .ability-scores .ability {
     display: flex;
-    flex: 1 0 70px;
+    flex: 1 0 70px!important;
 }
 
 .tidy5e.sheet.actor .skills-list .skill .skill-ability {
-    flex: 0.2 0 24px;
+    flex: 0.2 0 24px!important;
 }
 
 .tidy5e.sheet.item .sheet-header .item-subtitle {
     display: flex;
     margin-left: 1rem;
-    flex: 0.5 0 1px;
+    flex: 0.5 0 1px!important;
 }
