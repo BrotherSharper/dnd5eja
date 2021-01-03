@@ -82,7 +82,7 @@
   "dependencies": [
 {
   "name": "tidy5e-sheet",
-  "manifest": "https://raw.githubusercontent.com/sdenec/tidy5e-sheet/master/module.json",
+  "manifest": "https://raw.githubusercontent.com/sdenec/tidy5e-sheet/master/module.json"
 }]
 	"url" : "https://github.com/BrotherSharper/dnd5eja",
 	"download" : "https://github.com/BrotherSharper/dnd5eja/archive/master.zip",
