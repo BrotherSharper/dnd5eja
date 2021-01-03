@@ -1,8 +1,3 @@
-.tidy5e.sheet.actor .ability-scores .ability {
-    display: flex;
-    flex: 1 0 70px!important;
-}
-
 .tidy5e.sheet.actor .skills-list .skill .skill-ability {
     flex: 0.2 0 24px!important;
 }
@@ -11,4 +6,12 @@
     display: flex;
     margin-left: 1rem;
     flex: 0.5 0 1px!important;
+}
+
+.tidy5e.sheet.actor .ability-scores .ability .ability-name {
+    font-size: 17px!important;
+}
+
+.tidy5e.sheet.actor .spellcasting-ability .spellcasting-attribute {
+    white-space: nowrap
 }
