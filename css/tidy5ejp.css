@@ -1,68 +1,14 @@
-@font-face {
-  font-family: 'JapanSans';
-  src: url('fonts/JapanSans80.otf');
-}
-
-/*body {
-  font-family: "JapanSans", sans-serif;
-}*/
-
-.tidy5e.sheet.actor .spellcasting-ability h3 {
- flex: 0 0 80px!important;
-}
-
-.dnd5e.sheet.item .sheet-body .editor-content::before {
-  content: '用途 / 来歴'!important;
-}
-
-.tidy5e.sheet.actor .spellcasting-ability h3.spell-dc {
-    font-size: 20px!important;
-}
-
-.tidy5e.sheet.actor.npc .spellcasting-ability {
-    background: url(ui/parchment.jpg)!important;
-}
-
-.tidy5e.sheet.actor.npc .ability-scores .ability .ability-name {
-    font-size: 15px!important;
-}
-
-.tidy5e.sheet.actor.npc .spellcasting-ability select {
-    flex: 0 0 30px!important;
-/*    font-family: "JapanSans", "Palatino Linotype", serif!important;*/
-}
-
-.tidy5e.sheet.actor.npc .inventory-list .item-controls {
-    flex: 0 0 60px!important;
-}
-
-.tidy5e.sheet.actor .inventory-currency .currency-item.convert a {
-	white-space: nowrap;
-}
-
-.tidy5e.sheet.actor .inventory-currency .currency-item.convert {
-	white-space: nowrap;
-}
-
-.tidy5e.sheet.actor .traits .toggle-traits,
-.tidy5e.dnd5e.sheet.actor.npc ul.skills-list .toggle-proficient {
+.tidy5e.sheet.actor .ability-scores .ability {
     display: flex;
-  flex-direction: row-reverse;
+    flex: 1 0 70px;
 }
 
-.tidy5e.sheet.actor .traits .toggle-traits::before,
-.tidy5e.dnd5e.sheet.actor.npc ul.skills-list .toggle-proficient::before {
-    margin-left: .25em;
+.tidy5e.sheet.actor .skills-list .skill .skill-ability {
+    flex: 0.2 0 24px;
 }
 
-.tidy5e.dnd5e.sheet.actor ul.skills-list li.skill h4 {
-    font-size: 14px!important;
+.tidy5e.sheet.item .sheet-header .item-subtitle {
+    display: flex;
+    margin-left: 1rem;
+    flex: 0.5 0 1px;
 }
-
-.tidy5e.dnd5e.sheet.actor ul.skills-list li.skill .skill-ability {
-  flex: 0 0 36px!important;
-}
-
-/*.tidy5e-sheet {
-    font-family: JapanSans;
-}*/
