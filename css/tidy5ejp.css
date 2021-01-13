@@ -15,3 +15,7 @@
 .tidy5e.sheet.actor .spellcasting-ability .spellcasting-attribute {
     white-space: nowrap
 }
+
+.tidy5e.sheet.actor .ability-scores .ability .wrapper {
+    width: 53px;
+}
