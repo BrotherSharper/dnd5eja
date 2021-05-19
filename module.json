@@ -2,7 +2,7 @@
 	"name": "dnd5eja",
 	"title": "日本語化（D&D5版）",
 	"description": "D&D5版システム用(v1.2.0)のロカライゼーションファイル、＋辞典。このモッドを使用するには必ずモッドを適用してから言語を変更してください。このモッドの正式サポートシートはTidy5e-sheetです",
-	"version": "0.9.6",
+	"version": "0.9.7",
 	"author": "Brother Sharp, Asami",
 	"languages": [
 		{

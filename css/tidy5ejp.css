@@ -19,3 +19,6 @@
 .tidy5e.sheet.actor .ability-scores .ability .wrapper {
     width: 53px!important;
 }
+.tidy5e.sheet.actor .top-notes li span:first-child {
+    flex: 3 0 1px!important;
+  }
