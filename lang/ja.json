@@ -11,7 +11,6 @@
     "ITEM.TypeSpell": "呪文",
     "ITEM.TypeTool": "道具",
     "ITEM.TypeWeapon": "武器",
-    
     "DND5E.title": "ダンジョンズ＆ドラゴンズ第5版",
     "DND5E.AbbreviationCR": "CR",
     "DND5E.AbbreviationConc": "精神集中",
@@ -745,7 +744,6 @@
     "DND5E.of": " / ",
     "DND5E.per": " / ",
     "DND5E.spell": "呪文",
-    
     "SETTINGS.5eAllowPolymorphingL": "プレイヤーが自分のアクターを変身できるようにします。",
     "SETTINGS.5eAllowPolymorphingN": "変身を許可",
     "SETTINGS.5eAutoCollapseCardL": "チャットログのアイテムカードの説明を自動的にたたみます",
@@ -770,7 +768,38 @@
     "SETTINGS.5eRestGritty": "現実的 (大休憩1週間/小休憩8時間)",
     "SETTINGS.5eRestEpic": "伝説の英雄 (大休憩1時間/小休憩1分)",
     "SETTINGS.5eUndoChanges": "変更を元に戻す",
-    
-    "Submit": "設定を更新"
-    }
-    
+    "Submit": "設定を更新",
+    "DND5E.AbbreviationKgs": "kgs",
+    "DND5E.ArmorClassDefault": "装備した鎧",
+    "DND5E.ArmorClassMage": "メイジ・アーマー",
+    "DND5E.ArmorClassDraconic": "竜の防御力",
+    "DND5E.ArmorClassUnarmoredMonk": "鎧わぬ守り（モンク）",
+    "DND5E.ArmorClassUnarmoredBarbarian": "鎧わぬ守り（バーバリアン）",
+    "DND5E.ArmorClassCustom": "カスタム",
+    "DND5E.ArmorConfig": "アーマー設定",
+    "DND5E.ArmorConfigHint": "この上のテキストボックスを変更すれば自動計算を上書きできます。",
+    "DND5E.ArmorClassCalculation": "計算方法",
+    "DND5E.ArmorClassFormula": "式",
+    "DND5E.ClassSkillsEligible": "選択可能なクラス技能",
+    "DND5E.DistKm": "キロメートル",
+    "DND5E.DistM": "メートル",
+    "DND5E.EffectUnavailable": "使用不可効果",
+    "DND5E.EffectUnavailableInfo": "元となるアイテムを装備することで使用可能になります",
+    "DND5E.ItemRarityCommon": "コモン",
+    "DND5E.ItemRarityUncommon": "アンコモン",
+    "DND5E.ItemRarityRare": "レア",
+    "DND5E.ItemRarityVeryRare": "ヴェリーレア",
+    "DND5E.ItemRarityLegendary": "レジェンダリー",
+    "DND5E.ItemRarityArtifact": "アーティファクト",
+    "DND5E.ItemToolType": "道具種別",
+    "DND5E.PropertyBase": "基本",
+    "DND5E.PropertyTotal": "合計",
+    "DND5E.VehicleTypeAir": "空の乗り物",
+    "DND5E.VehicleTypeLand": "陸の乗り物",
+    "DND5E.VehicleTypeWater": "水の乗り物",
+    "DND5E.WarnBadACFormula": "アーマー計算の式を解決できませんでした。",
+    "DND5E.WarnMultipleArmor": "鎧が一つ以上装備されています。計算に不具合が出るかもしれません。",
+    "DND5E.WarnMultipleShields": "盾が一つ以上装備されています。計算に不具合が出るかもしれません。",
+    "SETTINGS.5eMetricN": "メートル法を使用する。",
+    "SETTINGS.5eMetricL": "ヤード・ポンド法の表記をメートル表記に変更し、荷重の計算をメートル法で行います。"
+}

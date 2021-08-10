@@ -36,3 +36,107 @@
   text-align: center;
   color: #7a7971;
 }
+
+/* 5ePHB Journal Styling */
+
+.journal-sheet .editor-content {
+  font-size: .423cm !important;
+}
+.journal-sheet .editor-content h1{
+  line-height: 1em;
+  margin-top: 1em !important; 
+  margin-bottom: 0.5em !important;
+  -webkit-text-stroke-width: 2px !important;
+}
+.journal-sheet .editor-content h2{
+  line-height: 1em;
+  margin-top: 1em !important; 
+  margin-bottom: 0.5em !important;
+  -webkit-text-stroke-width: 1.8px !important;
+}
+.journal-sheet .editor-content h3{
+  line-height: 1em;
+  margin-top: 1em !important; 
+  margin-bottom: 0.5em !important;
+  -webkit-text-stroke-width: 0.6px !important;
+}
+.journal-sheet .editor-content h4 {
+  line-height: 1em;
+  margin-top: 1.2em !important; 
+  margin-bottom: 0.7em !important;
+  font-family: MrJeeves, 'Noto Sans JP', sans-serif !important;
+  font-feature-settings: "palt";
+      -webkit-text-stroke-width: 0.6px;
+}
+.journal-sheet .editor-content h5 {
+  line-height: 1em;
+  margin-top: 1em !important; 
+  margin-bottom: 0.5em !important;
+  font-family: ScalySansSmallCaps, 'Noto Sans JP', sans-serif !important;
+  font-feature-settings: "palt";
+}
+.journal-sheet .editor-content h6 {
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: 400;
+  text-decoration: underline;
+  margin-top: 1em !important; 
+  margin-bottom: 0.5em !important;
+  font-family: 'Noto Sans JP', sans-serif !important;
+  font-feature-settings: "palt";
+}
+.journal-sheet .editor-content {
+  font-family: BookSanity, 'Noto Sans JP', sans-serif !important;
+  font-feature-settings: "palt";
+}
+.journal-sheet .editor-content blockquote {
+  font-family: ScalySans, 'Noto Sans JP', sans-serif !important;
+  font-feature-settings: "palt";
+  margin-top: 23px !important; 
+  margin-bottom: 1.5em !important;
+}
+.journal-sheet .editor-content table{
+  font-family: ScalySans, 'Noto Sans JP', sans-serif !important;
+  border-color:rgba(0,0,0,0.01) !important;
+  font-feature-settings: "palt";
+}
+.journal-sheet .editor-content p{
+  line-height: 1.5em;
+}
+.journal-sheet .editor-content ul {
+  line-height: 1.5em;
+}
+.journal-sheet .editor-content .class-table {
+  margin-top: 45px !important;
+  margin-bottom: 60px !important;
+  max-width: 100% !important;
+}
+.journal-sheet .editor-content hr {
+  border: none;
+  height: 5px;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1JyBoZWlnaHQ9JzUnPjxwYXRoIGQ9J00wIDAgTDUgMS43NSBWMy4yNSBMMCA1IFonIHN0cm9rZS13aWR0aD0nMCcgZmlsbD0nIzkyMjYxMCcvPjwvc3ZnPg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  display: block;
+  visibility: visible !important;
+      margin: 1em 0em !important;
+}
+.journal-sheet .editor-content p+p, 
+.journal-sheet .editor-content ul+p,
+.journal-sheet .editor-content ol+p {
+  text-indent: 0em !important;
+}
+.journal-sheet .editor-content h1+p::first-letter{
+  font-family: Solberry, 'Noto Sans JP', sans-serif !important;
+  font-size: 3.5em !important;
+  padding: 14px 6px 0px 0px;
+  line-height: 0.8em !important;
+  color:rgba(90, 140, 40, 0.65) !important;
+  font-weight: 600;
+}
+.journal-sheet section.secret {
+  color: #666;
+  padding: 5px 10px;
+}
