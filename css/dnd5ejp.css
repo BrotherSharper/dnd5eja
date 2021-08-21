@@ -62,6 +62,7 @@
 }
 .journal-sheet .editor-content h1{
     font-size:.987cm;
+    font-weight: 900;
     -webkit-column-span:all;
     -moz-column-span:all;
     border-bottom: none;
@@ -69,23 +70,25 @@
 }
 .journal-sheet .editor-content h2{
     font-size:.705cm;
+    font-weight: 900;
     -webkit-column-span:all;
     -moz-column-span:all;
     border-bottom: none;
     -webkit-text-stroke-width: 1px;
 }
 .journal-sheet .editor-content h3{
-    font-size:.529cm;
+    font-size:.582cm;
+    font-weight: 900;
     -webkit-column-span:all;
     -moz-column-span:all;
     border-bottom: 2px solid #c9ad6a;
     -webkit-text-stroke-width: 0.6px;
 }
 .journal-sheet .editor-content h4{
-    font-size:.458cm;
+    font-size:.529cm;
     -webkit-column-span:all;
     -moz-column-span:all;
-    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-width: 0.8px;
 }
 .journal-sheet .editor-content h5 {
     margin-top: 0;
@@ -94,8 +97,10 @@
     font-feature-settings: "palt";
     font-size: .423cm;
     font-weight: 900;
+    -webkit-text-stroke-width: 0.2px;
 }
 .journal-sheet .editor-content h6 {
+    font-size: .423cm;
     margin-top: 0;
     margin-bottom: .2em;
     font-weight: 400;
@@ -122,11 +127,12 @@
 .journal-sheet .editor-content h1+p::first-letter{
     float:left;
     font-family: Solberry, 'Noto Sans JP', sans-serif !important;
-    font-size:3.5em;
+    font-size:4.2em;
     font-weight: 600;
-    color:rgba(90, 140, 40, 0.65);
+    color:rgba(50, 90, 20, 0.7);
+    padding: 14px 0px 0px 0px;
     line-height:.8em;
-    padding: 14px 6px 0px 0px;
+
 }
 
 /* 
@@ -163,6 +169,7 @@
 .journal-sheet .editor-content blockquote {
     font-family: ScalySans, 'Noto Sans JP', sans-serif !important;
     font-feature-settings: "palt";
+    font-style: normal;
     box-sizing: border-box;
     margin-bottom: 1.6em;
     margin-top: 23px;
@@ -174,13 +181,18 @@
     border-image-outset: 9px 0;
     box-shadow: 1px 4px 14px #888;
 }
-
 .journal-sheet .editor-content blockquote p+p {
     margin-top: 0;
 }
-
 .journal-sheet .editor-content blockquote p {
     margin-bottom: 0;
+}
+.journal-sheet .editor-content blockquote h2 {
+    margin-top: 0em !important;
+    margin-bottom: 0em !important;
+}
+.journal-sheet .editor-content blockquote em {
+    font-style: italic !important;
 }
 
 /* 追加：スタッツブロック風の水平線 */
@@ -230,7 +242,6 @@
 .journal-sheet .editor-content table thead {
     border-bottom-color: rgba(0,0,0,0) !important;
     background-color: rgba(0,0,0,0) !important;
-
     height:0px !important;
     vertical-align: bottom !important;
     padding-bottom: .3em;
@@ -256,10 +267,15 @@
 /* セルの余白をちょっと増やす */
 .journal-sheet .editor-content table td,
 .journal-sheet .editor-content table th {
-    padding: 0.35em 0;
+    padding: 0.35em;
+}
+.journal-sheet .editor-content table th {
+    font-weight: 800;
+    text-align: left;
 }
 .journal-sheet .editor-content table thead {
     font-weight: 800 !important;
+    text-align: left;
 }
 .journal-sheet .editor-content table {
     border-spacing: 0;
@@ -275,7 +291,7 @@
     font-feature-settings: "palt";
     width: 100%;
     margin-bottom: 1em;
-    font-size: 0.8em;
+    font-size: .344cm;
     line-height: 1.1em;
     -webkit-column-break-inside: avoid;
     box-sizing: border-box;
@@ -297,7 +313,12 @@
     padding: 15px;
     margin: 20px 0px;
 }
-.journal-sheet section.secret p:last-child{
+.journal-sheet section.secret p:last-child,
+.journal-sheet section.secret ul:last-child,
+.journal-sheet section.secret ol:last-child,
+.journal-sheet blockquote p:last-child,
+.journal-sheet blockquote ul:last-child,
+.journal-sheet blockquote ol:last-child {
     margin-bottom: 0em;
 }
 /* 追加：リストをちょっと見やすく */
@@ -332,6 +353,95 @@
     max-width:100%;
     margin-left:20px;
     margin-right:20px;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+
+/* 追加：Descriptive Text */
+
+.journal-sheet .editor-content .class-descriptive {
+    line-height: 1.6em;
+    margin-bottom: 1.6em;
+    background-color: rgba(250, 247, 234, 0.7);
+    border-style: solid;
+    border-width: 7px;
+    border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA8CAMAAADG+c2+AAAAM1BMVEUAAAAAAAAAAAAkAAA1GwA0GgA5GgA5GwA4HgA7HgA5HgA7HgA7HwA7HgA8HgA7HgA8HwDn6RpAAAAAEHRSTlMAAQcHMDExQ1ZW1dXY3t7+02zZCAAAAKNJREFUWMPt2LEOwyAMBNCkSXGpKfb/f20G3AGUiWOJdNlueYrt6di2J3xHrmZF9mVCdnd3T/NgCO+ItUWdB0P4RrQWfR4chOVggUcu/cgCH0X6o+ynuivg3QjIAm8FggQJEiRIkCBBggQJEoTApO56An15EFIrVgJ4vaAtlnlwEKKbGrLATlgOxg9XeORfv9IMH+Xzb7tSzGo+gL7chNcjXpUulIwXVrjWS+0AAAAASUVORK5CYII=) 12 stretch;
+    border-image-outset: 4px;
+    box-shadow: 0 0 6px #faf7ea;
+    padding: 5px 10px;
+}
+
+/* 追加：Stat Block */
+
+.journal-sheet .editor-content .class-statblock {
+    position: relative;
+    padding-top: 15px;
+    background-color: #faf0ca;
+    border-style: solid;
+    border-width: 10px;
+    border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA8CAMAAADG+c2+AAAACVBMVEX///8AAADmmihtJc8lAAAAAXRSTlMAQObYZgAAACxJREFUeAHt2EEBACAAwkCwf2hL8NK7AAuwdCw9U5Og4FgeAAAAAK7IBxPjAl3qBs+hfAnLAAAAAElFTkSuQmCC) 10;
+}
+.journal-sheet .editor-content .class-statblock ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.journal-sheet .editor-content .class-statblock li{
+    width: 70px;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+}
+
+/* 追加：Stats List*/
+.journal-sheet .editor-content .class-statblock ul li:nth-child(1)::before {
+    content: "【筋】";
+    font-weight:bold;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+.journal-sheet .editor-content .class-statblock ul li:nth-child(2)::before {
+    content: "【敏】";
+    font-weight:bold;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+.journal-sheet .editor-content .class-statblock ul li:nth-child(3)::before {
+    content: "【耐】";
+    font-weight:bold;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+.journal-sheet .editor-content .class-statblock ul li:nth-child(4)::before {
+    content: "【知】";
+    font-weight:bold;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+.journal-sheet .editor-content .class-statblock ul li:nth-child(5)::before {
+    content: "【判】";
+    font-weight:bold;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+.journal-sheet .editor-content .class-statblock ul li:nth-child(6)::before {
+    content: "【魅】";
+    font-weight:bold;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
 }
 
 
@@ -454,3 +564,4 @@
     font-weight:normal;
     font-style:normal        
 }
+
