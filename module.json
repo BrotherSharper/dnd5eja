@@ -2,7 +2,7 @@
 	"name": "dnd5eja",
 	"title": "日本語化（D&D5版）",
 	"description": "D&D5版システム用(v1.3.5)のロカライゼーションファイル、＋辞典。このモッドを使用するには必ずモッドを適用してから言語を変更してください。このモッドの正式サポートシートはTidy5e-sheetです",
-	"version": "0.10.4",
+	"version": "0.11.0",
 	"author": "Brother Sharp, Asami",
 	"languages": [
 		{
@@ -77,16 +77,29 @@
       "name": "lists",
       "path": "packs/lists.db",
       "system": "dnd5e"
-    }
+    },
+    {
+          "name": "rulesbasicrule",
+          "label": "ベーシックルール",
+          "path": "packs/rulesbasicrule.db",
+          "entity": "JournalEntry",
+          "system": "dnd5e",
+          "absPath": "/forge-vtt/data/Data/worlds/dia/packs/rulesbasicrule.db"
+        }
   ],
   "dependencies": [
 {
   "name": "tidy5e-sheet",
   "manifest": "https://raw.githubusercontent.com/sdenec/tidy5e-sheet/master/module.json"
+},
+{
+  "name": "mce-config",
+  "manifest": "https://github.com/superseva/mce-config"
 }],
+
 	"url" : "https://github.com/BrotherSharper/dnd5eja",
 	"download" : "https://github.com/BrotherSharper/dnd5eja/archive/master.zip",
 	"manifest" : "https://raw.githubusercontent.com/BrotherSharper/dnd5eja/master/module.json",
   "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "0.8.8"
+  "compatibleCoreVersion": "0.8.9"
 }

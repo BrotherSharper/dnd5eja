@@ -124,3 +124,15 @@ CONFIG.DND5E.armorIds = {
   "studded": "vBibFiwt4hUhPRLo"
 };
   });
+
+  Hooks.on("init", () => {
+    CONFIG.TinyMCE.style_formats[0].items.push(
+      {title : 'Fancy Table', selector : 'table', classes : 'class-table'}
+    );
+    CONFIG.TinyMCE.style_formats[0].items.push(
+      {title : 'Stat Block', selector : 'blockquote', classes : 'class-statblock'}
+    );
+    CONFIG.TinyMCE.style_formats[0].items.push(
+      {title : 'Descriptive Text', selector : 'blockquote', classes : 'class-descriptive'}
+    );
+  });
