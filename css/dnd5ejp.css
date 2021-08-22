@@ -166,6 +166,14 @@
     display:block
 }
 
+.journal-sheet .editor-content ol {
+    margin-bottom: 1.5em;
+    padding-left: 1.4em;
+    line-height: 1.6em;
+    list-style-position: outside;
+    list-style-type: decimal;
+}
+
 .journal-sheet .editor-content blockquote {
     font-family: ScalySans, 'Noto Sans JP', sans-serif !important;
     font-feature-settings: "palt";

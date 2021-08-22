@@ -2,7 +2,7 @@
 	"name": "dnd5eja",
 	"title": "日本語化（D&D5版）",
 	"description": "D&D5版システム用(v1.3.5)のロカライゼーションファイル、＋辞典。このモッドを使用するには必ずモッドを適用してから言語を変更してください。このモッドの正式サポートシートはTidy5e-sheetです",
-	"version": "0.11.2",
+	"version": "0.11.3",
 	"author": "Brother Sharp, Asami",
 	"languages": [
 		{
@@ -91,10 +91,6 @@
 {
   "name": "tidy5e-sheet",
   "manifest": "https://raw.githubusercontent.com/sdenec/tidy5e-sheet/master/module.json"
-},
-{
-  "name": "mce-config",
-  "manifest": "https://raw.githubusercontent.com/superseva/mce-config/master/module.json"
 }],
 
 	"url" : "https://github.com/BrotherSharper/dnd5eja",
