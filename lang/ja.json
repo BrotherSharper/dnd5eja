@@ -801,5 +801,10 @@
     "DND5E.WarnMultipleArmor": "鎧が一つ以上装備されています。計算に不具合が出るかもしれません。",
     "DND5E.WarnMultipleShields": "盾が一つ以上装備されています。計算に不具合が出るかもしれません。",
     "SETTINGS.5eMetricN": "メートル法を使用する。",
-    "SETTINGS.5eMetricL": "ヤード・ポンド法の表記をメートル表記に変更し、荷重の計算をメートル法で行います。"
+    "SETTINGS.5eMetricL": "ヤード・ポンド法の表記をメートル表記に変更し、荷重の計算をメートル法で行います。",
+    "DND5E.ArmorClassEquipment": "装備済みの鎧",
+    "DND5E.ArmorClassFlat": "手動",
+    "DND5E.ArmorClassUnarmored": "鎧無し",
+    "DND5E.ArmorClassNatural": "外皮",
+    "DND5E.Bonus": "ボーナス"
 }
