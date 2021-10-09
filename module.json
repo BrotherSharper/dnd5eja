@@ -1,128 +1,156 @@
 {
-	"name": "dnd5eja",
-	"title": "日本語化（D&D5版）",
-	"description": "D&D5版システム用(v1.4.2)のロカライゼーションファイル、＋辞典。このモッドを使用するには必ずモッドを適用してから言語を変更してください。このモッドの正式サポートシートはTidy5e-sheetです",
-	"version": "0.12.3",
-	"author": "Brother Sharp, Asami",
-	"languages": [
-		{
-			"lang": "ja",
-			"system":"dnd5e",
-			"name": "日本語",
-			"path": "lang/ja.json"
-		}
-	],
-	"scripts": ["./main.js"],
-  "styles" : ["css/dnd5ejp.css","css/tidy5ejp.css","css/fonts/noto-sans-jp.css"],
+  "name": "dnd5eja",
+  "title": "日本語化（DnD5版）",
+  "description": "D&D5版システム用(v1.5.2)のロカライゼーションファイル、＋辞典。このモッドを使用するには必ずモッドを適用してから言語を変更してください。このモッドの正式サポートシートはTidy5e-sheetです",
+  "author": "Brother Sharp, Asami",
+  "authors": [],
+  "url": "https://github.com/BrotherSharper/dnd5eja",
+  "flags": {},
+  "version": "0.13.0",
+  "minimumCoreVersion": "0.6.0",
+  "compatibleCoreVersion": "0.8.9",
+  "scripts": [
+    "./main.js"
+  ],
+  "esmodules": [],
+  "styles": [
+    "css/dnd5ejp.css",
+    "css/tidy5ejp.css",
+    "css/fonts/noto-sans-jp.css"
+  ],
+  "languages": [
+	{
+      "lang": "ja",
+      "name": "日本語",
+      "path": "lang/ja.json"
+    }
+  ],
   "packs": [
     {
       "name": "heroes",
       "label": "スターター･ヒーロー【日本語】",
       "system": "dnd5e",
       "path": "./packs/heroes.db",
-      "entity": "Actor"
+      "entity": "Actor",
+      "private": false
     },
     {
       "name": "monsters",
       "label": "モンスター辞典SRD【英語】",
       "system": "dnd5e",
       "path": "./packs/monsters.db",
-      "entity": "Actor"
+      "entity": "Actor",
+      "private": false
     },
     {
       "name": "items",
       "label": "アイテム辞典SRD【日本語】",
       "system": "dnd5e",
       "path": "./packs/items.db",
-      "entity": "Item"
+      "entity": "Item",
+      "private": false
     },
     {
       "name": "tradegoods",
       "label": "交易品SRD【日本語】",
       "system": "dnd5e",
       "path": "./packs/tradegoods.db",
-      "entity": "Item"
+      "entity": "Item",
+      "private": false
     },
     {
       "name": "spells",
       "label": "呪文辞典SRD【日本語】",
       "system": "dnd5e",
       "path": "./packs/spells.db",
-      "entity": "Item"
+      "entity": "Item",
+      "private": false
     },
     {
       "name": "classes",
       "label": "クラス辞典SRD【英語】",
       "system": "dnd5e",
       "path": "./packs/classes.db",
-      "entity": "Item"
+      "entity": "Item",
+      "private": false
     },
     {
       "name": "classfeatures",
       "label": "クラス特徴辞典SRD【英語】",
       "system": "dnd5e",
       "path": "./packs/classfeatures.db",
-      "entity": "Item"
+      "entity": "Item",
+      "private": false
     },
     {
       "name": "treasure",
       "label": "財宝辞典【日本語】",
       "system": "dnd5e",
       "path": "./packs/treasure.db",
-      "entity": "Item"
+      "entity": "Item",
+      "private": false
     },
     {
       "label": "アイテムリスト",
       "entity": "JournalEntry",
       "name": "lists",
       "path": "packs/lists.db",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "private": false
     },
     {
-          "name": "rulesbasicrule",
-          "label": "ベーシックルール",
-          "path": "packs/rulesbasicrule.db",
-          "entity": "JournalEntry",
-          "system": "dnd5e"
-        },
+      "name": "rulesbasicrule",
+      "label": "ベーシックルール",
+      "path": "packs/rulesbasicrule.db",
+      "entity": "JournalEntry",
+      "system": "dnd5e",
+      "private": false
+    },
     {
-          "name": "backgroundbasicrlule",
-          "label": "背景辞典（ベーシック）",
-          "path": "packs/backgroundbasicrlule.db",
-          "entity": "Item",
-          "system": "dnd5e"
-        },
+      "name": "backgroundbasicrlule",
+      "label": "背景辞典（ベーシック）",
+      "path": "packs/backgroundbasicrlule.db",
+      "entity": "Item",
+      "system": "dnd5e",
+      "private": false
+    },
     {
-          "name": "classesbasicrlule",
-          "label": "クラス辞典（ベーシック）",
-          "path": "packs/classesbasicrlule.db",
-          "entity": "Item",
-          "system": "dnd5e"
-        },
+      "name": "classesbasicrlule",
+      "label": "クラス辞典（ベーシック）",
+      "path": "packs/classesbasicrlule.db",
+      "entity": "Item",
+      "system": "dnd5e",
+      "private": false
+    },
     {
-          "name": "racesbasicrule",
-          "label": "種族辞典（ベーシック）",
-          "path": "packs/racesbasicrule.db",
-          "entity": "Item",
-          "system": "dnd5e"
-        },
+      "name": "racesbasicrule",
+      "label": "種族辞典（ベーシック）",
+      "path": "packs/racesbasicrule.db",
+      "entity": "Item",
+      "system": "dnd5e",
+      "private": false
+    },
     {
-          "name": "basic-creaturesjp",
-          "label": "モンスター辞典（ベーシック）",
-          "path": "packs/basic-creaturesjp.db",
-          "entity": "Actor",
-          "system": "dnd5e"
-        }
+      "name": "basic-creaturesjp",
+      "label": "モンスター辞典（ベーシック）",
+      "path": "packs/basic-creaturesjp.db",
+      "entity": "Actor",
+      "system": "dnd5e",
+      "private": false
+    }
   ],
+  "system": [],
   "dependencies": [
-{
-  "name": "tidy5e-sheet",
-  "manifest": "https://raw.githubusercontent.com/sdenec/tidy5e-sheet/master/module.json"
-}],
-
-	"url" : "https://github.com/BrotherSharper/dnd5eja",
-	"download" : "https://github.com/BrotherSharper/dnd5eja/archive/master.zip",
-	"manifest" : "https://raw.githubusercontent.com/BrotherSharper/dnd5eja/master/module.json",
-  "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "0.8.9"
+    {
+      "name": "tidy5e-sheet",
+      "manifest": "https://raw.githubusercontent.com/sdenec/tidy5e-sheet/master/module.json",
+      "type": "module"
+    }
+  ],
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/BrotherSharper/dnd5eja/master/module.json",
+  "download": "https://github.com/BrotherSharper/dnd5eja/archive/master.zip",
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
 }
