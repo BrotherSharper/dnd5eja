@@ -1,12 +1,12 @@
 {
   "name": "dnd5eja",
   "title": "日本語化（DnD5版）",
-  "description": "D&D5版システム用(v1.5.5)のロカライゼーションファイル、＋辞典。このモッドを使用するには必ずモッドを適用してから言語を変更してください。このモッドの正式サポートシートはTidy5e-sheetです",
+  "description": "D&D5版システム用(v1.5.5)の翻訳ファイル、＋辞典。このモッドを使用するには必ずモッドを適用してから言語を変更してください。このモッドの正式サポートシートはTidy5e-sheetです",
   "author": "Brother Sharp, Asami",
   "authors": [],
   "url": "https://github.com/BrotherSharper/dnd5eja",
   "flags": {},
-  "version": "14",
+  "version": "14.0",
   "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "9",
   "scripts": [

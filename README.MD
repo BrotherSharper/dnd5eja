@@ -1,8 +1,7 @@
 # D&D5版用 日本語化モッド
 
 * **製作者**: Brother Sharp (ディスコード：Brother Sharp#6921)
-* **元翻訳ファイル提供者**: Asami (ディスコード：Asami#8627)
-* **現翻訳ファイル管理者**: Brother Sharp (ディスコード：Brother Sharp#6921)
+* **翻訳ファイル提供者**: [Brother Sharp, Asami, TAKUMI, touge]
 * **対応dnd5eバージョン**: 1.5.5
 * **modバージョン**: 14.0
 
