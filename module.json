@@ -2,11 +2,11 @@
   "name": "dnd5eja",
   "title": "日本語化（DnD5版）",
   "description": "D&D5版システム用(v1.5.6)の翻訳ファイル、＋辞典。このモッドを使用するには必ずモッドを適用してから言語を変更してください。このモッドの正式サポートシートはTidy5e-sheetです",
-  "author": "Brother Sharp, Asami, TAKUMI, touge",
+  "author": "Brother Sharp, Asami, TAKUMI, touge, Onse-Kobo Japanese Community",
   "authors": [],
   "url": "https://github.com/BrotherSharper/dnd5eja",
   "flags": {},
-  "version": "14.4",
+  "version": "14.5",
   "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "9",
   "scripts": [
@@ -129,11 +129,6 @@
     },
     {
       "name": "babele",
-      "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
-      "type": "module"
-    },
-    {
-      "name": "lib-wrapper",
       "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
       "type": "module"
     }
