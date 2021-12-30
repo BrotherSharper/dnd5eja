@@ -6,7 +6,7 @@
   "authors": [],
   "url": "https://github.com/BrotherSharper/dnd5eja",
   "flags": {},
-  "version": "14.1",
+  "version": "14.2",
   "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "9",
   "scripts": [
@@ -125,6 +125,11 @@
     {
       "name": "foundryVTTja",
       "manifest": "https://raw.githubusercontent.com/BrotherSharper/foundryVTTja/master/module.json",
+      "type": "module"
+    },
+    {
+      "name": "babele",
+      "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
       "type": "module"
     }
   ],

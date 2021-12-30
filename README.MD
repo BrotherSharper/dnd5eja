@@ -3,7 +3,7 @@
 * **製作者**: Brother Sharp (ディスコード：Brother Sharp#6921)
 * **翻訳ファイル提供者**: [Brother Sharp, Asami, TAKUMI, touge]
 * **対応dnd5eバージョン**: 1.5.6
-* **modバージョン**: 14.0
+* **modバージョン**: 14.2
 
 ### インストール方法
 
