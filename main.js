@@ -1,5 +1,5 @@
 
-let removedPacks1 = ["dnd5e.tradegoods","dnd5e.monsters", "dnd5e.spells", "dnd5e.classes","dnd5e.classfeatures","dnd5e.heroes","dnd5e.tradegoods","dnd5e.treasure"];
+let removedPacks1 = ["dnd5e.heroes","dnd5e.tradegoods","dnd5e.treasure"];
 
 Hooks.on("renderCompendiumDirectory",   function(app, html, other) {
 	console.log("CleanSRD Ready")
@@ -122,6 +122,21 @@ CONFIG.DND5E.armorIds = {
   "scalemail": "ytMPQAGz6pGNpLVR",
   "splint": "4KfLhVTPeFSBG2yA",
   "studded": "vBibFiwt4hUhPRLo"
+};
+
+CONFIG.DND5E.classFeatures = {
+  "バーバリアン": CONFIG.DND5E.classFeatures["barbarian"],
+  "バード": CONFIG.DND5E.classFeatures["bard"],
+  "クレリック": CONFIG.DND5E.classFeatures["cleric"],
+  "ドルイド": CONFIG.DND5E.classFeatures["druid"],
+  "ファイター": CONFIG.DND5E.classFeatures["fighter"],
+  "モンク": CONFIG.DND5E.classFeatures["monk"],
+  "パラディン": CONFIG.DND5E.classFeatures["paladin"],
+  "レンジャー": CONFIG.DND5E.classFeatures["ranger"],
+  "ローグ": CONFIG.DND5E.classFeatures["rogue"],
+  "ソーサラー": CONFIG.DND5E.classFeatures["sorcerer"],
+  "ウォーロック": CONFIG.DND5E.classFeatures["warlock"],
+  "ウィザード": CONFIG.DND5E.classFeatures["wizard"]
 };
   });
 

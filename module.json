@@ -1,16 +1,16 @@
 {
   "name": "dnd5eja",
   "title": "日本語化（DnD5版）",
-  "description": "D&D5版システム用(v1.5.5)の翻訳ファイル、＋辞典。このモッドを使用するには必ずモッドを適用してから言語を変更してください。このモッドの正式サポートシートはTidy5e-sheetです",
-  "author": "Brother Sharp, Asami",
+  "description": "D&D5版システム用(v1.5.6)の翻訳ファイル、＋辞典。このモッドを使用するには必ずモッドを適用してから言語を変更してください。このモッドの正式サポートシートはTidy5e-sheetです",
+  "author": "Brother Sharp, Asami, TAKUMI, touge",
   "authors": [],
   "url": "https://github.com/BrotherSharper/dnd5eja",
   "flags": {},
-  "version": "14.0",
+  "version": "14.1",
   "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "9",
   "scripts": [
-    "./main.js"
+    "./main.js", "./babele-register.js"
   ],
   "esmodules": [],
   "styles": [
@@ -28,23 +28,15 @@
   "packs": [
     {
       "name": "heroes",
-      "label": "スターター･ヒーロー【日本語】",
+      "label": "【D&D】スターター･ヒーロー【SRD】",
       "system": "dnd5e",
       "path": "./packs/heroes.db",
       "entity": "Actor",
       "private": false
     },
     {
-      "name": "monsters",
-      "label": "モンスター辞典SRD【英語】",
-      "system": "dnd5e",
-      "path": "./packs/monsters.db",
-      "entity": "Actor",
-      "private": false
-    },
-    {
       "name": "items",
-      "label": "アイテム辞典SRD【日本語】",
+      "label": "【D&D】アイテム【SRD】",
       "system": "dnd5e",
       "path": "./packs/items.db",
       "entity": "Item",
@@ -52,7 +44,7 @@
     },
     {
       "name": "tradegoods",
-      "label": "交易品SRD【日本語】",
+      "label": "【D&D】交易品【SRD】",
       "system": "dnd5e",
       "path": "./packs/tradegoods.db",
       "entity": "Item",
@@ -60,38 +52,22 @@
     },
     {
       "name": "spells",
-      "label": "呪文辞典SRD【日本語】",
+      "label": "呪文辞典SRD（旧データ・使わないでください）",
       "system": "dnd5e",
       "path": "./packs/spells.db",
       "entity": "Item",
       "private": false
     },
     {
-      "name": "classes",
-      "label": "クラス辞典SRD【英語】",
-      "system": "dnd5e",
-      "path": "./packs/classes.db",
-      "entity": "Item",
-      "private": false
-    },
-    {
-      "name": "classfeatures",
-      "label": "クラス特徴辞典SRD【英語】",
-      "system": "dnd5e",
-      "path": "./packs/classfeatures.db",
-      "entity": "Item",
-      "private": false
-    },
-    {
       "name": "treasure",
-      "label": "財宝辞典【日本語】",
+      "label": "【D&D】財宝辞典【SRD】",
       "system": "dnd5e",
       "path": "./packs/treasure.db",
       "entity": "Item",
       "private": false
     },
     {
-      "label": "アイテムリスト",
+      "label": "【D&D】アイテムリスト【SRD】",
       "entity": "JournalEntry",
       "name": "lists",
       "path": "packs/lists.db",
@@ -100,7 +76,7 @@
     },
     {
       "name": "rulesbasicrule",
-      "label": "ベーシックルール",
+      "label": "【D&D】ベーシックルール",
       "path": "packs/rulesbasicrule.db",
       "entity": "JournalEntry",
       "system": "dnd5e",
@@ -108,7 +84,7 @@
     },
     {
       "name": "backgroundbasicrlule",
-      "label": "背景辞典（ベーシック）",
+      "label": "【D&D】背景【ベーシック】",
       "path": "packs/backgroundbasicrlule.db",
       "entity": "Item",
       "system": "dnd5e",
@@ -116,7 +92,7 @@
     },
     {
       "name": "classesbasicrlule",
-      "label": "クラス辞典（ベーシック）",
+      "label": "【D&D】クラス【ベーシック】",
       "path": "packs/classesbasicrlule.db",
       "entity": "Item",
       "system": "dnd5e",
@@ -124,7 +100,7 @@
     },
     {
       "name": "racesbasicrule",
-      "label": "種族辞典（ベーシック）",
+      "label": "【D&D】種族【ベーシック】",
       "path": "packs/racesbasicrule.db",
       "entity": "Item",
       "system": "dnd5e",
@@ -132,7 +108,7 @@
     },
     {
       "name": "basic-creaturesjp",
-      "label": "モンスター辞典（ベーシック）",
+      "label": "【D&D】モンスター【ベーシック】",
       "path": "packs/basic-creaturesjp.db",
       "entity": "Actor",
       "system": "dnd5e",

@@ -177,7 +177,7 @@
     "DND5E.Concentration": "精神集中",
     "DND5E.ConsumeTitle": "リソース消費",
     "DND5E.ConsumeAmmunition": "矢弾",
-    "DND5E.ConsumeAttribute": "属性",
+    "DND5E.ConsumeAttribute": "リソース",
     "DND5E.ConsumeMaterial": "物質",
     "DND5E.ConsumeCharges": "アイテムを使用",
     "DND5E.ConsumeWarningNoResource": "{name} は {type} を消費するよう指定されていますが､リソースが指定されていません！",
