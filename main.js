@@ -23,8 +23,8 @@ Hooks.once("init", () => {
   ITEMS: "dnd5eja.items"
 }
 
-if(game.modules.get("automated-evocations").active){
-  console.log("found automated evocations")
+if(game.modules.get("automated-evocations")?.active){
+console.log("found automated evocations")
 const data = game.settings.get(AECONSTS.MN, "customautospells")
 
     data["スピリチュアル・ウェポン"]=[
