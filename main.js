@@ -23,6 +23,8 @@ Hooks.once("init", () => {
   ITEMS: "dnd5eja.items"
 }
 
+if(game.modules.get("automated-evocations").active){
+  console.log("found automated evocations")
 const data = game.settings.get(AECONSTS.MN, "customautospells")
 
     data["スピリチュアル・ウェポン"]=[
@@ -31,21 +33,21 @@ const data = game.settings.get(AECONSTS.MN, "customautospells")
         number: 1,
         animation: "wind"
       }
-    ]
+    ];
     data["アーケイン・アイ"]=[
       {
         creature: "アーケイン・アイ",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["アーケイン・ゲート"]=[
       {
         creature: "アーケイン・ゲート",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["アニメイト・デッド"]=[
       {
         creature: "ゾンビ",
@@ -57,147 +59,147 @@ const data = game.settings.get(AECONSTS.MN, "customautospells")
         number: 1,
         animation: "darkness"
       }
-    ]
+    ];
     data["アンシーン・サーヴァント"]=[
       {
         creature: "アンシーン・サーヴァント",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["ガーディアン・オヴ・フェイス"]=[
       {
         creature: "ガーディアン・オヴ・フェイス",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["クリエイト・アンデッド"]=[
       {
         creature: "グール",
         number: 1,
         animation: "darkness"
       }
-    ]
+    ];
     data["ゲート"]=[
       {
         creature: "ポータル",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["ディレイド・ブラスト・ファイアーボール"]=[
       {
         creature: "ディレイド・ブラスト・ファイアーボール",
         number: 1,
         animation: "fire"
       }
-    ]
+    ];
     data["フローティング・ディスク"]=[
       {
         creature: "フローティング・ディスク",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["アーケイン・ハンド"]=[
       {
         creature: "アーケイン・ハンド",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["ビグビーズ・ハンド"]=[
       {
         creature: "ビグビーズ・ハンド",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["ファインド・スティード"]=[
       {
         creature: "スティード",
         number: 1,
         animation: "wind"
       }
-    ]
+    ];
     data["ファントム・スティード"]=[
       {
         creature: "ファントム・スティード",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["フレイミング・スフィアー"]=[
       {
         creature: "フレイミング・スフィアー",
         number: 1,
         animation: "fire"
       }
-    ]
+    ];
     data["モルデンカイネンズ・ソード"]=[
       {
         creature: "モルデンカイネンズ・ソード",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["モルデンカイネンズ・フェイスフル・ハウンド"]=[
       {
         creature: "モルデンカイネンズ・フェイスフル・ハウンド",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["フェイスフル・ハウンド"]=[
       {
         creature: "フェイスフル・ハウンド",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["イリューソリィ・ドラゴン"]=[
       {
         creature: "イリューソリィ・ドラゴン",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["ウォータリー・スフィアー"]=[
       {
         creature: "ウォータリー・スフィアー",
         number: 1,
         animation: "water"
       }
-    ]
+    ];
     data["タイニー・サーヴァント"]=[
       {
         creature: "超小型の召使",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["ヒーリング・スピリット"]=[
       {
         creature: "ヒーリング・スピリット",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["ファインド・グレーター・スティード"]=[
       {
         creature: "グレーター・スティード",
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
     data["ワールウィンド"]=[
       {
         creature: "竜巻",
         number: 1,
         animation: "wind"
       }
-    ]
+    ];
     data["魔導砲"]=[
       {
         creature: "火炎投射器",
@@ -214,8 +216,18 @@ const data = game.settings.get(AECONSTS.MN, "customautospells")
         number: 1,
         animation: "magic"
       }
-    ]
+    ];
 game.settings.set(AECONSTS.MN, "customautospells", data)
+  }
+
+game.settings.register("dnd5eja", "PhbStyle", {
+  name: "PHB風の資料スタイルを使う",
+  hint: "資料やハンドアウトのスタイルがPHB風のものになります。",
+  scope: "world",
+  config: true,
+  type: Boolean,
+  default: false       // デフォでは使わない
+});
 
 game.settings.register("dnd5eja", "PhbStyle", {
   name: "PHB風の資料スタイルを使う",
