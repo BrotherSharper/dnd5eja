@@ -63,3 +63,7 @@ SRDに入っているはずなのに載っていないアイテムや、法律�
 * 上記は非営利利用の場合です。営利利用を個人で行う場合は追加で日本コミュニティのDiscordへの在籍をお願いします。発言は行わなくて大丈夫です。（投げ銭版もある作品は非営利、収益化された動画等は営利とみなします）
 * オンセ工房の支援Patreonに4$のランクに登録済みの方は登録をしている限り上記の表示義務を免除します。
 * 企業または法人が営利目的に使用するのを禁止します。この場合は別途コミュニティ側よりライセンスを提示いたしますのでご連絡ください。
+
+### Credits
+The following modules have been integrated in hard code inside this module (due to lacking localization support):
+- https://github.com/Rayuaz/spell-level-buttons-for-dnd5e (Original author: https://github.com/Rayuaz, Localized by: Touge)
