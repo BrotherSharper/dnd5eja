@@ -24,7 +24,7 @@ Hooks.once("init", () => {
 }
 
 if(game.modules.get("automated-evocations")?.active){
-console.log("found automated evocations")
+console.log("automated animations用のデータを読み込みました")
 const data = game.settings.get(AECONSTS.MN, "customautospells")
 
     data["スピリチュアル・ウェポン"]=[
@@ -226,16 +226,16 @@ game.settings.register("dnd5eja", "PhbStyle", {
   scope: "world",
   config: true,
   type: Boolean,
-  default: false       // デフォでは使わない
+  default: false       // デフォで使う
 });
 
-game.settings.register("dnd5eja", "PhbStyle", {
-  name: "PHB風の資料スタイルを使う",
-  hint: "資料やハンドアウトのスタイルがPHB風のものになります。",
+game.settings.register("dnd5eja", "SpellLevels", {
+  name: "呪文スロットの選択をブロック表示する",
+  hint: "呪文を発動するときのスロット選択をドロップダウンからブロック表示に変更する。",
   scope: "world",
   config: true,
   type: Boolean,
-  default: false       // デフォでは使わない
+  default: true      // デフォで使う
 });
 	
   CONFIG.DND5E.spellScrollIds = {
