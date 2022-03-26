@@ -1,5 +1,11 @@
 {
 	"label": "【D&D】種族特徴【SRD】",
+	"mapping": {
+		"requirements": {
+		  "path": "data.requirements",
+		  "converter": "raceRequirements"
+		}
+	  },
 	"entries": {
 		"Artificer's Lore": {
 			"name": "技術知識",

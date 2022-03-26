@@ -1,5 +1,19 @@
 {
 	"label": "【D&D】クラス特徴【SRD】",
+	"mapping": {
+        "requirements": {
+            "path": "data.requirements",
+            "converter": "classRequirements"
+        },
+        "uses": {
+            "path": "data.uses.max",
+            "converter": "classNameFormula"
+        },
+        "formula": {
+            "path": "data.formula",
+            "converter": "classNameFormula"
+        }
+    },
 	"entries": {
 		"Ability Score Improvement": {
 			"name": "能力値上昇",
