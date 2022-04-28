@@ -3,7 +3,7 @@
 * **製作者**: Brother Sharp (ディスコード：Brother Sharp#6921)
 * **翻訳ファイル提供者**: [Brother Sharp, Asami, touge]
 * **ベーシックルール整備協力者**: [TAKUMI]
-* **SRD整備訳協力者**: [SIM_KAZ, TAKUMI, のらせす, コーラ, うどんみ, くろたる, アイリッシュ, なる]
+* **SRD整備訳協力者**: [SIM_KAZ, TAKUMI, のらせす, コーラ, うどんみ, くろたる, アイリッシュ, なる, kenken, しきちきん]
 * **対応dnd5eバージョン**: 1.6.0
 * **modバージョン**: 17.1
 
