@@ -1,0 +1,53 @@
+{
+	"label": "【D&D】サブクラス【SRD】",
+	"entries": {
+		"Champion": {
+			"name": "チャンピオン",
+			"description": "<p>チャンピオンの類型は、に完璧に磨き上げられた生身の身体能力の開発に焦点を合わせている。この類型を持つ者は、破壊的な打撃を与えるために、厳格なトレーニングと卓越した肉体を組み合わせる。</p>"
+		},
+		"Circle of the Land": {
+			"name": "土地の円環",
+			"description": "<p>土地の円環は、膨大な口伝によって古代の知識と儀式を守る神秘主義者と賢者で構成されている。これらのドルイドは、樹木や立石の神聖なサークルの中に集まり、ドルイドの原初的な秘密を囁く。この円環の最も賢明なメンバーは、古き教えを信奉するコミュニティの司祭として主宰している。この円環のメンバーである君の魔法は、円環の神秘的な儀式に入門した土地の影響を受けている。</p>"
+		},
+		"College of Lore": {
+			"name": "知の楽派",
+			"description": "<p>知の楽派（College of Lore）の吟遊詩人は、学術書や農民の物語など様々な資料から知識の断片を収集し、ほとんどの物事についての知識を有している。酒場で民謡を歌うにせよ、王宮で手の込んだ歌を歌うにせよ、これらの吟遊詩人はその才能を駆使して聴衆を魅了する。拍手喝采が終わったとき、聴衆は、地元の寺院の神職への信仰や王への忠誠心など、自分が真実だと信じていたすべてのことに疑問を抱くかもしれない。</p>\n<p>このような吟遊詩人の忠誠心は、君主への忠誠心や神の教義に従うことではなく、美と真実を追求することにある。このような吟遊詩人を前触れや助言者として置いている貴族は、吟遊詩人が政治的なことよりも正直であることを望んでいることを知っている。</p>\n<p>楽派のメンバーは図書館に集まり、時には教室や寮を備えた実際のカレッジに集まり、互いの伝承を分かち合う。また、祭典や政務の場にも集まり、腐敗を暴いたり、嘘を解き明かしたり、独りよがりの権力者をからかったりする。</p>"
+		},
+		"Draconic Bloodline": {
+			"name": "竜の血脈",
+			"description": "<p>君の生来の魔法は、君や君の祖先の血に混じった竜の魔法に由来する。多くの場合、この出自を持つソーサラーは、ドラゴンと契約を交わした古代の強力なソーサラー、あるいはドラゴンを親に持つソーサラーにその血統を遡ることができる。これらの血統の中には世界に確立されたものもあるが、ほとんどは無名である。ある魔術師が、盟約やその他の例外的な状況の結果、新しい血統の最初の者となることもあり得る。</p>"
+		},
+		"Hunter": {
+			"name": "ハンター",
+			"description": "<p>ハンターとは、文明と荒野の間の防波堤となることを意味します。ハンターの道を歩むうちに、暴れ回るオーガやオークの大群、そびえ立つ巨人や恐ろしいドラゴンなど、直面する脅威と戦うための専門的なテクニックを身につけることができます。</p>"
+		},
+		"Life Domain": {
+			"name": "生命の領域",
+			"description": "<p>生命領域は、宇宙の基本的な力のひとつである、すべての生命を支える活力ある正のエネルギーに焦点をあてている。生命の神々は、病人や負傷者を癒し、困っている人々を世話し、死と不死の力を追い払うことによって、活力と健康を促進する。邪悪でない神々はほとんどこの領域に影響を及ぼすことができ、特に農業の神（チョーンティーア、アラワイ、デメテルなど）、太陽の神（ラサンダー、ペイロア、リ・ホラクティなど）、治癒や耐久の神（イルメイター、ミシャカル、アポロン、ディアンケヒトなど）、家庭やコミュニティの神（ヘスティア、ハトホル、ボルドレイなど）などはこの領域への影響を主張することができます。</p>\n<h2>生命の領域の呪文</h2>\n<table border=\"1\">\n<thead>\n<tr>\n<td>クレリックレベル</td>\n<td>呪文</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1レベル</td>\n<td>@Compendium[dnd5e.spells.8dzaICjGy6mTUaUr]、@Compendium[dnd5e.spells.uUWb1wZgtMou0TVP]</td>\n</tr>\n<tr>\n<td>3レベル</td>\n<td>@Compendium[dnd5e.spells.F0GsG0SJzsIOacwV]、@Compendium[dnd5e.spells.JbxsYXxSOTZbf9I0]</td>\n</tr>\n<tr>\n<td>5レベル</td>\n<td>@Compendium[dnd5e.spells.ZU9d6woBdUP8pIPt]、@Compendium[dnd5e.spells.LmRHHMtplpxr9fX6]</td>\n</tr>\n<tr>\n<td>7レベル</td>\n<td>@Compendium[dnd5e.spells.VtCXMdyM6mAdIJZb]、@Compendium[dnd5e.spells.TgHsuhNasPbhu8MO]</td>\n</tr>\n<tr>\n<td>9レベル</td>\n<td>@Compendium[dnd5e.spells.Pyzmm8R7rVsNAPsd]、@Compendium[dnd5e.spells.AGFMPAmuzwWO6Dfz]</td>\n</tr>\n</tbody>\n</table>"
+		},
+		"Oath of Devotion": {
+			"name": "献身の誓い",
+			"description": "<p>献身の誓いによってパラディンは、正義、美徳、秩序という最も高い理想に縛られる。時に騎兵、白騎士、聖戦士と呼ばれるパラディンは、輝く鎧に身を包んだ騎士の理想を実現し、正義とより良いものを追求するために名誉を持って行動する。彼らは最高の行動規範を自らに課しており、ある者は良くも悪くも他の者にも同じ規範を課している。この誓いを立てる者の多くは、法と善を司る神々に献身し、その神々の信条を自分たちの献身の尺度としている。彼らは完全なる善の奉仕者である天使を理想とし、天使の翼のイメージをヘルメットや紋章に取り入れる。 </p>\n<h2>献身の誓いの内容</h2>\n<p>献身の誓いの具体的な文言や制限はさまざまだが、この誓いを立てたパラディンはみな以下の事柄を重んじる。</p>\n<p><strong>正直：</strong>嘘をつくな、人を騙すな。言ったことは約束したことに等しい。</p>\n<p><strong>勇気：</strong>決して恐れず行動せよ（とはいえ用心するのは賢明なことだ） 。</p>\n<p><strong>同情：</strong>他人を助け、弱者を守り、彼らをおびやかす者を罰せよ。敵には慈悲を示すべきだが、慈悲は知恵によって加減せねばならない。</p>\n<p><strong>名誉：</strong>他者を公正に扱い、己の名誉ある行ないによって他者に範を示せ。できるかぎり多く善をなし、できるかぎり少なく害をなせ。</p>\n<p><strong>義務：</strong>己の行為とその結果に責任を持て。己の保護下にある者たちを守り、己の上に正当な権威を持つ者に従え。</p>\n<h2>誓いの呪文</h2>\n<p>パラディンのレベルに応じて、以下の誓いの呪文を習得する。</p>\n<table border=\"1\">\n<thead>\n<tr>\n<td>パラディンレベル</td>\n<td>呪文</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@Compendium[dnd5e.spells.xmDBqZhRVrtLP8h2]、@Compendium[dnd5e.spells.gvdA9nPuWLck4tBl]</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@Compendium[dnd5e.spells.F0GsG0SJzsIOacwV]、@Compendium[dnd5e.spells.CylBa7jR8DSbo8Z3]</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@Compendium[dnd5e.spells.ZU9d6woBdUP8pIPt]、@Compendium[dnd5e.spells.15Fa6q1nH27XfbR8]</td>\n</tr>\n<tr>\n<td>13</td>\n<td>@Compendium[dnd5e.spells.da0a1t2FqaTjRZGT]、@Compendium[dnd5e.spells.TgHsuhNasPbhu8MO]</td>\n</tr>\n<tr>\n<td>17</td>\n<td>@Compendium[dnd5e.spells.d54VDyFulD9xxY7J]、@Compendium[dnd5e.spells.5e1xTohkzqFqbYH4]</td>\n</tr>\n</tbody>\n</table>"
+		},
+		"Path of the Berserker": {
+			"name": "狂戦士の道",
+			"description": "<p>ある種のバーバリアンにとって、怒りは目的への手段であり、その目的とは暴力である。バーサーカーの道は、血に塗られた自由な怒りの道である。バーサーカーの怒りに触れると、自分の健康や幸福を顧みず、戦いの混沌の中でスリルを味わうことになる。</p>"
+		},
+		"School of Evocation": {
+			"name": "力術系統",
+			"description": "<p>あなたは悴む冷気、灼熱の炎、転がる雷、ひび割れる稲妻、燃える酸など、強力な元素効果を生み出す魔法を重点的に研究しています。力術士には、敵軍を遠くから吹き飛ばす大砲のような役割を果たす者もいる。また、その強大な力で弱者を守る者もいれば、盗賊や冒険者、暴君を志す者もいる。</p>"
+		},
+		"The Fiend": {
+			"name": "フィーンド",
+			"description": "<p>君は下層の存在である悪魔と契約を結び、その目的は、たとえあなたがその目的に反対しようと、悪である。そのような存在は、あらゆるものの腐敗や破壊を望み、最終的にはあなたもその対象となります。盟約を結ぶのに十分な力を持つ魔物には、デモゴルゴン、オルクス、フラズウルブ、バフォメットなどの魔王、アスモデウス、ディスパータ、メフィストフェレス、ベリアルなどの大悪魔、特に強力なピット・フィンドやバロール、ウルトラロスやその他のユゴロスの主が含まれる。</p>\n<h2>呪文リスト拡張</h2>\n<p>フィーンドと契約した君は、ウォーロック呪文を習得する際に、呪文リスト拡張の中から選択することができる。以下の呪文がウォーロックの呪文リストに追加される。</p>\n<table border=\"1\">\n<thead>\n<tr>\n<td>呪文レベル</td>\n<td>呪文</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@Compendium[dnd5e.spells.5SuJewoa1CRWaj1F]、@Compendium[dnd5e.spells.arzCrMRgcNiQuh43]</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Compendium[dnd5e.spells.zwGsAv6kmwzYGhh3]、@Compendium[dnd5e.spells.7u2obDvuvtZBkTfq]</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]、@Compendium[dnd5e.spells.TwlD4PLcltv7Xh7j]</td>\n</tr>\n<tr>\n<td>4</td>\n<td>@Compendium[dnd5e.spells.avD5XUtkBPQQR97c]、@Compendium[dnd5e.spells.X3DrXgxjwI2dvkD6]</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@Compendium[dnd5e.spells.5e1xTohkzqFqbYH4], @Compendium[dnd5e.spells.SLxA9QhrggTz0taU]</td>\n</tr>\n</tbody>\n</table>"
+		},
+		"Thief": {
+			"name": "シーフ",
+			"description": "<p>君は窃盗術のスキルを磨いている。強盗、盗賊、窃盗犯などの犯罪者が典型的なタイプだが、宝探し、探検、探索、調査などのプロを目指すローグもこのタイプに属する。敏捷性や忍び足が向上するほか、古代遺跡の探索、不慣れな言語の読み取り、通常では使用できない魔法のアイテムの使用などに役立つスキルを習得する。</p>"
+		},
+		"Way of the Open Hand": {
+			"name": "開手門",
+			"description": "<p>開手門のモンクは、武装、非武装を問わず、武術戦闘の究極の達人である。彼らは、相手を押したり、つまずかせたりする技術を学び、気を操って体のダメージを癒し、危害から身を守るための高度な瞑想を実践する。</p>"
+		}
+	}
+}
