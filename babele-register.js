@@ -104,18 +104,6 @@ var races = {
 };
 
 var classes = {
-	"@classes.Barbarian.levels": "0",
-	"@classes.Bard.levels": "0",
-	"@classes.Cleric.levels": "0",
-	"@classes.Druid.levels": "0",
-	"@classes.Fighter.levels": "0",
-	"@classes.Monk.levels": "0",
-	"@classes.Paladin.levels": "0",
-	"@classes.Ranger.levels": "0",
-	"@classes.Rogue.levels": "0",
-	"@classes.Sorcerer.levels": "0",
-	"@classes.Warlock.levels": "0",
-	"@classes.Wizard.levels": "0",
 	"Champion": "チャンピオン",
 	"College of Lore": "知の楽派",
 	"Oath of Devotion": "献身の誓い",
