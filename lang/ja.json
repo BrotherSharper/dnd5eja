@@ -951,7 +951,7 @@
     
     "SETTINGS.5eAllowPolymorphingL": "プレイヤーが自分のキャラクターを変身できるようにします。",
     "SETTINGS.5eAllowPolymorphingN": "変身を許可",
-    "SETTINGS.5eAutoCollapseCardL": "チャットログのアイテムカードの説明を自動的にたたみます",
+    "SETTINGS.5eAutoCollapseCardL": "チャットログのアイテムカードの説明を自動的にたたみます。",
     "SETTINGS.5eAutoCollapseCardN": "チャットのアイテムカードをたたむ",
     "SETTINGS.5eAutoSpellTemplateL": "呪文を使用すると、対応するテンプレートが作成されます (優良プレイヤー以上の役割が必要です)",
     "SETTINGS.5eAutoSpellTemplateN": "常に呪文テンプレートを配置する",
@@ -978,7 +978,7 @@
     "SETTINGS.5eNoExpN": "経験値表示を無効化する",
     "SETTINGS.5eProfBonus": "PHB: ボーナス（+2, +3, +4, +5, +6)",
     "SETTINGS.5eProfDice": "DMG: ダイス（1d4, 1d6, 1d8, 1d10, 1d12)",
-    "SETTINGS.5eProfL": "習熟補正をボーナスにするか、DMGで商会されているダイス方式にするかを設定できます。設定語ワールドのリロードが必要です。",
+    "SETTINGS.5eProfL": "習熟補正をボーナスにするか、DMGで紹介されているダイス方式にするかを設定できます。設定後ワールドのリロードが必要です。",
     "SETTINGS.5eProfN": "習熟オプションルール",
     "SETTINGS.5eReset": "リセット",
     "SETTINGS.5eRestL": "このゲームに適用する休憩ルールを設定します。",
