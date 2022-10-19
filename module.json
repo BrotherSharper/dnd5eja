@@ -29,7 +29,7 @@
         "type": "module"
       },
       {
-        "if": "foundryVTTja",
+        "id": "foundryVTTja",
         "type": "module"
       },
       {
