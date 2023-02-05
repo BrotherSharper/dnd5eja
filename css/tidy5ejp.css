@@ -22,3 +22,19 @@
 .tidy5e.sheet.actor .top-notes li span:first-child {
     flex: 0 0 30px!important;
 }
+
+.item-detail.item-action{
+font-size: 9px!important;
+}
+
+.item-detail.spell-action{
+font-size: 9px!important;
+}
+
+.item-detail.spell-range{
+font-size: 9px!important;
+}
+
+.item-detail.spell-target{
+font-size: 9px!important;
+}
