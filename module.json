@@ -49,7 +49,7 @@
       "label": "【D&D】スターター･ヒーロー【SRD】",
       "system": "dnd5e",
       "path": "./packs/heroes.db",
-      "entity": "Actor",
+      "type": "Actor",
       "private": false
     },
     {
@@ -57,7 +57,7 @@
       "label": "【D&D】アイテム【SRD】・従来",
       "system": "dnd5e",
       "path": "./packs/items.db",
-      "entity": "Item",
+      "type": "Item",
       "private": false
     },
     {
@@ -65,7 +65,7 @@
       "label": "【D&D】交易品【SRD】",
       "system": "dnd5e",
       "path": "./packs/tradegoods.db",
-      "entity": "Item",
+      "type": "Item",
       "private": false
     },
     {
@@ -73,7 +73,7 @@
       "label": "呪文辞典SRD（旧データ・使わないでください）",
       "system": "dnd5e",
       "path": "./packs/spells.db",
-      "entity": "Item",
+      "type": "Item",
       "private": false
     },
     {
@@ -81,12 +81,12 @@
       "label": "【D&D】財宝辞典【SRD】",
       "system": "dnd5e",
       "path": "./packs/treasure.db",
-      "entity": "Item",
+      "type": "Item",
       "private": false
     },
     {
       "label": "【D&D】アイテムリスト【SRD】",
-      "entity": "JournalEntry",
+      "type": "JournalEntry",
       "name": "lists",
       "path": "packs/lists.db",
       "system": "dnd5e",
@@ -96,7 +96,7 @@
       "name": "rulesbasicrule",
       "label": "【D&D】ベーシックルール",
       "path": "packs/rulesbasicrule.db",
-      "entity": "JournalEntry",
+      "type": "JournalEntry",
       "system": "dnd5e",
       "private": false
     },
@@ -104,7 +104,7 @@
       "name": "backgroundbasicrlule",
       "label": "【D&D】背景【ベーシック】",
       "path": "packs/backgroundbasicrlule.db",
-      "entity": "Item",
+      "type": "Item",
       "system": "dnd5e",
       "private": false
     },
@@ -112,7 +112,7 @@
       "name": "classesbasicrlule",
       "label": "【D&D】クラス【ベーシック】",
       "path": "packs/classesbasicrlule.db",
-      "entity": "Item",
+      "type": "Item",
       "system": "dnd5e",
       "private": false
     },
@@ -120,7 +120,7 @@
       "name": "racesbasicrule",
       "label": "【D&D】種族【ベーシック】",
       "path": "packs/racesbasicrule.db",
-      "entity": "Item",
+      "type": "Item",
       "system": "dnd5e",
       "private": false
     },
@@ -128,7 +128,7 @@
       "name": "basic-creaturesjp",
       "label": "【D&D】モンスター【ベーシック】",
       "path": "packs/basic-creaturesjp.db",
-      "entity": "Actor",
+      "type": "Actor",
       "system": "dnd5e",
       "private": false
     }
