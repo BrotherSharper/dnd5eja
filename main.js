@@ -235,18 +235,18 @@ game.settings.register("dnd5eja", "SpellLevels", {
   default: true      // デフォで使う
 });
 	
-  CONFIG.DND5E.spellScrollIds = {
-      0: 'oe1JVrpffMuUYOKd',
-      1: 'lGg5DDNMyoP7n9J6',
-      2: 'NP5pzu8msOZLhF6X',
-      3: 'wnBKok4kvbuF2wBr',
-      4: 'ef8UKmJcTG5vfW2o',
-      5: 'IKwqm34hh7uaMnSn',
-      6: '5xtEE5mfwNoKarOT',
-      7: 'ud1RemNUD6Tkc173',
-      8: 'NKs9pnKOwLlmccWD',
-      9: '7ju738YpbvTHvunH'
-    }; // replace the object with your own scroll uuids per level
+  // CONFIG.DND5E.spellScrollIds = {
+  //     0: 'oe1JVrpffMuUYOKd',
+  //     1: 'lGg5DDNMyoP7n9J6',
+  //     2: 'NP5pzu8msOZLhF6X',
+  //     3: 'wnBKok4kvbuF2wBr',
+  //     4: 'ef8UKmJcTG5vfW2o',
+  //     5: 'IKwqm34hh7uaMnSn',
+  //     6: '5xtEE5mfwNoKarOT',
+  //     7: 'ud1RemNUD6Tkc173',
+  //     8: 'NKs9pnKOwLlmccWD',
+  //     9: '7ju738YpbvTHvunH'
+  //   }; // replace the object with your own scroll uuids per level
 
 CONFIG.DND5E.classFeatures = {
   "バーバリアン": CONFIG.DND5E.classFeatures["barbarian"],
