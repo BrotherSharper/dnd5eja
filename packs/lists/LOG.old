@@ -1,0 +1,8 @@
+2023/11/23-17:56:39.088 1584 Recovering log #726
+2023/11/23-17:56:39.091 1584 Delete type=0 #726
+2023/11/23-17:56:39.091 1584 Delete type=3 #724
+2023/11/23-19:06:36.079 ccb8 Level-0 table #731: started
+2023/11/23-19:06:36.079 ccb8 Level-0 table #731: 0 bytes OK
+2023/11/23-19:06:36.080 ccb8 Delete type=0 #729
+2023/11/23-19:06:36.083 ccb8 Manual compaction at level-0 from '!journal!0X8hai8ilLnfyvkf' @ 72057594037927935 : 1 .. '!journal!SSufsizGruxwDMkd' @ 0 : 0; will stop at (end)
+2023/11/23-19:06:36.083 ccb8 Manual compaction at level-1 from '!journal!0X8hai8ilLnfyvkf' @ 72057594037927935 : 1 .. '!journal!SSufsizGruxwDMkd' @ 0 : 0; will stop at (end)
