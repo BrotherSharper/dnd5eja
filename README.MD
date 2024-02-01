@@ -4,7 +4,7 @@
 * **翻訳ファイル提供者**: [Brother Sharp, Asami, touge]
 * **ベーシックルール整備協力者**: [TAKUMI]
 * **SRD整備訳協力者**: [SIM_KAZ, TAKUMI, のらせす, コーラ, うどんみ, くろたる, アイリッシュ, なる, kenken, しきちきん]
-* **対応dnd5eバージョン**: 2.2.0+
+* **対応dnd5eバージョン**: 3.0.0
 
 ### インストール方法
 
@@ -58,7 +58,3 @@ SRDに入っているはずなのに載っていないアイテムや、法律�
 
 ただし、ここにはHJ配布の対訳語表の中身が含まれています。これらの訳語に対する権利はHJに帰属します。
 http://hobbyjapan.co.jp/dd/support/Dic5eAll.txt
-
-### Credits
-The following modules have been integrated in hard code inside this module (due to lacking localization support):
-- https://github.com/Rayuaz/spell-level-buttons-for-dnd5e (Original author: https://github.com/Rayuaz, Localized by: Touge)

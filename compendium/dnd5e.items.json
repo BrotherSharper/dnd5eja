@@ -1,5 +1,22 @@
 {
 	"label": "【D&D】アイテム【SRD】・新",
+	"folders": {
+        "Ammunition": "矢弾",
+        "Armor":"鎧",
+		"Container":"容器",
+		"Equipment":"装備品",
+		"Equipment Packs":"装備品パック",
+		"Food":"食料",
+		"Loot":"荷物",
+		"Poison":"毒",
+		"Potion":"ポーション",
+		"Rod":"ロッド",
+		"Scroll":"スクロール",
+		"Tool":"道具",
+		"Trinket":"珍品奇品",
+		"Wand":"ワンド",
+		"Weapon":"武器"
+    },
 	"entries": {
 		"Abacus": {
 			"name": "そろばん",
