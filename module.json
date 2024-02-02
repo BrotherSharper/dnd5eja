@@ -27,11 +27,6 @@
     ],
     "requires": [
       {
-        "id": "tidy5e-sheet",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
         "id": "foundryVTTja",
         "type": "module",
         "compatibility": {}
