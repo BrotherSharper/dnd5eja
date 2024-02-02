@@ -216,24 +216,6 @@ const data = game.settings.get(AECONSTS.MN, "customautospells")
     ];
 game.settings.set(AECONSTS.MN, "customautospells", data)
   }
-
-game.settings.register("dnd5eja", "PhbStyle", {
-  name: "PHB風の資料スタイルを使う",
-  hint: "資料やハンドアウトのスタイルがPHB風のものになります。",
-  scope: "world",
-  config: true,
-  type: Boolean,
-  default: false       // デフォで使う
-});
-
-game.settings.register("dnd5eja", "SpellLevels", {
-  name: "呪文スロットの選択をブロック表示する",
-  hint: "呪文を発動するときのスロット選択をドロップダウンからブロック表示に変更する。",
-  scope: "world",
-  config: true,
-  type: Boolean,
-  default: true      // デフォで使う
-});
 	
   // CONFIG.DND5E.spellScrollIds = {
   //     0: 'oe1JVrpffMuUYOKd',
@@ -248,30 +230,18 @@ game.settings.register("dnd5eja", "SpellLevels", {
   //     9: '7ju738YpbvTHvunH'
   //   }; // replace the object with your own scroll uuids per level
 
-CONFIG.DND5E.classFeatures = {
-  "バーバリアン": CONFIG.DND5E.classFeatures["barbarian"],
-  "バード": CONFIG.DND5E.classFeatures["bard"],
-  "クレリック": CONFIG.DND5E.classFeatures["cleric"],
-  "ドルイド": CONFIG.DND5E.classFeatures["druid"],
-  "ファイター": CONFIG.DND5E.classFeatures["fighter"],
-  "モンク": CONFIG.DND5E.classFeatures["monk"],
-  "パラディン": CONFIG.DND5E.classFeatures["paladin"],
-  "レンジャー": CONFIG.DND5E.classFeatures["ranger"],
-  "ローグ": CONFIG.DND5E.classFeatures["rogue"],
-  "ソーサラー": CONFIG.DND5E.classFeatures["sorcerer"],
-  "ウォーロック": CONFIG.DND5E.classFeatures["warlock"],
-  "ウィザード": CONFIG.DND5E.classFeatures["wizard"]
-};
-  });
-
-  Hooks.on("init", () => {
-    CONFIG.TinyMCE.style_formats[0].items.push(
-      {title : 'Fancy Table', selector : 'table', classes : 'class-table'}
-    );
-    CONFIG.TinyMCE.style_formats[0].items.push(
-      {title : 'Stat Block', selector : 'blockquote', classes : 'class-statblock'}
-    );
-    CONFIG.TinyMCE.style_formats[0].items.push(
-      {title : 'Descriptive Text', selector : 'blockquote', classes : 'class-descriptive'}
-    );
+// CONFIG.DND5E.classFeatures = {
+//   "バーバリアン": CONFIG.DND5E.classFeatures["barbarian"],
+//   "バード": CONFIG.DND5E.classFeatures["bard"],
+//   "クレリック": CONFIG.DND5E.classFeatures["cleric"],
+//   "ドルイド": CONFIG.DND5E.classFeatures["druid"],
+//   "ファイター": CONFIG.DND5E.classFeatures["fighter"],
+//   "モンク": CONFIG.DND5E.classFeatures["monk"],
+//   "パラディン": CONFIG.DND5E.classFeatures["paladin"],
+//   "レンジャー": CONFIG.DND5E.classFeatures["ranger"],
+//   "ローグ": CONFIG.DND5E.classFeatures["rogue"],
+//   "ソーサラー": CONFIG.DND5E.classFeatures["sorcerer"],
+//   "ウォーロック": CONFIG.DND5E.classFeatures["warlock"],
+//   "ウィザード": CONFIG.DND5E.classFeatures["wizard"]
+// };
   });
