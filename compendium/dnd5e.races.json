@@ -6,6 +6,23 @@
 		  "converter": "raceRequirements"
 		}
 	  },
+	  "folders": {
+		"Dragonborn":"ドラゴンボーン",
+		"Dwarf":"ドワーフ",
+		"Elf":"エルフ",
+		"Gnome":"ノーム",
+		"Halfling":"ハーフリング",
+		"Human":"ヒューマン",
+		"Orc":"オーク",
+		"Tiefling":"ティーフリング",
+		"Dragonborn Features":"ドラゴンボーン特徴",
+		"Dwarf Features":"ドワーフ特徴",
+		"Elf Features":"エルフ特徴",
+		"Gnome Features":"ノーム特徴",
+		"Halfling Features":"ハーフリング特徴",
+		"Orc Features":"オーク特徴",
+		"Tiefling Features":"ティーフリング特徴"
+	  },
 	"entries": {
 		"Artificer's Lore": {
 			"name": "技術知識",

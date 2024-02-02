@@ -1,5 +1,17 @@
 {
 	"label": "【D&D】呪文【SRD】",
+	"folders": {
+		"1st Level":"1レベル",
+		"2nd Level":"2レベル",
+		"3rd Level":"3レベル",
+		"4th Level":"4レベル",
+		"5th Level":"5レベル",
+		"6th Level":"6レベル",
+		"7th Level":"7レベル",
+		"8th Level":"8レベル",
+		"9th Level":"9レベル",
+		"Cantrip":"初級呪文"
+	},
 	"entries": {
 		"Ice Storm": {
 			"name": "アイス・ストーム",

@@ -14,6 +14,20 @@
             "converter": "classNameFormula"
         }
     },
+	"folders": {
+		"Barbarian": "バーバリアン",
+		"Bard":"バード",
+		"Cleric":"クレリック",
+		"Druid":"ドルイド",
+		"Fighter":"ファイター",
+		"Monk":"モンク",
+		"Paladin":"パラディン",
+		"Ranger":"レンジャー",
+		"Rogue": "ローグ",
+		"Sorcerer":"ソーサラー",
+		"Warlock": "ウォーロック",
+		"Wizard":"ウィザード"
+    },
 	"entries": {
 		"Ability Score Improvement": {
 			"name": "能力値上昇",
