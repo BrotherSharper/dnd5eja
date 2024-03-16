@@ -53,3 +53,11 @@ section.ability-scores.optional-ability-0{
     font-family: 'Noto Sans JP', sans-serif!important;
     font-weight: 700;
 }
+
+.midi-qol-target-name {
+    line-height: 17px;
+}
+
+.item-detail.item-target {
+    font-size: 90%;
+}
