@@ -135,6 +135,7 @@
     "DND5E.ActionRSAK": "遠隔呪文攻撃",
     "DND5E.ActionRWAK": "遠隔武器攻撃",
     "DND5E.ActionSave": "セーヴィング・スロー",
+    "DND5E.ActionSumm": "召喚",
     "DND5E.ActionUtil": "補助",
     "DND5E.ActionWarningNoItem": "要求されたアイテム {item} は､キャラクター {name} に存在しません。",
     "DND5E.ActionWarningNoToken": "このオプションを使用するには､1つ以上の操作可能なコマが必要です。",
@@ -283,6 +284,7 @@
     "DND5E.AdvancementTraitModeUpgradeHint": "特性への習熟を得ます。すでに同じ習熟を持っていた場合はその特性の習熟に習熟強化を得ます。",
     "DND5E.AdvancementTraitType": "特性の種別",
     "DND5E.Advantage": "有利",
+    "DND5E.AdvantageMode": "有利モード",
     "DND5E.Age": "年齢",
     "DND5E.Alignment": "属性",
     "DND5E.AlignmentCE": "混沌にして悪",
@@ -328,6 +330,9 @@
     "DND5E.AttackPl": "攻撃",
     "DND5E.AttackRoll": "攻撃ロール",
     "DND5E.Attributes": "能力値",
+    "DND5E.AttrConcentration": {
+      "Limit": "上限"
+    },
     "DND5E.Automatic": "自動",
     "DND5E.AutomaticValue": "自動 ({value})",
     "DND5E.Award": {
@@ -353,6 +358,7 @@
     "DND5E.BonusAbility": "能力値ボーナス全般",
     "DND5E.BonusAbilityCheck": "能力判定ボーナス全般",
     "DND5E.BonusAbilitySave": "セーヴボーナス全般",
+    "DND5E.BonusAbilitySaveTitle": "セーヴ全般",
     "DND5E.BonusAbilitySkill": "技能判定ボーナス全般",
     "DND5E.BonusAction": "ボーナスアクション",
     "DND5E.BonusActionAbbr": "ボ",
@@ -382,6 +388,8 @@
     "DND5E.ChatContextTempHP": "一時HPを適用",
     "DND5E.ChatContextDoubleDamage": "二倍ダメージ",
     "DND5E.ChatContextHalfDamage": "半減ダメージ",
+    "DND5E.ChatContextSelectHit": "命中した目標を選択",
+    "DND5E.ChatContextSelectMiss": "ミスした目標を選択",
     "DND5E.ChatFlavor": "フレーバーテキスト",
     "DND5E.CheckBonus": "判定ボーナス",
     "DND5E.ClassAdd": "クラス追加",
@@ -393,6 +401,7 @@
     "DND5E.ClassName": "クラス名",
     "DND5E.ClassOriginal": "オリジナル･クラス",
     "DND5E.ClassSaves": "セーヴィング･スロー",
+    "DND5E.Confirm": "確定",
     "DND5E.ComponentMaterial": "物質",
     "DND5E.ComponentMaterialAbbr": "物",
     "DND5E.ComponentSomatic": "動作",
@@ -436,7 +445,21 @@
     "DND5E.ConUnconscious": "気絶状態",
     "DND5E.Concentration": "集中",
     "DND5E.ConcentrationAbbr": "集",
+    "DND5E.ConcentrationBreak": "集中をやめる",
+    "DND5E.ConcentrationBreakWarning": "他のキャラクターに適用されている途中の効果の集中をやめるにはGMがログインしている状態が必要です。",
+    "DND5E.ConcentrationBonus": "集中ボーナス",
     "DND5E.ConcentrationDuration": "精神集中、最大{duration}まで",
+    "DND5E.ConcentratingOn": "'{name}' {type}の集中を維持しています。",
+    "DND5E.ConcentratingEndChoice": "一つ以上の効果に集中しています。終了する効果を選んでください。",
+    "DND5E.ConcentratingMissingItem": "入れ替わり先の集中が存在しません。",
+    "DND5E.ConcentratingLimited": "追加の効果に集中することができません。",
+    "DND5E.ConcentrationLimit": "集中上限",
+    "DND5E.ConcentratingEnd": "集中をやめるする対象",
+    "DND5E.ConcentratingItemless": "無名の集中先",
+    "DND5E.ConcentratingWarnLimit": "すでに他の呪文に集中しています！",
+    "DND5E.ConcentratingWarnLimitOptional": "このアイテムを使用するには、すでに維持している他の集中をやめる必要があります。",
+    "DND5E.ConcentratingWarnLimitZero": "集中を維持することができません！",
+    "DND5E.ConcentrationConfigurationHint": "このクリーチャーの集中に関するボーナスを設定します。",
     "DND5E.ConsumeTitle": "リソース消費",
     "DND5E.ConsumeAmount": "消費数",
     "DND5E.ConsumeTarget": "消費先",
@@ -558,11 +581,26 @@
     "DND5E.Damage": "ダメージ",
     "DND5E.DamageAcid": "[酸]",
     "DND5E.DamageAll": "全てのダメージ",
+    "DND5E.DamageApplication": {
+      "Change": {
+        "Modification": "{type} 修正",
+        "Immunity": "{type} 完全耐性",
+        "Resistance": "{type} 抵抗",
+        "Vulnerability": "{type} 脆弱性"
+      },
+      "Downgrading": "{source} を抵抗へ降格",
+      "Ignoring": "{source} を無視"
+    },
     "DND5E.DamageBludgeoning": "[殴打]",
     "DND5E.DamageCold": "[冷気]",
     "DND5E.DamageFire": "[火]",
     "DND5E.DamageForce": "[力場]",
     "DND5E.DamageLightning": "[電撃]",
+    "DND5E.DamageModification": {
+      "Label": "ダメージ修正",
+      "Hint": "この種別を持つダメージへ適用される追加ダメージの式を入れてください。「火に対して追加の2d6ダメージを受ける～」などのときに使用します。負の値は受けるダメージを軽減します。",
+      "BypassHint": "この武器特性を持っている武器は斬撃、刺突、殴打（物理）の追加ダメージを無視します。"
+    },
     "DND5E.DamageNecrotic": "[死霊]",
     "DND5E.DamagePiercing": "[刺突]",
     "DND5E.DamagePhysical": "非魔法物理",
@@ -634,6 +672,7 @@
     "DND5E.Effects": "効果",
     "DND5E.EffectsApplyTokens": "選択したコマに適用",
     "DND5E.EffectApplyWarning": "所有権限を持っていないコマに効果を適用できません。",
+    "DND5E.EffectApplyWarningOwnership": "自分が所有していないコマへ効果を適用することはできません。",
     "DND5E.EffectsSearch": "効果を検索",
     "DND5E.Environment": "環境",
     "DND5E.EquipmentBonus": "魔法ボーナス",
@@ -693,9 +732,12 @@
         "EpicBoon": "偉業の証"
       }
     },
-    "DND5E.Focus.Arcane": "秘術焦点具",
-    "DND5E.Focus.Druidic": "ドルイド焦点具",
-    "DND5E.Focus.Holy": "神聖焦点具",
+    "DND5E.Focus": {
+      "Label": "呪文発動焦点具",
+      "Arcane": "秘術焦点具",
+      "Druidic": "ドルイド焦点具",
+      "Holy": "神聖焦点具"
+    },
     "DND5E.Loot.Art": "芸術品",
     "DND5E.Loot.Gear": "冒険用品",
     "DND5E.Loot.Gem": "宝石",
@@ -750,7 +792,7 @@
     "DND5E.FilterGroupOrigin": "取得元で分類する",
     "DND5E.FilterNoSpells": "その分類に該当する呪文はありません。",
     "DND5E.NoSpellLevels": "このキャラクターには､呪文を使うクラスのレベルがありませんが､手動で呪文を追加できます。",
-    "DND5E.FlagsInstructions": "Ｄ＆Ｄ５版での､キャラクターの特性や特技による調整を設定します。",
+    "DND5E.FlagsInstructions": "D&D5版での､キャラクターの特性や特技による調整を設定します。",
     "DND5E.FlagsSave": "例外的特性を更新",
     "DND5E.FlagsTitle": "例外的特性の設定",
     "DND5E.FlagsDiamondSoul": "金剛心",
@@ -834,6 +876,10 @@
     "DND5E.HPFormulaRollMessage": "HPロール式",
     "DND5E.HitDie": "ヒット・ダイス",
     "DND5E.HitDice": "ヒット・ダイス",
+    "DND5E.HitDiceAutoSpend": {
+      "Label": "HD自動消費",
+      "Hint": "HPは最大値まで回復するように自動的にHDを消費し続けます。"
+    },
     "DND5E.HitDiceConfig": "ヒット･ダイス調整",
     "DND5E.HitDiceConfigHint": "各クラスの残りヒット･ダイス･レベルを調整します。",
     "DND5E.HitDiceMax": "最大ヒット･ダイス",
@@ -863,6 +909,8 @@
     "DND5E.ItemActivationType": "発動種別",
     "DND5E.ItemAmmoProperties": "矢弾特性",
     "DND5E.ItemAttackBonus": "攻撃ロール･ボーナス",
+    "DND5E.ItemAttackFlat": "固定値",
+    "DND5E.ItemAttackFlatHint": "チェックをいれると、「攻撃ロール・ボーナス」の欄に入れた以外の修正が攻撃時に乗らなくなります。習熟や能力修正値がいらないときに利用してください。",
     "DND5E.ItemConsumableActivation": "消耗品の有効化",
     "DND5E.ItemConsumableUsage": "消耗品の用法",
     "DND5E.ItemConsumableDetails": "消耗品の詳細",
@@ -1012,17 +1060,21 @@
     "DND5E.LongRestGritty": "大休憩 (1週間)",
     "DND5E.LongRestEpic": "大休憩 (1時間)",
     "DND5E.LongRestOvernight": "大休憩 (翌朝まで)",
-    "DND5E.LongRestHint": "大休憩を取りますか？ 大休憩により、君はすべてのヒットポイントが回復し、さらに すべてのヒットダイス、クラス毎のリソース、アイテムのチャージ、呪文スロットが回復します。",
+    "DND5E.LongRestHint": "大休憩を取りますか？ 大休憩により、君はすべてのヒットポイントが回復し、さらにすべてのヒットダイス、クラス毎のリソース、アイテムのチャージ、呪文スロットが回復します。",
+    "DND5E.LongRestHintGroup": "大休憩を取りますか？ 大休憩により、このグループはすべてのヒットポイントが回復し、さらにすべてのヒットダイス、クラス毎のリソース、アイテムのチャージ、呪文スロットが回復します。",
     "DND5E.LongRestRecovery": "大休憩後に回復",
     "DND5E.LongRestResult": "{name} は大休憩を取り､ {health} HPと､ {dice} ヒット･ダイスを回復しました。",
     "DND5E.LongRestResultHitDice": "{name} は大休憩を取り､ {dice} ヒット･ダイスを回復しました。",
     "DND5E.LongRestResultHitPoints": "{name} は大休憩を取り､ {health} HPを回復しました。",
     "DND5E.LongRestResultShort": "{name} は大休憩を取りました。",
+    "DND5E.MagicalBonus": "魔法ボーナス",
     "DND5E.Materials": "物質",
     "DND5E.Max": "最大",
     "DND5E.MaxCharacterLevelExceededWarn": "このキャラクターは最大値である{max}を超えてレベルアップできません。",
     "DND5E.MaxClassLevelExceededWarn": "このクラスは最大値である{max}を超えてレベルアップできません。",
     "DND5E.MaxClassLevelMinimumWarn": "クラスには最低でも1レベルが必要です。",
+    "DND5E.Maximum": "最大",
+    "DND5E.Minimum": "最低",
     "DND5E.Modifier": "修正値",
     "DND5E.ModuleArtConfigH": "Modが提供している素材のうち、どちらを使用するのか設定できます。",
     "DND5E.ModuleArtConfigL": "画像素材設定",
@@ -1205,7 +1257,8 @@
     "DND5E.ShortRestEpic": "小休憩 (5分)",
     "DND5E.ShortRestOvernight": "小休憩 (翌朝まで)",
     "DND5E.ShortRestHint": "小休憩しますか？ 残っているヒット･ダイスを使って回復したり､一部のリソースがそれにより回復します。",
-    "DND5E.ShortRestNoHD": "ヒット･ダイスは残っていません",
+    "DND5E.ShortRestHintGroup": "小休憩しますか？ 残っているヒット･ダイスを使って回復したり､一部のリソースがそれにより回復します。",
+    "DND5E.ShortRestNoHD": "ヒット･ダイスが残っていません",
     "DND5E.ShortRestRecovery": "小休憩で回復する",
     "DND5E.ShortRestResult": "{name} は小休憩を取り､ {dice} ヒットダイスを使って {health} HPを回復しました。",
     "DND5E.ShortRestResultShort": "{name} は小休憩を取りました。",
@@ -1356,11 +1409,114 @@
     "DND5E.SpellUsage": "呪文の使用",
     "DND5E.Spellbook": "呪文書",
     "DND5E.SubclassIdentifierHint": "親となるクラスの識別子を入力してください。",
+    "DND5E.StartingEquipment": {
+      "Title": "初期装備",
+      "Action": {
+        "AddEntry": "項目を追加",
+        "Configure": "初期装備設定",
+        "RemoveEntry": "項目を削除"
+      },
+      "Choice": {
+        "Armor": "鎧を選ぶ",
+        "Focus": "呪文発動焦点具を選ぶ",
+        "Tool": "道具を選ぶ",
+        "Weapon": "武器を選ぶ"
+      },
+      "DropHint": "アイテムをここにドロップ",
+      "IfProficient": "習熟時のみ",
+      "Operator": {
+        "AND": "すべてを獲得",
+        "OR": "一つだけ獲得"
+      },
+      "RequireProficiency": "要習熟",
+      "SpecificItem": "特定のアイテム",
+      "Warning": {
+        "Depth": "初期装備の階層は3つ下までしか登録できません。",
+        "ItemTypeInvalid": "{type} 種別のアイテムは初期装備に追加できません。"
+      },
+      "Wealth": {
+        "Label": "初期の所持金",
+        "Hint": "初期装備の代わりに選択可能なGPの算出式。"
+      }
+    },
     "DND5E.SubclassAssignmentError": "{class}はすでにサブクラスを獲得しています。新たなサブクラスを入れるには現在のサブクラス「{subclass}」を削除してください。",
     "DND5E.SubclassDuplicateError": "このキャラクターにはすでに同じ識別子「{identifier}」のサブクラスが存在しています。",
     "DND5E.SubclassMismatchWarn": "サブクラス「{name}」に対応する識別子「{class}」を持った親クラスが存在しません。",
     "DND5E.SubclassName": "サブクラス名",
     "DND5E.Subtype": "種別",
+    "DND5E.Summoning": {
+      "Label": "召喚",
+      "Action": {
+        "Add": "召喚対象を追加",
+        "Configure": "召喚の設定",
+        "Place": "召喚を配置",
+        "Remove": "召喚対象を削除",
+        "Summon": "召喚"
+      },
+      "Bonuses": {
+        "ArmorClass": {
+          "Label": "アーマークラスへのボーナス",
+          "Hint": "召喚される対象の既存のACに加算されるアーマー・クラスのボーナス。"
+        },
+        "Attack": {
+          "Label": "攻撃ダメージへのボーナス",
+          "Hint": "召喚される対象の攻撃があたえる追加のダメージ。"
+        },
+        "Healing": {
+          "Label": "回復へのボーナス",
+          "Hint": "召喚される対象があたえる追加の回復。"
+        },
+        "HitPoints": {
+          "Label": "HPへのボーナス",
+          "Hint": "召喚される対象の既存のHPに加算される追加のHP"
+        },
+        "Saves": {
+          "Label": "セーヴダメージへのボーナス",
+          "Hint": "召喚される対象がセーヴを必要とする能力であたえる追加のダメージ。"
+        }
+      },
+      "Configuration": "召喚設定",
+      "CreatureChanges": {
+        "Label": "データ修正",
+        "Hint": "召喚される対象のにあたえるデータの改変・修正を設定します。式の中に使用される@式もすべて新しいデータを参照するように変換されます。"
+      },
+      "DisplayName": "表示名",
+      "DropHint": "ここにドロップして追加",
+      "ItemChanges": {
+        "Label": "アイテム修正",
+        "Hint": "召喚される対象の所持しているアイテムに加える修正"
+      },
+      "Match": {
+        "Attacks": {
+          "Label": "攻撃を一致",
+          "Hint": "召喚者と同じ攻撃ロールボーナスになるように召喚対象の値を変更します。"
+        },
+        "Proficiency": {
+          "Label": "習熟を一致",
+          "Hint": "召喚者と同じ習熟ボーナスを召喚対象にも適用します。"
+        },
+        "Saves": {
+          "Label": "セーヴを一致",
+          "Hint": "召喚者と同じセーヴボーナスになるように召喚対象の値を変更します。"
+        }
+      },
+      "Profile": {
+        "Label": "召喚対象",
+        "LabelPl": "召喚対象",
+        "Empty": "「召喚対象を追加」またはここにキャラクターをドロップすると召喚対象を追加できます。"
+      },
+      "Prompt": {
+        "Label": "召喚プロンプト",
+        "Hint": "アイテム使用時の召喚対象を選ぶメニューを非表示にします。使用後はチャットカードからも召喚できます。"
+      },
+      "Warning": {
+        "CreateActor": "辞典から直接召喚するには「新規キャラクター作成」の権限をPLにあたえる必要があります。",
+        "NoActor": "UUID '{uuid}' を持つ召喚対象が見つかりませんでした",
+        "NoOwnership": "召喚するには '{actor}' の所有権限を持っている必要があります。",
+        "NoProfile": "'{item}'の召喚対象{profileId}が見つかりませんでした。",
+        "Wildcard": "画像にワイルドカード持ったキャラクターを召喚するには「ファイル・ブラウザの使用」権限が必要です。"
+      }
+    },
     "DND5E.Supply": "供給",
     "DND5E.Suppressed": "抑制中",
     "DND5E.Target": "目標",
@@ -1407,6 +1563,12 @@
     "DND5E.TimeYear": "年",
     "DND5E.TMP": "一時",
     "DND5E.ToHit": "攻撃",
+    "DND5E.Tokens": {
+      "NoneSelected": "コマが選択されていません",
+      "NoneTargeted": "コマがターゲットされていません",
+      "Selected": "選択",
+      "Targeted": "ターゲット"
+    },
     "DND5E.TokenRings": {
         "BackgroundColor": "背景色",
         "Effects": {
@@ -1489,6 +1651,20 @@
     "DND5E.UsesAvailable": "使用可能な数",
     "DND5E.UsesMax": "最大使用回数",
     "DND5E.UsesPeriod": "回復期間",
+    "DND5E.UsesPeriods": {
+      "Charges": "チャージ",
+      "ChargesAbbreviation": "チャージ",
+      "Dawn": "夜明け",
+      "DawnAbbreviation": "夜明け",
+      "Day": "日",
+      "DayAbbreviation": "日",
+      "Dusk": "夕暮れ",
+      "DuskAbbreviation": "夕暮れ",
+      "Lr": "大休憩",
+      "LrAbbreviation": "大",
+      "Sr": "小休憩",
+      "SrAbbreviation": "小"
+},
     "DND5E.Vehicle": "乗り物",
     "DND5E.VehicleActions": "アクション",
     "DND5E.VehicleActionsHint": "乗組員が最大人数いるときに使用できるアクション",
@@ -1526,6 +1702,7 @@
     "DND5E.WarnCantAddMultipleAdvancements": "現在は同じキャラクターに複数の成長効果をもったアイテムを追加できません。お手数ですが、個別に追加してください。",
     "DND5E.WarnMultipleArmor": "鎧が一つ以上装備されています。計算に不具合が出るかもしれません。",
     "DND5E.WarnMultipleShields": "盾が一つ以上装備されています。計算に不具合が出るかもしれません。",
+    "DND5E.WeaponCategory": "{category} 武器",
     "DND5E.WeaponImprov": "代用武器",
     "DND5E.WeaponMartialM": "軍用近接武器",
     "DND5E.WeaponMartialProficiency": "軍用武器",
@@ -1545,6 +1722,7 @@
     "DND5E.spell": "呪文",
 
     "EDITOR.DND5E.Inline": {
+      "ApplyStatus": "選択したコマに効果を適用",
         "AwardEach": "各{award}",
         "CheckShort": "{check}",
         "CheckLong": "{check}判定",
@@ -1562,17 +1740,23 @@
       },
 
       "EFFECT.DND5E": {
+        "StatusBleeding": "Bleeding",
         "StatusBurrowing": "穴掘り中",
         "StatusConcentrating": "集中",
         "StatusCursed": "呪い",
+        "StatusDead": "Dead",
         "StatusDodging": "回避",
         "StatusEncumbered": "荷重",
+        "StatusEthereal": "Ethereal",
         "StatusExceedingCarryingCapacity": "運搬能力超過",
         "StatusFlying": "飛行",
         "StatusHeavilyEncumbered": "重荷重",
+        "StatusHiding": "隠れ身",
+        "StatusHovering": "浮遊",
         "StatusHidden": "隠れ身",
         "StatusMarked": "マーク",
         "StatusSleeping": "睡眠",
+        "StatusStable": "容態安定",
         "StatusSurprised": "驚き",
         "StatusTransformed": "変身中"
       },
@@ -1664,6 +1848,8 @@
     "SETTINGS.5eMetricL": "ヤード・ポンド法の表記をメートル表記に変更し、荷重の計算をメートル法で行います。",
     "SETTINGS.5eNoAdvancementsN": "レベルアップ自動化を無効化",
     "SETTINGS.5eNoAdvancementsL": "クラスのレベルが上昇したときの選択肢を表示しなくなります。",
+    "SETTINGS.5eNoConcentrationN": "集中の管理を無効化する",
+    "SETTINGS.5eNoConcentrationL": "自動化された集中管理を無効にする。",
     "SETTINGS.5eNoExpL": "キャラクターシートから経験値バーを削除します。",
     "SETTINGS.5eNoExpN": "経験値表示を無効化する",
     "SETTINGS.5eProfBonus": "PHB: ボーナス（+2, +3, +4, +5, +6)",
@@ -1684,6 +1870,25 @@
     "SETTINGS.5eTokenRings": {
         "Name": "コマのダイナミックリングを無効にする",
         "Hint": "ダイナミックリングの処理をオフにすることでパフォーマンスが向上する場合があります。"
+      },
+      "SETTINGS.DND5E": {
+        "ALLOWSUMMONING": {
+          "Name": "召喚を許可",
+          "Hint": "アイテムに召喚の設定が施されている場合、それの使用をPLに許可します。適切に機能するには「新規キャラクター作成」の権限も必要です。"
+        },
+        "THEME": {
+          "Name": "テーマ",
+          "Hint": "UIやシートに適用されるテーマ。「自動」を選んだ場合ブラウザやOSに定義されたテーマが自動的に使用されます。"
+        }
+      },
+      
+      "SHEETS.DND5E": {
+        "THEME": {
+          "Label": "テーマ",
+          "Automatic": "自動",
+          "Dark": "ダーク",
+          "Light": "ライト"
+        }
       },
 
     "SOURCE.BOOK.SRD": "System Reference Document 5.1"
