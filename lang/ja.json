@@ -1408,7 +1408,6 @@
     "DND5E.SpellUnprepared": "未準備",
     "DND5E.SpellUsage": "呪文の使用",
     "DND5E.Spellbook": "呪文書",
-    "DND5E.SubclassIdentifierHint": "親となるクラスの識別子を入力してください。",
     "DND5E.StartingEquipment": {
       "Title": "初期装備",
       "Action": {
@@ -1439,6 +1438,7 @@
         "Hint": "初期装備の代わりに選択可能なGPの算出式。"
       }
     },
+    "DND5E.SubclassIdentifierHint": "親となるクラスの識別子を入力してください。完全一致しないと適切にリンクされません。",
     "DND5E.SubclassAssignmentError": "{class}はすでにサブクラスを獲得しています。新たなサブクラスを入れるには現在のサブクラス「{subclass}」を削除してください。",
     "DND5E.SubclassDuplicateError": "このキャラクターにはすでに同じ識別子「{identifier}」のサブクラスが存在しています。",
     "DND5E.SubclassMismatchWarn": "サブクラス「{name}」に対応する識別子「{class}」を持った親クラスが存在しません。",
@@ -1740,14 +1740,14 @@
       },
 
       "EFFECT.DND5E": {
-        "StatusBleeding": "Bleeding",
+        "StatusBleeding": "出血",
         "StatusBurrowing": "穴掘り中",
         "StatusConcentrating": "集中",
         "StatusCursed": "呪い",
-        "StatusDead": "Dead",
+        "StatusDead": "死亡",
         "StatusDodging": "回避",
         "StatusEncumbered": "荷重",
-        "StatusEthereal": "Ethereal",
+        "StatusEthereal": "エーテル化",
         "StatusExceedingCarryingCapacity": "運搬能力超過",
         "StatusFlying": "飛行",
         "StatusHeavilyEncumbered": "重荷重",
