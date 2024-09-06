@@ -87,8 +87,8 @@
                     }
                 },
                 "Oozes":{
-                    "name":"",
-                    "text":"<p><strong> </strong> </p>",
+                    "name":"ウーズ",
+                    "text":"<p><strong>ウーズ</strong> </p>",
                     "system": {
                         "tooltip": ""
                     }
