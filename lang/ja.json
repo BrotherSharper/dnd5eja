@@ -2036,7 +2036,7 @@
     "DND5E.ProficiencyBonus": "習熟ボーナス",
     "DND5E.ProficiencyConfigurationHint": "習熟とボーナスを設定",
     "DND5E.ProficiencyConfigureTitle": "{label}を設定",
-    "DND5E.ProficiencyLevel": "習熟レベル",
+    "DND5E.ProficiencyLevel": "習熟段階",
     "DND5E.Proficient": "習熟",
     "DND5E.Properties": "特性",
     "DND5E.PropertyBase": "基本",
@@ -3000,7 +3000,7 @@
           "hint": "武器からの固有ダメージダイス。攻撃時には能力修正値および追加のダメージ式が自動的に適用されます。"
         },
         "mastery": {
-          "label": "習熟",
+          "label": "マスタリー",
           "hint": "武器マスタリーや関連する特徴を持つキャラクターが解除できる特殊な武器の特性。"
         }
       },
