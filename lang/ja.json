@@ -1387,7 +1387,7 @@
         }
       },
       "SECTIONS": {
-        "Enchanting": "付与中",
+        "Enchanting": "付与先",
         "Enchantments": "付与効果",
         "Restrictions": "制限"
       },
@@ -2926,10 +2926,10 @@
 },
 
 "DND5E.UTILITY": {
-  "Title": "ユーティリティ",
+  "Title": "その他",
   "FIELDS": {
     "roll": {
-      "label": "ユーティリティロール",
+      "label": "その他ロール",
       "formula": {
         "label": "ロール計算式",
         "hint": "任意のロールの計算式。"
@@ -2939,7 +2939,7 @@
         "hint": "ロールボタンに表示される名前。"
       },
       "prompt": {
-        "label": "ユーティリティロールプロンプト",
+        "label": "その他ロールプロンプト",
         "hint": "ロール時に設定ダイアログを表示しますか？"
       },
       "visible": {

@@ -1,0 +1,1530 @@
+{
+  "label": "装備品",
+	"folders": {
+		"Adventuring Gear":"冒険用品",
+        "Ammunition": "矢弾",
+        "Armor":"鎧",
+		"Light":"軽装",
+		"Medium":"中装",
+		"Heavy":"重装",
+		"Container":"容器",
+		"Equipment":"装備品",
+		"Equipment Packs":"装備品パック",
+		"Food":"食料",
+		"Loot":"荷物",
+		"Poison":"毒",
+		"Potion":"ポーション",
+		"Rod":"ロッド",
+		"Scroll":"スクロール",
+		"Spellcasting Focuses":"呪文発動焦点具",
+		"Arcane Focus":"秘術用焦点具",
+		"Druidic Focus":"ドルイド用焦点具",
+		"Holy Symbol":"聖印",
+		"Star Maps":"星図",
+		"Tools":"道具",
+		"Artisan":"職人",
+		"Other":"その他",
+		"Gaming Set":"ゲーム道具",
+		"Musical Instrument":"楽器",
+		"Trinket":"珍品奇品",
+		"Wand":"ワンド",
+		"Weapons":"武器",
+		"Simple Melee":"単純・近接",
+		"Simple Ranged":"単純・遠隔",
+		"Martial Melee":"軍用・近接",
+		"Martial Ranged":"軍用・遠隔"
+    },
+		"mapping": {
+		"activities": "system.activities"
+	},
+  "entries": {
+    "Blanket": {
+      "name": "毛布",
+      "description": "<p>毛布に包まれている間、極寒に対するセーヴィング・スローに有利を得る（詳細は <em>ダンジョン・マスター</em> <em>ズ・ガイドを参照</em>）。</p>",
+      "activities": {}
+    },
+    "Water (Pint)": {
+      "name": "水（パイント）",
+      "description": "<p>水を十分に飲まないと、次のようなリスクがある。&amp;Reference[dehydration].</p>",
+      "activities": {
+        "XlTBFtJ0jyBJ71bh": {
+          "name": "消費する"
+        }
+      }
+    },
+    "Tinderbox": {
+      "name": "ほくち箱",
+      "description": "<p>ほくち箱は小型の容器で、火打ち石、打ち金、およびほくち（通常は油を浸した乾いた布）を収めている。これを使用してろうそく、ランプ、ランタン、または松明などの燃料が露出した物に火をつけるにはボーナス・アクションを要し、それ以外のものに火をつけるには1分を要する。</p>",
+      "activities": {
+        "lshQ6ZeI69B0aRpu": {
+          "name": "灯す"
+        }
+      }
+    },
+    "Rope": {
+      "name": "ロープ",
+      "description": "<p>利用アクションとして、【敏捷力】〈手先の早業〉判定に難易度 10 で成功すると、ロープで結び目を作ることができる。ロープは、【筋力】〈運動〉判定に難易度 20 で成功すると切断できる。</p><p>ロープで拘束できるのは、そのクリーチャーが &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] のいずれかの状態を持っている場合のみである。つかまれた状態、無力状態、拘束状態この状態から抜け出すには、アクションとして【敏捷力】〈軽業〉判定に難易度 15 で成功する必要がある。</p>",
+      "activities": {
+        "Y0LvyxjfVHNbp4CG": {
+          "name": "結び目を作る"
+        },
+        "rYGOWDRcT5jBKvzq": {
+          "name": "ロープを破る"
+        },
+        "5q6tX1T7ONDvgJiA": {
+          "name": "脱出判定"
+        }
+      }
+    },
+    "Waterskin": {
+      "name": "水袋",
+      "description": "<p>水袋は最大4パイントを収容する。十分な水を飲まないと、脱水症状のリスクがある 。&amp;Reference[dehydration].",
+      "activities": {}
+    },
+    "Rations": {
+      "name": "保存食",
+      "description": "<p>保存食は干し肉、干し果物、堅パン、ナッツなどの旅行向けの食べ物で構成されている。食事をしないことのリスクについては、ルール用語集の &amp;Reference[Malnutrition] を参照。",
+      "activities": {}
+    },
+    "Map or Scroll Case": {
+      "name": "地図・巻物入れ",
+      "description": "革の筒。巻いた紙なら10枚、巻いた羊皮紙なら5枚を収納できる。",
+      "activities": {}
+    },
+    "Oil": {
+      "name": "油（ビン）",
+      "description": "<p>油をクリーチャー、物体、または場所にかけるか、燃料として使用できる。</p><p><strong>クリーチャーまたは物体にかける場合：</strong> 攻撃アクションを行う際、攻撃の 1 つを油のフラスコを投げることに置き換えることができる。自分から 20 フィート以内にある 1 体のクリーチャーまたは物体を目標にする。目標は【敏捷力】セーヴィング・スロー（難易度 8 + 自分の【敏捷力】修正値 + 習熟ボーナス）に成功しなければならず、失敗すると油をかけられる。目標が 1分以内に［火］ダメージを受けると、燃え盛る油によって [[/damage 5 type=fire]] を受ける。</p><p><strong>場所にかける場合：</strong> 利用アクションを使って油のフラスコを平らな地面に注ぎ、5 フィート四方の範囲を自分から 5 フィート以内にカバーすることができる。点火されると、油は点火された時から 2 ラウンド目のターン終了まで燃え続け、その範囲に入ったりその範囲でターンを終了したりするクリーチャーに 5 の［火］ダメージを与える。1 ターンにつきこのダメージは一度だけ受ける。</p><p><strong>燃料として：</strong> 油はランプやランタンの燃料として使用される。点火すると、油のフラスコはランプまたはランタンで 6 時間燃える。この時間は連続している必要はなく、炎上中の油を（利用アクションとして）消し、その後合計で 6 時間燃えるまで再点火することができる。</p>",
+      "activities": {
+        "FoeoumkYcnAsGCRo": {
+          "name": "投擲"
+        },
+        "mDj3jtAY6ICmi1ZL": {
+          "name": "場所にかける"
+        }
+      }
+    },
+    "Bedroll": {
+      "name": "携帯用寝具",
+      "description": "<p>携帯用寝具は小型または中型のクリーチャー 1 体が眠るためのもの。寝袋の中にいる間、極寒に対するセーヴィング・スローに自動で成功する（詳細は <em>ダンジョン・マスター</em> <em>ズ・ガイドを</em>参照）。</p>",
+      "activities": {}
+    },
+    "Parchment": {
+      "name": "羊皮紙",
+      "description": "<p>1枚の羊皮紙には約250語の手書きの文字が書ける。</p>",
+      "activities": {}
+    },
+    "Hooded Lantern": {
+      "name": "覆い付きランタン",
+      "description": "<p>覆い付きランタンは、半径30フィートまでを明るく照らし、その先30フィートまでを薄暗い明かりで照らす。ランタンは油1ビン(約500cc)で6時間、燃え続ける。君は1回のアクションでランタンの火を覆い、半径5フィートを薄暗い明かりで照らす程度にまで、明るさを絞ることができる。</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "利用"
+        }
+      }
+    },
+    "Lamp": {
+      "name": "ランプ",
+      "description": "<p>ランプは燃料として @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Oil} を燃やし、15 フィートの半径で明るい光を放ち、さらに 30 フィートの\n範囲を薄暗い光で照らす。</p>",
+      "activities": {
+        "khBeGXY2PYjIvbvA": {
+          "name": "灯す"
+        }
+      }
+    },
+    "Bell": {
+      "name": "ベル",
+      "description": "<p>アクションを使用してベルを鳴らすと、ベルは最大60フィート離れた場所に聞こえる音で鳴る。</p>",
+      "activities": {}
+    },
+    "Bullseye Lantern": {
+      "name": "投光式ランタン",
+      "description": "<p>投光式ランタンは、円錐状に60フィートまでを明るく照らし、その先60フィートまでを薄暗い明かりで照らす。ランタンは油1ビン(約500cc)で6時間、燃え続ける。</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "利用"
+        }
+      }
+    },
+    "Ball Bearings": {
+      "name": "小さな金属球",
+      "description": "<p>利用アクションとして、小さな金属球をポーチからこぼすことができる。それは 10 フィート四方の平坦な範囲を覆い、その範囲に入ったクリーチャーは難易度 10 の【敏捷力】セーヴィング・スローに成功しなければ伏せ状態になる。小さな金属球を回収するには 10 分かかる。</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p><strong>金属球の回収</strong> 用途を用いることで使用回数を回復できる。</p></section>",
+      "activities": {
+        "FCoYqKd4jqXjHFNN": {
+          "name": "金属球をまく"
+        },
+        "IKk7iQcYsjxDfnmk": {
+          "name": "金属球の回収"
+        }
+      }
+    },
+    "Torch": {
+      "name": "松明",
+      "description": "<p>松明は 1 時間炎上し、20 フィートの半径に明るい光を投げ、さらに 20 フィートを薄暗い光で照らす。攻撃アクションを取る際に、松明を使用して攻撃することができ、これは単純近接武器として扱う。命中すると、目標は 1 の［火］ダメージを受ける。</p>",
+      "activities": {
+        "SouNhSdWdnznKCam": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Crowbar": {
+      "name": "かなてこ",
+      "description": "<p>かなてこを使うことで、かなてこの梃子の原理が適用される場合の【筋力】判定に有利を得る。</p>",
+      "activities": {}
+    },
+    "Mirror": {
+      "name": "鏡",
+      "description": "<p>鋼鉄製の手鏡は化粧をするのに使えますが、曲がり角の先をのぞいたり、光を反射して合図を送ることができ便利です。</p>",
+      "activities": {}
+    },
+    "Ink": {
+      "name": "インク（1オンス入りビン）",
+      "description": "<p>インクは 1 オンスのボトルで提供され、約 500 ページを書くのに十分な量が含まれている。",
+      "activities": {}
+    },
+    "Caltrops": {
+      "name": "まきびし",
+      "description": "<p>利用アクションとして、まきびしを袋から取り出して自分から 5 フィート以内の 5 フィート四方の範囲に撒くことができる。その範囲に入ったクリーチャーは、難易度 15 の【敏捷力】セーヴィング・スローに成功しなければ 1［刺突］ダメージを受け、次の自分のターンの開始まで移動速度が 0 になる。まきびしを回収するには 10 分かかる。</p>",
+      "activities": {
+        "G8upRnZw22jGWKWy": {
+          "name": "セーヴ"
+        }
+      }
+    },
+    "Robe": {
+      "name": "ローブ",
+      "description": "<p>ローブには職業的または儀式的な意味がある。イベントや場所によっては、特定の色やシンボルのついたローブを着用していないと入ることができないこともある。</p>",
+      "activities": {}
+    },
+    "Holy Water": {
+      "name": "聖水（ビン）",
+      "description": "<p>攻撃アクションを行う際、攻撃の 1 つをフラスコの聖水を投げることに置き換えることができる。自分から 20 フィート以内に見える 1 体のクリーチャーを目標にする。目標は【敏捷力】セーヴィング・スロー（難易度 8 + 自分の【敏捷力】修正値 + 習熟ボーナス）に成功しなければならない。失敗した場合、目標がフィーンドまたはアンデッドである場合、2d8 の［光輝］ダメージを受ける。</p>",
+      "activities": {
+        "ArV3jMOIvfj5c5y9": {
+          "name": "投擲"
+        }
+      }
+    },
+    "Costume": {
+      "name": "舞台衣装",
+      "description": "<p>舞台衣装を着ている間、それが表す人物または種類の人物になりすますための能力値判定に有利を得る。</p>",
+      "activities": {}
+    },
+    "Ebony-bound Atlas": {
+      "name": "黒檀の地図帳",
+      "description": "<p>黒檀の表紙で綴じられた地図帳。星々の円環のドルイドが呪文発動の焦点具として使用できる小型の物体。</p>",
+      "activities": {}
+    },
+    "Engraved Crystal": {
+      "name": "刻印付きクリスタル（水晶）",
+      "description": "<p>星の模様が刻印されたクリスタル（水晶）。星々の円環のドルイドが呪文発動の焦点具として使用できる小型の物体。</p>",
+      "activities": {}
+    },
+    "Etched Glass Disk": {
+      "name": "星座盤（ガラス）",
+      "description": "<p>星座が彫金されたガラス製の星座盤。星々の円環のドルイドが呪文発動の焦点具として使用できる小型の物体 。</p>",
+      "activities": {}
+    },
+    "Tooled Owlbear Hide": {
+      "name": "加工されたアウルベアの皮",
+      "description": "<p>アウルベアの皮に星座が描かれている。星々の円環のドルイドが呪文発動の焦点具として使用できる小型の物体。</p>",
+      "activities": {}
+    },
+    "Constellations Scroll": {
+      "name": "星座の巻物",
+      "description": "<p>星座の運行が記された巻物。星々の円環のドルイドが呪文発動の焦点具として使用できる小型の物体。</p>",
+      "activities": {}
+    },
+    "Stone Tablet": {
+      "name": "石板",
+      "description": "<p>細かい穴の開いた石板。星々の円環のドルイドが呪文の焦点具として使うことができる小型の物体。</p>",
+      "activities": {}
+    },
+    "Crystal": {
+      "name": "クリスタル（水晶）",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]は秘術呪文の力を導くために、宝石が散りばめられたり彫刻されたりしている。ウィザード、ウォーロック、ソーサラーはこのアイテムを呪文発動の焦点具として使用できる。</p>",
+      "activities": {}
+    },
+    "Orb": {
+      "name": "オーブ",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]は秘術呪文の力を導くために、宝石が散りばめられたり彫刻されたりしている。ウィザード、ウォーロック、ソーサラーはこのアイテムを呪文発動の焦点具として使用できる。</p>",
+      "activities": {}
+    },
+    "Rod": {
+      "name": "ロッド",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]は秘術呪文の力を導くために、宝石が散りばめられたり彫刻されたりしている。ウィザード、ウォーロック、ソーサラーはこのアイテムを呪文発動の焦点具として使用できる。</p>",
+      "activities": {}
+    },
+    "Staff": {
+      "name": "スタッフ",
+      "description": "<p>An @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]は秘術呪文の力を導くために、宝石が散りばめられたり彫刻されたりしている。ウィザード、ウォーロック、ソーサラーはこのアイテムを呪文発動の焦点具として使用できる。</p><p>またこのアイテムは @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]としても機能する。</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>取り扱いメモ</strong></p><p>このアイテムはクォータースタッフの特性を追加して構成されている。</p></section>",
+      "activities": {
+        "5c4fPKVW51b3Ri3j": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Wand": {
+      "name": "ワンド",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]は秘術呪文の力を導くために、宝石が散りばめられたり彫刻されたりしている。ウィザード、ウォーロック、ソーサラーはこのアイテムを呪文発動の焦点具として使用できる。</p>",
+      "activities": {}
+    },
+    "Acid": {
+      "name": "酸",
+      "description": "<p>君は攻撃アクションを取る時、その君の攻撃の1回を置き換えてこの酸の小ビンを投げることができる。 目標は君が見ることができる君から20フィート以内の1体のクリーチャーか物体で、この目標は難易度（8+君の敏捷力修正値+君の習熟ボーナス）の 【敏捷力】セーヴィング・スローを行わねばならず、失敗すると2d6の［酸］ダメージを受ける。</p>",
+      "activities": {
+        "PnWlLChqr5JsfCJC": {
+          "name": "酸の投擲"
+        }
+      }
+    },
+    "Alchemist's Fire": {
+      "name": "錬金術師の火",
+      "description": "<p>君は攻撃アクションを取る時、その君の攻撃の1回を置き換えてこの錬金術師の火を投げることができる。 目標は君が見ることができる君から20フィート以内の1体のクリーチャーか物体で、この目標は難易度（8+君の敏捷力修正値+君の習熟ボーナス）の 【敏捷力】セーヴィング・スローを行わねばならず、失敗すると1d4の［火］ダメージを受けて、炎上（ルール用語集を参照）する。</p>",
+      "activities": {}
+    },
+    "Ammunition (Varies)": {
+      "name": "矢弾（さまざま）",
+      "description": "<p>矢弾は矢弾特性を持つ武器に必要。武器の説明には使用される矢弾の種類が指定されている。矢弾の表には購入時に得られる異なる種類と数量が記載されている。また、矢弾を収納するために使用されるアイテムもリストアップされており、収納アイテムは別途購入する必要がある。</p><table><caption>矢弾</caption><thead><tr><td>種類</td><td>本数</td><td>収納</td><td>重量</td><td>価格</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]</td><td>1½ lb.</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]</td><td>10</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]</td><td>2 lb.</td><td>3 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]</td><td>20</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]</td><td>1½ lb.</td><td>4 CP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]</td><td>50</td><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]</td><td>1 lb.</td><td>1 GP</td></tr></tbody></table>",
+      "activities": {}
+    },
+    "Antitoxin": {
+      "name": "耐毒剤",
+      "description": "<p>ボーナス・アクションとして耐毒剤の小瓶を飲むことで、1時間の間、毒状態を回避または解除するためのセーヴに有利を得る。</p>",
+      "activities": {
+        "2TNbDh0n59svuGIx": {
+          "name": "利用"
+        }
+      }
+    },
+    "Arcane Focus (Varies)": {
+      "name": "秘術焦点具",
+      "description": "<p>秘術焦点具というのは『秘術焦点具』表に掲載されているいずれかの形態を取り、秘術呪文の力を導くために宝石がちりばめられていたり彫刻が施されていたりする。ウィザード、ウォーロック、ソーサラーはこれらのアイテムを呪文発動の焦点具として使用できる。</p><table><caption>秘術焦点具</caption><thead><tr><td>形態</td><td>重量</td><td>価格</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000]</td><td>1 lb.</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]</td><td>3 lb.</td><td>20 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa] (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]でもある)</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]</td><td>1 lb.</td><td>10 GP</td></tr></tbody></table>",
+      "activities": {}
+    },
+    "Backpack": {
+      "name": "背負い袋",
+      "description": "<p>背負い袋は、1立方フィート内に最大30ポンドを保持する。サドルバッグとして使うこともできる 。</p>",
+      "activities": {}
+    },
+    "Barrel": {
+      "name": "たる",
+      "description": "<p>たるは最大40ガロンの液体、または最大4立方フィートの乾物を入れることができる。</p>",
+      "activities": {}
+    },
+    "Basket": {
+      "name": "かご",
+      "description": "<p>かごは、2立方フィート内に40ポンド（約1.6kg）までの荷物を収納できる。</p>",
+      "activities": {}
+    },
+    "Block and Tackle": {
+      "name": "滑車装置",
+      "description": "<p>滑車装置を使えば、通常吊り上げられる重量の4倍まで吊り上げることができる。</p>",
+      "activities": {}
+    },
+    "Book": {
+      "name": "書物",
+      "description": "<p>本はフィクションまたはノンフィクションの内容が含まれている。正確なノンフィクションの本を参照することで、そのトピックに関する【知力】（〈魔法学〉、〈歴史〉、〈自然〉、または〈宗教〉）判定に＋5のボーナスを得る。</p>",
+      "activities": {}
+    },
+    "Bottle, Glass": {
+      "name": "大ビン（ガラス）",
+      "description": "<p>ガラス瓶は最大1½パイントの液体を収納できる。</p>",
+      "activities": {}
+    },
+    "Bucket": {
+      "name": "バケツ",
+      "description": "<p>バケツには最大½立方フィートの内容物が収納できる。</p>",
+      "activities": {}
+    },
+    "Burglar's Pack": {
+      "name": "泥棒パック",
+      "description": "<p>泥棒パックの内訳を以下に記す: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000], 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000], @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE], 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000] 5 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000] @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00], and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00].</p>",
+      "activities": {}
+    },
+    "Candle": {
+      "name": "ろうそく",
+      "description": "<p>ろうそくに火をつけると、1 時間の間、半径 5 フィートに明るい光を、さらに 5 フィートを薄暗い光で照らす。</p>",
+      "activities": {
+        "8kldn9CuzuAz7dVb": {
+          "name": "灯す"
+        }
+      }
+    },
+    "Spell Scroll, Cantrip": {
+      "name": "初級呪文、１レベル呪文の巻物",
+      "description": "<p><em>呪文の巻物</em>(初級呪文)または@UUID[Compendium.dnd-players-handbook.装備品.Item.phbagSpellScroll]は魔法のアイテムで、それぞれ初級呪文 または１レベルの呪文の文言が書かれており、内容は巻物の作成者によって決定される。巻物に書かれている呪文が君のクラスの呪文リストにあるなら、君は巻物を読み上げ、通常の発動時間を使ってその呪文を発動できる。このとき、その呪文の物質要素は何一つ提供する必要がない。</p><p>その呪文がセーヴィング・スローまたは攻撃ロールを必要とする場合、その呪文セーヴ難易度 は 13 となり、攻撃ボーナスは+5になる。呪文が発動されたならば、巻物は砕けて塵と化す。</p>",
+      "activities": {}
+    },
+    "Case, Crossbow Bolt": {
+      "name": "クロスボウ・ボルト・ケース",
+      "description": "<p>クロスボウ・ボルト・ケースには最大20本のボルトが収納できる。</p>",
+      "activities": {}
+    },
+    "Case, Map or Scroll": {
+      "name": "地図・巻物入れ",
+      "description": "<p>地図・巻物入れには巻いた紙なら10枚、巻いた羊皮紙なら5枚を収納できる。</p>",
+      "activities": {}
+    },
+    "Chain": {
+      "name": "鎖",
+      "description": "<p>利用アクションとして、自分から5フィート以内の&amp;Reference[Grappled]、&amp;Reference[Incapacitated]、または &amp;Reference[Restrained]のクリーチャーに鎖を巻き付けることができる。クリーチャーの脚が縛られている場合、そのクリーチャーは拘束状態となり、鎖から逃れるためには、アクションとして難易度18の【敏捷力】〈軽業〉判定に成功する必要がある。鎖を破るためには、アクションとして難易度20の【筋力】〈運動〉判定に成功する必要がある。</p>",
+      "activities": {
+        "nkqvEiPdXCyiJ9ub": {
+          "name": "鎖の巻きつけ判定"
+        },
+        "9eioXCinYhuRDmOd": {
+          "name": "脱出判定"
+        },
+        "Jg400eyFy9mMETQa": {
+          "name": "鎖の引きちぎり判定"
+        }
+      }
+    },
+    "Chest": {
+      "name": "櫃",
+      "description": "<p>櫃は最大12立方フィートの内容物を収納できる。</p>",
+      "activities": {}
+    },
+    "Climber's Kit": {
+      "name": "登攀用具",
+      "description": "<p>登攀用具には、靴先用具、手袋、ピトン、ハーネスが含まれている。利用アクションとして登攀用具を使い、自分を固定することができる。固定した場合、アンカーから25フィート以上落下することはなく、固定を解除するボーナス・アクションを行わない限り、25フィート以上移動することはできない。</p>",
+      "activities": {}
+    },
+    "Clothes, Fine": {
+      "name": "上等な服",
+      "description": "<p>上等な衣服は高価な生地で作られ、巧みに仕立てられた装飾が施されている。一部のイベントや場所では、この衣服を着ている人のみが入場を許される。</p>",
+      "activities": {}
+    },
+    "Clothes, Traveler's": {
+      "name": "旅人の服",
+      "description": "<p>旅人の服は、さまざまな環境での旅行に対応するために作られた丈夫な衣服である。</p>",
+      "activities": {}
+    },
+    "Component Pouch": {
+      "name": "呪文構成要素ポーチ",
+      "description": "<p>呪文構成要素ポーチは水を通さず、内部はいくつもの小さな仕切りに分かれており、呪文発動に必要となる物質要素が全て入っている。ただし（個々の呪文の記述中に出てくる）価格の明記してある物質要素は除く。</p>",
+      "activities": {}
+    },
+    "Diplomat's Pack": {
+      "name": "外交官パック",
+      "description": "<p>外交官パックには以下のアイテムが含まれている： @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000], @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000], 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000], 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq], 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000], 5 sheets of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000] 5 sheets of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000], and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00].</p>",
+      "activities": {}
+    },
+    "Druidic Focus (Varies)": {
+      "name": "ドルイド用焦点具（さまざま）",
+      "description": "<p>ドルイド用焦点具は『ドルイド用焦点具』表にあるいずれかの形態を取り、原始魔法の力を導くために彫刻がされていたり、リボンが結ばれていたり、色彩が塗られていたりする。ドルイドとレンジャーはこれらのアイテムを呪文発動の焦点具として使用できる。</p><table><caption>ドルイド用焦点具</caption><thead><tr><td>形態</td><td>重量</td><td>価格</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]</td><td>—</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcWoodenstaf]( @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]でもある)</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcYewwand000]</td><td>1 lb.</td><td>10 GP</td></tr></tbody></table>",
+      "activities": {}
+    },
+    "Dungeoneer's Pack": {
+      "name": "地下探険家パック",
+      "description": "<p>地下探検家パックの中身を以下に記す：@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000] @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000], 2 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000], 10 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00] 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000] and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]</p>",
+      "activities": {}
+    },
+    "Entertainer's Pack": {
+      "name": "芸人パック",
+      "description": "<p>芸人パックの中身を以下に記す: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000] @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000] @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW], 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000], 8 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000] 9 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00] and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00].</p>",
+      "activities": {}
+    },
+    "Explorer's Pack": {
+      "name": "探検家パック",
+      "description": "<p>探検家パックの中身を以下に記す: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000], 2 flasks of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000], 10 days of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00], 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000] and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00].</p>",
+      "activities": {}
+    },
+    "Flask": {
+      "name": "フラスコ",
+      "description": "<p>フラスコには1パイントまで入る。</p>",
+      "activities": {}
+    },
+    "Grappling Hook": {
+      "name": "ひっかけ鉤",
+      "description": "<p>１回のアクションとして、ひっかけ鉤を手すり、岩棚 、または自分から 50 フィート以内にある他の引っかかりに投げることができる。難易度13の【敏捷力】〈軽業〉判定に成功すれば鉤爪が引っかかる。鉤爪にロープを結んでいた場合、君は登攀することができる 。</p>",
+      "activities": {
+        "X7mlPFWw8g4zsAmB": {
+          "name": "投擲"
+        }
+      }
+    },
+    "Healer's Kit": {
+      "name": "治療用具",
+      "description": "<p>革製のポーチに包帯や軟膏、添え木などが詰まったもの。君は1回のアクションとして治療用具の使用回数を1回分使用し、HP０のクリーチャー1体を容態安定化することができる。</p>",
+      "activities": {
+        "bsWqOT06BB3Vb2hg": {
+          "name": "容体安定化"
+        }
+      }
+    },
+    "Holy Symbol (Varies)": {
+      "name": "聖印（さまざま）",
+      "description": "<p>聖印は「聖印の種類」表に記載された形状を取り、神聖な魔法を集中させるために宝石で飾られたり、絵が描かれている。クレリックやパラディンは、聖印を呪文発動焦点具として使用できる。</p><p>聖印が保持する必要があるか、着用する必要があるか、布地（例えば、タバードや旗）または盾に取り付ける必要があるかを示す。</p><table><caption>聖印</caption><thead><tr><td>シンボル</td><td>重量</td><td>価格</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyAmuletworn](着用または保持)</td><td>1 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyEmblemborn] (布地または盾に取り付け)</td><td>—</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyReliquaryh](保持)</td><td>2 lb.</td><td>5 GP</td></tr></tbody></table>",
+      "activities": {}
+    },
+    "Hunting Trap": {
+      "name": "獣罠",
+      "description": "<p>利用アクションとして、獣罠を設置することができる。この罠は中央の圧力板に生物が踏み込むと閉じる鋸歯状の鉄の輪である。罠は重い鎖で固定されており、木や地面に打ち込まれたスパイクなどの動かない物体に繋がっている。生物が板を踏むと、難易度 13の【敏捷力】セーヴィング・スローに成功しなければならず、失敗した場合、1d4の［刺突］ダメージを受け、次の自分のターンの開始時まで移動速度が0になる。その後、罠から逃れるまでは鎖の長さ（通常3フィート）によって移動が制限される。生物はアクションを使用して難易度 13の【筋力】〈運動〉判定を行い、成功すれば自分自身または射程内の他の生物を解放できる。失敗した判定ごとに罠にかかった生物は1の［刺突］ダメージを受ける。</p>",
+      "activities": {
+        "tIsE5Y5S9TjOTs9C": {
+          "name": "セーヴ"
+        },
+        "JjJCLmn9qZmCzlxX": {
+          "name": "脱出"
+        }
+      }
+    },
+    "Ink Pen": {
+      "name": "ペン",
+      "description": "<p>インクを使って文字を書いたり絵を描いたりするために使われるインクペン。</p>",
+      "activities": {}
+    },
+    "Jug": {
+      "name": "水差し",
+      "description": "<p>水差しは最大1ガロンの液体を収納できる。</p>",
+      "activities": {}
+    },
+    "Ladder": {
+      "name": "はしご",
+      "description": "<p>はしごは10フィートの高さがある。上下するには登る必要がある。</p>",
+      "activities": {}
+    },
+    "Lantern, Bullseye": {
+      "name": "投光式ランタン",
+      "description": "<p>投光式ランタンは燃料として油を燃やし、60フィートの円錐範囲で明るい光を放ち、さらに60フィートの範囲を薄暗い光で照らす</p>",
+      "activities": {
+        "YuK3Zl78vcfJq0Gd": {
+          "name": "ライト"
+        }
+      }
+    },
+    "Lantern, Hooded": {
+      "name": "覆い付きランタン",
+      "description": "<p>覆い付きランタンは燃料として油を燃やし、30フィートの半径で明るい光を放ち、さらに30フィートの範囲を薄暗い光で照らす。ボーナス・アクションとしてフードを下げることで、光を5フィートの半径で薄暗い光で照らすに減少させたり、再び上げて通常の光に戻すことができる。</p>",
+      "activities": {
+        "IU6trhDShBQzMABE": {
+          "name": "灯す"
+        }
+      }
+    },
+    "Lock": {
+      "name": "錠前",
+      "description": "<p>錠前は鍵付きで提供される。鍵がない場合、クリーチャーは[[/tool thief dex 15]]判定に成功すれば @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]を使ってこの鍵を開けることができる。</p>\n",
+      "activities": {}
+    },
+    "Magnifying Glass": {
+      "name": "虫眼鏡",
+      "description": "<p>虫眼鏡は、高度に詳細なアイテムを評価または調査する際の能力値判定に対して有利を提供する。虫眼鏡を使って火をつけるには、日光のように明るい光、点火する火口、および約5分の時間が必要。</p>",
+      "activities": {}
+    },
+    "Manacles": {
+      "name": "枷",
+      "description": "<p>利用アクションとして、枷を使って、5フィート以内にいる小型または中型のクリーチャーで、&amp;Reference[Grappled], &amp;Reference[Incapacitated]または &amp;Reference[Restrained] のものを縛ることができる。これには、難易度 13の【敏捷力】〈手先の早業〉判定が必要。縛られた状態のクリーチャーは攻撃ロールに不利を受け、枷が固定された鎖またはフックに取り付けられている場合、その生物は拘束状態になる。枷から脱出するには、アクションとして難易度 20の【敏捷力】〈手先の早業〉判定に成功する必要があり、枷を破壊するにはアクションとして難易度 25の【筋力】〈運動〉判定に成功する必要がある。</p><p>各セットの枷には鍵が付いている。鍵がない場合、盗賊道具を使用l [[/tool thief dex 15]] 拘束状態拘束状態して難易度 15の【敏捷力】〈手先の早業〉判定に成功すれば、枷の鍵を開けることができる。</p>",
+      "activities": {
+        "LPW3NsIFCn3pYMjY": {
+          "name": "拘束"
+        },
+        "IpcLYRMUOUk7dKpE": {
+          "name": "脱出判定"
+        },
+        "HStudlka63uekHM2": {
+          "name": "破壊判定"
+        }
+      }
+    },
+    "Map": {
+      "name": "地図",
+      "description": "正確な地図を参照すると、その地図で表される場所での道を見つけるために行う【判断力】〈生存〉判定に+5のボーナスを得る。",
+      "activities": {}
+    },
+    "Net": {
+      "name": "ネット",
+      "description": "<p>攻撃アクションを行う際、攻撃の1つをネットを投げることに置き換えることができる。自分から15フィート以内に見える1体のクリーチャーを目標にする。目標は【敏捷力】セーヴィング・スロー（難易度 8 + 君の【敏捷力】修正値 + 習熟ボーナス）に成功しなければならず、失敗すると&amp;Reference[Restrained]になる。この目標が超大型サイズ以上である場合、自動的に成功する。</p><p>脱出するには、目標または5フィート以内にいる別のクリーチャーがアクションを使って難易度 10の【筋力】〈運動〉判定を行い、成功すれば拘束されたクリーチャーを解放する。ネットを破壊する（AC 10、HP 5、［殴打］、［毒］、［精神］ダメージへの完全耐性あり）ことでも目標を解放し、効果を終了させる。</p>",
+      "activities": {}
+    },
+    "Paper": {
+      "name": "紙",
+      "description": "<p>1枚の紙には約250語の手書きの文字が書ける。</p>",
+      "activities": {}
+    },
+    "Perfume": {
+      "name": "香水",
+      "description": "<p>香水は 4 オンスの瓶に入っている。自分に香水を塗布してから 1 時間の間、5 フィート以内にいる中立的な人型生物に影響を与えるために行う【魅力】〈説得〉判定に対して有利を得る。</p>",
+      "activities": {}
+    },
+    "Poison, Basic": {
+      "name": "基本的な毒",
+      "description": "<p>ボーナス・アクションとして、基本毒の瓶を使って武器1つまたは3本までの矢弾を塗ることができる。この毒が塗られた武器や矢弾で［刺突］ダメージまたは［斬撃］ダメージを与えられたクリーチャーは追加で1d4［毒］ダメージを受ける。塗布後、この毒は1分間またはダメージが与えられるまで効果を保持する。</p><section id=\"secret-YwO5GX35V4XweNWL\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この特徴には［毒］ダメージロールが含まれる。</p></section>",
+      "activities": {
+        "KLsqFTXAS8fnlaYs": {
+          "name": "賠償金"
+        }
+      }
+    },
+    "Pole": {
+      "name": "10フィート棒",
+      "description": "<p>棒は10フィートの長さがある。これを使って10フィート先の物体に触れることができる。高跳びや幅跳びの一部として【筋力】〈運動〉判定を行う必要がある場合、棒を使って棒高跳びすることで、その判定に有利を得ることができる。</p>",
+      "activities": {}
+    },
+    "Pot, Iron": {
+      "name": "鉄のなべ",
+      "description": "<p>鉄の鍋は最大1ガロンの液体を収納できる。</p>",
+      "activities": {}
+    },
+    "Potion of Healing": {
+      "name": "ポーション・オヴ・ヒーリング／癒しの水薬",
+      "description": "<p>このポーションは魔法のアイテムである。ボーナス・アクションとして、自分で飲むか、自分から5フィート以内にいる他のクリーチャーに飲ませることができる。この瓶に入った赤い魔法の液体を飲んだクリーチャーは、2d4 + 2のヒット・ポイントを回復する。</p>",
+      "activities": {
+        "cNvH4obx5XJ2myYr": {
+          "name": "ヒール"
+        }
+      }
+    },
+    "Pouch": {
+      "name": "ポーチ",
+      "description": "<p>ポーチは、1/5 立方フィート内に最大 6 ポンドの物を収納できる。</p>",
+      "activities": {}
+    },
+    "Priest's Pack": {
+      "name": "僧侶パック",
+      "description": "<p>僧侶パックには、次のアイテムが含まれている：@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]７日分, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00].</p>",
+      "activities": {}
+    },
+    "Quiver": {
+      "name": "矢筒",
+      "description": "<p>矢筒は最大 20 本の矢を収納できる。</p>",
+      "activities": {}
+    },
+    "Ram, Portable": {
+      "name": "携行型破城槌",
+      "description": "<p>携行型破城槌を使用してドアを破壊することができる。この際、【筋力】判定に+4のボーナスを得る。もう一人のキャラクターが手伝うことができ、その場合、この判定に有利を得る。</p>",
+      "activities": {}
+    },
+    "Sack": {
+      "name": "ずだ袋",
+      "description": "<p>袋は1立方フィート内に最大30ポンドの物を収納できる。</p>",
+      "activities": {}
+    },
+    "Scholar's Pack": {
+      "name": "学者パック",
+      "description": "<p>学者パックには、次のアイテムが含まれている：@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]10ビン,  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]10枚, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00].</p>",
+      "activities": {}
+    },
+    "Shovel": {
+      "name": "シャベル",
+      "description": "<p>1時間の作業で、シャベルを使って土壌やそれに似た材料に5フィート四方の穴を掘ることができる。</p>",
+      "activities": {}
+    },
+    "Signal Whistle": {
+      "name": "警笛",
+      "description": "<p>利用アクションとして吹くと、警笛は600フィート離れた場所まで聞こえる音を発する。</p>",
+      "activities": {
+        "xBb5IRSNGtnimaeF": {
+          "name": "笛"
+        }
+      }
+    },
+    "Spell Scroll, Level 1": {
+      "name": "呪文の巻物（レベル１）",
+      "description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro] or <em>呪文の巻物</em> (レベル１)は、それぞれ初級呪文またはレベル1の呪文の言葉を記した魔法のアイテムであり、巻物の作成者によって決定される。もしその呪文が君のクラスの呪文リストにあるなら、巻物を読んで通常の発動時間で呪文を発動でき、物質要素を提供する必要はない。</p><p>もし呪文がセービング・スローを必要とするか攻撃ロールを必要とする場合、呪文セーヴ難易度は13で、攻撃ボーナスは+5である。呪文の発動が完了すると巻物自体も崩れて塵と化す。</p>",
+      "activities": {}
+    },
+    "Spikes, Iron": {
+      "name": "大釘",
+      "description": "<p>大釘は10個入りの束で提供される。利用アクションとして、ライト・ハンマーのような鈍器を使って木や土、またはそれに似た材料に釘を打ち込むことができる。この方法でドアを閉ざすために使用したり、釘にロープや鎖を結びつけたりすることができる。</p>",
+      "activities": {}
+    },
+    "Spyglass": {
+      "name": "小型望遠鏡",
+      "description": "<p>小型望遠鏡を通して見る物体は、実際のサイズの2倍に拡大される。</p>",
+      "activities": {}
+    },
+    "String": {
+      "name": "ひも",
+      "description": "<p>ひもは10フィートの長さである。利用アクションとして、ひもに結び目を作ることができる。</p>",
+      "activities": {}
+    },
+    "Tent": {
+      "name": "テント",
+      "description": "<p>テントは小型または中型のクリーチャーを 2 体まで寝かせることができる。</p>",
+      "activities": {}
+    },
+    "Vial": {
+      "name": "小ビン",
+      "description": "<p>小瓶は最大4オンスを収容する。</p>",
+      "activities": {}
+    },
+    "Arrows": {
+      "name": "矢",
+      "description": "<p><em><strong>収納:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]が、矢弾特性を持つ武器には必要である。武器の説明には、その武器が使用する矢弾の種類が指定されている。『矢弾』表には、矢弾と、それを購入したときに得られる数が記載されている。この表には、矢弾を収納するために通常使用されるアイテムも記載されており、収納容器は別途購入する必要がある。</p>",
+      "activities": {}
+    },
+    "Bolts": {
+      "name": "ボルト",
+      "description": "<p><em><strong>収納:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV] が、矢弾特性を持つ武器には必要である。武器の説明には、その武器が使用する矢弾の種類が指定されている。『矢弾』表には、矢弾と、それを購入したときに得られる数が記載されている。この表には、矢弾を収納するために通常使用されるアイテムも記載されており、収納容器は別途購入する必要がある。</p>",
+      "activities": {}
+    },
+    "Bullets, Firearm": {
+      "name": "銃火器用弾薬",
+      "description": "<p><em><strong>収納:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV] が、矢弾特性を持つ武器には必要である。武器の説明には、その武器が使用する矢弾の種類が指定されている。『矢弾』表には、矢弾と、それを購入したときに得られる数が記載されている。この表には、矢弾を収納するために通常使用されるアイテムも記載されており、収納容器は別途購入する必要がある。</p>",
+      "activities": {}
+    },
+    "Bullets, Sling": {
+      "name": "スリング用の弾",
+      "description": "<p><em><strong>収納:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV] が、矢弾特性を持つ武器には必要である。武器の説明には、その武器が使用する矢弾の種類が指定されている。『矢弾』表には、矢弾と、それを購入したときに得られる数が記載されている。この表には、矢弾を収納するために通常使用されるアイテムも記載されており、収納容器は別途購入する必要がある。</p>",
+      "activities": {}
+    },
+    "Needles": {
+      "name": "ブロウガン用ニードル",
+      "description": "<p><em><strong>収納:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV] が、矢弾特性を持つ武器には必要である。武器の説明には、その武器が使用する矢弾の種類が指定されている。『矢弾』表には、矢弾と、それを購入したときに得られる数が記載されている。この表には、矢弾を収納するために通常使用されるアイテムも記載されており、収納容器は別途購入する必要がある。</p>",
+      "activities": {}
+    },
+    "Breastplate": {
+      "name": "ブレストプレート",
+      "description": "",
+      "activities": {}
+    },
+    "Chain Mail": {
+      "name": "チェイン・メイル",
+      "description": "",
+      "activities": {}
+    },
+    "Chain Shirt": {
+      "name": "チェイン・シャツ",
+      "description": "",
+      "activities": {}
+    },
+    "Half Plate Armor": {
+      "name": "ハーフ・プレート・アーマー",
+      "description": "",
+      "activities": {}
+    },
+    "Hide Armor": {
+      "name": "ハイド・アーマー",
+      "description": "",
+      "activities": {}
+    },
+    "Leather Armor": {
+      "name": "レザー・アーマー",
+      "description": "",
+      "activities": {}
+    },
+    "Padded Armor": {
+      "name": "パデッド・アーマー",
+      "description": "",
+      "activities": {}
+    },
+    "Plate Armor": {
+      "name": "プレート・アーマー",
+      "description": "",
+      "activities": {}
+    },
+    "Ring Mail": {
+      "name": "リング・メイル",
+      "description": "",
+      "activities": {}
+    },
+    "Scale Mail": {
+      "name": "スケイル・メイル",
+      "description": "",
+      "activities": {}
+    },
+    "Shield": {
+      "name": "シールド",
+      "description": "<p>君がシールドによりアーマー・クラスへのボーナスを獲得するのは、シールドの防具訓練 を持っている場合のみである。</p>",
+      "activities": {}
+    },
+    "Splint Armor": {
+      "name": "スプリント・アーマー",
+      "description": "",
+      "activities": {}
+    },
+    "Studded Leather Armor": {
+      "name": "スタデッド・レザー・アーマー",
+      "description": "",
+      "activities": {}
+    },
+    "Sprig of mistletoe": {
+      "name": "ヤドリギの小枝",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]『ドルイド用焦点具』表にあるいずれかの形態を取り、原始魔法の力を導くために彫刻がされていたり、リボンが結ばれていたり、色彩が塗られていたりする。ドルイドとレンジャーはこれらのアイテムを呪文発動の焦点具として使用できる。</p>",
+      "activities": {}
+    },
+    "Wooden staff": {
+      "name": "木の杖",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]『ドルイド用焦点具』表にあるいずれかの形態を取り、原始魔法の力を導くために彫刻がされていたり、リボンが結ばれていたり、色彩が塗られていたりする。ドルイドとレンジャーはこれらのアイテムを呪文発動の焦点具として使用できる。</p><p>このアイテムはk@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]としても使える。</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>取り扱いメモ</strong></p><p>このアイテムにはクォータースタッフの特性が追加されている。</p></section>",
+      "activities": {
+        "8F63re0OqRLG0LzQ": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Yew wand": {
+      "name": "イチイのワンド",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]『ドルイド用焦点具』表にあるいずれかの形態を取り、原始魔法の力を導くために彫刻がされていたり、リボンが結ばれていたり、色彩が塗られていたりする。ドルイドとレンジャーはこれらのアイテムを呪文発動の焦点具として使用できる。</p>",
+      "activities": {}
+    },
+    "Dice": {
+      "name": "ダイス",
+      "description": "<p><strong>能力値 [Ability]:</strong>【判断力】</p><p class=\"phb-meta\"><strong>利用 [Utilize]:</strong> 誰かがインチキをしているかどうかを見抜く (難易度 10)、またはゲームに勝つ (難易度 20)</p>",
+      "activities": {
+        "snf3qwCBELlFasdZ": {
+          "name": "インチキを見破る"
+        },
+        "Xa5CnT6vqjbhgSpN": {
+          "name": "ゲームに勝利する"
+        }
+      }
+    },
+    "Dragonchess": {
+      "name": "ドラゴンチェス一揃い",
+      "description": "<p><strong>能力値 [Ability]:</strong>【判断力】</p><p class=\"phb-meta\"><strong>利用 [Utilize]:</strong> 誰かが不正をしているかどうかを見抜く (難易度 10)、またはゲームに勝つ (難易度 20)</p>",
+      "activities": {
+        "NDaV33ElahCIeFGJ": {
+          "name": "インチキを見破る"
+        },
+        "HVVXAdVmahZwMWmn": {
+          "name": "ゲームに勝利する"
+        }
+      }
+    },
+    "Playing Cards": {
+      "name": "カードゲーム",
+      "description": "<p><strong>能力値 [Ability]:</strong>【判断力】</p><p class=\"phb-meta\"><strong>利用 [Utilize]:</strong> 誰かがインチキをしているかどうかを見抜く (難易度 10)、またはゲームに勝つ (難易度 20)</p>",
+      "activities": {
+        "X7yHLXqHjM0kC0Jw": {
+          "name": "インチキを見破る"
+        },
+        "el0b7gglRR0etmB0": {
+          "name": "ゲームに勝利する"
+        }
+      }
+    },
+    "Three-dragon ante": {
+      "name": "スリードラゴン・アンティ一揃い",
+      "description": "<p><strong>能力値 [Ability]:</strong>【判断力】</p><p class=\"phb-meta\"><strong>利用 [Utilize]:</strong> 誰かがインチキをしているかどうかを見抜く (難易度 10)、またはゲームに勝つ (難易度 20)</p>",
+      "activities": {
+        "EbM17Ylyo84xBjwb": {
+          "name": "インチキを見破る"
+        },
+        "gUPVf8vkBC1YlPN0": {
+          "name": "ゲームに勝利する"
+        }
+      }
+    },
+    "Amulet": {
+      "name": "聖印：アミュレット",
+      "description": "<p><em><strong>使用条件: </strong>着用または保持</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]は『聖印の種類』表に記載された形状を取り、神聖な魔法を集中させるために宝石で飾られたり、絵が描かれている。クレリックやパラディンは、聖印を呪文発動焦点具として使用できる。</p>",
+      "activities": {}
+    },
+    "Emblem": {
+      "name": "紋章",
+      "description": "<p><em><strong>使用条件: </strong>布地か盾に取りつける</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]は『聖印の種類』表に記載された形状を取り、神聖な魔法を集中させるために宝石で飾られたり、絵が描かれている。クレリックやパラディンは、聖印を呪文発動焦点具として使用できる。</p>",
+      "activities": {}
+    },
+    "Reliquary": {
+      "name": "聖遺物箱",
+      "description": "<p><em><strong>使用条件: </strong>保持</em></p><p>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]は『聖印の種類』表に記載された形状を取り、神聖な魔法を集中させるために宝石で飾られたり、絵が描かれている。クレリックやパラディンは、聖印を呪文発動焦点具として使用できる。</p>",
+      "activities": {}
+    },
+    "Bagpipes": {
+      "name": "バグパイプ",
+      "description": "<p><strong>能力値:</strong> 【魅力】</p><p class=\"phb-meta\"><strong>演奏:</strong> ありふれた曲を演奏する (難易度 10)、即興曲を演奏する (難易度 15)</p>",
+      "activities": {
+        "CC7piQjkR6p4CI1N": {
+          "name": "ありふれた曲を演奏"
+        },
+        "CJszIKH8JldMrgx8": {
+          "name": "即興曲を演奏"
+        }
+      }
+    },
+    "Drum": {
+      "name": "ドラム",
+      "description": "<p><strong>能力値:</strong> 【魅力】</p><p class=\"phb-meta\"><strong>演奏:</strong> ありふれた曲を演奏する (難易度 10)、即興曲を演奏する (難易度 15)</p>",
+      "activities": {
+        "LqgwTSdc7UQxSuRf": {
+          "name": "ありふれた曲を演奏"
+        },
+        "Gp0oZApy9ygRjom3": {
+          "name": "即興曲を演奏"
+        }
+      }
+    },
+    "Dulcimer": {
+      "name": "ダルシマー（打弦楽器、ピアノの祖先）",
+      "description": "<p><strong>能力値:</strong> 【魅力】</p><p class=\"phb-meta\"><strong>演奏:</strong> ありふれた曲を演奏する (難易度 10)、即興曲を演奏する (難易度 15)</p>",
+      "activities": {
+        "Kb811duGqW9XeVfD": {
+          "name": "ありふれた曲を演奏"
+        },
+        "4Kdc4kFSmsrhoBiB": {
+          "name": "即興曲を演奏"
+        }
+      }
+    },
+    "Flute": {
+      "name": "フルート",
+      "description": "<p><strong>能力値:</strong> 【魅力】</p><p class=\"phb-meta\"><strong>演奏:</strong> ありふれた曲を演奏する (難易度 10)、即興曲を演奏する (難易度 15)</p>",
+      "activities": {
+        "uOwGcYrrpv2U4tNt": {
+          "name": "ありふれた曲を演奏"
+        },
+        "BJ2uJJ9CHUFOLnei": {
+          "name": "即興曲を演奏"
+        }
+      }
+    },
+    "Horn": {
+      "name": "ホーン（角笛）",
+      "description": "<p><strong>能力値:</strong> 【魅力】</p><p class=\"phb-meta\"><strong>演奏:</strong> ありふれた曲を演奏する (難易度 10)、即興曲を演奏する (難易度 15)</p>",
+      "activities": {
+        "8k3LD7TVIH6vvzi7": {
+          "name": "ありふれた曲を演奏"
+        },
+        "ijMZxlEipxTbukhT": {
+          "name": "即興曲を演奏"
+        }
+      }
+    },
+    "Lute": {
+      "name": "リュート",
+      "description": "<p><strong>能力値:</strong> 【魅力】</p><p class=\"phb-meta\"><strong>演奏:</strong> ありふれた曲を演奏する (難易度 10)、即興曲を演奏する (難易度 15)</p>",
+      "activities": {
+        "zlDJ7Llgwkqp2J9N": {
+          "name": "ありふれた曲を演奏"
+        },
+        "SDxZp9JVBHGgAQUU": {
+          "name": "即興曲を演奏"
+        }
+      }
+    },
+    "Lyre": {
+      "name": "ライア（リラ、竪琴）",
+      "description": "<p><strong>能力値:</strong> 【魅力】</p><p class=\"phb-meta\"><strong>演奏:</strong> ありふれた曲を演奏する (難易度 10)、即興曲を演奏する (難易度 15)</p>",
+      "activities": {
+        "d6eRHAV6fceuC5FN": {
+          "name": "ありふれた曲を演奏"
+        },
+        "cSIpON2kKXcoCe1T": {
+          "name": "即興曲を演奏"
+        }
+      }
+    },
+    "Pan Flute": {
+      "name": "パン・フルート（パンパイプ）",
+      "description": "<p><strong>能力値:</strong> 【魅力】</p><p class=\"phb-meta\"><strong>演奏:</strong> ありふれた曲を演奏する (難易度 10)、即興曲を演奏する (難易度 15)</p>",
+      "activities": {
+        "geguSdrqAMj6NlWb": {
+          "name": "ありふれた曲を演奏"
+        },
+        "7p2XS89osRnThY69": {
+          "name": "即興曲を演奏"
+        }
+      }
+    },
+    "Shawm": {
+      "name": "ショーム（オーボエの祖先）",
+      "description": "<p><strong>能力値:</strong> 【魅力】</p><p class=\"phb-meta\"><strong>演奏:</strong> ありふれた曲を演奏する (難易度 10)、即興曲を演奏する (難易度 15)</p>",
+      "activities": {
+        "ZWWjpnZKCCyH9e6P": {
+          "name": "ありふれた曲を演奏"
+        },
+        "3snlGseDtpUO13gU": {
+          "name": "即興曲を演奏"
+        }
+      }
+    },
+    "Viol": {
+      "name": "ヴァイオル（ヴァイオリンに似た弦楽器）",
+      "description": "<p><strong>能力値:</strong> 【魅力】</p><p class=\"phb-meta\"><strong>演奏:</strong> ありふれた曲を演奏する (難易度 10)、即興曲を演奏する (難易度 15)</p>",
+      "activities": {
+        "75CpViXTZBViOpNm": {
+          "name": "ありふれた曲を演奏"
+        },
+        "Js5Arad9LXLyzU4s": {
+          "name": "即興曲を演奏"
+        }
+      }
+    },
+    "Alchemist's Supplies": {
+      "name": "錬金術用具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【知力】</p><p class=\"phb-meta\"><strong>用法:</strong> 物質を特定する (難易度 15), or 錬金術師の火を作る (難易度 15)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]、錬金術師の火、 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagComponentPo], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]</p>",
+      "activities": {
+        "3tr6iV1buoI6GB27": {
+          "name": "判定"
+        }
+      }
+    },
+    "Brewer's Supplies": {
+      "name": "醸造用品",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong>【知力】</p><p class=\"phb-meta\"><strong>用法:</strong> 毒に汚染された飲み物を見つける (難易度 15)、アルコールを識別する(難易度 10)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]</p>",
+      "activities": {
+        "3OFmxXtcOkeG70rl": {
+          "name": "毒に汚染された飲み物を見つける"
+        },
+        "0jzVWvMqR981vABJ": {
+          "name": "アルコールを識別する"
+        }
+      }
+    },
+    "Calligrapher's Supplies": {
+      "name": "書道用品",
+      "description": "<p class=\"phb-meta\"><strong>能力値 [Ability]:</strong>【敏捷力】</p><p class=\"phb-meta\"><strong>利用 [Utilize]:</strong> 偽造を防ぐ印象的な装飾で文字を書く (難易度 15)</p><p class=\"phb-meta\"><strong>製作 [Craft]:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Ink}, <em>Spell Scroll</em></p>",
+      "activities": {
+        "PVMIlNQvLAyrF4kP": {
+          "name": "判定"
+        }
+      }
+    },
+    "Carpenter's Tools": {
+      "name": "大工道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong>【筋力】</p><p class=\"phb-meta\"><strong>用法:</strong> ドアや容器を密閉したり、こじ開けたりする (難易度 20)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]、 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000] @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000], @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]</p>",
+      "activities": {
+        "FA1LisaMRSw353K6": {
+          "name": "密閉したりこじあけたりする"
+        }
+      }
+    },
+    "Cartographer's Tools": {
+      "name": "地図作成道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値 : </strong>【判断力】</p><p class=\"phb-meta\"><strong>用法</strong> 狭い範囲の地図を作成する（難易度15）</p><p class=\"phb-meta\"><strong>アイテム作成: </strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]</p>",
+      "activities": {
+        "Q3W6zdSkQt4HEpX8": {
+          "name": "地図を作成する"
+        }
+      }
+    },
+    "Cobbler's Tools": {
+      "name": "靴直し道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【敏捷力】</p><p class=\"phb-meta\"><strong>用法:</strong> 靴を改造し、その靴を履いている者の次の【敏捷力】〈軽業〉判定に有利を与える。 (難易度 10)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClimbersKit]</p>",
+      "activities": {
+        "dnvBdyoNniSVN9Ky": {
+          "name": "靴を改造する"
+        }
+      }
+    },
+    "Cook's Utensils": {
+      "name": "調理用具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【判断力】</p><p class=\"phb-meta\"><strong>用法:</strong> 料理の味を上げる (難易度10)、腐った、あるいは毒が入った食べ物を判別する (難易度 15)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]</p>",
+      "activities": {
+        "CxQN6WZyRt5IGrNj": {
+          "name": "味を上げる"
+        },
+        "XpIVwyE6VhHNBoae": {
+          "name": "腐った、あるいは毒が入った食べ物を判別する"
+        }
+      }
+    },
+    "Disguise Kit": {
+      "name": "変装用具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【魅力】</p><p class=\"phb-meta\"><strong>用法:</strong> 化粧をする (難易度 10)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]</p>",
+      "activities": {
+        "SgFQStIx3w0ADo05": {
+          "name": "化粧をする"
+        }
+      }
+    },
+    "Forgery Kit": {
+      "name": "偽造用具",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Mimic 10 or fewer words of someone else’s handwriting (DC 15), or duplicate a wax seal (DC 20)</p>偽造道具 (15 GP) [Forgery Kit]\n能力値 [Ability]: 【敏捷力】\n利用 [Utilize]: 他人の筆跡を 10 語以内で模倣する (難易度 15)、または蝋印を複製する\n(難易度 20)",
+      "activities": {
+        "rIanv5IgN2QhpKSK": {
+          "name": "筆跡の偽造"
+        },
+        "HcOxYMy4gmRHLJiF": {
+          "name": "蝋印の複製"
+        }
+      }
+    },
+    "Gaming Set (Varies)": {
+      "name": "ゲーム道具（さまざま）",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【判断力】 <strong>重量:</strong> —</p><p class=\"phb-meta\"><strong>用法:</strong> イカサマをしているかどうかを見分ける (難易度 10),ゲームに勝つ (難易度20)</p><table><caption>バリエーション</caption><thead><tr><td>セット</td><td>価格</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbgstDice000000]</td><td>1 SP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbgstDragonches]</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbgstPlayingcar]</td><td><p>5 SP</p></td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbgstThreedrago]</td><td>1 GP</td></tr></tbody></table>",
+      "activities": {}
+    },
+    "Glassblower's Tools": {
+      "name": "ガラス吹き道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong>【知力】</p><p class=\"phb-meta\"><strong>用法</strong>過去24時間にガラスの物体が何を保持していたかを識別する (難易度15)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong>@UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpyglass100], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]</p>",
+      "activities": {
+        "Ah1G0WFrQCrH8Ct4": {
+          "name": "過去に保持していたものを識別する"
+        }
+      }
+    },
+    "Herbalism Kit": {
+      "name": "薬草師道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【知力】</p><p class=\"phb-meta\"><strong>用法:</strong>植物を識別する (難易度10)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]</p>",
+      "activities": {
+        "EEn8IAiinlOlAluN": {
+          "name": "植物の識別"
+        }
+      }
+    },
+    "Jeweler's Tools": {
+      "name": "宝石細工道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【知力】</p><p class=\"phb-meta\"><strong>用法:</strong> 宝石の価値を識別する (難易度15)<p class=\"phb-meta\"><strong>アイテム作成:</strong> 秘術焦点具、聖印</p>",
+      "activities": {
+        "ghdkI4seBn7XykXx": {
+          "name": "価値を鑑別"
+        }
+      }
+    },
+    "Leatherworker's Tools": {
+      "name": "革細工道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【敏捷力】</p><p class=\"phb-meta\"><strong>用法:</strong> 革製品にデザインを加える (難易度10)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSling00000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepWhip000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000], @UUID[Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]</p>",
+      "activities": {
+        "9GMvXIRK14ghlLel": {
+          "name": "デザインを加える"
+        }
+      }
+    },
+    "Mason's Tools": {
+      "name": "石工道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【筋力】</p><p class=\"phb-meta\"><strong>用法:</strong> 石にシンボルや穴を刻む (難易度10)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]</p>",
+      "activities": {
+        "fEjYUIHLH9OahqE8": {
+          "name": "石にシンボルや穴を刻む"
+        }
+      }
+    },
+    "Musical Instrument (Varies)": {
+      "name": "楽器（さまざま）",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【魅力】<strong>重量:</strong> レアリティ</p><p class=\"phb-meta\"><strong>用法:</strong> ありふれた曲を演奏する (難易度 10),即興曲を演奏する(難易度 15)</p><table><caption>バリアント</caption><thead><tr><td>楽器</td><td>重量</td><td>価格</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusBagpipes00]</td><td>1 lb.</td><td>30 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusDrum000000]</td><td>3 lb.</td><td>6 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusDulcimer00]</td><td>10 lb.</td><td>25 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusFlute00000]</td><td>1 lb.</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusHorn000000]</td><td>2 lb.</td><td>3 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusLute000000]</td><td>2 lb.</td><td>35 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusLyre000000]</td><td>2 lb.</td><td>30 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusPanflute00]</td><td>2 lb.</td><td>12 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusShawm00000]</td><td>1 lb.</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbmusViol000000]</td><td>1 lb.</td><td>30 GP</td></tr></tbody></table>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "判定"
+        }
+      }
+    },
+    "Navigator's Tools": {
+      "name": "航海道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【判断力】</p><p class=\"phb-meta\"><strong>用法:</strong> コースを設定する (難易度10)、または星を見て位置を確認する (難易度15)</p>",
+      "activities": {
+        "tbXPqxy6Ukm9WnSs": {
+          "name": "コースを設定する"
+        },
+        "TPOgnShxoZdAsFXc": {
+          "name": "星を見て位置を確認する"
+        }
+      }
+    },
+    "Painter's Supplies": {
+      "name": "画材",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【判断力】</p><p class=\"phb-meta\"><strong>用法:</strong> 見たことがあるものの認識できるイメージを描く (難易度10)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> ドルイド用焦点具、聖印</p>",
+      "activities": {
+        "Zy0IXp9aMcAicN4l": {
+          "name": "見たことがあるものの認識できるイメージを描く"
+        }
+      }
+    },
+    "Poisoner's Kit": {
+      "name": "調毒道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【知力】</p><p class=\"phb-meta\"><strong>用法:</strong> 毒が塗られた物を検出する (難易度10)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]</p>",
+      "activities": {
+        "LLPutFBLFtMUNR0H": {
+          "name": "毒が塗られた物を検出する"
+        }
+      }
+    },
+    "Potter's Tools": {
+      "name": "陶芸道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【知力】 <strong>重量:</strong> 3 lb.</p><p class=\"phb-meta\"><strong>用法:</strong> 過去24時間に陶器の物体が何を保持していたかを識別する (難易度15)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]</p>",
+      "activities": {
+        "Wf4qq2yDYECwuUBG": {
+          "name": "過去に保持していたものを識別する"
+        }
+      }
+    },
+    "Smith's Tools": {
+      "name": "鍛冶道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【筋力】</p><p class=\"phb-meta\"><strong>用法:</strong> ドアや容器をこじ開ける (難易度20)<p class=\"phb-meta\"><strong>アイテム作成:</strong> 任意の近接武器（クラブ、グレートクラブ、クォータースタッフ、ウィップを除く）、中装鎧（ハイドを除く）、重装鎧、 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000] @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo], @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]</p>",
+      "activities": {
+        "NkpANzY0LKUz2Vm0": {
+          "name": "こじ開ける"
+        }
+      }
+    },
+    "Thieves' Tools": {
+      "name": "盗賊道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【敏捷力】</p><p class=\"phb-meta\"><strong>用法:</strong> 錠を開ける (難易度15)、または罠を解除する (難易度15)</p>",
+      "activities": {
+        "4pIHxWxCdaF3Ieok": {
+          "name": "錠を開ける・罠を解除する"
+        }
+      }
+    },
+    "Tinker's Tools": {
+      "name": "よろず修理屋道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【敏捷力】</p><p class=\"phb-meta\"><strong>用法:</strong> スクラップで構成された小型アイテムを組み立てる。1分で壊れる (難易度20)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000], @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000], @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]</p>",
+      "activities": {
+        "JSVBIHDQAhgJf1jV": {
+          "name": "小型アイテムを組み立てる"
+        }
+      }
+    },
+    "Weaver's Tools": {
+      "name": "織工道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【敏捷力】</p><p class=\"phb-meta\"><strong>用法:</strong> 衣服の裂け目を修繕する (難易度10)、または小さなデザインを縫う (難易度10)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPaddedArmo], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]</p>",
+      "activities": {
+        "UccmCl9KzcTB4zGS": {
+          "name": "修繕する、または縫う"
+        }
+      }
+    },
+    "Woodcarver's Tools": {
+      "name": "木彫道具",
+      "description": "<p class=\"phb-meta\"><strong>能力値:</strong> 【敏捷力】</p><p class=\"phb-meta\"><strong>用法:</strong> 木に模様を彫る (難易度10)</p><p class=\"phb-meta\"><strong>アイテム作成:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta], 遠隔武器（ピストル、マスケット銃、スリングを除く）, 秘術焦点具, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000], ドルイド用焦点具, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]</p>",
+      "activities": {
+        "BUtZN2MAxVTxHX0S": {
+          "name": "木に模様を彫る"
+        }
+      }
+    },
+    "Battleaxe": {
+      "name": "バトルアックス",
+      "description": "",
+      "activities": {
+        "WkTYphqhrW8RuuUm": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Blowgun": {
+      "name": "ブロウガン",
+      "description": "",
+      "activities": {
+        "EXxkQF1AZxrd6c7A": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Club": {
+      "name": "クラブ",
+      "description": "",
+      "activities": {
+        "tFtnW9SGsqxilkl5": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Dagger": {
+      "name": "ダガー",
+      "description": "",
+      "activities": {
+        "3SJSAL3pv9gKkAM9": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Dart": {
+      "name": "ダーツ",
+      "description": "",
+      "activities": {
+        "HXmVf11fhJVaDGRU": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Flail": {
+      "name": "フレイル",
+      "description": "",
+      "activities": {
+        "9fA3ExXYUl4EvWHA": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Glaive": {
+      "name": "グレイヴ",
+      "description": "",
+      "activities": {
+        "oz5daQHA5CwlHyhA": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Greataxe": {
+      "name": "グレートアックス",
+      "description": "",
+      "activities": {
+        "ylhYxAHaTmE2223j": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Greatclub": {
+      "name": "グレートクラブ",
+      "description": "",
+      "activities": {
+        "amG8qOS4NKpbj2hY": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Greatsword": {
+      "name": "グレートソード",
+      "description": "",
+      "activities": {
+        "zi3BW6RGO2ugOyXu": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Halberd": {
+      "name": "ハルバード",
+      "description": "",
+      "activities": {
+        "ToaPTz56SpDo69SZ": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Hand Crossbow": {
+      "name": "ハンド・クロスボウ",
+      "description": "",
+      "activities": {
+        "CJjRI7JX8tziGFSo": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Handaxe": {
+      "name": "ハンドアックス",
+      "description": "",
+      "activities": {
+        "rkjuC3ZV4s9UpD0i": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Heavy Crossbow": {
+      "name": "ヘヴィ・クロスボウ",
+      "description": "",
+      "activities": {
+        "bZgdThKc69XEv43i": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Javelin": {
+      "name": "ジャヴェリン",
+      "description": "",
+      "activities": {
+        "r1hUkUrLD8kqx8X0": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Lance": {
+      "name": "ランス",
+      "description": "",
+      "activities": {
+        "Fxtsz7mTZxBoZWRF": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Light Crossbow": {
+      "name": "ライト・クロスボウ",
+      "description": "",
+      "activities": {
+        "UYlAFnNzdcc3L81u": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Light Hammer": {
+      "name": "ライト・ハンマー",
+      "description": "",
+      "activities": {
+        "FHmD55OJjrFoBkHr": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Longbow": {
+      "name": "ロングボウ",
+      "description": "",
+      "activities": {
+        "b04WToYLVtgE03Dm": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Longsword": {
+      "name": "ロングソード",
+      "description": "",
+      "activities": {
+        "BFZXotvvF4YaAKeT": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Mace": {
+      "name": "メイス",
+      "description": "",
+      "activities": {
+        "KiHlb6kIDAvWmnhv": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Maul": {
+      "name": "モール",
+      "description": "",
+      "activities": {
+        "wVGKly5R472acaHj": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Morningstar": {
+      "name": "モーニングスター",
+      "description": "",
+      "activities": {
+        "QIpweawAzbt4xw5h": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Musket": {
+      "name": "マスケット",
+      "description": "",
+      "activities": {
+        "iNq67ySHyNX4jmSQ": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Pike": {
+      "name": "パイク",
+      "description": "",
+      "activities": {
+        "HjEJjclqCeGjAymL": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Pistol": {
+      "name": "ピストル",
+      "description": "",
+      "activities": {
+        "Zyg4dqUmd4VkNdov": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Quarterstaff": {
+      "name": "クオータースタッフ",
+      "description": "",
+      "activities": {
+        "XYVC9JOYrtFlLA1k": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Rapier": {
+      "name": "レイピア",
+      "description": "",
+      "activities": {
+        "0PGNisis4CVkSml5": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Scimitar": {
+      "name": "シミター",
+      "description": "",
+      "activities": {
+        "YOx3cikY6oPu6Ojh": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Shortbow": {
+      "name": "ショートボウ",
+      "description": "",
+      "activities": {
+        "XTpNEcni4iwfmaeA": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Shortsword": {
+      "name": "ショートソード",
+      "description": "",
+      "activities": {
+        "42jdrHDfDRCcYeL4": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Sickle": {
+      "name": "シックル",
+      "description": "",
+      "activities": {
+        "ApQ85BtlIJDElLuu": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Sling": {
+      "name": "スリング",
+      "description": "",
+      "activities": {
+        "pJCR6dF3xxKAupNv": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Spear": {
+      "name": "スピア",
+      "description": "",
+      "activities": {
+        "HiR3FA2Uc0oOAHU9": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Trident": {
+      "name": "トライデント",
+      "description": "",
+      "activities": {
+        "qezzwsHRqu4rtKVW": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "War Pick": {
+      "name": "ウォー・ピック",
+      "description": "",
+      "activities": {
+        "aTON7UZlIvfSwpY8": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Warhammer": {
+      "name": "ウォーハンマー",
+      "description": "",
+      "activities": {
+        "jf99rIxqlwX1YLPc": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Whip": {
+      "name": "ウィップ",
+      "description": "",
+      "activities": {
+        "VC8ZaoZ7An8WUFf6": {
+          "name": "攻撃"
+        }
+      }
+    },
+    "Fine Clothes": {
+      "name": "上等な服",
+      "description": "<p>高価な品であることが、はっきり分かるよう特別に仕立てられた服一式。</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "利用"
+        }
+      }
+    }
+  }
+}
