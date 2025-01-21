@@ -48,19 +48,19 @@
     {
       "name": "D&D ベーシックルール",
       "sorting": "m",
-      "color": "#e70115",
+      "color": "#b72c1f",
       "packs": [
-        "rulesbasicrule",
         "backgroundbasicrlule",
         "classesbasicrlule",
         "racesbasicrule",
-        "basic-creaturesjp"
+        "basic-creaturesjp",
+        "rulesbasicrule"
       ]
     },
     {
-      "name": "D&D 旧SRD",
+      "name": "D&D 旧SRD・不使用推奨",
       "sorting": "m",
-      "color": "#e70115",
+      "color": "#7d160c",
       "packs": [
         "items",
         "spells",
@@ -85,7 +85,7 @@
     },
     {
       "name": "items",
-      "label": "アイテム (SRD)・従来",
+      "label": "アイテム (SRD)・旧",
       "system": "dnd5e",
       "path": "packs/items",
       "type": "Item",
@@ -96,20 +96,8 @@
       "flags": {}
     },
     {
-      "name": "tradegoods",
-      "label": "交易品 (SRD)",
-      "system": "dnd5e",
-      "path": "packs/tradegoods",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
       "name": "spells",
-      "label": "呪文辞典SRD（旧データ・使わないでください）",
+      "label": "呪文 (SRD)・旧",
       "system": "dnd5e",
       "path": "packs/spells",
       "type": "Item",
@@ -120,8 +108,20 @@
       "flags": {}
     },
     {
+      "name": "tradegoods",
+      "label": "交易品 (SRD)・旧",
+      "system": "dnd5e",
+      "path": "packs/tradegoods",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
       "name": "treasure",
-      "label": "財宝辞典 (SRD)",
+      "label": "財宝辞典 (SRD)・旧",
       "system": "dnd5e",
       "path": "packs/treasure",
       "type": "Item",
@@ -132,22 +132,10 @@
       "flags": {}
     },
     {
-      "label": "アイテムリスト (SRD)",
+      "label": "アイテムリスト (SRD)・旧",
       "type": "JournalEntry",
       "name": "lists",
       "path": "packs/lists",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "rulesbasicrule",
-      "label": "ベーシックルール",
-      "path": "packs/rulesbasicrule",
-      "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -196,6 +184,18 @@
       "label": "モンスター (ベーシック)",
       "path": "packs/basic-creaturesjp",
       "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "rulesbasicrule",
+      "label": "ルール (ベーシック)",
+      "path": "packs/rulesbasicrule",
+      "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
