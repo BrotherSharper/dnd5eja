@@ -44,6 +44,32 @@
     ]
   },
   
+  "packFolders": [
+    {
+      "name": "D&D ベーシックルール",
+      "sorting": "m",
+      "color": "#e70115",
+      "packs": [
+        "rulesbasicrule",
+        "backgroundbasicrlule",
+        "classesbasicrlule",
+        "racesbasicrule",
+        "basic-creaturesjp"
+      ]
+    },
+    {
+      "name": "D&D 旧SRD",
+      "sorting": "m",
+      "color": "#e70115",
+      "packs": [
+        "items",
+        "spells",
+        "tradegoods",
+        "treasure",
+        "lists"
+      ]
+    }
+  ],
   "packs": [
     {
       "name": "heroes",
