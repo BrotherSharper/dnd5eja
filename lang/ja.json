@@ -28,6 +28,8 @@
 "TYPES.Item.consumablePl": "消耗品",
 "TYPES.Item.equipment": "装備品",
 "TYPES.Item.equipmentPl": "装備品",
+"TYPES.Item.facility": "Facility",
+"TYPES.Item.facilityPl": "Facilities",
 "TYPES.Item.feat": "特徴",
 "TYPES.Item.featurePl": "特徴",
 "TYPES.Item.loot": "荷物",
@@ -54,6 +56,24 @@
 "DND5E.AbbreviationLevel": "Lvl.",
 "DND5E.AbbreviationLbs": "lb.",
 "DND5E.AbbreviationSR": "小",
+
+"DND5E.ABILITY": {
+  "Configure": {
+    "Title": "Configure {ability}"
+  },
+  "SECTIONS": {
+    "Bonuses": {
+      "Label": "{ability} Bonuses",
+      "Hint": "These bonuses apply to checks & saves made with {ability}."
+    },
+    "Global": {
+      "Label": "Global Bonuses",
+      "Hint": "These bonuses apply to checks & saves made with any ability."
+    },
+    "Score": "{ability} Score"
+  }
+},
+
 "DND5E.Ability": "能力",
 "DND5E.Abilities": "能力",
 "DND5E.AbilityStr": "筋力",
@@ -73,23 +93,14 @@
 "DND5E.AbilitySan": "正気度",
 "DND5E.AbilitySanAbbr": "正気度",
 "DND5E.AbilityScore": "能力値",
+"DND5E.AbilityScoreShort": "Score",
 "DND5E.AbilityScorePl": "能力値",
 "DND5E.AbilityScoreL": "{ability}値",
 "DND5E.AbilityScoreMax": "能力値の最大値",
+"DND5E.AbilityScoreMaxShort": "Maximum",
 "DND5E.AbilityModifier": "能力修正値",
 "DND5E.AbilityPromptText": "どの {ability} 判定ですか？",
 "DND5E.AbilityPromptTitle": "{ability} の能力値判定",
-"DND5E.AbilityUseHint": "{name} {type} の使用方法を設定します。",
-"DND5E.AbilityUseUnavailableHint": "このアイテムの使用回数は残っていません！",
-"DND5E.AbilityUseChargedHint": "{type} はチャージ済で､いつでも使用可能です！",
-"DND5E.AbilityUseRechargeHint": "{type} は再チャージが必要です！",
-"DND5E.AbilityUseNormalHint": "{type} には、{per}/{max} の使用回数のうち {value} がのこっています。",
-"DND5E.AbilityUseConsumableChargeHint": "{type} を使用すると、残り {value} チャージ数のうち １消費されます。",
-"DND5E.AbilityUseConsumableQuantityHint": "{type} を使用すると、残り {quantity} のうち １消費されます。",
-"DND5E.AbilityUseConsumableDestroyHint": "{type} を使用すると最後の使用回数が消費され、アイテムが所持品から消されます。",
-"DND5E.AbilityUseConsumableDestroyResourceHint": "この {type} を使用すると最後のチャージを使い切って破壊されます。",
-"DND5E.AbilityUseConsume": "使用回数を消費しますか？ ",
-"DND5E.AbilityUseConsumeAction": "使用回数を消費",
 "DND5E.AbilityUseChargesLabel": "{value} チャージ",
 "DND5E.AbilityUseConsumableLabel": "{max} / {per}",
 "DND5E.AbilityUseCast": "呪文発動",
@@ -184,6 +195,9 @@
     "Effect": "効果",
     "Identity": "識別",
     "Time": "時間"
+  },
+  "Warning": {
+    "UsageNotAllowed": "Using this activity isn't currently possible."
   }
 },
 
@@ -444,6 +458,7 @@
 "DND5E.ArmorHeavyProficiency": "重装",
 "DND5E.ArmorLightProficiency": "軽装",
 "DND5E.ArmorMediumProficiency": "中装",
+"DND5E.ArmorValue": "Armor Value",
 "DND5E.AC": "AC",
 
 "DND5E.ATTACK": {
@@ -557,6 +572,57 @@
 "DND5E.Background": "背景",
 "DND5E.BackgroundAdd": "背景を追加",
 "DND5E.BackgroundName": "背景名",
+
+"DND5E.Bastion": {
+  "Action": {
+    "BastionTurn": "Advance Bastion Turn"
+  },
+  "Attack": {
+    "Automatic": "Resolve Automatically",
+    "Formula": "Attack Formula",
+    "NoActorWarning": "No character selected as target of the attack. Either select a token, or open their character sheet.",
+    "Resolve": "Resolve Attack",
+    "Result": {
+      "Damaged": "{link} damaged in the attack.",
+      "Deaths": {
+        "one": "<strong>{deaths}</strong> defender was slain in an attack on their bastion!",
+        "other": "<strong>{deaths}</strong> defenders were slain in an attack on their bastion!"
+      },
+      "NoDeaths": "Fended off an attack on their bastion with no casualties!",
+      "Undefended": "Undefended bastion attacked!"
+    },
+    "Title": "Bastion Attack"
+  },
+  "Button": {
+    "Label": "Show Bastion Turn Button",
+    "Hint": "Display a button for advancing bastion turns in the main game interface."
+  },
+  "Configuration": {
+    "Name": "Bastions",
+    "Label": "Configure Bastions",
+    "Hint": "Various configuration options for the Bastion system as presented in the DMG 2024."
+  },
+  "Confirm": "Advance one bastion turn?",
+  "Duration": {
+    "Label": "Bastion Turn Duration (days)"
+  },
+  "Enabled": {
+    "Label": "Enable Bastion Functionality",
+    "Hint": "When enabled, player characters will have access to a new Bastion tab on their character sheets when reaching level 5, and will be able to build facilities and issue orders to them."
+  },
+  "Gold": {
+    "Claim": "Claim Income",
+    "Claimed": "claimed",
+    "Unclaimed": "unclaimed"
+  },
+  "Label": "Bastion",
+  "Summary": {
+    "Gold": "{value} ({claimed})",
+    "NoOrders": "No orders issued to special facilities this turn.",
+    "Order": "{link} completed the <strong>{order}</strong> order."
+  }
+},
+
 "DND5E.Biography": "経歴",
 "DND5E.BiographyPublic": "公開経歴",
 "DND5E.BiopgrahyPublicEdit": "公開経歴を編集",
@@ -586,6 +652,55 @@
 "DND5E.Bonuses": "ボーナス全般",
 "DND5E.BonusesHint": "特定のロールに追加される式として全般的なボーナスを設定します。例: 1d4 + 2",
 "DND5E.BonusesInstructions": "適切なダイスロールに追加されるキャラクターボーナスを設定します",
+
+"DND5E.CAST": {
+  "Title": "Cast",
+  "FIELDS": {
+    "spell": {
+      "label": "Casting Details",
+      "challenge": {
+        "attack": {
+          "label": "Attack Bonus",
+          "hint": "Flat to hit bonus in place of the spell's normal attack bonus."
+        },
+        "save": {
+          "label": "Save DC",
+          "hint": "Flat DC to use in place of the spell's normal save DC."
+        },
+        "override": {
+          "label": "Override Values",
+          "hint": "Override the spell's normal attack bonus & DC when casting."
+        }
+      },
+      "level": {
+        "label": "Casting Level",
+        "hint": "Base level to cast the spell, if different than the spell's level."
+      },
+      "properties": {
+        "label": "Ignored Properties",
+        "hint": "Spell components & tags to ignore while casting."
+      },
+      "spellbook": {
+        "label": "Display in Spellbook",
+        "hint": "Display spell in the Spells tab of the character sheet."
+      },
+      "uuid": {
+        "label": "Spell to Cast"
+      }
+    }
+  },
+  "SECTIONS": {
+    "Spell": "Spell",
+    "Spellbook": "Additional Spells"
+  },
+  "Action": {
+    "RemoveSpell": "Remove Spell"
+  },
+  "Enchantment": {
+    "Name": "Spell Changes"
+  }
+},
+
 "DND5E.Casting": "発動",
 "DND5E.Conditions": "状態異常",
 "DND5E.Controls": {
@@ -1018,7 +1133,8 @@
     "MissingItem": "{item}の用途{activity}によって消費されるように構成されたアイテムが見つかりませんでした。",
     "MissingSpellSlot": "{level}スロットがありません。",
     "None": "{type}を消費できません。{cost}が必要です。",
-    "NotEnough": "{cost}が必要ですが、利用可能なのは{available}しかありません。"
+    "NotEnough": "{cost}が必要ですが、利用可能なのは{available}しかありません。",
+    "WillDestroy": "Consuming {item} will spend its final use and it will be destroyed."
   }
 },
 
@@ -1089,6 +1205,9 @@
     "Label": "変換",
     "Action": "全ての貨幣を両替",
     "Hint": "キャラクターが持っている全貨幣を、両替可能な最高の額の貨幣に変換します。両替は後で取り消すことができません。よろしいですか？"
+  },
+  "Error": {
+    "InsufficientFunds": "Failed to deduct {amount}{denomination} from {name}. Insufficient funds."
   },
   "Transfer": {
     "Label": "転送",
@@ -1448,16 +1567,40 @@
 },
 
 "DND5E.Environment": "環境",
+
+"DND5E.EQUIPMENT": {
+  "Type": {
+    "Clothing": {
+      "Label": "衣服"
+    },
+    "Ring": {
+      "Label": "指輪"
+    },
+    "Rod": {
+      "Label": "ロッド"
+    },
+    "Trinket": {
+      "Label": "その他"
+    },
+    "Vehicle": {
+      "Label": "乗り物の装備"
+    },
+    "Wand": {
+      "Label": "ワンド"
+    },
+    "Wondrous": {
+      "Label": "Wondrous Item"
+    }
+  }
+},
+
 "DND5E.EquipmentBonus": "魔法ボーナス",
-"DND5E.EquipmentClothing": "衣服",
 "DND5E.EquipmentHeavy": "重装鎧",
 "DND5E.EquipmentLight": "軽装鎧",
 "DND5E.EquipmentMedium": "中装鎧",
 "DND5E.EquipmentNatural": "外皮",
 "DND5E.EquipmentShield": "盾",
 "DND5E.EquipmentShieldProficiency": "盾",
-"DND5E.EquipmentTrinket": "その他",
-"DND5E.EquipmentVehicle": "乗り物の装備",
 "DND5E.Equipped": "装備済",
 "DND5E.Exhaustion": "消耗",
 "DND5E.ExhaustionLevel": "消耗段階 {n}",
@@ -1474,6 +1617,261 @@
 "DND5E.ExperiencePointsMin": "現レベルの最低経験値",
 "DND5E.ExperiencePointsValue": "XP 値",
 "DND5E.Expertise": "習熟強化",
+
+"DND5E.FACILITY": {
+  "Action": {
+    "DeleteDefender": "Delete Defender",
+    "DeleteOccupant": "Delete Occupant",
+    "RemoveCraft": "Remove Craft"
+  },
+  "AvailableFacility": {
+    "basic": {
+      "build": "Build Facility",
+      "free": "Free Facility"
+    },
+    "special": {
+      "free": "Add Facility"
+    }
+  },
+  "Build": {
+    "Unbuilt": "Unbuilt"
+  },
+  "Costs": {
+    "Automatic": "Deduct Automatically",
+    "Days": "{days} days",
+    "Label": "Costs",
+    "Manual": "Mark as Paid",
+    "Paid": "paid",
+    "Unpaid": "unpaid"
+  },
+  "Craft": {
+    "BaseItem": {
+      "Label": "Purchase Base Item",
+      "Hint": "If checked, the base item will be purchased at full price instead of crafted."
+    },
+    "Hint": "The items that this facility is currently in the process of crafting or harvesting, if any."
+  },
+  "Description": "Description",
+  "FIELDS": {
+    "building": {
+      "built": {
+        "label": "Built",
+        "hint": "Basic facilities must be built first before they can be used."
+      }
+    },
+    "defenders": {
+      "max": {
+        "label": "Defenders"
+      }
+    },
+    "disabled": {
+      "hint": "Disabled facilities cannot be issued orders and are repaired at the beginning of the next turn.",
+      "label": "Disabled"
+    },
+    "enlargeable": {
+      "hint": "Certain special facilities may have their size categories increased for a cost.",
+      "label": "Can Be Enlarged"
+    },
+    "free": {
+      "hint": "Free facilities do not count towards your special facilities cap.",
+      "label": "Free Facility"
+    },
+    "hirelings": {
+      "max": {
+        "label": "Hirelings"
+      }
+    },
+    "level": {
+      "label": "Level Requirement"
+    },
+    "order": {
+      "label": "Order"
+    },
+    "progress": {
+      "max": {
+        "label": "Total"
+      },
+      "order": {
+        "label": "Executing"
+      },
+      "value": {
+        "label": "Current"
+      }
+    },
+    "size": {
+      "label": "Size"
+    },
+    "trade": {
+      "creatures": {
+        "max": {
+          "label": "Creature Capacity"
+        }
+      },
+      "profit": {
+        "label": "Profit Factor"
+      },
+      "stock": {
+        "stocked": {
+          "hint": "Appropriate for facilities that do not store a variable value of goods, but are instead considered either stocked or empty.",
+          "label": "Stocked"
+        },
+        "value": {
+          "label": "Value"
+        },
+        "max": {
+          "label": "Max"
+        }
+      }
+    },
+    "type": {
+      "subtype": {
+        "label": "Type"
+      },
+      "value": {
+        "label": "Category"
+      }
+    }
+  },
+  "Goods": "Goods",
+  "NoDefenders": "Bastion is undefended.",
+  "Occupants": "Occupants",
+  "Order": {
+    "Execute": "Execute Order",
+    "Issue": "Issue Order: {order}"
+  },
+  "Orders": {
+    "Label": "Orders",
+    "build": {
+      "inf": "Build",
+      "present": "Building"
+    },
+    "change": {
+      "inf": "Change",
+      "present": "Changing"
+    },
+    "craft": {
+      "inf": "Craft",
+      "present": "Crafting"
+    },
+    "empower": {
+      "inf": "Empower",
+      "present": "Empowering"
+    },
+    "enlarge": {
+      "inf": "Enlarge",
+      "present": "Enlarging"
+    },
+    "harvest": {
+      "inf": "Harvest",
+      "present": "Harvesting"
+    },
+    "maintain": {
+      "inf": "Maintain",
+      "present": "Maintaining"
+    },
+    "recruit": {
+      "inf": "Recruit",
+      "present": "Recruiting"
+    },
+    "repair": {
+      "inf": "Repair",
+      "present": "Repairing"
+    },
+    "research": {
+      "inf": "Research",
+      "present": "Researching"
+    },
+    "trade": {
+      "inf": "Trade",
+      "present": "Trading"
+    }
+  },
+  "Progress": "Progress",
+  "Properties": "Properties",
+  "Sizes": {
+    "cramped": "Cramped",
+    "roomy": "Roomy",
+    "vast": "Vast"
+  },
+  "Squares": "{squares} squares",
+  "Trade": {
+    "Buy": {
+      "Supplement": "Buy"
+    },
+    "Creatures": {
+      "Buy": "Drop animals that you wish to purchase into the slots above, and update the cost appropriately below."
+    },
+    "Price": {
+      "Label": "Base Price",
+      "Hint": "Select which stock to sell, and input the base price above."
+    },
+    "Sell": {
+      "Label": "Sell Stock",
+      "Supplement": "Sell"
+    },
+    "Stock": {
+      "Buy": "Buying",
+      "Sell": "Selling"
+    },
+    "Stocked": {
+      "Label": "Fully Stock",
+      "Hint": "Input the required cost to fully stock this facility below."
+    }
+  },
+  "Types": {
+    "Basic": {
+      "Label": {
+        "one": "Basic Facility",
+        "other": "Basic Facilities"
+      },
+      "Bedroom": "Bedroom",
+      "DiningRoom": "Dining Room",
+      "Parlor": "Parlor",
+      "Courtyard": "Courtyard",
+      "Kitchen": "Kitchen",
+      "Storage": "Storage"
+    },
+    "Special": {
+      "Label": {
+        "one": "Special Facility",
+        "other": "Special Facilities"
+      },
+      "ArcaneStudy": "Arcane Study",
+      "Armory": "Armory",
+      "Barrack": "Barrack",
+      "Garden": "Garden",
+      "Library": "Library",
+      "Sanctuary": "Sanctuary",
+      "Smithy": "Smithy",
+      "Storehouse": "Storehouse",
+      "Workshop": "Workshop",
+      "GamingHall": "Gaming Hall",
+      "Greenhouse": "Greenhouse",
+      "Laboratory": "Laboratory",
+      "Sacristy": "Sacristy",
+      "Scriptorium": "Scriptorium",
+      "Stable": "Stable",
+      "TeleportationCircle": "Teleportation Circle",
+      "Theater": "Theater",
+      "TrainingArea": "Training Area",
+      "TrophyRoom": "Trophy Room",
+      "Archive": "Archive",
+      "MeditationChamber": "Meditation Chamber",
+      "Menagerie": "Menagerie",
+      "Observatory": "Observatory",
+      "Pub": "Pub",
+      "Reliquary": "Reliquary",
+      "Demiplane": "Demiplane",
+      "Guildhall": "Guildhall",
+      "Sanctum": "Sanctum",
+      "WarRoom": "War Room"
+    }
+  },
+  "Use": {
+    "Description": "Issued the <strong>{order}</strong> order to their {link} {facilityType}."
+  }
+},
+
 "DND5E.Favorite": "お気に入り",
 "DND5E.FavoriteDrop": "お気に入りをドロップ",
 "DND5E.FavoriteRemove": "お気に入りを削除",
@@ -1509,6 +1907,7 @@
   },
   "Monster": "モンスター特徴",
   "Race": "種族特徴",
+  "SpeciesLegacy": "種族特徴",
   "SupernaturalGift": {
     "Label": "超自然の賜物",
     "Blessing": "祝福",
@@ -1531,6 +1930,19 @@
 "DND5E.Loot.Treasure": "財宝",
 "DND5E.Flaws": "弱味",
 "DND5E.FormulaCannotContainDiceError": "{name}式にはダイスを設定できません。",
+
+"DND5E.FORWARD": {
+  "Title": "Forward",
+  "FIELDS": {
+    "activity": {
+      "label": "Triggered Activity"
+    }
+  },
+  "Warning": {
+    "NoActivity": "Linked activity must be configured before Forward activity can be used."
+  }
+},
+
 "DND5E.EffectCreate": "効果作成",
 "DND5E.EffectToggle": "効果切替",
 "DND5E.EffectEdit": "効果編集",
@@ -1602,7 +2014,8 @@
 "DND5E.FlagsInitiativeAdv": "イニシアチブへの有利",
 "DND5E.FlagsInitiativeAdvHint": "特技 や マジックアイテム などによって得られます。",
 "DND5E.FlagsAlert": "警戒 特技",
-"DND5E.FlagsAlertHint": "イニシアチブに＋５が得られます。",
+"DND5E.FlagsAlertHint": "Proficient in Initiative rolls.",
+"DND5E.FlagsAlertHintLegacy": "イニシアチブに+5が得られます。",
 "DND5E.FlagsJOAT": "何でも屋",
 "DND5E.FlagsJOATHint": "習熟ボーナスが適用されていない能力判定全てに､習熟ボーナスの半分を適用できます。",
 "DND5E.FlagsObservant": "観察眼",
@@ -1624,6 +2037,7 @@
 "DND5E.FormulaMalformedError": "{name}の内部にある{property}の式の処理に問題が発生しました。",
 "DND5E.FormulaMissingReferenceWarn": "{name}の内部にある{property}の式は存在しない参照を行っています：{references}",
 "DND5E.Gender": "性別",
+"DND5E.GlobalBonus": "Global Bonus",
 "DND5E.GrantedAbilities": "付与される能力",
 "DND5E.GroupInventory": "所持品",
 "DND5E.GroupHP": "合計HP",
@@ -1716,15 +2130,26 @@
 "DND5E.HitPointsMax": "最大HP",
 "DND5E.HitPointsMin": "最低HP",
 "DND5E.HitPointsOverride": "最大HP上書き",
+"DND5E.HitPointsOverrideHint": "Override automatically calculated hit points, ignoring any HP from classes, bonuses, and ability modifier.",
 "DND5E.HitPointsTemp": "一時的HP",
 "DND5E.HitPointsTempShort": "一時HP",
 "DND5E.HitPointsTempMax": "最大一時HP",
+"DND5E.HitPointsTempMaxHint": "Temporary change to the maximum HP.",
 "DND5E.HitPointsTempMaxShort": "最大HP一時変動",
 "DND5E.HP": "HP",
 "DND5E.HealthConditions": "状態",
 "DND5E.HPFormula": "HP計算式",
 "DND5E.HPFormulaError": "与えられたHPの計算式を処理できませんでした。",
 "DND5E.HPFormulaRollMessage": "HPロール式",
+
+"DND5E.HITDICE": {
+  "Action": {
+    "Decrease": "減少",
+    "Increase": "増加"
+  },
+  "Config": "ヒット・ダイス調整"
+},
+
 "DND5E.HitDie": "ヒット・ダイス",
 "DND5E.HitDice": "ヒット・ダイス",
 "DND5E.HitDiceAutoSpend": {
@@ -1784,17 +2209,18 @@
 "DND5E.ItemCritThreshold": "クリティカル閾値",
 "DND5E.ItemCritExtraDamage": "追加クリティカルダメージ",
 "DND5E.ItemDelete": "アイテム削除",
-"DND5E.ItemDestroyEmpty": "全消費時に破壊",
-"DND5E.ItemDestroyEmptyTooltip": "限定使用アイテムに限り、残りの使用回数が0になった時、アイテムが消滅します。",
 "DND5E.ItemEdit": "アイテム編集",
 "DND5E.ItemEquipmentAction": "装備品の効果",
+"DND5E.ItemEquipmentBase": "Base Equipment",
 "DND5E.ItemEquipmentDetails": "装備品の詳細",
 "DND5E.ItemEquipmentDexMod": "敏捷力修正値上限",
+"DND5E.ItemEquipmentDexModAbbr": "Max Dex",
 "DND5E.ItemEquipmentProperties": "装備品の特性",
 "DND5E.ItemEquipmentStatus": "装備品の状態",
 "DND5E.ItemEquipmentStealthDisav": "隠密不利",
 "DND5E.ItemEquipmentType": "装備品種別",
 "DND5E.ItemEquipmentUsage": "装備品の用法",
+"DND5E.ItemFacilityDetails": "Facility Details",
 "DND5E.ItemFeatureDetails": "特徴の詳細",
 "DND5E.ItemFeatureProperties": "特性",
 "DND5E.ItemFeatureSubtype": "{category}種別",
@@ -1939,7 +2365,9 @@
 "DND5E.LongRestEpic": "大休憩 (1時間)",
 "DND5E.LongRestOvernight": "大休憩 (翌朝まで)",
 "DND5E.LongRestHint": "大休憩を取りますか？ 大休憩により、君はすべてのヒットポイントが回復し、さらにすべてのヒットダイス、クラス毎のリソース、アイテムのチャージ、呪文スロットが回復します。",
+"DND5E.LongRestHintLegacy": "Take a long rest? On a long rest you will recover hit points, half your maximum hit dice, class resources, limited use item charges, and spell slots.",
 "DND5E.LongRestHintGroup": "大休憩を取りますか？ 大休憩により、このグループはすべてのヒットポイントが回復し、さらにすべてのヒットダイス、クラス毎のリソース、アイテムのチャージ、呪文スロットが回復します。",
+"DND5E.LongRestHintGroupLegacy": "Take a long rest? On a long rest group members will recover hit points, half of their maximum hit dice, class resources, limited use item charges, and spell slots.",
 "DND5E.LongRestRecovery": "大休憩後に回復",
 "DND5E.LongRestResult": "{name} は大休憩を取り､ {health} HPと､ {dice} ヒット･ダイスを回復しました。",
 "DND5E.LongRestResultHitDice": "{name} は大休憩を取り､ {dice} ヒット･ダイスを回復しました。",
@@ -2037,6 +2465,7 @@
 "DND5E.ProficiencyConfigurationHint": "習熟とボーナスを設定",
 "DND5E.ProficiencyConfigureTitle": "{label}を設定",
 "DND5E.ProficiencyLevel": "習熟段階",
+"DND5E.ProficiencyOther": "Other",
 "DND5E.Proficient": "習熟",
 "DND5E.Properties": "特性",
 "DND5E.PropertyBase": "基本",
@@ -2106,6 +2535,16 @@
 "DND5E.RestS": "小休憩",
 "DND5E.Ritual": "儀式",
 "DND5E.RitualAbbr": "儀",
+
+"DND5E.ROLL": {
+  "Range": {
+    "Label": "Roll Range",
+    "Maximum": "Maximum Roll",
+    "Minimum": "Minimum Roll"
+  },
+  "Section": "{label} Rolls"
+},
+
 "DND5E.Roll": "ロール",
 "DND5E.RollConfiguration": {
   "Title": "ロール設定",
@@ -2276,6 +2715,21 @@
 "DND5E.SizeSmallAbbr": "小",
 "DND5E.SizeTiny": "超小型",
 "DND5E.SizeTinyAbbr": "超小",
+
+"DND5E.SKILL": {
+  "SECTIONS": {
+    "Details": "{label} Details",
+    "Bonuses": {
+      "Label": "{label} Bonuses",
+      "Hint": "These bonuses apply to passive scores & checks made with {label}."
+    },
+    "Global": {
+      "Label": "Global Bonuses",
+      "Hint": "These bonuses apply to checks made with any skill."
+    }
+  }
+},
+
 "DND5E.Skill": "技能",
 "DND5E.Skills": "技能",
 "DND5E.SkillAcr": "軽業",
@@ -2526,6 +2980,10 @@
       "hint": "召喚されたクリーチャーはこの種別に変更されます。複数の種別が選択されている場合、プレイヤーは召喚時にこれらの種別から選択できます。"
     },
     "match": {
+      "ability": {
+        "label": "Match Ability",
+        "hint": "Specific ability to use when when matching attacks and save DCs."
+      },
       "attacks": {
         "label": "攻撃を一致",
         "hint": "召喚されたクリーチャーの攻撃命中値を召喚者に一致させます。"
@@ -2780,6 +3238,21 @@
   "Title": "ダイナミックリング"
 },
 "DND5E.ToggleDescription": "説明の切り替え",
+
+"DND5E.TOOL": {
+  "SECTIONS": {
+    "Details": "{label} Details",
+    "Bonuses": {
+      "Label": "{label} Bonuses",
+      "Hint": "These bonuses apply to checks made with {label}."
+    },
+    "Global": {
+      "Label": "Global Bonuses",
+      "Hint": "These bonuses apply to checks made with any tool."
+    }
+  }
+},
+
 "DND5E.ToolArtisans": "職人道具",
 "DND5E.ToolBonuses": "道具ボーナス",
 "DND5E.ToolCheck": "道具判定",
@@ -2795,12 +3268,12 @@
 "DND5E.ToolThieves": "盗賊道具",
 "DND5E.ToolVehicle": "乗り物(地上/水上)",
 "DND5E.TraitAll": "All {category}",
-"DND5E.TraitArmorPlural.one": "鎧習熟",
-"DND5E.TraitArmorPlural.other": "鎧習熟",
+"DND5E.TraitArmorPlural.one": "鎧の訓練",
+"DND5E.TraitArmorPlural.other": "鎧の訓練",
 "DND5E.TraitArmorProf": "鎧の訓練",
-"DND5E.TraitArmorLegacyPlural.one": "Armor Proficiency",
-"DND5E.TraitArmorLegacyPlural.other": "Armor Proficiencies",
-"DND5E.TraitArmorLegacyProf": "Armor Proficiencies",
+"DND5E.TraitArmorLegacyPlural.one": "鎧習熟",
+"DND5E.TraitArmorLegacyPlural.other": "鎧習熟",
+"DND5E.TraitArmorLegacyProf": "鎧習熟",
 "DND5E.TraitCIPlural.one": "状態異常完全耐性",
 "DND5E.TraitCIPlural.other": "状態異常完全耐性",
 "DND5E.TraitConfig": "{trait}設定",
@@ -2809,8 +3282,10 @@
 "DND5E.TraitConfigChooseList": "次から {count} つ {list}",
 "DND5E.TraitConfigChooseOther": "他から {count} つ {type}",
 "DND5E.TraitConfigChooseWrapper": "{choices}から選択",
-"DND5E.TraitDIPlural.one": "ダメージ完全体制",
-"DND5E.TraitDIPlural.other": "ダメージ完全体制",
+"DND5E.TraitDIPlural.one": "ダメージ完全耐性",
+"DND5E.TraitDIPlural.other": "ダメージ完全耐性",
+"DND5E.TraitDMPlural.one": "ダメージ修正",
+"DND5E.TraitDMPlural.other": "ダメージ修正",
 "DND5E.TraitDRPlural.one": "ダメージ抵抗",
 "DND5E.TraitDRPlural.other": "ダメージ抵抗",
 "DND5E.TraitDVPlural.one": "ダメージ脆弱性",
@@ -3024,7 +3499,6 @@
 "DND5E.WeaponMartialProficiency": "軍用武器",
 "DND5E.WeaponMartialR": "軍用遠隔武器",
 "DND5E.WeaponNatural": "肉体武器",
-"DND5E.WeaponOtherProficiency": "その他",
 "DND5E.WeaponSiege": "攻城兵器",
 "DND5E.WeaponSimpleM": "単純近接武器",
 "DND5E.WeaponSimpleProficiency": "単純武器",
