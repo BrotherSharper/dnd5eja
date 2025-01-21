@@ -1,5 +1,5 @@
 {
-	"label": "種族特徴【SRD】",
+	"label": "種族特徴 (SRD)",
 	"mapping": {
 		"requirements": {
 		  "path": "data.requirements",

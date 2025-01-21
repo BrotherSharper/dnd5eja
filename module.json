@@ -73,7 +73,7 @@
   "packs": [
     {
       "name": "heroes",
-      "label": "スターター･ヒーロー【SRD】",
+      "label": "スターター･ヒーロー (SRD)",
       "system": "dnd5e",
       "path": "packs/heroes",
       "type": "Actor",
@@ -85,7 +85,7 @@
     },
     {
       "name": "items",
-      "label": "アイテム【SRD】・従来",
+      "label": "アイテム (SRD)・従来",
       "system": "dnd5e",
       "path": "packs/items",
       "type": "Item",
@@ -97,7 +97,7 @@
     },
     {
       "name": "tradegoods",
-      "label": "交易品【SRD】",
+      "label": "交易品 (SRD)",
       "system": "dnd5e",
       "path": "packs/tradegoods",
       "type": "Item",
@@ -121,7 +121,7 @@
     },
     {
       "name": "treasure",
-      "label": "財宝辞典【SRD】",
+      "label": "財宝辞典 (SRD)",
       "system": "dnd5e",
       "path": "packs/treasure",
       "type": "Item",
@@ -132,7 +132,7 @@
       "flags": {}
     },
     {
-      "label": "アイテムリスト【SRD】",
+      "label": "アイテムリスト (SRD)",
       "type": "JournalEntry",
       "name": "lists",
       "path": "packs/lists",
@@ -157,7 +157,7 @@
     },
     {
       "name": "backgroundbasicrlule",
-      "label": "背景【ベーシック】",
+      "label": "背景 (ベーシック)",
       "path": "packs/backgroundbasicrlule",
       "type": "Item",
       "system": "dnd5e",
@@ -169,7 +169,7 @@
     },
     {
       "name": "classesbasicrlule",
-      "label": "クラス【ベーシック】",
+      "label": "クラス (ベーシック)",
       "path": "packs/classesbasicrlule",
       "type": "Item",
       "system": "dnd5e",
@@ -181,7 +181,7 @@
     },
     {
       "name": "racesbasicrule",
-      "label": "種族【ベーシック】",
+      "label": "種族 (ベーシック)",
       "path": "packs/racesbasicrule",
       "type": "Item",
       "system": "dnd5e",
@@ -193,7 +193,7 @@
     },
     {
       "name": "basic-creaturesjp",
-      "label": "モンスター【ベーシック】",
+      "label": "モンスター (ベーシック)",
       "path": "packs/basic-creaturesjp",
       "type": "Actor",
       "system": "dnd5e",
