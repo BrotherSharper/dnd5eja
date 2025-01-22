@@ -65,21 +65,21 @@ var types = {
 };
 
 var alignments = {
-	"chaotic evil": "混沌悪",
-	"chaotic neutral":"混沌中立",
-	"chaotic good":"混沌善",
-	"neutral evil":"中立悪",
+	"chaotic evil": "混沌にして悪",
+	"chaotic neutral":"混沌にして中立",
+	"chaotic good":"混沌にして善",
+	"neutral evil":"中立にして悪",
 	"true neutral":"真なる中立",
 	"neutral":"中立",
-	"neutral good":"中立善",
-	"lawful evil":"秩序悪",
-	"lawful neutral":"秩序中立",
-	"lawful good":"秩序善",
+	"neutral good":"中立にして善",
+	"lawful evil":"秩序にして悪",
+	"lawful neutral":"秩序にして中立",
+	"lawful good":"秩序にして善",
 	"chaotic good evil":"混沌善・悪",
 	"lawful chaotic evil":"秩序・混沌悪",
-	"unaligned":"任意の属性",
+	"unaligned":"無属性",
 	"any non-lawful": "秩序以外",
-	"any": "任意",
+	"any": "任意の属性",
 };
 
 var races = {
