@@ -1,5 +1,5 @@
 
-let removedPacks1 = ["dnd5e.heroes","dnd5e.tradegoods","dnd5e.treasure"];
+let removedPacks1 = ["dnd5e.heroes"];
 
 Hooks.on("renderCompendiumDirectory",   function(app, html, other) {
 	console.log("CleanSRD Ready")
