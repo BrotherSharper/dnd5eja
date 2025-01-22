@@ -104,6 +104,18 @@ var races = {
 };
 
 var classes = {
+	"Barbarian": "バーバリアン",
+	"Bard": "バード",
+	"Cleric": "クレリック",
+	"Druid": "ドルイド",
+	"Fighter": "ファイター",
+	"Monk": "モンク",
+	"Paladin": "パラディン",
+	"Ranger": "レンジャー",
+	"Rogue": "ローグ",
+	"Sorcerer": "ソーサラー",
+	"Warlock": "ウォーロック",
+	"Wizard": "ウィザード",
 	"Champion": "チャンピオン",
 	"College of Lore": "知の楽派",
 	"Oath of Devotion": "献身の誓い",
@@ -119,36 +131,6 @@ var classes = {
 	"Pact of the Chain": "鎖の契約",
 	"Way of the Open Hand": "開手の門"
 };
-
-// to be added in 1.6.0
-// var classes = {
-// 	"Barbarian": "バーバリアン",
-// 	"Bard": "バード",
-// 	"Cleric": "クレリック",
-// 	"Druid": "ドルイド",
-// 	"Fighter": "ファイター",
-// 	"Monk": "モンク",
-// 	"Paladin": "パラディン",
-// 	"Ranger": "レンジャー",
-// 	"Rogue": "ローグ",
-// 	"Sorcerer": "ソーサラー",
-// 	"Warlock": "ウォーロック",
-// 	"Wizard": "ウィザード",
-// 	"Champion": "チャンピオン",
-// 	"College of Lore": "知の楽派",
-// 	"Oath of Devotion": "献身の誓い",
-// 	"Life Domain": "生命の領域",
-// 	"Circle of the Land": "土地の円環",
-// 	"The Fiend": "フィーンド",
-// 	"Hunter": "ハンター",
-// 	"School of Evocation": "力術の学派",
-// 	"Path of the Berserker": "狂戦士の道",
-// 	"Eldritch Blast": "エルドリッチ・ブラスト",
-// 	"Pact of the Tome": "書の契約",
-// 	"Pact of the Blade": "剣の契約",
-// 	"Pact of the Chain": "鎖の契約",
-// 	"Way of the Open Hand": "開手の門"
-// };
 
 var rarity = {
 	"Common": "コモン",
