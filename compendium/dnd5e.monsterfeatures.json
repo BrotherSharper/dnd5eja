@@ -111,7 +111,7 @@
 		},
 		"Blood Frenzy": {
 			"name": "血の狂乱",
-			"description": "<p>[このクリーチャー]は、<strong> ヒットポイント</strong>に１点でもダメージを受けているすべてのクリーチャーに対する近接攻撃ロールに<strong> 有利 </strong>を得る</p>"
+			"description": "<p>[このクリーチャー]は、<strong> ヒットポイント</strong>に1点でもダメージを受けているすべてのクリーチャーに対する近接攻撃ロールに<strong> 有利 </strong>を得る</p>"
 		},
 		"Bound": {
 			"name": "呪縛",
