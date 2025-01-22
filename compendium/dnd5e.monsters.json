@@ -16,6 +16,12 @@
 		"Plant":"植物",
 		"Undead":"アンデッド"
 	},
+  "mapping": {
+    "alignment": {
+      "converter": "alignment",
+      "path": "system.details.alignment"
+    }
+  },
 	"entries": {
 		"Aboleth": {
 			"name": "アボレス",

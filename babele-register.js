@@ -203,8 +203,8 @@ Hooks.once('init', () => {
 					});
 				});
 			},
-			"alignement": (alignment) => {
-				return alignments[alignment.toLowerCase()];
+			"alignment": (alignment) => {
+				return alignments[alignment.toLowerCase()] ? alignments[alignment.toLowerCase()] : alignment;
 			},
 			"race": (race) => {
 				return races[race] ? races[race] : race;
