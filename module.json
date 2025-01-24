@@ -46,27 +46,28 @@
   
   "packFolders": [
     {
-      "name": "D&D ベーシックルール",
+      "name": "D&D5版 SRD追加データ",
       "sorting": "m",
       "color": "#b72c1f",
+      "packs": [
+        "heroes",
+        "items",
+        "tradegoods",
+        "treasure",
+        "lists",
+        "spells"
+      ]
+    },
+    {
+      "name": "D&D5版 ベーシックルール",
+      "sorting": "m",
+      "color": "#941919",
       "packs": [
         "backgroundbasicrlule",
         "classesbasicrlule",
         "racesbasicrule",
         "basic-creaturesjp",
         "rulesbasicrule"
-      ]
-    },
-    {
-      "name": "D&D 旧SRD・不使用推奨",
-      "sorting": "m",
-      "color": "#7d160c",
-      "packs": [
-        "items",
-        "spells",
-        "tradegoods",
-        "treasure",
-        "lists"
       ]
     }
   ],
@@ -85,7 +86,7 @@
     },
     {
       "name": "items",
-      "label": "アイテム (SRD)・旧",
+      "label": "アイテム (SRD・従来)",
       "system": "dnd5e",
       "path": "packs/items",
       "type": "Item",
@@ -96,20 +97,8 @@
       "flags": {}
     },
     {
-      "name": "spells",
-      "label": "呪文 (SRD)・旧",
-      "system": "dnd5e",
-      "path": "packs/spells",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
       "name": "tradegoods",
-      "label": "交易品 (SRD)・旧",
+      "label": "交易品 (SRD)",
       "system": "dnd5e",
       "path": "packs/tradegoods",
       "type": "Item",
@@ -121,7 +110,7 @@
     },
     {
       "name": "treasure",
-      "label": "財宝辞典 (SRD)・旧",
+      "label": "財宝辞典 (SRD)",
       "system": "dnd5e",
       "path": "packs/treasure",
       "type": "Item",
@@ -132,11 +121,23 @@
       "flags": {}
     },
     {
-      "label": "アイテムリスト (SRD)・旧",
+      "label": "アイテムリスト (SRD)",
       "type": "JournalEntry",
       "name": "lists",
       "path": "packs/lists",
       "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "label": "呪文 (SRD・旧) 使わないでください",
+      "system": "dnd5e",
+      "path": "packs/spells",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
