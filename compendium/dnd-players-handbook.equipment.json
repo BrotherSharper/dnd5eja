@@ -323,7 +323,7 @@
     },
     "Book": {
       "name": "書物",
-      "description": "<p>本はフィクションまたはノンフィクションの内容が含まれている。正確なノンフィクションの本を参照することで、そのトピックに関する【知力】（〈魔法学〉、〈歴史〉、〈自然〉、または〈宗教〉）判定に＋5のボーナスを得る。</p>",
+      "description": "<p>本はフィクションまたはノンフィクションの内容が含まれている。正確なノンフィクションの本を参照することで、そのトピックに関する【知力】（〈魔法学〉、〈歴史〉、〈自然〉、または〈宗教〉）判定に+5のボーナスを得る。</p>",
       "activities": {}
     },
     "Bottle, Glass": {
@@ -351,8 +351,8 @@
       }
     },
     "Spell Scroll, Cantrip": {
-      "name": "初級呪文、１レベル呪文の巻物",
-      "description": "<p><em>呪文の巻物</em>(初級呪文)または@UUID[Compendium.dnd-players-handbook.装備品.Item.phbagSpellScroll]は魔法のアイテムで、それぞれ初級呪文 または１レベルの呪文の文言が書かれており、内容は巻物の作成者によって決定される。巻物に書かれている呪文が君のクラスの呪文リストにあるなら、君は巻物を読み上げ、通常の発動時間を使ってその呪文を発動できる。このとき、その呪文の物質要素は何一つ提供する必要がない。</p><p>その呪文がセーヴィング・スローまたは攻撃ロールを必要とする場合、その呪文セーヴ難易度 は 13 となり、攻撃ボーナスは+5になる。呪文が発動されたならば、巻物は砕けて塵と化す。</p>",
+      "name": "初級呪文、1レベル呪文の巻物",
+      "description": "<p><em>呪文の巻物</em>(初級呪文)または@UUID[Compendium.dnd-players-handbook.装備品.Item.phbagSpellScroll]は魔法のアイテムで、それぞれ初級呪文 または1レベルの呪文の文言が書かれており、内容は巻物の作成者によって決定される。巻物に書かれている呪文が君のクラスの呪文リストにあるなら、君は巻物を読み上げ、通常の発動時間を使ってその呪文を発動できる。このとき、その呪文の物質要素は何一つ提供する必要がない。</p><p>その呪文がセーヴィング・スローまたは攻撃ロールを必要とする場合、その呪文セーヴ難易度 は 13 となり、攻撃ボーナスは+5になる。呪文が発動されたならば、巻物は砕けて塵と化す。</p>",
       "activities": {}
     },
     "Case, Crossbow Bolt": {
@@ -437,7 +437,7 @@
     },
     "Grappling Hook": {
       "name": "ひっかけ鉤",
-      "description": "<p>１回のアクションとして、ひっかけ鉤を手すり、岩棚 、または自分から 50 フィート以内にある他の引っかかりに投げることができる。難易度13の【敏捷力】〈軽業〉判定に成功すれば鉤爪が引っかかる。鉤爪にロープを結んでいた場合、君は登攀することができる 。</p>",
+      "description": "<p>1回のアクションとして、ひっかけ鉤を手すり、岩棚 、または自分から 50 フィート以内にある他の引っかかりに投げることができる。難易度13の【敏捷力】〈軽業〉判定に成功すれば鉤爪が引っかかる。鉤爪にロープを結んでいた場合、君は登攀することができる 。</p>",
       "activities": {
         "X7mlPFWw8g4zsAmB": {
           "name": "投擲"
@@ -446,7 +446,7 @@
     },
     "Healer's Kit": {
       "name": "治療用具",
-      "description": "<p>革製のポーチに包帯や軟膏、添え木などが詰まったもの。君は1回のアクションとして治療用具の使用回数を1回分使用し、HP０のクリーチャー1体を容態安定化することができる。</p>",
+      "description": "<p>革製のポーチに包帯や軟膏、添え木などが詰まったもの。君は1回のアクションとして治療用具の使用回数を1回分使用し、HP0のクリーチャー1体を容態安定化することができる。</p>",
       "activities": {
         "bsWqOT06BB3Vb2hg": {
           "name": "容体安定化"
@@ -583,7 +583,7 @@
     },
     "Priest's Pack": {
       "name": "僧侶パック",
-      "description": "<p>僧侶パックには、次のアイテムが含まれている：@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]７日分, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00].</p>",
+      "description": "<p>僧侶パックには、次のアイテムが含まれている：@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]7日分, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000], @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00].</p>",
       "activities": {}
     },
     "Quiver": {
@@ -621,8 +621,8 @@
       }
     },
     "Spell Scroll, Level 1": {
-      "name": "呪文の巻物（レベル１）",
-      "description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro] or <em>呪文の巻物</em> (レベル１)は、それぞれ初級呪文またはレベル1の呪文の言葉を記した魔法のアイテムであり、巻物の作成者によって決定される。もしその呪文が君のクラスの呪文リストにあるなら、巻物を読んで通常の発動時間で呪文を発動でき、物質要素を提供する必要はない。</p><p>もし呪文がセービング・スローを必要とするか攻撃ロールを必要とする場合、呪文セーヴ難易度は13で、攻撃ボーナスは+5である。呪文の発動が完了すると巻物自体も崩れて塵と化す。</p>",
+      "name": "呪文の巻物（レベル1）",
+      "description": "<p>A @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro] or <em>呪文の巻物</em> (レベル1)は、それぞれ初級呪文またはレベル1の呪文の言葉を記した魔法のアイテムであり、巻物の作成者によって決定される。もしその呪文が君のクラスの呪文リストにあるなら、巻物を読んで通常の発動時間で呪文を発動でき、物質要素を提供する必要はない。</p><p>もし呪文がセービング・スローを必要とするか攻撃ロールを必要とする場合、呪文セーヴ難易度は13で、攻撃ボーナスは+5である。呪文の発動が完了すると巻物自体も崩れて塵と化す。</p>",
       "activities": {}
     },
     "Spikes, Iron": {

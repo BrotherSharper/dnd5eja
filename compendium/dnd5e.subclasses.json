@@ -1,5 +1,5 @@
 {
-	"label": "【D&D】サブクラス【SRD】",
+	"label": "サブクラス (SRD)",
 	"entries": {
 		"Champion": {
 			"name": "チャンピオン",
@@ -35,11 +35,11 @@
 		},
 		"School of Evocation": {
 			"name": "力術系統",
-			"description": "<p>あなたは悴む冷気、灼熱の炎、転がる雷、ひび割れる稲妻、燃える酸など、強力な元素効果を生み出す魔法を重点的に研究しています。力術士には、敵軍を遠くから吹き飛ばす大砲のような役割を果たす者もいる。また、その強大な力で弱者を守る者もいれば、盗賊や冒険者、暴君を志す者もいる。</p>"
+			"description": "<p>君は悴む冷気、灼熱の炎、転がる雷、ひび割れる稲妻、燃える酸など、強力な元素効果を生み出す魔法を重点的に研究しています。力術士には、敵軍を遠くから吹き飛ばす大砲のような役割を果たす者もいる。また、その強大な力で弱者を守る者もいれば、盗賊や冒険者、暴君を志す者もいる。</p>"
 		},
 		"The Fiend": {
 			"name": "フィーンド",
-			"description": "<p>君は下層の存在である悪魔と契約を結び、その目的は、たとえあなたがその目的に反対しようと、悪である。そのような存在は、あらゆるものの腐敗や破壊を望み、最終的にはあなたもその対象となります。盟約を結ぶのに十分な力を持つ魔物には、デモゴルゴン、オルクス、フラズウルブ、バフォメットなどの魔王、アスモデウス、ディスパータ、メフィストフェレス、ベリアルなどの大悪魔、特に強力なピット・フィンドやバロール、ウルトラロスやその他のユゴロスの主が含まれる。</p>\n<h2>呪文リスト拡張</h2>\n<p>フィーンドと契約した君は、ウォーロック呪文を習得する際に、呪文リスト拡張の中から選択することができる。以下の呪文がウォーロックの呪文リストに追加される。</p>\n<table border=\"1\">\n<thead>\n<tr>\n<td>呪文レベル</td>\n<td>呪文</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@Compendium[dnd5e.spells.5SuJewoa1CRWaj1F]、@Compendium[dnd5e.spells.arzCrMRgcNiQuh43]</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Compendium[dnd5e.spells.zwGsAv6kmwzYGhh3]、@Compendium[dnd5e.spells.7u2obDvuvtZBkTfq]</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]、@Compendium[dnd5e.spells.TwlD4PLcltv7Xh7j]</td>\n</tr>\n<tr>\n<td>4</td>\n<td>@Compendium[dnd5e.spells.avD5XUtkBPQQR97c]、@Compendium[dnd5e.spells.X3DrXgxjwI2dvkD6]</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@Compendium[dnd5e.spells.5e1xTohkzqFqbYH4], @Compendium[dnd5e.spells.SLxA9QhrggTz0taU]</td>\n</tr>\n</tbody>\n</table>"
+			"description": "<p>君は下層の存在である悪魔と契約を結び、その目的は、たとえ君がその目的に反対しようと、悪である。そのような存在は、あらゆるものの腐敗や破壊を望み、最終的には君もその対象となります。盟約を結ぶのに十分な力を持つ魔物には、デモゴルゴン、オルクス、フラズウルブ、バフォメットなどの魔王、アスモデウス、ディスパータ、メフィストフェレス、ベリアルなどの大悪魔、特に強力なピット・フィンドやバロール、ウルトラロスやその他のユゴロスの主が含まれる。</p>\n<h2>呪文リスト拡張</h2>\n<p>フィーンドと契約した君は、ウォーロック呪文を習得する際に、呪文リスト拡張の中から選択することができる。以下の呪文がウォーロックの呪文リストに追加される。</p>\n<table border=\"1\">\n<thead>\n<tr>\n<td>呪文レベル</td>\n<td>呪文</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@Compendium[dnd5e.spells.5SuJewoa1CRWaj1F]、@Compendium[dnd5e.spells.arzCrMRgcNiQuh43]</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Compendium[dnd5e.spells.zwGsAv6kmwzYGhh3]、@Compendium[dnd5e.spells.7u2obDvuvtZBkTfq]</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]、@Compendium[dnd5e.spells.TwlD4PLcltv7Xh7j]</td>\n</tr>\n<tr>\n<td>4</td>\n<td>@Compendium[dnd5e.spells.avD5XUtkBPQQR97c]、@Compendium[dnd5e.spells.X3DrXgxjwI2dvkD6]</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@Compendium[dnd5e.spells.5e1xTohkzqFqbYH4], @Compendium[dnd5e.spells.SLxA9QhrggTz0taU]</td>\n</tr>\n</tbody>\n</table>"
 		},
 		"Thief": {
 			"name": "シーフ",

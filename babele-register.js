@@ -65,36 +65,46 @@ var types = {
 };
 
 var alignments = {
-	"chaotic evil": "混沌悪",
-	"chaotic neutral":"混沌中立",
-	"chaotic good":"混沌善",
-	"neutral evil":"中立悪",
+	"chaotic evil": "混沌にして悪",
+	"chaotic neutral":"混沌にして中立",
+	"chaotic good":"混沌にして善",
+	"neutral evil":"中立にして悪",
 	"true neutral":"真なる中立",
 	"neutral":"中立",
-	"neutral good":"中立善",
-	"lawful evil":"秩序悪",
-	"lawful neutral":"秩序中立",
-	"lawful good":"秩序善",
+	"neutral good":"中立にして善",
+	"lawful evil":"秩序にして悪",
+	"lawful neutral":"秩序にして中立",
+	"lawful good":"秩序にして善",
 	"chaotic good evil":"混沌善・悪",
 	"lawful chaotic evil":"秩序・混沌悪",
-	"unaligned":"任意の属性",
+	"unaligned":"無属性",
 	"any non-lawful": "秩序以外",
-	"any": "任意",
+	"any": "任意の属性",
 };
 
 var races = {
+	"Copper Dragonborn": "カッパードラゴンボーン",
+	"Green Dragonborn": "グリーンドラゴンボーン",
+	"Gold Dragonborn": "ゴールドドラゴンボーン",
+	"Silver Dragonborn": "シルヴァードラゴンボーン",
+	"Brass Dragonborn": "ブラスドラゴンボーン",
+	"Black Dragonborn": "ブラックドラゴンボーン",
+	"Blue Dragonborn": "ブルードラゴンボーン",
+	"Bronze Dragonborn": "ブロンズドラゴンボーン",
+	"White Dragonborn": "ホワイトドラゴンボーン",
+	"Red Dragonborn": "レッドドラゴンボーン",
 	"Dragonborn": "ドラゴンボーン",
-	"Dwarf": "ドワーフ",
 	"Hill Dwarf": "ヒル・ドワーフ",
-	"Elf": "エルフ",
+	"Dwarf": "ドワーフ",
 	"High Elf": "ハイ・エルフ",
-	"Gnome": "ノーム",
 	"Rock Gnome": "ロック・ノーム",
+	"Gnome": "ノーム",
 	"Half Elf": "ハーフエルフ",
 	"Half-Elf": "ハーフエルフ",
 	"Half-elf": "ハーフエルフ",
-	"Halfling": "ハーフリング",
+	"Elf": "エルフ",
 	"Lightfoot Halfling": "ライトフット・ハーフリング",
+	"Halfling": "ハーフリング",
 	"Half Orc": "ハーフオーク",
 	"Half-Orc": "ハーフオーク",
 	"HUMAN": "ヒューマン",
@@ -104,6 +114,18 @@ var races = {
 };
 
 var classes = {
+	"Barbarian": "バーバリアン",
+	"Bard": "バード",
+	"Cleric": "クレリック",
+	"Druid": "ドルイド",
+	"Fighter": "ファイター",
+	"Monk": "モンク",
+	"Paladin": "パラディン",
+	"Ranger": "レンジャー",
+	"Rogue": "ローグ",
+	"Sorcerer": "ソーサラー",
+	"Warlock": "ウォーロック",
+	"Wizard": "ウィザード",
 	"Champion": "チャンピオン",
 	"College of Lore": "知の楽派",
 	"Oath of Devotion": "献身の誓い",
@@ -119,36 +141,6 @@ var classes = {
 	"Pact of the Chain": "鎖の契約",
 	"Way of the Open Hand": "開手の門"
 };
-
-// to be added in 1.6.0
-// var classes = {
-// 	"Barbarian": "バーバリアン",
-// 	"Bard": "バード",
-// 	"Cleric": "クレリック",
-// 	"Druid": "ドルイド",
-// 	"Fighter": "ファイター",
-// 	"Monk": "モンク",
-// 	"Paladin": "パラディン",
-// 	"Ranger": "レンジャー",
-// 	"Rogue": "ローグ",
-// 	"Sorcerer": "ソーサラー",
-// 	"Warlock": "ウォーロック",
-// 	"Wizard": "ウィザード",
-// 	"Champion": "チャンピオン",
-// 	"College of Lore": "知の楽派",
-// 	"Oath of Devotion": "献身の誓い",
-// 	"Life Domain": "生命の領域",
-// 	"Circle of the Land": "土地の円環",
-// 	"The Fiend": "フィーンド",
-// 	"Hunter": "ハンター",
-// 	"School of Evocation": "力術の学派",
-// 	"Path of the Berserker": "狂戦士の道",
-// 	"Eldritch Blast": "エルドリッチ・ブラスト",
-// 	"Pact of the Tome": "書の契約",
-// 	"Pact of the Blade": "剣の契約",
-// 	"Pact of the Chain": "鎖の契約",
-// 	"Way of the Open Hand": "開手の門"
-// };
 
 var rarity = {
 	"Common": "コモン",
@@ -221,8 +213,8 @@ Hooks.once('init', () => {
 					});
 				});
 			},
-			"alignement": (alignment) => {
-				return alignments[alignment.toLowerCase()];
+			"alignment": (alignment) => {
+				return alignments[alignment.toLowerCase()] ? alignments[alignment.toLowerCase()] : alignment;
 			},
 			"race": (race) => {
 				return races[race] ? races[race] : race;
