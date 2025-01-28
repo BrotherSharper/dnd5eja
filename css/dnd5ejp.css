@@ -62,3 +62,8 @@ section.ability-scores.optional-ability-0{
 .item-detail.item-target {
     font-size: 90%;
 }
+
+.dnd5e2 .pills .pill{
+    align-items: center;
+}
+
