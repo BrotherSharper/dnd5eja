@@ -171,17 +171,17 @@ function parseSenses(sensesText) {
 // 	return damage;
 // }
 
-Hooks.once('init', () => {
+Hooks.once('babele.init', (babele) => {
 
 	if(typeof Babele !== 'undefined') {
 
-		Babele.get().register({
+		babele.register({
 			module: 'dnd5eja',
 			lang: 'ja',
 			dir: 'compendium'
 		});
 
-		Babele.get().registerConverters({
+		babele.registerConverters({
 			dndpages(pages, translations) {
 				return pages.map((data) => {
 					if (!translations) {
