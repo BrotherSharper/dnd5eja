@@ -29,23 +29,23 @@
 			"items":{
 				"Tentacle":{
 					"name":"触手",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+9、射程10フィート、対象1体。命中：12（2d6+5）［殴打］ダメージ。</p>\n</section>\n<p>[クリーチャー]は触手で攻撃する。</p>\n<p> 対象がクリーチャーの場合、難易度14の【耐久力】のセーヴィング・スローに成功しなければ病気になる。この病気は最初の1分間はなんの効果もなく、病気を治す魔法であればなんであれ、これを取り除くことができる。1分後、病気にかかったクリーチャーの皮膚は半透明でぬるぬるした状態になり、そのクリーチャーは水中にいない限りヒット・ポイントを回復できずなくなる。こうなってしまったら、この病気は、ヒールまたはレベル6以上の病気を治療する呪文によってのみ取り除くことができこととなる。この病気にかかっているクリーチャーが水の外にいる場合、10分ごとに6（1d12）の［酸］ダメージを受ける。これを防ぐためには、10分経つ前に皮膚に湿り気を与えてやらなければならない。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+9、射程10フィート、対象1体。命中：12（2d6+5）［殴打］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は触手で攻撃する。</p>\n<p> 対象がクリーチャーの場合、難易度14の【耐久力】のセーヴィング・スローに成功しなければ病気になる。この病気は最初の1分間はなんの効果もなく、病気を治す魔法であればなんであれ、これを取り除くことができる。1分後、病気にかかったクリーチャーの皮膚は半透明でぬるぬるした状態になり、そのクリーチャーは水中にいない限りヒット・ポイントを回復できずなくなる。こうなってしまったら、この病気は、ヒールまたはレベル6以上の病気を治療する呪文によってのみ取り除くことができこととなる。この病気にかかっているクリーチャーが水の外にいる場合、10分ごとに6（1d12）の［酸］ダメージを受ける。これを防ぐためには、10分経つ前に皮膚に湿り気を与えてやらなければならない。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Swipe":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、1回のアクションで3回の触手攻撃を行う。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、1回のアクションで3回の触手攻撃を行う。</p>"
 				}
 			}
 		},
@@ -60,28 +60,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+11、射程5フィート、対象1体。命中：13（2d6+6）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+11、射程5フィート、対象1体。命中：13（2d6+6）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -93,28 +93,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+11、射程5フィート、対象1体。命中：13（2d6+6）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+11、射程5フィート、対象1体。命中：13（2d6+6）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -125,28 +125,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+11、射程5フィート、対象1体。命中：13（2d6+6）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+11、射程5フィート、対象1体。命中：13（2d6+6）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -158,28 +158,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+12、射程5フィート、対象1体。命中：14（2d6+7）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+12、射程5フィート、対象1体。命中：14（2d6+7）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -191,28 +191,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+12、射程5フィート、対象1体。命中：13（2d6+6）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+12、射程5フィート、対象1体。命中：13（2d6+6）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -224,28 +224,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+14、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+14、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -257,28 +257,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+11、射程5フィート、対象1体。命中：13（2d6+6）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+11、射程5フィート、対象1体。命中：13（2d6+6）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -290,28 +290,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+14、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+14、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -323,28 +323,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+13、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+13、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -356,28 +356,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+11、射程5フィート、対象1体。命中：13（2d6+6）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+11、射程5フィート、対象1体。命中：13（2d6+6）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -389,11 +389,11 @@
 			"items":{
 				"Slam":{
 					"name": "叩きつけ",
-					"description": "<section class=\"secret\">\n<p>近接武器攻撃。命中+8、射程5フィート、対象1体。命中：14（2d8+5）［殴打］ダメージ。</p>\n</section>\n<p>[クリーチャー]は叩きつけで攻撃する。</p>"
+					"description": "<section class=\"secret\">\n<p>近接武器攻撃。命中+8、射程5フィート、対象1体。命中：14（2d8+5）［殴打］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は叩きつけで攻撃する。</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、2回の叩きつけ攻撃を行う。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、2回の叩きつけ攻撃を行う。</p>"
 				}
 			}
 			},
@@ -405,28 +405,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+14、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+14、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -437,28 +437,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+16、射程5フィート、対象1体。命中：16（2d6+9）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+16、射程5フィート、対象1体。命中：16（2d6+9）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -470,28 +470,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+14、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+14、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -503,28 +503,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+16、射程5フィート、対象1体。命中：16（2d6+9）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+16、射程5フィート、対象1体。命中：16（2d6+9）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -536,28 +536,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+15、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+15、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -569,28 +569,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+17、射程5フィート、対象1体。命中：17（2d6+10）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+17、射程5フィート、対象1体。命中：17（2d6+10）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -602,28 +602,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+15、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+15、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -635,28 +635,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+17、射程5フィート、対象1体。命中：17（2d6+10）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+17、射程5フィート、対象1体。命中：17（2d6+10）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -668,28 +668,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+17、射程5フィート、対象1体。命中：17（2d6+10）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+17、射程5フィート、対象1体。命中：17（2d6+10）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -701,28 +701,28 @@
 			"items":{
 				"Claw":{
 					"name":"爪",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+14、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+14、射程5フィート、対象1体。命中：15（2d6+8）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Tail":{
 					"name":"尻尾",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Wing Attack":{
 					"name":"翼の打ち払い",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				
 				"Detect":{
 					"name":"感知（レジェンダリー）",
-					"description": "<p>[クリーチャー]は【判断力】〈知覚〉判定を行う。</p>"
+					"description": "<p>[[lookup @name lowercase]]は【判断力】〈知覚〉判定を行う。</p>"
 				},
 				"Tail Attack":{
 					"name":"尾の大振り(レジェンダリー)",
-					"description":"<section class=\"secret\">\n<p>[クリーチャー]は尻尾で1回攻撃する。</p>\n</section>\n<p>[クリーチャー]は、獲物に対して尻尾を振り回す!</p>"
+					"description":"<section class=\"secret\">\n<p>[[lookup @name lowercase]]は尻尾で1回攻撃する。</p>\n</section>\n<p>[[lookup @name lowercase]]は、獲物に対して尻尾を振り回す!</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、使用可能であれば畏怖すべき存在を使用する。その後、3回の攻撃を行う。すなわち、1回の噛みつき攻撃と、2回の爪攻撃である。</p>"
 				}
 			}
 			},
@@ -734,11 +734,11 @@
 			"items":{
 				"Claw":{
 					"name": "爪",
-					"description": "<section class=\"secret\">\n<p>近接武器攻撃。命中+12、射程5フィート、対象1体。命中：17（2d10+6）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は爪で攻撃する。</p>"
+					"description": "<section class=\"secret\">\n<p>近接武器攻撃。命中+12、射程5フィート、対象1体。命中：17（2d10+6）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は爪で攻撃する。</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、2回の爪攻撃を行う。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、2回の爪攻撃を行う。</p>"
 				}
 			}
 			},
@@ -750,11 +750,11 @@
 			"items":{
 				"Slam":{
 					"name": "叩きつけ",
-					"description": "<section class=\"secret\">\n<p>近接武器攻撃。命中+4、射程5フィート、対象1体。命中：5（1d6+52）［殴打］ダメージ。</p>\n</section>\n<p>[クリーチャー]は腕部で攻撃する。</p>"
+					"description": "<section class=\"secret\">\n<p>近接武器攻撃。命中+4、射程5フィート、対象1体。命中：5（1d6+52）［殴打］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は腕部で攻撃する。</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、2回の近接攻撃を行う。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、2回の近接攻撃を行う。</p>"
 				}
 			}
 		},
@@ -770,15 +770,15 @@
 			"items":{
 				"Fist":{
 					"name": "拳",
-					"description": "<section class=\"secret\">\n<p>近接武器攻撃。命中+5、射程5フィート、対象1体。命中：6（1d6+3）［殴打］ダメージ。</p>\n</section>\n<p>[クリーチャー]は拳で攻撃する。</p>"
+					"description": "<section class=\"secret\">\n<p>近接武器攻撃。命中+5、射程5フィート、対象1体。命中：6（1d6+3）［殴打］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は拳で攻撃する。</p>"
 				},
 				"Rock":{
 					"name": "岩",
-					"description": "<section class=\"secret\">\n<p>遠隔武器攻撃。命中+5、射程25/50フィート、対象1体。命中：6（1d6+3）［殴打］ダメージ。</p>\n</section>\n<p>[クリーチャー]は岩で攻撃する。</p>"
+					"description": "<section class=\"secret\">\n<p>遠隔武器攻撃。命中+5、射程25/50フィート、対象1体。命中：6（1d6+3）［殴打］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は岩で攻撃する。</p>"
 				},
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、2回の拳攻撃を行う。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、2回の拳攻撃を行う。</p>"
 				}
 			}
 		},
@@ -794,7 +794,7 @@
 			"items":{
 				"Multiattack":{
 					"name":"複数回攻撃",
-					"description":"<p>[クリーチャー]は、2回のショートソード攻撃を行う。</p>"
+					"description":"<p>[[lookup @name lowercase]]は、2回のショートソード攻撃を行う。</p>"
 				}
 			}
 		},
@@ -810,7 +810,7 @@
 			"items":{
 				"Rake":{
 					"name":"枝葉",
-					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+1、射程5フィート、対象1体。命中：1（1d4-1）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]は枝葉で攻撃する。</p>"
+					"description":"<section class=\"secret\">\n<p>近接武器攻撃。命中+1、射程5フィート、対象1体。命中：1（1d4-1）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は枝葉で攻撃する。</p>"
 
 				}
 			}
@@ -825,7 +825,7 @@
 			"items":{
 				"Slam":{
 					"name": "叩きつけ",
-					"description": "<section class=\"secret\">\n<p>近接武器攻撃。命中+6、射程5フィート、対象1体。命中：14（3d6+4）［殴打］ダメージ。</p>\n</section>\n<p>[クリーチャー]は叩きつけで攻撃する。</p>"
+					"description": "<section class=\"secret\">\n<p>近接武器攻撃。命中+6、射程5フィート、対象1体。命中：14（3d6+4）［殴打］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]は叩きつけで攻撃する。</p>"
 				}
 			}
 		},
@@ -836,7 +836,7 @@
 			"items":{
 				"Beak":{
 					"name": "クチバシ",
-					"description": "<section class=\"secret\">\n<p>近接武器攻撃。命中+4、射程5フィート、対象1体。命中：6（1d8+1）［斬撃］ダメージ。</p>\n</section>\n<p>[クリーチャー]はクチバシで攻撃する。</p>"
+					"description": "<section class=\"secret\">\n<p>近接武器攻撃。命中+4、射程5フィート、対象1体。命中：6（1d8+1）［斬撃］ダメージ。</p>\n</section>\n<p>[[lookup @name lowercase]]はクチバシで攻撃する。</p>"
 				}
 			}
 		},
@@ -2890,7 +2890,7 @@
 				},
 				"Spellcasting":{
 					"name":"呪文発動能力",
-					"description":"　<p>[クリーチャー]は1レベルの呪文の使い手である。その呪文発動能力は【判断力】（呪文セーヴDC12、呪文攻撃の命中+4）である。[クリーチャー]は以下のクレリック呪文を準備している。</p>     <p>初級呪文（任意）：@UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{ライト}、@UUID[Compendium.dnd5e.spells.Item.n9pJzTDsAwQxJVRl]{セイクリッド・フレイム}、@UUID[Compendium.dnd5e.spells.Item.MUO1uYN7JR1hm4dR]{ソーマタージー}</p><p>1レベル（3スロット）：@UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{ブレス}、@UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{キュア・ウーンズ}、@UUID[Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl]{サンクチュアリ}</p> </section> <p>[クリーチャー]は呪文の使い手である。その呪文発動能力値は【判断力】である。</p>"
+					"description":"　<p>[[lookup @name lowercase]]は1レベルの呪文の使い手である。その呪文発動能力は【判断力】（呪文セーヴDC12、呪文攻撃の命中+4）である。[[lookup @name lowercase]]は以下のクレリック呪文を準備している。</p>     <p>初級呪文（任意）：@UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{ライト}、@UUID[Compendium.dnd5e.spells.Item.n9pJzTDsAwQxJVRl]{セイクリッド・フレイム}、@UUID[Compendium.dnd5e.spells.Item.MUO1uYN7JR1hm4dR]{ソーマタージー}</p><p>1レベル（3スロット）：@UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{ブレス}、@UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{キュア・ウーンズ}、@UUID[Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl]{サンクチュアリ}</p> </section> <p>[[lookup @name lowercase]]は呪文の使い手である。その呪文発動能力値は【判断力】である。</p>"
 				}
 			}
 		},
