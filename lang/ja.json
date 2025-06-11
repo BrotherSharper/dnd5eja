@@ -441,6 +441,14 @@
       "ModifyChoices": "選択肢編集"
     }
   },
+  "Migration": {
+    "Action": {
+      "Confirm": "マイグレーション適用"
+    },
+    "Hint": "{name} に追加される成長を選択してください。",
+    "Selection": "成長選択",
+    "Title": "成長をマイグレートする"
+  },
   "ScaleValue": {
     "Action": {
       "CopyFormula": "式をコピー"
@@ -644,9 +652,6 @@
 "DND5E.AdvancementLevelNoneHeader": "レベルなし",
 "DND5E.AdvancementLevelDownConfirmationMessage": "このクラスのレベルを下げることでそのレベルで獲得した選択肢を初期化します。下のチェックボックスを有効にしているときにのみ初期化されます。",
 "DND5E.AdvancementLevelDownConfirmationTitle": "レベル減少確認",
-"DND5E.AdvancementMigrationConfirm": "マイグレーション適用",
-"DND5E.AdvancementMigrationHint": "{name} に追加される成長を選択してください。",
-"DND5E.AdvancementMigrationTitle": "成長をマイグレートする",
 "DND5E.AdvancementModifyChoices": "選択肢編集",
 "DND5E.AdvancementSaveButton": "成長を保存",
 "DND5E.AdvancementSelectionCreateButton": "成長作成",
@@ -662,7 +667,7 @@
 "DND5E.AlignmentLE": "秩序にして悪",
 "DND5E.AlignmentLG": "秩序にして善",
 "DND5E.AlignmentLN": "秩序にして中立",
-"DND5E.AlignmentNE": "中立にして悪l",
+"DND5E.AlignmentNE": "中立にして悪",
 "DND5E.AlignmentNG": "中立にして善",
 "DND5E.AlignmentTN": "真なる中立",
 "DND5E.Amount": "数量",
@@ -704,9 +709,9 @@
 "DND5E.ArmorConfigHint": "この上のテキストボックスを変更すれば自動計算を上書きできます。",
 "DND5E.ArmorClassCalculation": "計算方法",
 "DND5E.ArmorClassFormula": "式",
-"DND5E.ArmorHeavyProficiency": "重装",
-"DND5E.ArmorLightProficiency": "軽装",
-"DND5E.ArmorMediumProficiency": "中装",
+"DND5E.ArmorHeavyProficiency": "重装鎧",
+"DND5E.ArmorLightProficiency": "軽装鎧",
+"DND5E.ArmorMediumProficiency": "中装鎧",
 "DND5E.ArmorValue": "Armor Value",
 "DND5E.AC": "AC",
 
@@ -874,6 +879,11 @@
     "Gold": "{value}（{claimed}）",
     "NoOrders": "このターン、特殊施設への命令は出されていない。",
     "Order": "{link}が<strong>{order}</strong>の命令を完了した。"
+  },
+  "Trade": {
+    "Cancel": "Cancel Pending Trade",
+    "Invalid": "Removing a pending trade will invalidate your trade order.",
+    "Pending": "Pending trade"
   }
 },
 
@@ -1725,8 +1735,8 @@
 "DND5E.Dawn": "夜明け",
 "DND5E.Day": "日毎",
 "DND5E.DeathSave": "死亡セーヴ",
-"DND5E.DeathSaveBonus": "Death Save Bonus",
-"DND5E.DeathSaveConfigure": "Configure Death Saves",
+"DND5E.DeathSaveBonus": "死亡セーヴボーナス",
+"DND5E.DeathSaveConfigure": "死亡セーヴ設定",
 "DND5E.DeathSaveCriticalSuccess": "{name} のセーヴィング･スローがクリティカル成功！１HPまで回復しました！",
 "DND5E.DeathSaveHide": "死亡セーヴを隠す",
 "DND5E.DeathSaveShow": "死亡セーヴを表示",
@@ -1857,6 +1867,31 @@
             "hint": "この付与効果が適用されると、目標のクリーチャーに新規アイテムが追加され、付与効果が解除されるとそれらが削除されます。"
           }
         }
+      },
+      "level": {
+        "label": "レベル制限",
+        "hint": "この付与効果を使用するために必要なレベルの範囲。",
+        "max": {
+          "label": "最大レベル"
+        },
+        "min": {
+          "label": "最小レベル"
+        }
+      },
+      "riders": {
+        "label": "追加",
+        "activity": {
+          "label": "追加用途",
+          "hint": "この付与効果が適用されると、目標のアイテムに追加の用途が追加され、付与効果が解除されるとそれらが削除されます。"
+        },
+        "effect": {
+          "label": "追加効果",
+          "hint": "この付与効果が適用されると、目標のアイテムに追加の効果が追加され、付与効果が解除されるとそれらが削除されます。"
+        },
+        "item": {
+          "label": "追加アイテム",
+          "hint": "この付与効果が適用されると、目標のクリーチャーに新規アイテムが追加され、付与効果が解除されるとそれらが削除されます。"
+        }
       }
     },
     "enchant": {
@@ -1945,9 +1980,9 @@
   "Label": "付与効果",
   "Period": {
     "AtWill": "At Will",
-    "LongRest": "Long Rest",
+    "LongRest": "大休憩",
     "Never": "Never",
-    "ShortRest": "Short Rest"
+    "ShortRest": "小休憩"
   },
   "Warning": {
     "NotOnActor": "付与効果はアイテムにのみ追加でき、キャラクターには直接追加できません。",
@@ -2707,7 +2742,7 @@
     "WeightlessContents": "重さ無し"
   }
 },
-"DND5E.ItemRechargeCheck": "{name} 再チャージ判定",
+"DND5E.ItemRechargeCheck": "{name} 再チャージ判定 - {result}",
 "DND5E.ItemRechargeFailure": "失敗！",
 "DND5E.ItemRechargeSuccess": "成功！",
 "DND5E.ItemRecoveryRoll": "{name}は{count}のチャージを回復した",
@@ -2738,6 +2773,14 @@
 "DND5E.ItemWeaponType": "武器種別",
 "DND5E.ItemWeaponUsage": "武器の用法",
 "DND5E.JackOfAllTrades": "何でも屋",
+
+"DND5E.JOURNALENTRY": {
+  "Navigation": {
+    "Next": "次",
+    "Previous": "前",
+    "Up": "Up"
+  }
+},
 
 "DND5E.LAIR": {
   "Label": "住処",
@@ -2832,7 +2875,7 @@
 "DND5E.LevelLimit": {
   "Label": "レベルの上限",
   "Max": "最大レベル",
-  "Min": "最低レベル"
+  "Min": "最小レベル"
 },
 "DND5E.LevelNumber": "レベル{level}",
 "DND5E.LevelScaling": "高レベル版",
@@ -2919,43 +2962,6 @@
 "DND5E.PassivePerception": "受動知覚",
 "DND5E.Period": "期間",
 "DND5E.PersonalityTraits": "人格的特徴",
-"DND5E.Polymorph": "変身",
-"DND5E.PolymorphAcceptSettings": "カスタム設定",
-"DND5E.PolymorphAddTemp": "目標のHPを一時HPとして追加",
-"DND5E.PolymorphCustomTransformation": "カスタム変身",
-"DND5E.PolymorphEffectTransformation": "変身時の効果",
-"DND5E.PolymorphKeepAE": "すべての効果を適用する（以下のすべての設定を超越する）",
-"DND5E.PolymorphKeepBackgroundAE": "背景の効果を維持する",
-"DND5E.PolymorphKeepBio": "経歴を維持する",
-"DND5E.PolymorphKeepClass": "習熟ボーナスを維持する (クラスをシートに残す)",
-"DND5E.PolymorphKeepClassAE": "クラスやサブクラスの効果を維持する",
-"DND5E.PolymorphKeepEquipmentAE": "装備の効果を維持する",
-"DND5E.PolymorphKeepFeats": "特徴を維持する",
-"DND5E.PolymorphKeepFeatureAE": "君自信の特徴の効果を維持する",
-"DND5E.PolymorphKeepHP": "HPとHDを維持する",
-"DND5E.PolymorphKeepItems": "装備品を維持する",
-"DND5E.PolymorphKeepMental": "精神能力値を維持する (知力, 判断力, 魅力)",
-"DND5E.PolymorphKeepOriginAE": "特徴やアイテムに紐づいてないキャラ固有の効果を維持する",
-"DND5E.PolymorphKeepOtherOriginAE": "他のキャラに由来する効果を維持する",
-"DND5E.PolymorphKeepPhysical": "肉体能力値を維持する (筋力, 敏捷力, 耐久力)",
-"DND5E.PolymorphKeepSaves": "キャラクターのセーヴと習熟を維持する",
-"DND5E.PolymorphKeepSelf": "自身を維持する（画像とコマの大きさのみ、ディズガイス・セルフ等）",
-"DND5E.PolymorphKeepSkills": "キャラクターの技能習熟を維持する",
-"DND5E.PolymorphKeepSpellAE": "君自身の呪文由来の効果を維持する",
-"DND5E.PolymorphKeepSpells": "呪文を維持する",
-"DND5E.PolymorphKeepType": "クリーチャー種別を維持する",
-"DND5E.PolymorphKeepVision": "感覚を維持する (キャラとコマ)",
-"DND5E.PolymorphMergeSaves": "セーヴと習熟を統合する (両立)",
-"DND5E.PolymorphMergeSkills": "キャラクターの技能習熟を維持する (両立)",
-"DND5E.PolymorphPromptTitle": "変身する",
-"DND5E.PolymorphRestoreTransformation": "変身を解く",
-"DND5E.PolymorphRevertNoOriginalActorWarn": "'{reference}'を参照元とするキャラクターが見つかりませんでした。",
-"DND5E.PolymorphRevertWarn": "このキャラクターの変身を元に戻す権限がありません。",
-"DND5E.PolymorphSelf": "外見のみ",
-"DND5E.PolymorphTmpClass": "一時的クラス",
-"DND5E.PolymorphTokens": "関連付けされた全てのコマを変身させますか？",
-"DND5E.PolymorphWarn": "このキャラクターを変身させることはできません！",
-"DND5E.PolymorphWildShape": "自然の化身",
 "DND5E.Portrait": "立ち絵",
 "DND5E.Prepared": "要準備",
 "DND5E.Prerequisites": {
@@ -3122,7 +3128,7 @@
   "Configuration": "設定",
   "Rolls": "ロール"
 },
-"DND5E.RollExample": "e.g. +1d4",
+"DND5E.RollExample": "例 +1d4",
 "DND5E.RollMode": "ロール･モード",
 "DND5E.RollSituationalBonus": "状況ボーナス有？",
 "DND5E.Rule": {
@@ -3558,7 +3564,14 @@
       }
     },
     "profiles": {
-      "label": "召喚プロファイル",
+      "count": {
+        "label": "数"
+      },
+      "cr": {
+        "label": "脅威度",
+        "abbr": "脅威",
+        "hint": "召喚されるクリーチャーの最大脅威度。"
+      },
       "FIELDS": {
         "count": {
           "label": "数"
@@ -3589,6 +3602,28 @@
         "uuid": {
           "label": "リンクされたクリーチャー"
         }
+      },
+      "label": "召喚プロファイル",
+      "level": {
+        "label": "レベル制限",
+        "hint": "このプロファイルを使用するために必要なレベルの範囲。",
+        "max": {
+          "label": "最大レベル"
+        },
+        "min": {
+          "label": "最小レベル"
+        }
+      },
+      "name": {
+        "label": "表示名",
+        "hint": "使用ダイアログに表示されるプロファイルの名前。"
+      },
+      "types": {
+        "label": "クリーチャー種別",
+        "hint": "召喚されるクリーチャーが選択できるクリーチャー種別のリスト。"
+      },
+      "uuid": {
+        "label": "リンクされたクリーチャー"
       }
     },
     "summon": {
@@ -3811,7 +3846,7 @@
     "Object": {
       "Label": "物体",
       "Counted": {
-        "any": "a任意の物体",
+        "any": "任意の物体",
         "every": "全ての物体",
         "one": "{number} 物体",
         "other": "{number} 物体"
@@ -4003,6 +4038,248 @@
 "DND5E.TraitWeaponProf": "武器の習熟",
 "DND5E.Traits": "特性",
 "DND5E.TraitsChosen": "選択された特性",
+
+"DND5E.TRANSFORM": {
+  "Action": {
+    "Restore": "変化を戻す",
+    "Transform": "変化"
+  },
+  "Dialog": {
+    "Title": "変化設定"
+  },
+  "FIELDS": {
+    "profiles": {
+      "cr": {
+        "label": "脅威度",
+        "abbr": "脅威度",
+        "hint": "元クリーチャーの最大脅威度。"
+      },
+      "FIELDS": {
+        "cr": {
+          "label": "脅威度",
+          "abbr": "脅威度",
+          "hint": "元クリーチャーの最大脅威度。"
+        },
+        "level": {
+          "label": "レベル制限",
+          "hint": "このプロファイルを使用するために必要なレベルの範囲。",
+          "max": {
+            "label": "最大レベル"
+          },
+          "min": {
+            "label": "最小レベル"
+          }
+        },
+        "movement": {
+          "hint": "元クリーチャーに許可されていない移動種別。",
+          "label": "移動種別制限"
+        },
+        "name": {
+          "hint": "使用ダイアログに表示されるプロファイルの名前。",
+          "label": "表示名"
+        },
+        "sizes": {
+          "hint": "元クリーチャーを選択できるクリーチャーサイズのリスト。",
+          "label": "クリーチャーのサイズ"
+        },
+        "types": {
+          "hint": "元クリーチャーを選択できるクリーチャー種別のリスト。",
+          "label": "クリーチャー種別"
+        }
+      },
+      "label": "変化プロファイル",
+      "level": {
+        "label": "レベル制限",
+        "hint": "このプロファイルを使用するために必要なレベルの範囲。",
+        "max": {
+          "label": "最大レベル"
+        },
+        "min": {
+          "label": "最小レベル"
+        }
+      },
+      "movement": {
+        "hint": "元クリーチャーに許可されていない移動種別。",
+        "label": "移動種別制限"
+      },
+      "name": {
+        "hint": "使用ダイアログに表示されるプロファイルの名前。",
+        "label": "表示名"
+      },
+      "sizes": {
+        "hint": "元クリーチャーを選択できるクリーチャーサイズのリスト。",
+        "label": "クリーチャーのサイズ"
+      },
+      "types": {
+        "hint": "元クリーチャーを選択できるクリーチャー種別のリスト。",
+        "label": "クリーチャー種別"
+      }
+    },
+    "transform": {
+      "label": "変化詳細",
+      "customize": {
+        "label": "カスタマイズ",
+        "hint": "選択したプリセットが提供するデフォルト変化設定ではなく、カスタム設定を使用します。"
+      },
+      "identifier": {
+        "label": "クラス識別子",
+        "hint": "キャラクターレベルまたは特定のクラスレベルを使用してプロファイルレベル制限を決定するために使用される識別子。"
+      },
+      "mode": {
+        "label": "モード",
+        "hint": "変化元クリーチャーの選択方法を設定します。",
+        "Appearance": "外見のみ",
+        "Default": "辞典ブラウザ",
+        "Direct": "直接リンクで指定"
+      },
+      "preset": {
+        "label": "プリセット"
+      }
+    }
+  },
+  "Preset": {
+    "Appearance": {
+      "Label": "外見のみ"
+    },
+    "Default": "デフォルト",
+    "Label": "プリセット",
+    "Polymorph": {
+      "Label": "ポリモーフ"
+    },
+    "WildShape": {
+      "Label": "自然の化身"
+    }
+  },
+  "Profile": {
+    "Action": {
+      "Create": "プロファイルを作成",
+      "Delete": "プロファイルを削除"
+    },
+    "ChallengeRatingLabel": "Challenge Rating of {cr} or lower",
+    "Empty": "Click the <i class=\"fas fa-plus\"></i> button above to create a profile.",
+    "Label": "変化プロファイル"
+  },
+  "SECTIONS": {
+    "Profiles": "プロファイル",
+    "Settings": "設定",
+    "Transformation": "変化"
+  },
+  "Setting": {
+    "Effects": {
+      "All": {
+        "Hint": "他の効果設定をすべて無視して、すべての効果を保持します。",
+        "Label": "すべての効果"
+      },
+      "Background": {
+        "Label": "背景効果"
+      },
+      "Class": {
+        "Label": "クラス効果"
+      },
+      "Equipment": {
+        "Label": "装備品効果"
+      },
+      "Feature": {
+        "Label": "特徴効果"
+      },
+      "Origin": {
+        "Hint": "この元キャラクターによって直接作成された効果はすべて保持します。",
+        "Label": "このキャラクター"
+      },
+      "OtherOrigin": {
+        "Hint": "ほかのキャラクターによる効果はそのまま保持します。",
+        "Label": "ほかのキャラクター"
+      },
+      "Spell": {
+        "Label": "呪文効果"
+      }
+    },
+    "FIELDS": {
+      "effects": {
+        "label": "アクティブ効果"
+      },
+      "keep": {
+        "hint": "これらの詳細は、元キャラクターから保持されます。",
+        "label": "保持"
+      },
+      "merge": {
+        "hint": "これらの習熟を統合し、より高い修正値を持つ方を保持します。",
+        "label": "統合"
+      },
+      "other": {
+        "label": "その他オプション"
+      },
+      "tempFormula": {
+        "hint": "変身時に追加される一時HPの計算式です。",
+        "label": "一時計算式"
+      },
+      "transformTokens": {
+        "label": "コマを変化"
+      }
+    },
+    "Keep": {
+      "Biography": {
+        "Label": "経歴"
+      },
+      "CreatureType": {
+        "Label": "クリーチャー種別"
+      },
+      "Equipment": {
+        "Label": "装備品"
+      },
+      "Features": {
+        "Label": "特徴"
+      },
+      "Health": {
+        "Label": "HP & ヒット・ダイス"
+      },
+      "Mental": {
+        "Hint": "知力、判断力、魅力の能力値を保持します。",
+        "Label": "精神能力値"
+      },
+      "Physical": {
+        "Hint": "筋力、敏捷力、耐久力の能力値を保持します。",
+        "Label": "肉体能力値"
+      },
+      "Proficiency": {
+        "Label": "習熟ボーナス"
+      },
+      "Saves": {
+        "Label": "セーヴ習熟"
+      },
+      "Self": {
+        "Hint": "立ち絵とコマのアートワークのみ変更し、その他の設定は無視されます。",
+        "Label": "自身"
+      },
+      "Skills": {
+        "Label": "技能習熟"
+      },
+      "Spells": {
+        "Label": "呪文"
+      },
+      "Vision": {
+        "Label": "感覚"
+      }
+    },
+    "Merge": {
+      "Saves": {
+        "Label": "セーヴ習熟"
+      },
+      "Skills": {
+        "Label": "技能習熟"
+      }
+    }
+  },
+  "TemporaryClass": "一時的クラス",
+  "Title": "変化",
+  "Warning": {
+    "NoOwnership": "このキャラクターを変身させる権限がありません。",
+    "NoPermission": "プレイヤーには変化が許可されていません。",
+    "OriginalActor": "ID '{reference}' を持つオリジナルのキャラクターが見つかりませんでした。",
+    "SourceActor": "変化先のキャラクターが見つかりませんでした。"
+  }
+},
+
 "DND5E.Treasure": {
   "Categories": {
     "Any": "任意",
@@ -4484,7 +4761,7 @@
   "StatusSurprised": "驚き",
   "StatusThreeQuartersCover": "3/4遮蔽",
   "StatusTotalCover": "完全遮蔽",
-  "StatusTransformed": "変身中"
+  "StatusTransformed": "変化中"
 },
 
 "TYPES.JournalEntryPage.class": "クラス概要",
@@ -4626,8 +4903,6 @@
 "MIGRATION.5eComplete": "D&D5版システムのバージョン{version}更新が完了しました！",
 "MIGRATION.5eVersionTooOldWarning": "現在使用しているD&D5版のシステムバージョンが想定以上に古いため、正確なデータ移行ができません。頑張ってやってみますが、途中でエラーが出ることが予想されます。",    
 
-"SETTINGS.5eAllowPolymorphingL": "プレイヤーが自分のキャラクターを変身できるようにします。",
-"SETTINGS.5eAllowPolymorphingN": "変身を許可",
 "SETTINGS.5eAutoCollapseCardL": "チャットログのアイテムカードの説明を自動的にたたみます。",
 "SETTINGS.5eAutoCollapseCardN": "チャットのアイテムカードをたたむ",
 "SETTINGS.5eAutoSpellTemplateL": "呪文を使用すると、対応するテンプレートが作成されます (優良プレイヤー以上の役割が必要です)",
@@ -4639,10 +4914,6 @@
 "SETTINGS.5eGridAlignedSquareTemplatesL": "呪文やアイテムの使用から出現した四角テンプレートはマス目に沿うようになり、回転が不可となります。",
 "SETTINGS.5eGridAlignedSquareTemplatesN": "四角テンプレートは回転不可",
 "SETTINGS.DND5E": {
-  "ALLOWSUMMONING": {
-    "Name": "召喚を許可",
-    "Hint": "アイテムに召喚の設定が施されている場合、それの使用をPLに許可します。適切に機能するには「新規キャラクター作成」の権限も必要です。"
-  },
   "BLOODIED": {
     "Name": "重傷状態",
     "Hint": "重傷状態を自動的に追跡するかどうか、その表示方法を設定します。",
@@ -4657,76 +4928,86 @@
     "Older": "過去のカードのみ縮小",
     "Never": "すべて展開"
   },
-"COMBAT": {
-  "Hint": "戦闘に影響を与える各種設定オプション。",
-  "Label": "戦闘の設定",
-  "Name": "戦闘",
-  "DexTiebreaker": {
-    "Name": "敏捷力同値の制御",
-    "Hint": "イニシアチブの同値時に、敏捷力の基本値を加えて順位を決定する。"
+  "COMBAT": {
+    "Hint": "戦闘に影響を与える各種設定オプション。",
+    "Label": "戦闘の設定",
+    "Name": "戦闘",
+    "DexTiebreaker": {
+      "Name": "敏捷力同値の制御",
+      "Hint": "イニシアチブの同値時に、敏捷力の基本値を加えて順位を決定する。"
+    },
+    "InitiativeScore": {
+      "Name": "イニシアチブ値",
+      "Hint": "クリーチャーのイニシアチブをロールする代わりに、固定値（10 + ボーナス）を使用する。",
+      "All": "すべてのキャラクターにスコアを適用",
+      "None": "常にイニシアチブをロール",
+      "NPCs": "GM管理のNPCにスコアを適用"
+    }
   },
-  "InitiativeScore": {
-    "Name": "イニシアチブ値",
-    "Hint": "クリーチャーのイニシアチブをロールする代わりに、固定値（10 + ボーナス）を使用する。",
-    "All": "すべてのキャラクターにスコアを適用",
-    "None": "常にイニシアチブをロール",
-    "NPCs": "GM管理のNPCにスコアを適用"
-  }
-},
-"CRITICAL": {
-  "Name": "クリティカルダメージ",
-  "MaxDice": {
-    "Name": "ダイス最大化",
-    "Hint": "クリティカルヒット時に基本ダメージダイスの目を最大化し、より強力な戦闘を演出する。"
+  "CRITICAL": {
+    "Name": "クリティカルダメージ",
+    "MaxDice": {
+      "Name": "ダイス最大化",
+      "Hint": "クリティカルヒット時に基本ダメージダイスの目を最大化し、より強力な戦闘を演出する。"
+    },
+    "MultiplyModifiers": {
+      "Name": "固定値倍化",
+      "Hint": "クリティカルヒット時に、ダイスだけでなく固定値の修正値も倍にする。"
+    }
   },
-  "MultiplyModifiers": {
-    "Name": "固定値倍化",
-    "Hint": "クリティカルヒット時に、ダイスだけでなく固定値の修正値も倍にする。"
-  }
-},
   "DEFAULTSKILLS": {
     "Name": "デフォルト技能",
     "Hint": "習熟度に関係なく、NPCシートに表示されるデフォルトの技能。"
   },
-"General": "一般",
-"LOYALTY": {
-  "Hint": "オプションの忠誠度追跡を有効にする。",
-  "Name": "忠誠度"
-},
-"METRIC": {
-  "LengthUnits": {
-    "Name": "長さ単位をメートル法に変更",
-    "Hint": "移動距離や感覚の単位をフィートからメートルに変更する。"
+  "General": "一般",
+  "LOYALTY": {
+    "Hint": "オプションの忠誠度追跡を有効にする。",
+    "Name": "忠誠度"
   },
-  "VolumeUnits": {
-    "Name": "体積単位をメートル法に変更",
-    "Hint": "容器の容量を立方フィートではなくリットルで表示する。"
+  "METRIC": {
+    "LengthUnits": {
+      "Name": "長さ単位をメートル法に変更",
+      "Hint": "移動距離や感覚の単位をフィートからメートルに変更する。"
+    },
+    "VolumeUnits": {
+      "Name": "体積単位をメートル法に変更",
+      "Hint": "容器の容量を立方フィートではなくリットルで表示する。"
+    },
+    "WeightUnits": {
+      "Name": "重量単位をメートル法に変更",
+      "Hint": "ポンド（lbs）の表記をキログラム（kg）に置き換え、荷重計算をメートル法で行う。"
+    }
   },
-  "WeightUnits": {
-    "Name": "重量単位をメートル法に変更",
-    "Hint": "ポンド（lbs）の表記をキログラム（kg）に置き換え、荷重計算をメートル法で行う。"
-  }
-},
-"NPCS": {
-  "Name": "NPC",
-  "AutoRecharge": {
-    "Name": "能力の再充填",
-    "Hint": "NPCのターン開始時に、自動的に能力の再充填判定を行う。",
-    "No": "自動で再充填しない",
-    "Silent": "チャットカードを作成せずに再充填",
-    "Yes": "再充填し、チャットカードを表示"
+  "NPCS": {
+    "Name": "NPC",
+    "AutoRecharge": {
+      "Name": "能力の再充填",
+      "Hint": "NPCのターン開始時に、自動的に能力の再充填判定を行う。",
+      "No": "自動で再充填しない",
+      "Silent": "チャットカードを作成せずに再充填",
+      "Yes": "再充填し、チャットカードを表示"
+    },
+    "AutoRollNPCHP": {
+      "Name": "ヒット・ポイント",
+      "Hint": "新しいコマを作成する際に、NPCの最大HPをロールするかどうかを設定する。",
+      "No": "ロールしない",
+      "Silent": "チャットカードを作成せずにロール",
+      "Yes": "ロールし、チャットカードを作成"
+    }
   },
-  "AutoRollNPCHP": {
-    "Name": "ヒット・ポイント",
-    "Hint": "新しいコマを作成する際に、NPCの最大HPをロールするかどうかを設定する。",
-    "No": "ロールしない",
-    "Silent": "チャットカードを作成せずにロール",
-    "Yes": "ロールし、チャットカードを作成"
-  }
-},
   "THEME": {
     "Name": "テーマ",
     "Hint": "UIやシートに適用されるテーマ。「自動」を選択した場合、ブラウザやOSに定義されたテーマが自動的に使用されます。"
+  },
+  "PERMISSIONS": {
+    "AllowSummoning": {
+      "Hint": "アイテムに召喚の設定が施されている場合、それの使用をPLに許可します。適切に機能するには「新規キャラクター作成」の権限も必要です。",
+      "Name": "召喚を許可"
+    },
+    "AllowTransformation": {
+      "Hint": "プレイヤーが自分のキャラクターを変化できるようにします。適切に機能するには「新規キャラクター作成」の権限も必要です。",
+      "Name": "変化を許可"
+    }
   },
   "RULESVERSION": {
     "Name": "ルールバージョン",
@@ -4734,56 +5015,56 @@
     "Legacy": "従来ルール（2014年）",
     "Modern": "最新ルール（2024年）"
   },
-"VARIANT": {
-  "Hint": "システムで提供されるルールのバリエーションを有効化し、設定します。",
-  "Label": "選択ルールの設定",
-  "Name": "選択ルール",
-  "AllowFeats": {
-    "Hint": "従来（2014）ルールを使用する際、クラスの成長時に能力値上昇の代わりに特技を選択できるようにする。",
-    "Name": "特技を許可"
+  "VARIANT": {
+    "Hint": "システムで提供されるルールのバリエーションを有効化し、設定します。",
+    "Label": "選択ルールの設定",
+    "Name": "選択ルール",
+    "AllowFeats": {
+      "Hint": "従来（2014）ルールを使用する際、クラスの成長時に能力値上昇の代わりに特技を選択できるようにする。",
+      "Name": "特技を許可"
+    },
+    "CurrencyWeight": {
+      "Hint": "所持している貨幣がキャラクターの荷重に影響を与える。",
+      "Name": "貨幣の重量を追跡"
+    },
+    "Encumbrance": {
+      "Hint": "自動的に荷重を追跡し、過剰な所持重量に応じたステータス効果を適用する。",
+      "Name": "荷重管理",
+      "None": "なし",
+      "Normal": "通常（最大運搬能力のみ）",
+      "Variant": "選択ルール（荷重＆重荷重）"
+    },
+    "HonorScore": {
+      "Hint": "オプションルール「名誉」能力値を有効化する。",
+      "Name": "「名誉」能力値"
+    },
+    "LevelingMode": {
+      "Hint": "プレイヤーが新しいレベルを取得する方法を決定する。",
+      "Name": "レベリングモード",
+      "NoXP": "XPなしのレベルアップ",
+      "XP": "経験値",
+      "XPBoons": "経験値とエピック・ブーン"
+    },
+    "ProficiencyModifier": {
+      "Bonus": "PHB: ボーナス（+2, +3, +4, +5, +6）",
+      "Dice": "DMG: ダイス（1d4, 1d6, 1d8, 1d10, 1d12）",
+      "Hint": "習熟補正を固定ボーナスまたはダイスロール方式に設定する。",
+      "Name": "習熟オプションルール"
+    },
+    "Rest": {
+      "Epic": "英雄伝説志向（大休憩: 1時間、小休憩: 1分）",
+      "Gritty": "リアリズム志向（大休憩: 7日間、小休憩: 8時間）",
+      "Hint": "このシステムで使用する休憩ルールを設定する。",
+      "Name": "休憩ルール",
+      "Normal": "プレイヤーズ・ハンドブック（大休憩: 8時間、小休憩: 1時間）"
+    },
+    "SanityScore": {
+      "Hint": "オプションルール「正気度」能力値を有効化する。",
+      "Name": "「正気度」能力値"
+    }
   },
-  "CurrencyWeight": {
-    "Hint": "所持している貨幣がキャラクターの荷重に影響を与える。",
-    "Name": "貨幣の重量を追跡"
-  },
-  "Encumbrance": {
-    "Hint": "自動的に荷重を追跡し、過剰な所持重量に応じたステータス効果を適用する。",
-    "Name": "荷重管理",
-    "None": "なし",
-    "Normal": "通常（最大運搬能力のみ）",
-    "Variant": "選択ルール（荷重＆重荷重）"
-  },
-  "HonorScore": {
-    "Hint": "オプションルール「名誉」能力値を有効化する。",
-    "Name": "「名誉」能力値"
-  },
-  "LevelingMode": {
-    "Hint": "プレイヤーが新しいレベルを取得する方法を決定する。",
-    "Name": "レベリングモード",
-    "NoXP": "XPなしのレベルアップ",
-    "XP": "経験値",
-    "XPBoons": "経験値とエピック・ブーン"
-  },
-  "ProficiencyModifier": {
-    "Bonus": "PHB: ボーナス（+2, +3, +4, +5, +6）",
-    "Dice": "DMG: ダイス（1d4, 1d6, 1d8, 1d10, 1d12）",
-    "Hint": "習熟補正を固定ボーナスまたはダイスロール方式に設定する。",
-    "Name": "習熟オプションルール"
-  },
-  "Rest": {
-    "Epic": "英雄伝説志向（大休憩: 1時間、小休憩: 1分）",
-    "Gritty": "リアリズム志向（大休憩: 7日間、小休憩: 8時間）",
-    "Hint": "このシステムで使用する休憩ルールを設定する。",
-    "Name": "休憩ルール",
-    "Normal": "プレイヤーズ・ハンドブック（大休憩: 8時間、小休憩: 1時間）"
-  },
-  "SanityScore": {
-    "Hint": "オプションルール「正気度」能力値を有効化する。",
-    "Name": "「正気度」能力値"
-  }
-},
   "VISIBILITY": {
-"Hint": "DMが秘密にしたい情報のプレイヤーへの可視性に影響を与える各種設定オプション。",
+    "Hint": "DMが秘密にしたい情報のプレイヤーへの可視性に影響を与える各種設定オプション。",
     "Label": "可視性設定",
     "Name": "可視性",
     "Attack": {
@@ -4816,6 +5097,8 @@
   }
 },
 
+"SOURCE.BOOK.FreeRules": "フリールール",
 "SOURCE.BOOK.SRD": "System Reference Document 5.1",
+"SOURCE.BOOK.SRD52": "System Reference Document 5.2",
 "SIDEBAR.SortModePriority": "優先順でソートする"
 }
