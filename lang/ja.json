@@ -170,17 +170,55 @@
     "Vehicle": "乗り物"
   },
   "Type": {
+    "Action": {
+      "Header": "アクション",
+      "Label": "アクション"
+    },
+    "BonusAction": {
+      "Header": "ボーナスアクション",
+      "Label": "ボーナスアクション"
+    },
+    "Crew": {
+      "Header": "乗員アクション",
+      "Label": "乗員アクション"
+    },
+    "Day": {
+      "Header": "日",
+      "Label": "日"
+    },
     "Encounter": {
       "Label": "遭遇の開始"
+    },
+    "Hour": {
+      "Header": "時間",
+      "Label": "時間"
+    },
+    "Lair": {
+      "Header": "住処アクション",
+      "Label": "住処アクション"
     },
     "Legendary": {
       "Counted": {
         "one": "{number} 伝説的アクション",
         "other": "{number} 伝説的アクション"
-      }
+      },
+      "Header": "伝説的アクション",
+      "Label": "伝説的アクション"
     },
     "LongRest": {
       "Label": "大休憩終了時"
+    },
+    "Minute": {
+      "Header": "分",
+      "Label": "分"
+    },
+    "Mythic": {
+      "Header": "神話アクション",
+      "Label": "神話アクション"
+    },
+    "Reaction": {
+      "Header": "リアクション",
+      "Label": "リアクション"
     },
     "ShortRest": {
       "Label": "小休憩終了時"
@@ -1840,34 +1878,7 @@
 "DND5E.ENCHANT": {
   "Title": "付与効果",
   "FIELDS": {
-    "effects": {
-      "FIELDS": {
-        "level": {
-          "label": "レベル制限",
-          "hint": "この付与効果を使用するために必要なレベルの範囲。",
-          "max": {
-            "label": "最大レベル"
-          },
-          "min": {
-            "label": "最小レベル"
-          }
-        },
-        "riders": {
-          "label": "追加",
-          "activity": {
-            "label": "追加用途",
-            "hint": "この付与効果が適用されると、目標のアイテムに追加の用途が追加され、付与効果が解除されるとそれらが削除されます。"
-          },
-          "effect": {
-            "label": "追加効果",
-            "hint": "この付与効果が適用されると、目標のアイテムに追加の効果が追加され、付与効果が解除されるとそれらが削除されます。"
-          },
-          "item": {
-            "label": "追加アイテム",
-            "hint": "この付与効果が適用されると、目標のクリーチャーに新規アイテムが追加され、付与効果が解除されるとそれらが削除されます。"
-          }
-        }
-      },
+    "effects.element": {
       "level": {
         "label": "レベル制限",
         "hint": "この付与効果を使用するために必要なレベルの範囲。",
@@ -2414,13 +2425,6 @@
 "DND5E.EffectUnavailable": "使用不可効果",
 "DND5E.EffectUnavailableInfo": "元となるアイテムを装備することで使用可能になります",
 "DND5E.Encumbrance": "荷重",
-"DND5E.ItemRarityCommon": "コモン",
-"DND5E.ItemRarityMundane": "非魔法的",
-"DND5E.ItemRarityUncommon": "アンコモン",
-"DND5E.ItemRarityRare": "レア",
-"DND5E.ItemRarityVeryRare": "ヴェリーレア",
-"DND5E.ItemRarityLegendary": "レジェンダリー",
-"DND5E.ItemRarityArtifact": "アーティファクト",
 "DND5E.Eyes": "目",
 "DND5E.Faith": "信仰",
 "DND5E.FeatureActive": "アクティブ",
@@ -2709,39 +2713,13 @@
 "DND5E.ItemLootType": "荷物の種別",
 "DND5E.ItemName": "アイテム名",
 "DND5E.ItemNew": "新規 {type}",
-"DND5E.Item": {
-  "Category": {
-    "Label": "種別",
-    "Physical": "物理"
-  },
-  "Property": {
-    "Adamantine": "アダマンティン",
-    "Ammunition": "矢弾",
-    "Concentration": "精神集中",
-    "Finesse": "妙技",
-    "Firearm": "射出",
-    "Focus": "焦点具",
-    "Heavy": "重武器",
-    "Light": "軽武器",
-    "Loading": "装填",
-    "Material": "物質",
-    "Magical": "魔法的",
-    "Reach": "間合い",
-    "Reload": "再装填",
-    "Returning": "戻ってくる",
-    "Ritual": "儀式",
-    "Silvered": "銀",
-    "Somatic": "動作",
-    "Special": "特殊",
-    "StealthDisadvantage": "隠密不利",
-    "Thrown": "投擲",
-    "Trait": "受動特徴",
-    "TwoHanded": "両手",
-    "Versatile": "両用",
-    "Verbal": "音声",
-    "WeightlessContents": "重さ無し"
-  }
-},
+"DND5E.ItemRarityCommon": "コモン",
+"DND5E.ItemRarityMundane": "非魔法的",
+"DND5E.ItemRarityUncommon": "アンコモン",
+"DND5E.ItemRarityRare": "レア",
+"DND5E.ItemRarityVeryRare": "ヴェリーレア",
+"DND5E.ItemRarityLegendary": "レジェンダリー",
+"DND5E.ItemRarityArtifact": "アーティファクト",
 "DND5E.ItemRechargeCheck": "{name} 再チャージ判定 - {result}",
 "DND5E.ItemRechargeFailure": "失敗！",
 "DND5E.ItemRechargeSuccess": "成功！",
@@ -2772,6 +2750,49 @@
 "DND5E.ItemWeaponStatus": "装備品の状態",
 "DND5E.ItemWeaponType": "武器種別",
 "DND5E.ItemWeaponUsage": "武器の用法",
+
+"DND5E.ITEM": {
+  "Category": {
+    "Label": "種別",
+    "Physical": "物理"
+  },
+  "Property": {
+    "Adamantine": "アダマンティン",
+    "Ammunition": "矢弾",
+    "Concentration": "精神集中",
+    "Finesse": "妙技",
+    "Firearm": "射出",
+    "Focus": "焦点具",
+    "Heavy": "重武器",
+    "Light": "軽武器",
+    "Loading": "装填",
+    "Material": "物質",
+    "Magical": "魔法的",
+    "Reach": "間合い",
+    "Reload": "再装填",
+    "Returning": "戻ってくる",
+    "Ritual": "儀式",
+    "Silvered": "銀",
+    "Somatic": "動作",
+    "Special": "特殊",
+    "StealthDisadvantage": "隠密不利",
+    "Thrown": "投擲",
+    "Trait": "受動特徴",
+    "TwoHanded": "両手",
+    "Versatile": "両用",
+    "Verbal": "音声",
+    "WeightlessContents": "重さ無し"
+  },
+  "SECTIONS": {
+    "Activities": "用途",
+    "Advancement": "成長",
+    "Contents": "内容",
+    "Description": "説明",
+    "Details": "詳細",
+    "Effects": "効果"
+  }
+},
+
 "DND5E.JackOfAllTrades": "何でも屋",
 
 "DND5E.JOURNALENTRY": {
@@ -3049,6 +3070,7 @@
 "DND5E.RechargeShort": "小休憩後または大休憩に再び使用可能",
 "DND5E.Recovery": "回復",
 "DND5E.RecoveryFormula": "回復式",
+"DND5E.Remaining": "残",
 "DND5E.RequiredMaterials": "物質要素",
 "DND5E.Requirements": "必要条件",
 "DND5E.Resistances": "抵抗",
@@ -3564,15 +3586,7 @@
       }
     },
     "profiles": {
-      "count": {
-        "label": "数"
-      },
-      "cr": {
-        "label": "脅威度",
-        "abbr": "脅威",
-        "hint": "召喚されるクリーチャーの最大脅威度。"
-      },
-      "FIELDS": {
+      "element": {
         "count": {
           "label": "数"
         },
@@ -3603,28 +3617,7 @@
           "label": "リンクされたクリーチャー"
         }
       },
-      "label": "召喚プロファイル",
-      "level": {
-        "label": "レベル制限",
-        "hint": "このプロファイルを使用するために必要なレベルの範囲。",
-        "max": {
-          "label": "最大レベル"
-        },
-        "min": {
-          "label": "最小レベル"
-        }
-      },
-      "name": {
-        "label": "表示名",
-        "hint": "使用ダイアログに表示されるプロファイルの名前。"
-      },
-      "types": {
-        "label": "クリーチャー種別",
-        "hint": "召喚されるクリーチャーが選択できるクリーチャー種別のリスト。"
-      },
-      "uuid": {
-        "label": "リンクされたクリーチャー"
-      }
+      "label": "召喚プロファイル"
     },
     "summon": {
       "label": "召喚の詳細",
@@ -3675,7 +3668,6 @@
   },
   "Warning": {
     "CreateActor": "辞典から直接召喚するには「新規キャラクター作成」の権限が必要です。",
-    "CRV11": "脅威度による召喚はFoundry V12以降でのみ機能します。",
     "NoActor": "UUID '{uuid}' を持つキャラクターが見つからないため、召喚できません。",
     "NoOwnership": "召喚するには '{actor}' の所有権限が必要です。",
     "NoProfile": "'{item}' の召喚プロファイル {profileId} が見つかりません。",
@@ -4049,12 +4041,7 @@
   },
   "FIELDS": {
     "profiles": {
-      "cr": {
-        "label": "脅威度",
-        "abbr": "脅威度",
-        "hint": "元クリーチャーの最大脅威度。"
-      },
-      "FIELDS": {
+      "element": {
         "cr": {
           "label": "脅威度",
           "abbr": "脅威度",
@@ -4087,33 +4074,7 @@
           "label": "クリーチャー種別"
         }
       },
-      "label": "変化プロファイル",
-      "level": {
-        "label": "レベル制限",
-        "hint": "このプロファイルを使用するために必要なレベルの範囲。",
-        "max": {
-          "label": "最大レベル"
-        },
-        "min": {
-          "label": "最小レベル"
-        }
-      },
-      "movement": {
-        "hint": "元クリーチャーに許可されていない移動種別。",
-        "label": "移動種別制限"
-      },
-      "name": {
-        "hint": "使用ダイアログに表示されるプロファイルの名前。",
-        "label": "表示名"
-      },
-      "sizes": {
-        "hint": "元クリーチャーを選択できるクリーチャーサイズのリスト。",
-        "label": "クリーチャーのサイズ"
-      },
-      "types": {
-        "hint": "元クリーチャーを選択できるクリーチャー種別のリスト。",
-        "label": "クリーチャー種別"
-      }
+      "label": "変化プロファイル"
     },
     "transform": {
       "label": "変化詳細",
