@@ -215,8 +215,7 @@
   "styles": [
     "css/dnd5ejp.css",
     "css/tidy5ejp.css",
-    "css/fonts/noto-sans-jp.css",
-    "css/spell-levels.css"
+    "css/fonts/noto-sans-jp.css"
   ],
   "languages": [
     {
