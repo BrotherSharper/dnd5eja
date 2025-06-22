@@ -113,6 +113,22 @@ var races = {
 	"Tiefling": "ティーフリング"
 };
 
+var habitats = {
+    "Any": "任意",
+    "Arctic": "極地",
+    "Coastal": "沿岸",
+    "Desert": "砂漠",
+    "Forest": "森林",
+    "Grassland": "草原",
+    "Hill": "丘陵",
+    "Mountain": "山岳",
+    "Planar": "次元界",
+    "Swamp": "湿地",
+    "Underdark": "アンダーダーク",
+    "Underwater": "水中",
+    "Urban": "都市"
+};
+
 var classes = {
 	"Barbarian": "バーバリアン",
 	"Bard": "バード",
@@ -221,6 +237,9 @@ Hooks.once('babele.init', (babele) => {
 			},
 			"rarity": (r) => {
 				return rarity[r] ? rarity[r] : r
+			},
+			"habitat": (habitat) => {
+				return habitats[habitat] ? habitats[habitat] : habitat
 			},
 			"raceRequirements": (requirements) => {
 				let translated = requirements;
