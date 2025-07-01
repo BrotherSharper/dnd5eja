@@ -69,14 +69,14 @@
   },
   "SECTIONS": {
     "Bonuses": {
-      "Label": "{ability} ボーナス",
+      "Label": "{ability}ボーナス",
       "Hint": "このボーナスは{ability}で行った判定とセーヴに適用されます。"
     },
     "Global": {
       "Label": "全体ボーナス",
       "Hint": "このボーナスは全ての判定とセーブに適用されます。"
     },
-    "Score": "{ability} 値"
+    "Score": "{ability}値"
   }
 },
 
@@ -107,7 +107,7 @@
 "DND5E.AbilityModifier": "能力修正値",
 "DND5E.AbilityModifierShort": "修正",
 "DND5E.AbilityPromptText": "どの {ability} 判定ですか？",
-"DND5E.AbilityPromptTitle": "{ability} の能力値判定",
+"DND5E.AbilityPromptTitle": "【{ability} 】能力値判定",
 "DND5E.AbilityUseChargesLabel": "{value} チャージ",
 "DND5E.AbilityUseConsumableLabel": "{max} / {per}",
 "DND5E.AbilityUseCast": "呪文発動",
@@ -607,7 +607,7 @@
       "AddChoice": "選択を追加",
       "RemoveChoice": "選択を削除"
     },
-    "ChoicesRemaining": "{type} をあと {count} つ選択",
+    "ChoicesRemaining": "{type} をあと{count}つ選択",
     "Details": "特性詳細",
     "FIELDS": {
       "allowReplacements": {
@@ -730,11 +730,11 @@
     "Width": "幅"
   }
 },
-"DND5E.Armor": "鎧",
+"DND5E.Armor": "防具",
 "DND5E.ArmorClass": "アーマー・クラス",
-"DND5E.ArmorClassEquipment": "装備済みの鎧",
+"DND5E.ArmorClassEquipment": "装備中の防具",
 "DND5E.ArmorClassFlat": "手動",
-"DND5E.ArmorClassUnarmored": "鎧無し",
+"DND5E.ArmorClassUnarmored": "防具無し",
 "DND5E.ArmorClassNatural": "外皮",
 "DND5E.ArmorClassMage": "メイジ・アーマー",
 "DND5E.ArmorClassMotionless": "静止時のアーマー・クラス",
@@ -750,7 +750,7 @@
 "DND5E.ArmorHeavyProficiency": "重装鎧",
 "DND5E.ArmorLightProficiency": "軽装鎧",
 "DND5E.ArmorMediumProficiency": "中装鎧",
-"DND5E.ArmorValue": "Armor Value",
+"DND5E.ArmorValue": "AC値",
 "DND5E.AC": "AC",
 
 "DND5E.ATTACK": {
@@ -819,8 +819,8 @@
     "Weapon": "武器"
   },
   "Formatted": {
-    "2014": "{type} {classification} 攻撃",
-    "2024": "{type} 攻撃ロール"
+    "2014": "{type}{classification}攻撃",
+    "2024": "{type}攻撃ロール"
   },
   "Mode": {
     "Label": "攻撃モード",
@@ -2015,7 +2015,7 @@
       "Label": "ロッド"
     },
     "Trinket": {
-      "Label": "その他"
+      "Label": "珍品奇品"
     },
     "Vehicle": {
       "Label": "乗り物の装備"
@@ -2024,7 +2024,7 @@
       "Label": "ワンド"
     },
     "Wondrous": {
-      "Label": "その他"
+      "Label": "その他の魔法のアイテム"
     }
   }
 },
@@ -2418,7 +2418,7 @@
 "DND5E.EffectNew": "新規効果",
 "DND5E.EffectType": {
   "Inactive": "無効",
-  "Passive": "パッシブ",
+  "Passive": "受動",
   "Temporary": "一時的",
   "Unavailable": "使用不可"
 },
@@ -2430,7 +2430,7 @@
 "DND5E.FeatureActive": "アクティブ",
 "DND5E.FeatureAdd": "特徴の作成",
 "DND5E.FeatureAttack": "攻撃特徴",
-"DND5E.FeaturePassive": "パッシブ",
+"DND5E.FeaturePassive": "受動",
 "DND5E.FeatureRechargeOn": "回復式",
 "DND5E.FeatureRechargeResult": "1d6の結果",
 "DND5E.FeatureSearch": "特徴を検索",
@@ -2468,25 +2468,25 @@
 "DND5E.FlagsHalflingLucky": "ハーフリングの幸運",
 "DND5E.FlagsHalflingLuckyHint": "D20ロールで１の出目が出たときダイスを振り直します。",
 "DND5E.FlagsInitiativeAdv": "イニシアチブへの有利",
-"DND5E.FlagsInitiativeAdvHint": "特技 や マジックアイテム などによって得られます。",
+"DND5E.FlagsInitiativeAdvHint": "特技や魔法のアイテムなどによって得られます。",
 "DND5E.FlagsAlert": "警戒 特技",
 "DND5E.FlagsAlertHint": "イニシアチブロールに習熟",
 "DND5E.FlagsAlertHintLegacy": "イニシアチブに+5が得られます。",
 "DND5E.FlagsJOAT": "何でも屋",
 "DND5E.FlagsJOATHint": "習熟ボーナスが適用されていない能力判定全てに､習熟ボーナスの半分を適用できます。",
 "DND5E.FlagsObservant": "観察眼",
-"DND5E.FlagsObservantHint": "受動<知覚>と､受動<捜査>に ＋５のボーナスを得ます。",
+"DND5E.FlagsObservantHint": "受動〈知覚〉と､受動〈捜査〉に +5のボーナスを得ます。",
 "DND5E.FlagsTavernBrawler": "酒場流喧嘩殺法",
 "DND5E.FlagsTavernBrawlerHint": "代用武器への習熟",
 "DND5E.FlagsReliableTalent": "確かな技術",
 "DND5E.FlagsReliableTalentHint": "習熟ボーナスが足せる能力値判定を行なった時、D20で9以下の出目は10と見なす。",
 "DND5E.FlagsRemarkableAthlete": "抜群の身体能力",
 "DND5E.FlagsRemarkableAthleteHint": "習熟ボーナスが適用されていない､筋力､敏捷力､耐久力の全ての判定に､習熟ボーナスの半分を適用できます。",
-"DND5E.FlagsWeaponCritThreshold": "武器のｸﾘﾃｨｶﾙ閾値",
+"DND5E.FlagsWeaponCritThreshold": "武器のクリティカル閾値",
 "DND5E.FlagsWeaponCritThresholdHint": "武器のクリティカル可能域を拡大します。",
-"DND5E.FlagsSpellCritThreshold": "呪文ｸﾘﾃｨｶﾙの閾値",
+"DND5E.FlagsSpellCritThreshold": "呪文クリティカルの閾値",
 "DND5E.FlagsSpellCritThresholdHint": "呪文攻撃によるクリティカルの閾値を拡張します。",
-"DND5E.FlagsMeleeCriticalDice": "近接ｸﾘﾃｨｶﾙによるﾀﾞﾒｰｼﾞ拡大",
+"DND5E.FlagsMeleeCriticalDice": "近接クリティカルによるダメージ拡大",
 "DND5E.FlagsMeleeCriticalDiceHint": "近接武器によるクリティカル･ヒットで、ダメージダイスを追加します。",
 "DND5E.Flat": "平目",
 "DND5E.Formula": "計算式",
@@ -2607,21 +2607,21 @@
 
 "DND5E.HITPOINTS": {
   "Counted": {
-    "one": "{number} ヒット・ポイント",
-    "other": "{number} ヒット・ポイント"
+    "one": "{number} ヒット･ポイント",
+    "other": "{number} ヒット･ポイント"
   }
 },
 
-"DND5E.HitPoints": "HP",
+"DND5E.HitPoints": "ヒット･ポイント",
 "DND5E.HitPointsBonusLevel": "レベルごと追加HP",
 "DND5E.HitPointsBonusOverall": "全体追加HP",
 "DND5E.HitPointsConfig": "HP設定",
-"DND5E.HitPointsCurrent": "現在のHP",
-"DND5E.HitPointsMax": "最大HP",
-"DND5E.HitPointsMin": "最低HP",
+"DND5E.HitPointsCurrent": "現在ヒット･ポイント",
+"DND5E.HitPointsMax": "最大ヒット･ポイント",
+"DND5E.HitPointsMin": "最低ヒット･ポイント",
 "DND5E.HitPointsOverride": "最大HP上書き",
-"DND5E.HitPointsOverrideHint": "HPの自動計算を上書きして、クラス、ボーナス、能力修正値の補正を全て無視します。",
-"DND5E.HitPointsTemp": "一時的HP",
+"DND5E.HitPointsOverrideHint": "ヒット･ポイントの自動計算を上書きして、クラス、ボーナス、能力修正値の補正を全て無視します。",
+"DND5E.HitPointsTemp": "一時的ヒット･ポイント",
 "DND5E.HitPointsTempShort": "一時HP",
 "DND5E.HitPointsTempMax": "最大一時HP",
 "DND5E.HitPointsTempMaxHint": "一時的な最大HP補正",
@@ -2639,20 +2639,20 @@
   "Available": "{number}個消費可能",
   "Config": "ヒット・ダイス調整",
   "Counted": {
-    "one": "{number}個のヒット・ダイス",
-    "other": "{number}個のヒット・ダイス"
+    "one": "{number}個のヒット･ダイス",
+    "other": "{number}個のヒット･ダイス"
   }
 },
 
-"DND5E.HitDie": "ヒット・ダイス",
-"DND5E.HitDice": "ヒット・ダイス",
-"DND5E.HitDiceConfig": "ヒット・ダイス調整",
-"DND5E.HitDiceConfigHint": "各クラスの残りヒット・ダイスを調整します。",
-"DND5E.HitDiceMax": "最大ヒット・ダイス",
-"DND5E.HitDiceRemaining": "残りヒット・ダイス",
-"DND5E.HitDiceRoll": "ヒット・ダイスをロール",
+"DND5E.HitDie": "ヒット･ダイス",
+"DND5E.HitDice": "ヒット･ダイス",
+"DND5E.HitDiceConfig": "ヒット･ダイス調整",
+"DND5E.HitDiceConfigHint": "各クラスの残りヒット･ダイスを調整します。",
+"DND5E.HitDiceMax": "最大ヒット･ダイス",
+"DND5E.HitDiceRemaining": "残りヒット･ダイス",
+"DND5E.HitDiceRoll": "ヒット･ダイスをロール",
 "DND5E.HitDiceWarn": "{name} には､使用可能な {formula} ヒット･ダイスが残っていません！",
-"DND5E.HitDiceNPCWarn": "{name} にはヒット・ダイスが残っていません！!",
+"DND5E.HitDiceNPCWarn": "{name} にはヒット･ダイスが残っていません！!",
 "DND5E.Ideals": "尊ぶもの",
 "DND5E.Identified": "識別済",
 "DND5E.Identifier": "識別子",
@@ -2942,14 +2942,14 @@
   "FIELDS": {
     "traits": {
       "important": {
-        "hint": "重要なNPCは、死亡セーヴ、ヒット・ダイス、忠誠度（有効化されている場合）を管理します。この設定に関わらず、クラスレベルを持つNPCは重要NPCと見なされます。",
+        "hint": "重要なNPCは、死亡セーヴ、ヒット･ダイス、忠誠度（有効化されている場合）を管理します。この設定に関わらず、クラスレベルを持つNPCは重要NPCと見なされます。",
         "label": "重要なNPC"
       }
     }
   },
   "SECTIONS": {
     "Actions": "アクション",
-    "BonusActions": "ボーナス・アクション",
+    "BonusActions": "ボーナス･アクション",
     "LegendaryActions": "伝説的アクション",
     "Reactions": "リアクション",
     "Traits": "特徴"
@@ -3086,7 +3086,7 @@
   "Configuration": "休憩設定",
   "HitDice": {
     "AutoSpend": {
-      "Hint": "HPが最大値まで回復するように自動的にヒット・ダイスを消費し続けます。",
+      "Hint": "HPが最大値まで回復するように自動的にヒット･ダイスを消費し続けます。",
       "Label": "HD自動消費"
     },
     "None": "この休憩中にロールするヒット･ダイスが残っていません。",
@@ -3096,18 +3096,18 @@
   "Long": {
     "Abbreviation": "大",
     "Hint": {
-      "Group": "大休憩を行うと、グループメンバーはヒット・ポイント、ヒット・ダイス、クラスリソース、使用回数制限のあるアイテムのチャージ、呪文スロットを回復します。",
-      "GroupLegacy": "グループメンバーの大休憩により、すべてのヒット・ポイントが回復し、最大値の半分のヒット・ダイス、クラス毎のリソース、アイテムのチャージ、呪文スロットが回復します。",
-      "Normal": "大休憩を行うと、ヒット・ポイント、ヒット・ダイス、クラスリソース、使用回数制限のあるアイテムのチャージ、呪文スロットを回復します。",
-      "NormalLegacy": "大休憩により、すべてのヒット・ポイントが回復し、最大値の半分のヒット・ダイス、クラス毎のリソース、アイテムのチャージ、呪文スロットが回復します。"
+      "Group": "大休憩を行うと、グループメンバーはヒット･ポイント、ヒット･ダイス、クラスリソース、使用回数制限のあるアイテムのチャージ、呪文スロットを回復します。",
+      "GroupLegacy": "グループメンバーの大休憩により、すべてのヒット･ポイントが回復し、最大値の半分のヒット･ダイス、クラス毎のリソース、アイテムのチャージ、呪文スロットが回復します。",
+      "Normal": "大休憩を行うと、ヒット･ポイント、ヒット･ダイス、クラスリソース、使用回数制限のあるアイテムのチャージ、呪文スロットを回復します。",
+      "NormalLegacy": "大休憩により、すべてのヒット･ポイントが回復し、最大値の半分のヒット･ダイス、クラス毎のリソース、アイテムのチャージ、呪文スロットが回復します。"
     },
     "Label": "大休憩",
     "LabelShort": "大休憩",
     "Recovery": "大休憩後に回復",
     "Result": {
-      "Full": "{name} は大休憩を取り､ {health} HPと､ {dice}ヒット･ダイスを回復しました。",
-      "HitDice": "{name} は大休憩を取り､ {dice} ヒット･ダイスを回復しました。",
-      "HitPoints": "{name} は大休憩を取り､{health} HPを回復しました。",
+      "Full": "{name} は大休憩を取り､{health}と､{dice}を回復しました。",
+      "HitDice": "{name} は大休憩を取り､{dice}を回復しました。",
+      "HitPoints": "{name} は大休憩を取り､{health}を回復しました。",
       "Short": "{name} は大休憩を取りました。"
     }
   },
@@ -3336,7 +3336,7 @@
 "DND5E.SkillSlt": "手先の早業",
 "DND5E.SkillSte": "隠密",
 "DND5E.SkillSur": "生存",
-"DND5E.SkillPromptTitle": "{skill} の技能判定",
+"DND5E.SkillPromptTitle": "【{ability}】〈{skill}〉判定",
 "DND5E.SkillConfigureTitle": "{skill}設定",
 "DND5E.SkillConfigure": "技能設定",
 "DND5E.SkillsConfig": "技能の設定",
@@ -3493,14 +3493,14 @@
 "DND5E.Spellbook": "呪文書",
 "DND5E.Spent": "消費済み",
 "DND5E.StartingEquipment": {
-  "Title": "初期装備",
+  "Title": "初期装備品",
   "Action": {
     "AddEntry": "項目を追加",
-    "Configure": "初期装備設定",
+    "Configure": "初期装備品設定",
     "RemoveEntry": "項目を削除"
   },
   "Choice": {
-    "Armor": "鎧を選ぶ",
+    "Armor": "防具を選ぶ",
     "Focus": "呪文発動焦点具を選ぶ",
     "Tool": "道具を選ぶ",
     "Weapon": "武器を選ぶ"
@@ -3514,12 +3514,12 @@
   "RequireProficiency": "要習熟",
   "SpecificItem": "特定のアイテム",
   "Warning": {
-    "Depth": "初期装備の階層は3つ下までしか登録できません。",
-    "ItemTypeInvalid": "{type} 種別のアイテムは初期装備に追加できません。"
+    "Depth": "初期装備品の階層は3つ下までしか登録できません。",
+    "ItemTypeInvalid": "{type} 種別のアイテムは初期装備品に追加できません。"
   },
   "Wealth": {
     "Label": "初期の所持金",
-    "Hint": "初期装備の代わりに選択可能なGPの算出式。"
+    "Hint": "初期装備品の代わりに選択可能なGPの算出式。"
   }
 },
 "DND5E.SubclassAdd": "サブクラスを追加",
@@ -3840,8 +3840,8 @@
       "Counted": {
         "any": "任意の物体",
         "every": "全ての物体",
-        "one": "{number} 物体",
-        "other": "{number} 物体"
+        "one": "物体{number}つ",
+        "other": "物体{number}つ"
       }
     },
     "Radius": {
@@ -3882,8 +3882,8 @@
       "Counted": {
         "any": "任意の目標",
         "every": "全ての目標",
-        "one": "{number} 目標",
-        "other": "{number} 目標"
+        "one": "目標{number}つ",
+        "other": "目標{number}つ"
       }
     },
     "Wall": {
@@ -3993,17 +3993,17 @@
 "DND5E.TraitArmorPlural.one": "鎧の訓練",
 "DND5E.TraitArmorPlural.other": "鎧の訓練",
 "DND5E.TraitArmorProf": "鎧の訓練",
-"DND5E.TraitArmorLegacyPlural.one": "鎧習熟",
-"DND5E.TraitArmorLegacyPlural.other": "鎧習熟",
-"DND5E.TraitArmorLegacyProf": "鎧習熟",
+"DND5E.TraitArmorLegacyPlural.one": "防具習熟",
+"DND5E.TraitArmorLegacyPlural.other": "防具習熟",
+"DND5E.TraitArmorLegacyProf": "防具習熟",
 "DND5E.TraitCIPlural.one": "状態異常完全耐性",
 "DND5E.TraitCIPlural.other": "状態異常完全耐性",
 "DND5E.TraitConfig": "{trait}設定",
-"DND5E.TraitConfigChooseAnyCounted": "任意の {count} つの {type}",
-"DND5E.TraitConfigChooseAnyUncounted": "任意の {type}",
-"DND5E.TraitConfigChooseList": "次から {count} つ {list}",
-"DND5E.TraitConfigChooseOther": "他から {count} つ {type}",
-"DND5E.TraitConfigChooseWrapper": "{choices}から選択",
+"DND5E.TraitConfigChooseAnyCounted": "任意の{type}{count}つ",
+"DND5E.TraitConfigChooseAnyUncounted": "任意の{type}",
+"DND5E.TraitConfigChooseList": "以下から{count}つ選択；{list}",
+"DND5E.TraitConfigChooseOther": "他から{count}つ選択；{type}",
+"DND5E.TraitConfigChooseWrapper": "{choices}",
 "DND5E.TraitDIPlural.one": "ダメージ完全耐性",
 "DND5E.TraitDIPlural.other": "ダメージ完全耐性",
 "DND5E.TraitDMPlural.one": "ダメージ修正",
@@ -4024,10 +4024,10 @@
 "DND5E.TraitSkillsPlural.other": "技能習熟",
 "DND5E.TraitToolPlural.one": "道具習熟",
 "DND5E.TraitToolPlural.other": "道具習熟",
-"DND5E.TraitToolProf": "道具の習熟",
+"DND5E.TraitToolProf": "道具習熟",
 "DND5E.TraitWeaponPlural.one": "武器習熟",
 "DND5E.TraitWeaponPlural.other": "武器習熟",
-"DND5E.TraitWeaponProf": "武器の習熟",
+"DND5E.TraitWeaponProf": "武器習熟",
 "DND5E.Traits": "特性",
 "DND5E.TraitsChosen": "選択された特性",
 
@@ -4192,7 +4192,7 @@
         "Label": "特徴"
       },
       "Health": {
-        "Label": "HP & ヒット・ダイス"
+        "Label": "HP & ヒット･ダイス"
       },
       "Mental": {
         "Hint": "知力、判断力、魅力の能力値を保持します。",
@@ -4645,7 +4645,7 @@
   }
 },
 
-"DND5E.WeaponCategory": "{category} 武器",
+"DND5E.WeaponCategory": "{category}",
 "DND5E.WeaponImprov": "代用武器",
 "DND5E.WeaponMartialM": "軍用近接武器",
 "DND5E.WeaponMartialProficiency": "軍用武器",
@@ -4666,17 +4666,17 @@
 
 "EDITOR.DND5E.Inline": {
   "ApplyStatus": "選択したコマに効果を適用",
-  "AttackExtended": "<em>{type}</em>: {parts}",
-  "AttackLong": "{formula} to hit",
+  "AttackExtended": "<em><strong>{type}：</strong></em>{parts}",
+  "AttackLong": "攻撃{formula}",
   "AttackShort": "{formula}",
   "AwardEach": "各{award}",
   "CheckShort": "{check}",
   "CheckLong": "{check}判定",
-  "DamageExtended": "<em>ヒット：</em> {damage} ダメージ",
+  "DamageExtended": "<em><strong>ヒット：</strong></em> {damage} ダメージ",
   "DamageDouble": "{first} および {second}",
   "DamageShort": "{formula}{type}",
   "DamageLong": "{average}({formula}){type}",
-  "DC": "難易度 {dc} {check}",
+  "DC": "難易度{dc}の【{check}】",
   "DCPassiveShort": "難易度{dc}の受動{check}",
   "DCPassiveLong": "受動{check}が{dc}以上",
   "NoActorWarning": "この判定を行えるキャラクターを選択・所有していません。",
@@ -4735,8 +4735,8 @@
     "FIELDS": {
       "description": {
         "additionalEquipment": {
-          "label": "追加装備の説明",
-          "hint": "初期装備セクションの下に表示される追加説明文。"
+          "label": "追加装備品の説明",
+          "hint": "初期装備品セクションの下に表示される追加説明文。"
         },
         "additionalHitPoints": {
           "label": "追加ヒットポイントの説明",
@@ -4769,7 +4769,7 @@
         "label": "サブクラス"
       }
     },
-    "EquipmentHeader": "装備",
+    "EquipmentHeader": "装備品",
     "EquipmentDescription": "初期装備品は以下の通り。これに加えて背景によって得られる装備品もある：",
     "Features": {
       "DescriptionLegacy": "{lowercaseName}であることにより、君は以下のクラス特徴を得る。クラス特徴は{name}表にまとめられている。",
@@ -4778,16 +4778,16 @@
       "Name": "レベル{level}: {name}"
     },
     "HitPoints": {
-      "Header": "ヒットポイント",
-      "HitDiceLegacy": "<strong>ヒット・ダイス：</strong> {class}レベルごとに{dice}",
-      "HitDiceModern": "{class}レベルごとに{dice}",
-      "Level1": "<strong>1レベル時のヒット・ポイント：</strong> {max} + 君の【耐久力】修正値",
-      "LevelX": "<strong>以後のヒット・ポイント：</strong> 1レベルより後の{class}レベルごとに({dice}または{average}) + 君の【耐久力】修正値"
+      "Header": "ヒット･ポイント",
+      "HitDiceLegacy": "<strong>ヒット･ダイス：</strong> {class}･レベルごとに{dice}",
+      "HitDiceModern": "{class}･レベルごとに{dice}",
+      "Level1": "<strong>1レベル時のヒット･ポイント：</strong> {max} +【耐久力】修正値",
+      "LevelX": "<strong>以後のヒット･ポイント：</strong> 1レベルより後の{class}･レベルごとに{dice}(または{average}) +【耐久力】修正値"
     },
     "ItemHint": "ここにクラスをドロップ",
     "NoValidClass": "有効なクラスが選択されていません。編集ボタンを押してクラスを追加してください。",
-    "OptionalFeaturesCaption": "選択クラス特徴",
-    "OptionalFeaturesDescription": "次のセクションには{class}の選択可能な特徴が含まれています。これらの特徴は自動的には付与されず、DMの裁量により一つ以上選択することができます。",
+    "OptionalFeaturesCaption": "オプション・ルール：追加のクラス特徴",
+    "OptionalFeaturesDescription": "この項には{class}が得られる追加のクラス特徴がある。これらの特徴は自動的には得られるものではない。DMの裁量により1つだけ得られることもあるし、全部得られることもあるし、1つも得られないこともあり得る。",
     "SpellSlotLevel": "スロットレベル",
     "SpellSlots": "呪文スロット",
     "SpellSlotsPerSpellLevel": "—呪文レベルごとのスロット数—",

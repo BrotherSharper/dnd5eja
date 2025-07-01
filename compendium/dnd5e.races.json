@@ -2,11 +2,15 @@
 	"label": "種族特徴 (SRD)",
 	"mapping": {
 		"requirements": {
-		  "path": "system.requirements",
-		  "converter": "raceRequirements"
+			"path": "system.requirements",
+			"converter": "raceRequirements"
+		},
+		"subtype": {
+			"converter": "subtype",
+			"path": "system.type.subtype"
 		}
-	  },
-	  "folders": {
+	},
+	"folders": {
 		"Dragonborn":"ドラゴンボーン",
 		"Dwarf":"ドワーフ",
 		"Elf":"エルフ",
@@ -22,8 +26,8 @@
 		"Halfling Features":"ハーフリング特徴",
 		"Orc Features":"オーク特徴",
 		"Tiefling Features":"ティーフリング特徴"
-	  },
-	  "entries": {
+	},
+	"entries": {
 		"Artificer's Lore": {
 			"name": "技術知識",
 			"description": "<p>魔法のアイテムや錬金術の物品やからくりに関する【知カ】(歴史)判定を行なう際には、(通常の習熟ボーナスのかわりに)習熟ボーナスの2倍を加算する。</p>"

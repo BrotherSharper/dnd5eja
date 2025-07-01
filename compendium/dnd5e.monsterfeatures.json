@@ -1,5 +1,8 @@
 {
 	"label": "モンスター特徴 (SRD)",
+  "mapping": {
+		"chat": "system.description.chat"
+  },
 	"entries": {
 		"Aberrant Ground": {
 			"name": "歪む地面",

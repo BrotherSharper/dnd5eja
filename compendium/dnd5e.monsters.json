@@ -14,18 +14,27 @@
 		"Monstrosity":"怪物",
 		"Ooze":"ウーズ",
 		"Plant":"植物",
+		"Summons":"召喚",
 		"Undead":"アンデッド"
 	},
-  "mapping": {
-    "alignment": {
-      "converter": "alignment",
-      "path": "system.details.alignment"
-    },
-    "habitat": {
-      "converter": "habitat",
-      "path": "system.details.habitat.custom"
-    }
-  },
+	"mapping": {
+		"alignment": {
+			"converter": "alignment",
+			"path": "system.details.alignment"
+		},
+		"habitat": {
+			"converter": "habitat",
+			"path": "system.details.habitat.custom"
+		},
+		"subtype": {
+			"converter": "subtype",
+			"path": "system.details.type.subtype"
+		},
+		"language": {
+			"converter": "language",
+			"path": "system.traits.languages.custom"
+		}
+	},
 	"entries": {
 		"Aboleth": {
 			"name": "アボレス",
