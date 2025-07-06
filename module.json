@@ -5,9 +5,9 @@
   "version": "This is auto replaced",
   "library": "false",
   "compatibility": {
-    "minimum": 12,
-    "verified": 12,
-    "maximum": 12
+    "minimum": 13,
+    "verified": 13,
+    "maximum": 13
   },
   "authors": [
     {
@@ -22,7 +22,8 @@
         "id": "dnd5e",
         "type": "system",
         "compatibility": {
-          "verified": "4.2.2"
+          "minimum": "5.0.0",
+          "verified": "5.0.4"
         }
       }
     ],
@@ -36,7 +37,7 @@
         "id": "babele",
         "type": "module",
         "compatibility": {
-          "verified": "2.6.0"
+          "verified": "2.7.5"
         }
       },
       {
@@ -214,8 +215,7 @@
   "styles": [
     "css/dnd5ejp.css",
     "css/tidy5ejp.css",
-    "css/fonts/noto-sans-jp.css",
-    "css/spell-levels.css"
+    "css/fonts/noto-sans-jp.css"
   ],
   "languages": [
     {

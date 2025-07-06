@@ -20,6 +20,10 @@
     "alignment": {
       "converter": "alignment",
       "path": "system.details.alignment"
+    },
+    "habitat": {
+      "converter": "habitat",
+      "path": "system.details.habitat.custom"
     }
   },
 	"entries": {

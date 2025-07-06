@@ -1,9 +1,9 @@
 
 let removedPacks1 = ["dnd5e.heroes"];
 
-Hooks.on("renderCompendiumDirectory",   function(app, html, other) {
+Hooks.on("renderCompendiumDirectory", function(app, html, other) {
 	console.log("CleanSRD Ready")
-    html.find('[data-pack]').each(function(li) {
+    $(html).find('[data-pack]').each(function(li) {
       const pack = game.packs.find(pack => pack.collection === this.dataset.pack);
       if (pack && removedPacks1.includes(pack.collection)) {
         $(this).remove();
@@ -216,32 +216,4 @@ const data = game.settings.get(AECONSTS.MN, "customautospells")
     ];
 game.settings.set(AECONSTS.MN, "customautospells", data)
   }
-	
-  // CONFIG.DND5E.spellScrollIds = {
-  //     0: 'oe1JVrpffMuUYOKd',
-  //     1: 'lGg5DDNMyoP7n9J6',
-  //     2: 'NP5pzu8msOZLhF6X',
-  //     3: 'wnBKok4kvbuF2wBr',
-  //     4: 'ef8UKmJcTG5vfW2o',
-  //     5: 'IKwqm34hh7uaMnSn',
-  //     6: '5xtEE5mfwNoKarOT',
-  //     7: 'ud1RemNUD6Tkc173',
-  //     8: 'NKs9pnKOwLlmccWD',
-  //     9: '7ju738YpbvTHvunH'
-  //   }; // replace the object with your own scroll uuids per level
-
-// CONFIG.DND5E.classFeatures = {
-//   "バーバリアン": CONFIG.DND5E.classFeatures["barbarian"],
-//   "バード": CONFIG.DND5E.classFeatures["bard"],
-//   "クレリック": CONFIG.DND5E.classFeatures["cleric"],
-//   "ドルイド": CONFIG.DND5E.classFeatures["druid"],
-//   "ファイター": CONFIG.DND5E.classFeatures["fighter"],
-//   "モンク": CONFIG.DND5E.classFeatures["monk"],
-//   "パラディン": CONFIG.DND5E.classFeatures["paladin"],
-//   "レンジャー": CONFIG.DND5E.classFeatures["ranger"],
-//   "ローグ": CONFIG.DND5E.classFeatures["rogue"],
-//   "ソーサラー": CONFIG.DND5E.classFeatures["sorcerer"],
-//   "ウォーロック": CONFIG.DND5E.classFeatures["warlock"],
-//   "ウィザード": CONFIG.DND5E.classFeatures["wizard"]
-// };
   });

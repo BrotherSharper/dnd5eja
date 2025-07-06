@@ -1,0 +1,269 @@
+{
+	"label": "Equipment",
+	"entries": {
+		"Alchemist's Supplies": {
+			"name": "錬金術用品"
+		},
+		"Bagpipes": {
+			"name": "バグパイプ"
+		},
+		"Battleaxe": {
+			"name": "バトルアックス"
+		},
+		"Blowgun": {
+			"name": "ブロウガン"
+		},
+		"Breastplate": {
+			"name": "ブレストプレート"
+		},
+		"Brewer's Supplies": {
+			"name": "醸造用品"
+		},
+		"Calligrapher's Supplies": {
+			"name": "書道用品"
+		},
+		"Carpenter's Tools": {
+			"name": "大工道具"
+		},
+		"Cartographer's Tools": {
+			"name": "地図作成道具"
+		},
+		"Chain Mail": {
+			"name": "チェイン・メイル"
+		},
+		"Chain Shirt": {
+			"name": "チェイン・シャツ"
+		},
+		"Club": {
+			"name": "クラブ"
+		},
+		"Cobbler's Tools": {
+			"name": "靴直し道具"
+		},
+		"Cook's Utensils": {
+			"name": "調理用具"
+		},
+		"Dagger": {
+			"name": "ダガー"
+		},
+		"Dart": {
+			"name": "ダーツ"
+		},
+		"Dice": {
+			"name": "ダイス一揃い"
+		},
+		"Disguise Kit": {
+			"name": "変装用具"
+		},
+		"Dragonchess": {
+			"name": "ドラゴンチェス一揃い"
+		},
+		"Drum": {
+			"name": "ドラム"
+		},
+		"Dulcimer": {
+			"name": "ダルシマー"
+		},
+		"Flail": {
+			"name": "フレイル"
+		},
+		"Flute": {
+			"name": "フルート"
+		},
+		"Forgery Kit": {
+			"name": "偽造用具"
+		},
+		"Glaive": {
+			"name": "グレイヴ"
+		},
+		"Glassblower's Tools": {
+			"name": "ガラス吹き道具"
+		},
+		"Greataxe": {
+			"name": "グレートアックス"
+		},
+		"Greatclub": {
+			"name": "グレートクラブ"
+		},
+		"Greatsword": {
+			"name": "グレートソード"
+		},
+		"Halberd": {
+			"name": "ハルバード"
+		},
+		"Half Plate Armor": {
+			"name": "ハーフ・プレート"
+		},
+		"Hand Crossbow": {
+			"name": "ハンド・クロスボウ"
+		},
+		"Handaxe": {
+			"name": "ハンドアックス"
+		},
+		"Heavy Crossbow": {
+			"name": "ヘヴィ・クロスボウ"
+		},
+		"Herbalism Kit": {
+			"name": "薬草師道具"
+		},
+		"Hide Armor": {
+			"name": "ハイド・アーマー"
+		},
+		"Horn": {
+			"name": "ホルン"
+		},
+		"Javelin": {
+			"name": "ジャヴェリン"
+		},
+		"Jeweler's Tools": {
+			"name": "宝石細工道具"
+		},
+		"Lance": {
+			"name": "ランス"
+		},
+		"Leather Armor": {
+			"name": "レザー・アーマー"
+		},
+		"Leatherworker's Tools": {
+			"name": "革細工道具"
+		},
+		"Light Crossbow": {
+			"name": "ライト・クロスボウ"
+		},
+		"Light Hammer": {
+			"name": "ライト・ハンマー"
+		},
+		"Longbow": {
+			"name": "ロングボウ"
+		},
+		"Longsword": {
+			"name": "ロングソード"
+		},
+		"Lute": {
+			"name": "リュート"
+		},
+		"Lyre": {
+			"name": "ライア"
+		},
+		"Mace": {
+			"name": "メイス"
+		},
+		"Mason's Tools": {
+			"name": "石工道具"
+		},
+		"Maul": {
+			"name": "モール"
+		},
+		"Morningstar": {
+			"name": "モーニングスター"
+		},
+		"Musket": {
+			"name": "マスケット"
+		},
+		"Navigator's Tools": {
+			"name": "航海道具"
+		},
+		"Padded Armor": {
+			"name": "パデッド・アーマー"
+		},
+		"Painter's Supplies": {
+			"name": "画材"
+		},
+		"Pan Flute": {
+			"name": "パン・フルート"
+		},
+		"Pike": {
+			"name": "パイク"
+		},
+		"Pistol": {
+			"name": "ピストル"
+		},
+		"Plate Armor": {
+			"name": "プレート・アーマー"
+		},
+		"Playing Cards": {
+			"name": "ゲーム用カード一揃い"
+		},
+		"Poisoner's Kit": {
+			"name": "調毒道具"
+		},
+		"Potter's Tools": {
+			"name": "陶芸道具"
+		},
+		"Quarterstaff": {
+			"name": "クオータースタッフ"
+		},
+		"Rapier": {
+			"name": "レイピア"
+		},
+		"Ring": {
+			"name": "指輪"
+		},
+		"Ring Mail": {
+			"name": "リング・メイル"
+		},
+		"Scale Mail": {
+			"name": "スケイル・メイル"
+		},
+		"Scimitar": {
+			"name": "シミター"
+		},
+		"Shawm": {
+			"name": "ショーム"
+		},
+		"Shield": {
+			"name": "シールド"
+		},
+		"Shortbow": {
+			"name": "ショートボウ"
+		},
+		"Shortsword": {
+			"name": "ショートソード"
+		},
+		"Sickle": {
+			"name": "シックル"
+		},
+		"Sling": {
+			"name": "スリング"
+		},
+		"Smith's Tools": {
+			"name": "鍛治道具"
+		},
+		"Spear": {
+			"name": "スピア"
+		},
+		"Splint Armor": {
+			"name": "スプリント・アーマー"
+		},
+		"Studded Leather Armor": {
+			"name": "スタデッド・レザー・アーマー"
+		},
+		"Thieves' Tools": {
+			"name": "盗賊道具"
+		},
+		"Tinker's Tools": {
+			"name": "よろず修理屋道具"
+		},
+		"Trident": {
+			"name": "トライデント"
+		},
+		"Viol": {
+			"name": "ヴァイオル"
+		},
+		"War Pick": {
+			"name": "ウォー・ピック"
+		},
+		"Warhammer": {
+			"name": "ウォーハンマー"
+		},
+		"Weaver's Tools": {
+			"name": "織工道具"
+		},
+		"Whip": {
+			"name": "ウィップ"
+		},
+		"Woodcarver's Tools": {
+			"name": "木彫道具"
+		}
+	}
+}
