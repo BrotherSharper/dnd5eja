@@ -1,5 +1,11 @@
 {
 	"label": "クラス (SRD)",
+	"mapping": {
+		"advancement": {
+			"path": "system.advancement",
+			"converter": "advancement"
+		}
+	},
 	"entries": {
 		"Barbarian": {
 			"name": "バーバリアン",

@@ -1,17 +1,4 @@
 
-let removedPacks = ["dnd5e.heroes"];
-
-Hooks.on("renderCompendiumDirectory", function(app, html, other) {
-	console.log("CleanSRD Ready")
-    $(html).find('[data-pack]').each(function(li) {
-      const pack = game.packs.find(pack => pack.collection === this.dataset.pack);
-      if (pack && removedPacks.includes(pack.collection)) {
-        $(this).remove();
-      }
-    });
-  });
-
-
 Hooks.once("init", () => {
 
 if(game.modules.get("automated-evocations")?.active){

@@ -325,8 +325,8 @@
       "points": {
         "label": "ポイント",
         "hint": "自由に配置できる能力値上昇のポイント。固定されている能力値には配置できません。",
-        "decrease": "ポイント＋",
-        "increase": "ポイントー"
+        "decrease": "ポイント減少",
+        "increase": "ポイント増加"
       }
     },
     "Hint": "能力値を上昇させたり、オプションルール採用時には特技を獲得できるように設定します。",
@@ -374,7 +374,7 @@
     }
   },
   "ItemChoice": {
-    "Choose": "{count}つを選択",
+    "Choose": "{count}つ選択",
     "Chosen": "選択: {current} / {max}",
     "Details": "選択詳細",
     "DropHint": "アイテムをここにドラッグ＆ドロップし、この成長で選択されるリストに追加してください。",
@@ -3396,8 +3396,8 @@
   "Label": "種族",
   "Add": "種族を追加",
   "AddLegacy": "種族を追加",
-  "Features": "種族特性",
-  "FeaturesLegacy": "種族特性",
+  "Features": "種族特徴",
+  "FeaturesLegacy": "種族特徴",
   "Name": "種族名"
 },
 "DND5E.Speed": "移動速度",
@@ -3518,7 +3518,7 @@
     "ItemTypeInvalid": "{type} 種別のアイテムは初期装備品に追加できません。"
   },
   "Wealth": {
-    "Label": "初期の所持金",
+    "Label": "初期所持金",
     "Hint": "初期装備品の代わりに選択可能なGPの算出式。"
   }
 },
