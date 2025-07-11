@@ -239,7 +239,7 @@
 "DND5E.ACTIVEEFFECT": {
   "FIELDS": {
     "statuses": {
-      "label": "状態異常",
+      "label": "状態",
       "hint": "このアクティブ効果の影響下にある間、目標は次の追加の効果も適用される。"
     }
   }
@@ -864,7 +864,7 @@
   "NoDestinations": "分配先がありません",
   "NoPrimaryParty": "メインパーティが設定されていません。PLに紐づいたキャラを代わりに表示しています。",
   "NotGMError": "/award コマンドはGMのみが使用できます。",
-  "UnrecognizedWarning": "{commands}を処理できません。/awardコマンドは経験値（XP）や硬貨（PP/GP/EP/SP/CP）とともに使用してください。例：「/award 10gp 50xp」"
+  "UnrecognizedWarning": "{commands}を処理できません。/awardコマンドは経験点（XP）や硬貨（PP/GP/EP/SP/CP）とともに使用してください。例：「/award 10gp 50xp」"
 },
 "DND5E.Background": "背景",
 "DND5E.BackgroundAdd": "背景を追加",
@@ -1053,7 +1053,7 @@
 },
 
 "DND5E.Casting": "発動",
-"DND5E.Conditions": "状態異常",
+"DND5E.Conditions": "状態",
 
 "DND5E.CONTAINER": {
   "Details": "容器の詳細",
@@ -1286,22 +1286,22 @@
 "DND5E.ContextMenuActionUnattune": "同調解除",
 "DND5E.ContextMenuActionEnable": "有効化",
 "DND5E.ContextMenuActionDisable": "無効化",
-"DND5E.ContextMenuActionView": "View",
-"DND5E.Contiguous": "Contiguous",
+"DND5E.ContextMenuActionView": "表示",
+"DND5E.Contiguous": "隣接",
 "DND5E.ConBlinded": "盲目状態",
 "DND5E.ConCharmed": "魅了状態",
 "DND5E.ConDeafened": "聴覚喪失状態",
 "DND5E.ConDiseased": "病気状態",
 "DND5E.CONDITIONS": {
   "RiderConditions": {
-    "label": "追加の状態異常",
+    "label": "追加の状態",
     "hint": "このアクティブ効果の影響下にある間、目標は次の追加の効果も適用される。"
   }
 },
 "DND5E.ConExhaustion": "消耗状態",
 "DND5E.ConFrightened": "恐怖状態",
 "DND5E.ConGrappled": "つかまれた状態",
-"DND5E.ConImm": "状態異常完全耐性",
+"DND5E.ConImm": "状態完全耐性",
 "DND5E.ConIncapacitated": "無力状態",
 "DND5E.ConInvisible": "不可視状態",
 "DND5E.ConParalyzed": "麻痺状態",
@@ -1403,7 +1403,7 @@
       "Label": "ロッド"
     },
     "Scroll": {
-      "Label": "スクロール"
+      "Label": "巻物"
     },
     "Trinket": {
       "Label": "その他"
@@ -1723,7 +1723,7 @@
     "HalfCantrip": "初級呪文スケーリング（1/2レベル）",
     "None": "スケーリングなし",
     "Whole": "毎レベル",
-     "WholeCantrip": "初級呪文スケーリング（通常）"
+    "WholeCantrip": "初級呪文スケーリング（通常）"
   }
 },
 
@@ -2046,9 +2046,9 @@
     "one": "{number} 偉業の証",
     "other": "{number} 偉業の証"
   },
-  "Current": "経験値合計",
+  "Current": "経験点合計",
   "Format": "{value} XP",
-  "Label": "経験値",
+  "Label": "経験点",
   "Progress": "次レベルまでの進行",
   "StatBlock": {
     "Standard": "XP {value}",
@@ -2343,7 +2343,7 @@
     "Label": "クラス特徴",
     "ArcaneShot": "秘術射撃",
     "ArtificerInfusion": "魔具化式",
-    "ChannelDivinity": "神聖伝導",
+    "ChannelDivinity": "神性伝導",
     "DefensiveTactic": "守りの技",
     "EldritchInvocation": "妖術",
     "ElementalDiscipline": "元素の技法",
@@ -2353,7 +2353,7 @@
     "Maneuver": "戦技",
     "Metamagic": "呪文修正",
     "Multiattack": "複数回攻撃",
-    "PactBoon": "契約の恩寵",
+    "PactBoon": "契約の恩恵",
     "PsionicPower": "サイオニック能力",
     "Rune": "ルーン",
     "SuperiorHuntersDefense": "上級の守りの技"
@@ -3229,12 +3229,12 @@
 "DND5E.SaveBonus": "セーヴ・ボーナス",
 "DND5E.SaveGlobalBonusHint": "このボーナスはこのキャラクターのすべてのセーヴに加算されます。",
 "DND5E.Scroll": {
-  "CreateFrom": "{spell}呪文からスクロール作成",
-  "CreateScroll": "スクロール作成",
-  "Details": "スクロール詳細",
+  "CreateFrom": "{spell}呪文から巻物作成",
+  "CreateScroll": "巻物作成",
+  "Details": "巻物詳細",
   "Explanation": {
     "Label": "説明の文量",
-    "Hint": "作成された呪文スクロールに含まれるルール説明文の長さを設定します。",
+    "Hint": "作成された呪文の巻物に含まれるルール説明文の長さを設定します。",
     "Complete": "すべて",
     "Reference": "参照のみ"
   },
@@ -3251,7 +3251,7 @@
 "DND5E.SenseTruesight": "超視覚",
 "DND5E.SenseUnits": "単位",
 "DND5E.SenseSpecial": "その他",
-"DND5E.Shape": "形態",
+"DND5E.Shape": "形状",
 "DND5E.SheetClassCharacter": "新デザイン",
 "DND5E.SheetClassCharacterLegacy": "従来",
 "DND5E.SheetClassClassSummary": "デフォルト",
@@ -3268,8 +3268,8 @@
 "DND5E.SheetClassSpellList": "デフォルト",
 "DND5E.SheetClassToken": "デフォルト",
 "DND5E.SheetClassVehicle": "デフォルト",
-"DND5E.SheetModeEdit": "編集モード",
-"DND5E.SheetModePlay": "プレイモード",
+"DND5E.SheetModeEdit": "編集",
+"DND5E.SheetModePlay": "プレイ",
 "DND5E.SavingThrow": "セーヴィング･スロー",
 "DND5E.SavingThrowDC": "難易度 {dc} {ability} セーヴィング・スロー",
 "DND5E.SavingThrowRoll": "{ability} セーヴィング・スローをロール",
@@ -3473,7 +3473,7 @@
 "DND5E.SpellProgression": "レベルごとの呪文数",
 "DND5E.SpellsSearch": "呪文を検索",
 "DND5E.SpellSchool": "呪文の系統",
-"DND5E.SpellScroll": "呪文スクロール",
+"DND5E.SpellScroll": "呪文の巻物",
 "DND5E.SpellSlotExpended": "消費済みスロット",
 "DND5E.SpellSlotN.one": "呪文スロット{n}",
 "DND5E.SpellSlotN.two": "呪文スロット{n}",
@@ -3996,8 +3996,8 @@
 "DND5E.TraitArmorLegacyPlural.one": "防具習熟",
 "DND5E.TraitArmorLegacyPlural.other": "防具習熟",
 "DND5E.TraitArmorLegacyProf": "防具習熟",
-"DND5E.TraitCIPlural.one": "状態異常完全耐性",
-"DND5E.TraitCIPlural.other": "状態異常完全耐性",
+"DND5E.TraitCIPlural.one": "状態完全耐性",
+"DND5E.TraitCIPlural.other": "状態完全耐性",
 "DND5E.TraitConfig": "{trait}設定",
 "DND5E.TraitConfigChooseAnyCounted": "任意の{type}{count}つ",
 "DND5E.TraitConfigChooseAnyUncounted": "任意の{type}",
@@ -4686,7 +4686,7 @@
   "RollRequest": "ロール要求",
   "SaveShort": "{save}",
   "SaveLong": "{save}セーヴィング・スロー",
-  "SpecificCheck": "{ability}〈{type}〉",
+  "SpecificCheck": "【{ability}】〈{type}〉",
   "Warning": {
     "NoActivityOnItem": "{item} または {actor} は {activity} という名称の用途を所持していません。",
     "NoActor": "このロールを行える選択されたキャラクターが見つかりませんでした。",
@@ -5003,8 +5003,8 @@
       "Hint": "プレイヤーが新しいレベルを取得する方法を決定する。",
       "Name": "レベリングモード",
       "NoXP": "XPなしのレベルアップ",
-      "XP": "経験値",
-      "XPBoons": "経験値とエピック・ブーン"
+      "XP": "経験点",
+      "XPBoons": "経験点と偉業の証"
     },
     "ProficiencyModifier": {
       "Bonus": "PHB: ボーナス（+2, +3, +4, +5, +6）",
