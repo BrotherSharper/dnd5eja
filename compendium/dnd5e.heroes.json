@@ -4,13 +4,11 @@
 		"alignment": {
 			"converter": "alignment",
 			"path": "system.details.alignment"
-		},
-		"tokenName": "prototypeToken.name"
+		}
 	},
 	"entries": {
 		"Akra (Dragonborn Cleric)": {
 			"name": "アクラ (ドラゴンボーン・クレリック)",
-			"tokenName": "アクラ",
 			"description": "<p>A devout follower of her deity and of her society's customs, Akra feels somewhat out of place adventuring in foreign lands. But she feels bound to do everything in her power to bring peace to the region.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>",
 			"items": {
 				"Spellcasting": {
@@ -21,7 +19,6 @@
 		},
 		"Aoth (Human Druid)": {
 			"name": "アオト (ヒューマン・ドルイド)",
-			"tokenName": "アオト",
 			"description": "<p>Aoth lived among animals for so long that he now has difficulty speaking Common. His natural habitat in danger, he decided to join an adventuring group to return balance to his land.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>",
 			"items": {
 				"Spellcasting": {
@@ -32,7 +29,6 @@
 		},
 		"Beiro (Half-Elf Bard)": {
 			"name": "ベイロ (ハーフエルフ・バード)",
-			"totokenName": "ベイロ",
 			"description": "<p>Beiro was a famed entertainer at his local tavern, when he one day ran out of stories to tell. To solve this, he set out to make his own stories, so as to one day tell them again at his tavern.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>",
 			"items": {
 				"Spellcasting": {
@@ -43,17 +39,14 @@
 		},
 		"Krusk (Half-Orc Paladin)": {
 			"name": "クラスク (ハーフオーク・パラディン)",
-			"tokenName": "クラスク",
 			"description": "<p>Roaming the land brigning justice to all, Krusk has just one goal: the destruction of evil wherever it lies.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
 		},
 		"Merric (Halfling Barbarian)": {
-			"name": "メリック (ハーフリング・バーバーリアン)",
-			"tokenName": "メリック",
+			"name": "メリック (ハーフリング・バーバリアン)",
 			"description": "<p>Merric was once a vigilante, due to her innate sense of street justice. Though her small size may not seem like much in combat, she more than makes up for it with her violent outbursts of anger.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
 		},
 		"Morthos (Tiefling Sorcerer)": {
 			"name": "モルトス (ティーフリング・ソーサラー)",
-			"tokenName": "モルトス",
 			"description": "<p>Morthos's investigation into her complex draconic-infernal ancestry led her to an academic life, but it soon became apparent that the fools in charge were keeping many secrets from her.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>",
 			"items": {
 				"Spellcasting": {
@@ -64,17 +57,14 @@
 		},
 		"Perrin (Halfling Monk)": {
 			"name": "ペリン (ハーフリング・モンク)",
-			"tokenName": "ペリン",
 			"description": "<p>A devoted student of his local monastery, Perrin has been tasked with bringing balance to the surrounding lands.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
 		},
 		"Quillathe (Elf Ranger)": {
 			"name": "クィルラセ (エルフ・レンジャー)",
-			"tokenName": "クィルラセ",
 			"description": "<p>Quillathe cleanses monsters from her woods as a hobby, but now a new force menaces her land and she must band with adventurers to defeat it.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
 		},
 		"Randal (Human Fighter)": {
 			"name": "ランダル (ヒューマン・ファイター)",
-			"tokenName": "ランダル",
 			"description": "<p>Randal worked his way through the ranks of his hometown's guard, ultimately growing restless with city life and wandering off in search of adventure.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>",
 			"items": {
 				"Variant Human": {
@@ -84,17 +74,14 @@
 		},
 		"Riswynn (Dwarf Rogue)": {
 			"name": "リスウィン (ドワーフ・ローグ)",
-			"tokenName": "リスウィン",
 			"description": "<p>Once a well-respected bureaucrat at the dwarven halls, Riswynn dabbled in intruigue, picked up a few tricks, and ran intro trouble with some nobles. She looks to make a name for herself and regain her social status.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
 		},
 		"Sefris (Half-Elf Warlock)": {
 			"name": "セフリス (ハーフエルフ・ウォーロック)",
-			"tokenName": "セフリス",
 			"description": "<p>Sefris's pickpocketing as a child grew into small burglaries and eventually complex heists, using the dark bond with his fiend to aid his exploits. He'll work for anyone who can throw some coin his way.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
 		},
 		"Zanna (Gnome Wizard)": {
 			"name": "ザナ (ノーム・ウィザード)",
-			"tokenName": "ザナ",
 			"description": "<p>Always interested in tinkering, Zanna set out for adventure in order to find more spells for her spellbook, and perhaps one day create some of her own.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
 		}
 	}

@@ -107,7 +107,7 @@
 "DND5E.AbilityModifier": "能力修正値",
 "DND5E.AbilityModifierShort": "修正",
 "DND5E.AbilityPromptText": "どの {ability} 判定ですか？",
-"DND5E.AbilityPromptTitle": "【{ability} 】能力値判定",
+"DND5E.AbilityPromptTitle": "【{ability}】能力値判定",
 "DND5E.AbilityUseChargesLabel": "{value} チャージ",
 "DND5E.AbilityUseConsumableLabel": "{max} / {per}",
 "DND5E.AbilityUseCast": "呪文発動",
