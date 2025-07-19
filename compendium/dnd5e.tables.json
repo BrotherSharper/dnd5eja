@@ -1,5 +1,5 @@
 {
-	"label": "表 (SRD・未訳)",
+	"label": "表 (SRD)",
 	"entries": {
 		"Armor of Resistance": {
 			"name": "Armor of Resistance",
@@ -10,15 +10,32 @@
 			"description": ""
 		},
 		"Bonds (Acolyte)": {
-			"name": "Bonds (Acolyte)",
-			"description": ""
+			"name": "関わり深いもの (侍祭)",
+			"results": {
+				"1-1": "はるか昔に失われた我が信仰における古代の聖遺物奪還に命を懸けている。",
+				"2-2": "私はいつの日か、私に異端の烙印を押した腐敗した寺院のお偉方に復讐する。",
+				"3-3": "両親が死んだときに拾ってくれた司祭に一生の借りがある。",
+				"4-4": "私の行なうことはすべて一般庶民のためだ。",
+				"5-5": "自分が仕える寺院を守るためなら何でもする。",
+				"6-6": "敵どもが異端として破棄しようとしている聖なる文書を、私は探し出し守ろうとしている。"
+			}
 		},
 		"Candle of Invocation": {
-			"name": "Candle of Invocation",
-			"description": ""
+			"name": "キャンドル・オヴ・インヴォケーション",
+			"results": {
+				"1-2": "混沌にして悪",
+				"3-4": "混沌にして中立",
+				"5-7": "混沌にして善",
+				"8-9": "中立にして悪",
+				"10-11": "真なる中立",
+				"12-13": "中立にして善",
+				"14-15": "秩序にして悪",
+				"16-17": "秩序にして中立",
+				"18-20": "秩序にして善"
+			}
 		},
 		"Carpet of Flying": {
-			"name": "Carpet of Flying",
+			"name": "カーペット・オブ・フライング",
 			"description": ""
 		},
 		"Confusion": {
@@ -30,39 +47,65 @@
 			"description": ""
 		},
 		"Feather Token": {
-			"name": "Feather Token",
+			"name": "フェザー・トークン",
 			"description": "This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect."
 		},
 		"Flaws (Acolyte)": {
-			"name": "Flaws (Acolyte)",
-			"description": ""
+			"name": "弱み (侍祭)",
+			"results": {
+				"1-1": "他人を厳しく裁き、自分にはさらに厳しい。",
+				"2-2": "自分の寺院の階級の中で権力を握っている人々をあまりにも信用しすぎる。",
+				"3-3": "信仰心ゆえに、同じ神への信仰を口にする者を時として盲信してしまう。",
+				"4-4": "融通の効かない考え方をする。",
+				"5-5": "外部の者を見ると、うろんな奴と思い、どんなひどいことをしでかすかわからぬと思う。",
+				"6-6": "いったん目標を定めると、そのことしか考えられなくなり、人生における他のあらゆる事柄を置き捨ててしまう。"
+			}
 		},
 		"Grey Bag of Tricks": {
-			"name": "Grey Bag of Tricks",
+			"name": "灰色のバッグ・オヴ・トリックス",
 			"description": ""
 		},
 		"Horn of Valhalla": {
-			"name": "Horn of Valhalla",
+			"name": "ホーン・オヴ・ヴァルハラ",
 			"description": ""
 		},
 		"Ideals (Acolyte)": {
-			"name": "Ideals (Acolyte)",
-			"description": ""
+			"name": "尊ぶもの (侍祭)",
+			"results": {
+				"1-1": "<strong>伝統</strong>。信仰と犠牲への古いふるい伝統は変わることなく保たれ続いていかねばならない。（秩序）",
+				"2-2": "<strong>慈善</strong>。この身を粉にしようとも、私は常に困っている人々を助けようと努める。（善）",
+				"3-3": "<strong>変化</strong>。神々は常にこの世に変化をもたらすべく活動しており、我々はそれを手助けせねばならぬ。（混沌）",
+				"4-4": "<strong>権力</strong>。私はいつの日かわが教団の頂に登り詰めたい。（秩序）",
+				"5-5": "<strong>信仰</strong>。私は我が神が我が行ないを導くことを信じる。懸命に働いたなら物事はよくなるのだと信じている。（秩序）",
+				"6-6": "<strong>野望</strong>。我が身が我が神の恩寵にふさわしいことを証明するため、私は我が神の教えに従って行動している。（属性問わず）"
+			}
 		},
 		"Indefinite Madness": {
 			"name": "Indefinite Madness",
 			"description": "The character is afflicted with indefinite madness."
 		},
 		"Iron Flask": {
-			"name": "Iron Flask",
-			"description": ""
+			"name": "アイアン・フラスク",
+			"description": "",
+			"results": {
+				"1-50": "空",
+				"51-54": "デーモン (タイプ1)",
+				"55-58": "デーモン (タイプ2)",
+				"59-62": "デーモン (タイプ3)",
+				"63-64": "デーモン (タイプ4)",
+				"65-65": "デーモン (タイプ5)",
+				"66-66": "デーモン (タイプ6)",
+				"68-69": "グレーター・デヴィル",
+				"70-73": "レッサー・デヴィル",
+				"78-83": "デーモン"
+			}
 		},
 		"Long-Term Madness": {
 			"name": "Long-Term Madness",
 			"description": "<p>The character is afflicted with long-­term madness for [[/r 1d10*10]] hours.</p>"
 		},
 		"Manual of Golems": {
-			"name": "Manual of Golems",
+			"name": "マニュアル・オヴ・ゴーレムズ",
 			"description": ""
 		},
 		"Necklace of Prayer Beads": {
@@ -70,19 +113,44 @@
 			"description": ""
 		},
 		"Personality Traits (Acolyte)": {
-			"name": "Personality Traits (Acolyte)",
-			"description": ""
+			"name": "人格的特徴 (侍祭)",
+			"results": {
+				"1-1": "自身の信仰上の特定の英雄を崇拝しており、常にその人物の行ないや模範に倣う。",
+				"2-2": "最も対立する敵の中にさえ共通点を見出すことができ、彼らに共感し、常に平和のために努めている。",
+				"3-3": "私はあらゆる出来事や行ないの中に神のお告げを見る。神々は我々に話しかけようとしておられる。我々はただ聞こうとさえすればよいのだ。",
+				"4-4": "何ものも私の楽天的な態度を揺るがすことはできない。",
+				"5-5": "ほとんどすべての状況において、聖なる文言やことわざを引用（あるいは誤引用）する。",
+				"6-6": "他の信仰に対して寛容（あるいは不寛容）であり、他の神々への信仰をたっとぶ（あるいは非難する）。",
+				"7-7": "私は良いものを飲み食いし、私の属する寺院の高位の人々の間で上流社会の生活を享受してきた。粗野な生活は私には不快だ。",
+				"8-8": "寺院で長いこと暮らしてきており、外の世界の人々とやっていくのには慣れていない。"
+			}
 		},
 		"Potion of Resistance": {
-			"name": "Potion of Resistance",
+			"name": "ポーション・オヴ・レジスタンス",
 			"description": ""
 		},
 		"Reincarnate": {
-			"name": "Reincarnate",
-			"description": ""
+			"name": "リインカーネイト",
+			"description": "",
+			"results": {
+				"1-4": "ドラゴンボーン",
+				"5-13": "ヒル・ドワーフ",
+				"14-21": "マウンテン・ドワーフ",
+				"22-25": "ダーク・エルフ（ドラウ）",
+				"26-34": "ハイ・エルフ",
+				"35-42": "ウッド・エルフ",
+				"43-46": "フォレスト・ノーム",
+				"47-52": "ロック・ノーム",
+				"53-56": "ハーフエルフ",
+				"57-60": "ハーフオーク",
+				"61-68": "ライトフット・ハーフリング",
+				"69-76": "スタウト・ハーフリング",
+				"77-96": "ヒューマン",
+				"97-100": "ティーフリング"
+			}
 		},
 		"Ring of Resistance": {
-			"name": "Ring of Resistance",
+			"name": "リング・オヴ・レジスタンス",
 			"description": ""
 		},
 		"Robe of Useful Items": {
@@ -90,7 +158,7 @@
 			"description": ""
 		},
 		"Rust Bag of Tricks": {
-			"name": "Rust Bag of Tricks",
+			"name": "赤茶色のバッグ・オヴ・トリックス",
 			"description": ""
 		},
 		"Sentient Magic Items Alignment": {
@@ -118,7 +186,7 @@
 			"description": ""
 		},
 		"Tan Bag of Tricks": {
-			"name": "Tan Bag of Tricks",
+			"name": "褐色のバッグ・オヴ・トリックス",
 			"description": ""
 		},
 		"Wand of Wonder": {

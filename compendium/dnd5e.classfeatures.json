@@ -1,19 +1,11 @@
 {
 	"label": "クラス特徴 (SRD)",
 	"mapping": {
-        "requirements": {
-            "path": "system.requirements",
-            "converter": "classRequirements"
-        },
-        "uses": {
-            "path": "data.uses.max",
-            "converter": "classNameFormula"
-        },
-        "formula": {
-            "path": "data.formula",
-            "converter": "classNameFormula"
-        }
-    },
+		"requirements": {
+			"path": "system.requirements",
+			"converter": "classRequirements"
+		}
+	},
 	"folders": {
 		"Barbarian" : "バーバリアン",
 		"Barbarian Features" : "バーバリアン特徴",
@@ -57,9 +49,17 @@
 		"School of Evocation Features" : "力術の学派特徴"
 	},
 	"entries": {
-		"Ability Score Improvement": {
+		"s0Cc2zcX0JzIgam5": {
 			"name": "能力値上昇",
 			"description": "<p>4、8、12、16、19レベルの時点で、君は任意の1種類の能力値を2上昇させるか、あるいは任意の2種類の能力値を1ずつ上昇させることができる。通常通り、この特徴によってもまた、能力値を20より上にすることはできない。</p>"
+		},
+		"sPy2OLoN7JaAcMl4": {
+			"name": "能力値上昇",
+			"description": "<p>4、6、8、12、14、16、19レベルの時点で、君は任意の1種類の能力値を2上昇させるか、あるいは任意の2種類の能力値を1ずつ上昇させることができる。通常通り、この特徴によってもまた、能力値を20より上にすることはできない。</p>"
+		},
+		"v7MxFuTAgOsmxZCD": {
+			"name": "能力値上昇",
+			"description": "<p>4、8、10、12、16、19レベルの時点で、君は任意の1種類の能力値を2上昇させるか、あるいは任意の2種類の能力値を1ずつ上昇させることができる。通常通り、この特徴によってもまた、能力値を20より上にすることはできない。</p>"
 		},
 		"Action Surge": {
 			"name": "怒涛のアクション",
@@ -67,7 +67,7 @@
 		},
 		"Additional Fighting Style": {
 			"name": "戦闘スタイル追加",
-			"description": "<p>10レベルの時点で、君はクラス特徴“戦闘スタイル”から、もう1種類の戦闘スタイルを選択できる。</p><p>@Compendium[dnd5e.classfeatures.8YwPFv3UAPjWVDNf]</p><p>@Compendium[dnd5e.classfeatures.zSlV0O2rQMdoq6pB]</p><p>@Compendium[dnd5e.classfeatures.hCop9uJrWhF1QPb4]</p><p>@Compendium[dnd5e.classfeatures.3Nc6u9pyStByuJsm]</p><p>@Compendium[dnd5e.classfeatures.06NVMYf58Z76O85O]</p><p>@Compendium[dnd5e.classfeatures.mHcSjcHJ8oZu3hkb]</p><p>この選択は1レベルのものとは異なっている必要がある。</p>\n"
+			"description": "<p>10レベルの時点で、君はクラス特徴“戦闘スタイル”から、もう1種類の戦闘スタイルを選択できる。</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]</p><p>この選択は1レベルのものとは異なっている必要がある。</p>\n"
 		},
 		"Additional Magical Secrets": {
 			"name": "魔法の秘密追加",
@@ -83,7 +83,7 @@
 		},
 		"Arcane Tradition": {
 			"name": "秘術の学派",
-			"description": "<p>2レベルの時点で、君は@Compendium[dnd5e.subclasses.Ye5f3FReEnuXfi0y]{力術系統}などの秘術の学派の中から1つを選択し、以後は力術など、魔法の8系統のうち1系統を重視して魔法を修練する。</p><p>ここでの選択にもとづいて、君は2、6、10、14レベルで特徴を得る。</p>"
+			"description": "<p>2レベルの時点で、君は@UUID[Compendium.dnd5e.subclasses.Item.Ye5f3FReEnuXfi0y]{力術系統}などの秘術の学派の中から1つを選択し、以後は力術など、魔法の8系統のうち1系統を重視して魔法を修練する。</p><p>ここでの選択にもとづいて、君は2、6、10、14レベルで特徴を得る。</p>"
 		},
 		"Archdruid": {
 			"name": "大ドルイド",
@@ -91,14 +91,14 @@
 		},
 		"Archery": {
 			"name": "弓術",
-			"description": "遠隔武器での攻撃ロールに+2のボーナスを得る。"
+			"description": "<p>遠隔武器での攻撃ロールに+2のボーナスを得る。</p>"
 		},
 		"Armor of Shadows": {
-			"name": "妖術：影の鎧",
+			"name": "影の鎧",
 			"description": "<p>@UUID[Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H]を自分自身に対して、回数無制限で、呪文スロットも物質要素も一切消費することなく発動できる。</p>"
 		},
 		"Ascendant Step": {
-			"name": "妖術：登りゆく歩み",
+			"name": "登りゆく歩み",
 			"description": "<p> @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]を自分自身に対して、回数無制限で、呪文スロットも物質要素も一切消費することなく発動できる。</p>"
 		},
 		"Aura of Courage": {
@@ -115,14 +115,14 @@
 		},
 		"Bard College": {
 			"name": "バードの楽派",
-			"description": "<p>3レベルの時点で、君は@Compendium[dnd5e.subclasses.MNvsEc4D2ccX7dQT]{知の楽派}などのバードの楽派を選択してその派の高等技術を学びはじめる。いずれもこのクラスの記述の末尾に詳述されている。この選択によって、3、6、14レベルで得られる特徴が決定される。</p>"
+			"description": "<p>3レベルの時点で、君は@UUID[Compendium.dnd5e.subclasses.Item.MNvsEc4D2ccX7dQT]{知の楽派}などのバードの楽派を選択してその派の高等技術を学びはじめる。いずれもこのクラスの記述の末尾に詳述されている。この選択によって、3、6、14レベルで得られる特徴が決定される。</p>"
 		},
 		"Bardic Inspiration": {
 			"name": "バードの声援",
 			"description": "<p>君は感動的な言葉あるいは音楽によって他のものを鼓舞することができる。そのためには、君は自分のターンにボーナス・アクションを用いて、君から60フィート以内にいて君の声を聞くことができる、君以外のクリーチャー1体を選択する必要がある。そのクリーチャーは声援ダイスを1つ得る。ダイスの種類はd6である。そのクリーチャーは、以後10分以内に1度だけ、声援ダイスをロールしてその結果を自分の行なう1回の能力値判定、攻撃ロール、セーヴイング・スローのいずれかに加えることができる。声援ダイスを使うかどうかを決めるのは、d20をロールした後でよいが、DMがそのロールの成否を宣言するより前でなければならない。声援ダイスは1度ロールされると失われる。クリーチャーがl度に持てる声援ダイスはI個だけである。</p><p>君はこの特徴を君の【魅力】修正値に等しい回数だけ使用できる(最低1回)。使用回数は大休憩を終えたならすべて回復する。声援ダイスの種類は5レベルでd8に、10レベルでd10に、15レベルでd12になる。</p>"
 		},
 		"Beast Speech": {
-			"name": "妖術：獣の言葉",
+			"name": "獣の言葉",
 			"description": "<p> @UUID[Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu] を回数無制限で、呪文スロットを一切消費することなく発動できる。</p>"
 		},
 		"Beast Spells": {
@@ -130,11 +130,11 @@
 			"description": "<p>18レベル以降、君はドルイド呪文の多くを、@UUID[Compendium.dnd5e.classfeatures.Item.swK0r5TOIxredxWS]{自然の化身}によって取り得るいかなる姿のときにも発動できるようになる。君は野獣形態の時にもドルイド呪文の動作要素と音声要素を行なえるが、物質要素を提供することはできない。</p>"
 		},
 		"Beguiling Influence": {
-			"name": "妖術：巧言令色",
-			"description": "〈説得〉と〈ペテン〉の技能に習熟を得る。"
+			"name": "巧言令色",
+			"description": "<p>〈説得〉と〈ペテン〉の技能に習熟を得る。</p>"
 		},
 		"Bewitching Whispers": {
-			"name": "妖術：惑わすささやき",
+			"name": "惑わすささやき",
 			"description": "<p>ウォーロックの呪文スロットを1つ使用して @UUID[Compendium.dnd5e.spells.Item.P6f1PPKPd9BCb742] を1回発動できる。大休憩を終えるまでは再びこれを行えない。</p>"
 		},
 		"Blessed Healer": {
@@ -158,7 +158,7 @@
 			"description": "<p>1レベルでこの領域を選択した時点で、君は重装鎧の習熟を得る。</p>"
 		},
 		"Book of Ancient Secrets": {
-			"name": "妖術：古き秘術の書",
+			"name": "古き秘術の書",
 			"description": "<p>『影の書』に魔法の儀式を記すことができる。任意のクラス(複数のクラスも可)の呪文リストから(儀式)タグの付いた1レベル呪文を2つ選択すること。それらの呪文は『影の書』中に記され、君の呪文修得数を数える際には計算に入れない。『影の書』を手に持っているならば、君はそれらの呪文を儀式として発動できる。他の方法で修得していない限り、儀式として以外には発動できない。また君は、修得しているウォーロック呪文に(儀式)タグが付いているならば、その呪文を儀式として発動できる。</p><p>君は冒険の中で他の儀式呪文を『影の書』に加えることができる。儀式呪文を発見し、その呪文レベルが君のウォーロック・レベルの半分(切り上げ)以下であり、かつ君にその呪文を書き写す時間があるならば、君はその呪文を『影の書』に加えることができる。書き写すには、呪文1レベル毎に2時間と、呪文を書き写すための珍しいインク代の50gpかかる。</p>"
 		},
 		"Brutal Critical": {
@@ -166,36 +166,40 @@
 			"description": "<p>9レベル以降、君は近接戦闘のクリティカル・ヒット時の追加ダメージを決定する際に、武器ダメージ・ダイスを1個追加でロールできる。これは13レベルで2個に、17レベルで3個に増加する。</p>"
 		},
 		"Careful Spell": {
-			"name": "呪文修正：呪文敵味方識別",
+			"name": "呪文敵味方識別",
 			"description": "<p>君は、他のクリーチャーにセーヴィング・スローを要求するような呪文を発動するさい、それらのクリーチャーの一部を、呪文の影響をまともに受けずにすむように守れる。そうする場合、魔力点を1消費し、君の【魅力】修正値(最低1)までの数のクリーチャーを選択すること。選択されたクリーチャーはその呪文に対するセーヴィング・スローに自動成功する。</p>"
 		},
 		"Chains of Carceri": {
-			"name": "妖術：カルケリの鎖",
+			"name": "カルケリの鎖",
 			"description": "<p> @UUID[Compendium.dnd5e.spells.Item.l9Ju5KE7bbn3WpTm] を回数無制限で、呪文スロットも物質要素も一切消費することなく発動できる。ただし目標はセレスチャルかフィーンドかエレメンタルに限られる。大休憩を終えるまでは、同一個体のクリーチャーに再びこの妖術を使用することはできない。</p>"
 		},
-		"Channel Divinity": {
+		"YpiLQEKGalROn7iJ": {
 			"name": "神性伝導",
 			"description": "<p>2レベルの時点で、君は神から信仰のエネルギーを直接授かり、これを放って魔法効果を生み出すことができるようになる。最初は2つの効果をあらわすことができる。ひとつは“アンデッド退散”であり、もうひとつは領域によって決まる。一部の領域においては、レベルアップに従って新しく追加の効果が得られることがある(各領域の記述を参照)。</p><p>神性伝導を用いるさい、いずれの効果を生み出すかは君が選択する。ひとたび神性伝導を使用したなら、以後小休憩または大休憩を終了するまでは、神性伝導は使用できなくなる。神性伝導の効果の中にはセーヴィング・スローを要求するものがある。クレリックのクラスに由来するこのような効果を用いる場合、そのセーヴ難易度は、君のクレリック呪文のセーヴ難易度に等しい。</p><p>6レベル以降、君は休憩と休憩の間に神性伝導を2回まで使用できるようになる。18レベル以降、休憩と休憩の間に3回まで使用できるようになる。小休憩または大休憩を終えるたび、消費した使用回数はすべて回復する。</p><section class=\"secret foundry-note\" id=\"secret-AZYZtT1NonF68bPW\"><p><strong>Foundryノート</strong></p><p>クレリックが神性伝導を使用した際に、使用状況を記録する。</p></section>"
 		},
+		"8M7uOPhbTxoxxJSo": {
+			"name": "神性伝導",
+			"description": "<p>誓いにより、君は信仰のエネルギーを放って魔法効果を生み出すことができるようになる。その用法は、誓いによって得られる個々の神性伝導の項に記してある。</p><p>神性伝導を用いるさい、どの効果を生み出すかは君が選択する。ひとたび神性伝導を使用したなら、以後小休憩または大休憩を終了するまでは、神性伝導は使用できなくなる。</p><p>神性伝導の効果の中にはセーヴィング・スローを要求するものがある。パラディンのクラスに由来するこのような効果を用いる場合、そのセーヴ難易度は、君のパラディン呪文のセーヴ難易度に等しい。</p><section class=\"secret foundry-note\" id=\"secret-zMJG0jvMiZEEkLfI\"><p><strong>Foundryノート</strong></p><p>パラディンが神性伝導を使用した際に、使用状況を記録する。</p></section>"
+		},
 		"Channel Divinity: Preserve Life": {
 			"name": "神性伝導：生命保護",
-			"description": "<p>2レベル以降、君は神性伝導を用いて、重傷者を癒すことができるようになる。</p><p>君は1回のアクションとして聖印を明らかに示し、治癒の力を呼びおろして、クレリック・レベルの5倍に相当するヒット・ポイントを回復する。</p><p>君から30フィート以内の任意の数のクリーチャーを選択し、先述のヒット・ポイントをこれらのクリーチャーに分配すること。この特徴によってクリーチャーの現在ヒット・ポイントを“最大ヒット・ポイントの半分\"を超えて回復することはできない。この特徴をアンデッドや人造クリーチャーに対して使用することはできない。</p>"
+			"description": "<p>2レベル以降、君は神性伝導を用いて、重傷者を癒すことができるようになる。</p><p>君は1回のアクションとして聖印を明らかに示し、治癒の力を呼びおろして、クレリック・レベルの5倍に相当するヒット・ポイントを回復する。</p><p>君から30フィート以内の任意の数のクリーチャーを選択し、先述のヒット・ポイントをこれらのクリーチャーに分配すること。この特徴によってクリーチャーの現在ヒット・ポイントを“最大ヒット・ポイントの半分”を超えて回復することはできない。この特徴をアンデッドや人造クリーチャーに対して使用することはできない。</p>"
 		},
 		"Channel Divinity: Sacred Weapon": {
 			"name": "神性伝導：武器聖別",
-			"description": "<p>君は1回のアクションとして、自分の神性伝導を使って、自分が手に持っている武器1つに正のエネルギーを宿すことができる。</p><p>以後1分間、君はその武器で行なう攻撃ロールに君の【魅力】修正値(最低+1)を加算する。また、その武器は半径20フィートに“明るい\"光、さらに20フィート先まで“薄暗い\"光を放つ。その武器がもともと魔法の武器でなかったならば、この神性伝導の期間中、武器は魔法のものとなる。</p><p>君はこの効果を、君のターンにおいて、他のアクションの一部として終了させることができる。また、君がもはやこの武器を手に持っても運搬してもいなくなった場合や、君が気絶状態になった場合にも、この効果は終了する。</p>"
+			"description": "<p>君は1回のアクションとして、自分の神性伝導を使って、自分が手に持っている武器1つに正のエネルギーを宿すことができる。</p><p>以後1分間、君はその武器で行なう攻撃ロールに君の【魅力】修正値(最低+1)を加算する。また、その武器は半径20フィートに“明るい”光、さらに20フィート先まで“薄暗い”光を放つ。その武器がもともと魔法の武器でなかったならば、この神性伝導の期間中、武器は魔法のものとなる。</p><p>君はこの効果を、君のターンにおいて、他のアクションの一部として終了させることができる。また、君がもはやこの武器を手に持っても運搬してもいなくなった場合や、君が気絶状態になった場合にも、この効果は終了する。</p>"
 		},
 		"Channel Divinity: Turn the Unholy": {
 			"name": "神性伝導：不浄者退散",
-			"description": "<p>君は1回のアクションとして、自分の神性伝導を使って、聖印をかざしてアンデッドとフィーンドを叱責する祈りを口にする。君から30フィー卜以内におり、君の姿を見るか、声を聞くことのできるアンデッドとフィーンドはみな、【判断力】セーヴィング・スローを行なわねばならない。セーヴに失敗したクリーチャーは、1分聞が経過するかダメージを受けるまで“退散\"する。</p><p>退散中のクリーチャーは、自分のターンを、できるだけ君から遠くへ移動することに費やさねばならず、また自ら進んで君から30フィート以内の場所へ移動することは不可能である。そのクリーチャーはアクションとしては早足アクションか、自分の移動を妨げる効果を脱しようとするためのアクションしか使用できない。ただし、どこへも移動できない場合に限り、回避アクションも使用可能である</p>"
+			"description": "<p>君は1回のアクションとして、自分の神性伝導を使って、聖印をかざしてアンデッドとフィーンドを叱責する祈りを口にする。君から30フィー卜以内におり、君の姿を見るか、声を聞くことのできるアンデッドとフィーンドはみな、【判断力】セーヴィング・スローを行なわねばならない。セーヴに失敗したクリーチャーは、1分聞が経過するかダメージを受けるまで“退散”する。</p><p>退散中のクリーチャーは、自分のターンを、できるだけ君から遠くへ移動することに費やさねばならず、また自ら進んで君から30フィート以内の場所へ移動することは不可能である。そのクリーチャーはアクションとしては早足アクションか、自分の移動を妨げる効果を脱しようとするためのアクションしか使用できない。ただし、どこへも移動できない場合に限り、回避アクションも使用可能である</p>"
 		},
 		"Channel Divinity: Turn Undead": {
 			"name": "神性伝導：アンデッド退散",
-			"description": "<p>君は1回のアクションとして、聖印をかざしてアンデッドを叱責する祈りを口にする。</p><p>君から30フィート以内におり、君の姿を見るか声を聞くことのできるアンデッドはみな、【判断力】セーヴィング・スローを行なわねばならない。セーヴに失敗したクリーチャーは、1分間が経過するかダメージを受けるまで“退散\"する。</p><p>退散中のクリーチャーは、自分のターンを、できるだけ君から遠くへ移動することに費やさねばならず、また自ら進んで君から30フィート以内の場所へ移動することは不可能であり、リアクションをとることもできない。そのクリーチャーはアクションとしては早足アクションか、自分の移動を妨げる効果を脱しようとするためのアクションしか使用できない。ただし、どこへも移動できない場合に限り、回避アクションも使用可能である。</p>"
+			"description": "<p>君は1回のアクションとして、聖印をかざしてアンデッドを叱責する祈りを口にする。</p><p>君から30フィート以内におり、君の姿を見るか声を聞くことのできるアンデッドはみな、【判断力】セーヴィング・スローを行なわねばならない。セーヴに失敗したクリーチャーは、1分間が経過するかダメージを受けるまで“退散”する。</p><p>退散中のクリーチャーは、自分のターンを、できるだけ君から遠くへ移動することに費やさねばならず、また自ら進んで君から30フィート以内の場所へ移動することは不可能であり、リアクションをとることもできない。そのクリーチャーはアクションとしては早足アクションか、自分の移動を妨げる効果を脱しようとするためのアクションしか使用できない。ただし、どこへも移動できない場合に限り、回避アクションも使用可能である。</p>"
 		},
 		"Circle Spells": {
 			"name": "円環の呪文",
-			"description": "<p>土地との神秘的なつながりが、特定の呪文を発動する能力を君に与える。君は3、5、7、9レベルの時点で、君がドルイドとなった土地と結びついた“円環の呪文\"を使用できるようになる。その土地の種類を─アンダーダーク、海岸、極地、砂漠、山岳、湿地、森林、草原の中から─1つ選択し、対応する呪文リストを参照すること。</p><p>ひとたび”円環の呪文\"を得たなら、これらの呪文は常に準備しており、しかもこれらの呪文は君が準備している呪文数には含まれない。本来ドルイド呪文リストにない呪文を得た場合、その呪文は君にとってはドルイド呪文となる。</p>\n<table border=\"1\"><caption>\n<h3>極地</h3>\n</caption>\n<thead>\n<tr>\n<td><strong>ドルイド・レベル</strong></td>\n<td><strong>円感の呪文</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@Compendium[dnd5e.spells.3Lo9boi7P2ro6QV4]{ホールド・パースン}, @Compendium[dnd5e.spells.9gYGkrL6qFTsE6fw]{スパイク・グロウス}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@Compendium[dnd5e.spells.dhqBY4TvVjxVmOZd]{スリート・ストーム}, @Compendium[dnd5e.spells.yqUDoxk4x0NWG5Bz]{スロー}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@Compendium[dnd5e.spells.da0a1t2FqaTjRZGT]{フリーダム・オヴ・ムーヴメント}, @Compendium[dnd5e.spells.WN2LWEljYU6QqnRH]{アイス・ストーム}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@Compendium[dnd5e.spells.d54VDyFulD9xxY7J]{コミューン・ウィズ・ネイチャー}, @Compendium[dnd5e.spells.RpKjTlYASrfqUPVA]{コーン・オヴ・コールド}</td>\n</tr>\n</tbody>\n</table>\n<table border=\"1\"><caption>\n<h3>海岸</h3>\n</caption>\n<thead>\n<tr>\n<td><strong>ドルイド・レベル</strong></td>\n<td><strong>円感の呪文</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@Compendium[dnd5e.spells.X4c8xCkmF8U9HUMz]{ミラー・イメージ}, @Compendium[dnd5e.spells.wqfAVANuQonNBgnL]{ミスティ・ステップ}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@Compendium[dnd5e.spells.13uVuBQP6VaiSPvC]{ウォーター・ブリージング}, @Compendium[dnd5e.spells.YBda6nLKjxdT1LbS]{ウォーター・ウォーク}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@Compendium[dnd5e.spells.7fFHlBk3UNX8gPKL]{コントロール・ウォータ一}, @Compendium[dnd5e.spells.da0a1t2FqaTjRZGT]{フリーダム・オヴ・ムーヴメント}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@Compendium[dnd5e.spells.1LkZvINag7KqBmDR]{カンジャー・エレメンタル}, @Compendium[dnd5e.spells.fVbCxFRaORalHB20]{スクライング}</td>\n</tr>\n</tbody>\n</table>\n<table border=\"1\"><caption>\n<h3>砂漠</h3>\n</caption>\n<thead>\n<tr>\n<td><strong>ドルイド・レベル</strong></td>\n<td><strong>円感の呪文</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@Compendium[dnd5e.spells.UDUnlfPsOAbq2RSE]{ブラー}, @Compendium[dnd5e.spells.5VhqFROQYjr1P9lp]{サイレンス}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@Compendium[dnd5e.spells.BV0mpbHh29IbbIj5]{クリエイト・フード・アンド・ウォータ一}, @Compendium[dnd5e.spells.j8NtLXOOJ3GAKF8I]{プロテクション・フロム・エナジー}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@Compendium[dnd5e.spells.pybg5MNc3lkerH4Y]{ブライト}, @Compendium[dnd5e.spells.sTIkQK7KuQNOyY0C]{ハリューサナトリ・テレイン}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@Compendium[dnd5e.spells.OVikYmSdHliAG2YD]{インセクト・プレイグ}, @Compendium[dnd5e.spells.NmoRmM1mhuM3pqnY]{ウオール・オヴ・ストーン}</td>\n</tr>\n</tbody>\n</table>\n<table border=\"1\"><caption>\n<h3>森林</h3>\n</caption>\n<thead>\n<tr>\n<td><strong>ドルイド・レベル</strong></td>\n<td><strong>円感の呪文</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@Compendium[dnd5e.spells.JPwIEfgUPVebr5AH]{バークスキン}, @Compendium[dnd5e.spells.KJRVzeMQXPj8Gtyx]{スパイダー・クライム}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@Compendium[dnd5e.spells.ehvmg9U9fcMEhE4z]{コール・ライトニング}, @Compendium[dnd5e.spells.YWtwzp6ZnQJMEmVW]{プラント・グロウス}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@Compendium[dnd5e.spells.XqzXSKNR75ZdYTA9]{ディヴィネーション}, @Compendium[dnd5e.spells.da0a1t2FqaTjRZGT]{フリーダム・オヴ・ムーヴメント}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@Compendium[dnd5e.spells.dp6xny4v8PDoIGjh]{コミューン・ウィズ・ネイチャ一}, @Compendium[dnd5e.spells.DUBgwHPakcLDkB6W]{ツリー・ストライド}</td>\n</tr>\n</tbody>\n</table>\n<h4></h4>\n<table border=\"1\"><caption>\n<h3>草原</h3>\n</caption>\n<thead>\n<tr>\n<td><strong>ドルイド・レベル</strong></td>\n<td><strong>円感の呪文</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@Compendium[dnd5e.spells.1N8dDMMgZ1h1YJ3B]{インヴィジビリテイ}, @Compendium[dnd5e.spells.pRMvmknwLf2tdMTj]{パス・ウィズアウト・トレイス}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@Compendium[dnd5e.spells.BP3GCwa66IAw1yTG]{デイライト}, @Compendium[dnd5e.spells.Szvk5FEVQW3uhJi5]{へイスト}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@Compendium[dnd5e.spells.XqzXSKNR75ZdYTA9]{ディヴィネーション}, @Compendium[dnd5e.spells.da0a1t2FqaTjRZGT]{フリーダム・オヴ・ムーヴメント}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@Compendium[dnd5e.spells.kSPRpeIx3w3nihrF]{ドリーム}, @Compendium[dnd5e.spells.OVikYmSdHliAG2YD]{インセクト・プレイグ}</td>\n</tr>\n</tbody>\n</table>\n<table border=\"1\"><caption>\n<h3>山岳</h3>\n</caption>\n<thead>\n<tr>\n<td><strong>ドルイド・レベル</strong></td>\n<td><strong>円感の呪文</strong><strong>山岳</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@Compendium[dnd5e.spells.KJRVzeMQXPj8Gtyx]{スパイダー・クライム}, @Compendium[dnd5e.spells.9gYGkrL6qFTsE6fw]{スパイク・グロウス}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@Compendium[dnd5e.spells.IyikgTEOTv701jgQ]{ライトニング・ボルト}, @Compendium[dnd5e.spells.64uo4fHriHLjRUrX]{メルド・イントゥ・ストーン}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@Compendium[dnd5e.spells.QvGcdRUSNRKEQJlK]{ストーン・シェイプ}, @Compendium[dnd5e.spells.ReMbjfeOKoSj3O79]{ストーンスキン}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@Compendium[dnd5e.spells.d9MwcXi7Il3HROXd]{パスウォール}, @Compendium[dnd5e.spells.NmoRmM1mhuM3pqnY]{ウォール・オヴ・ストーン}</td>\n</tr>\n</tbody>\n</table>\n<table border=\"1\"><caption>\n<h3>湿地</h3>\n</caption>\n<thead>\n<tr>\n<td><strong>ドルイド・レベル</strong></td>\n<td><strong>円感の呪文</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@Compendium[dnd5e.spells.4H6YgYdKgnX6ZQ8M]{アシッド・アロー}, @Compendium[dnd5e.spells.S7VbUetIfVT7B6Eq]{ダークネス}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@Compendium[dnd5e.spells.YBda6nLKjxdT1LbS]{ウォーター・ウォーク}, @Compendium[dnd5e.spells.TwlD4PLcltv7Xh7j]{スティンキング・クラウド}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@Compendium[dnd5e.spells.da0a1t2FqaTjRZGT]{フリーダム・オヴ・ムーヴメント}, @Compendium[dnd5e.spells.gXtzz9t1DTzJeLr4]{ロケート・クリーチャー}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@Compendium[dnd5e.spells.OVikYmSdHliAG2YD]{インセクト・プレイグ}, @Compendium[dnd5e.spells.fVbCxFRaORalHB20]{スクライング}</td>\n</tr>\n</tbody>\n</table>"
+			"description": "<p>土地との神秘的なつながりが、特定の呪文を発動する能力を君に与える。君は3、5、7、9レベルの時点で、君がドルイドとなった土地と結びついた“円環の呪文”を使用できるようになる。その土地の種類を─アンダーダーク、海岸、極地、砂漠、山岳、湿地、森林、草原の中から─1つ選択し、対応する呪文リストを参照すること。</p><p>ひとたび“円環の呪文”を得たなら、これらの呪文は常に準備しており、しかもこれらの呪文は君が準備している呪文数には含まれない。本来ドルイド呪文リストにない呪文を得た場合、その呪文は君にとってはドルイド呪文となる。</p>\n<table><caption>\n極地\n</caption>\n<thead>\n<tr>\n<td><strong>ドルイド・レベル</strong></td>\n<td><strong>円感の呪文</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.3Lo9boi7P2ro6QV4]{ホールド・パースン}, @UUID[Compendium.dnd5e.spells.Item.9gYGkrL6qFTsE6fw]{スパイク・グロウス}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd]{スリート・ストーム}, @UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{スロー}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{フリーダム・オヴ・ムーヴメント}, @UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{アイス・ストーム}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.d54VDyFulD9xxY7J]{コミューン・ウィズ・ネイチャー}, @UUID[Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA]{コーン・オヴ・コールド}</td>\n</tr>\n</tbody>\n</table>\n<table><caption>\n海岸\n</caption>\n<thead>\n<tr>\n<td><strong>ドルイド・レベル</strong></td>\n<td><strong>円感の呪文</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.X4c8xCkmF8U9HUMz]{ミラー・イメージ}, @UUID[Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL]{ミスティ・ステップ}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.13uVuBQP6VaiSPvC]{ウォーター・ブリージング}, @UUID[Compendium.dnd5e.spells.Item.YBda6nLKjxdT1LbS]{ウォーター・ウォーク}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.7fFHlBk3UNX8gPKL]{コントロール・ウォータ一}, @UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{フリーダム・オヴ・ムーヴメント}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{カンジャー・エレメンタル}, @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{スクライング}</td>\n</tr>\n</tbody>\n</table>\n<table><caption>\n砂漠\n</caption>\n<thead>\n<tr>\n<td><strong>ドルイド・レベル</strong></td>\n<td><strong>円感の呪文</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.UDUnlfPsOAbq2RSE]{ブラー}, @UUID[Compendium.dnd5e.spells.Item.5VhqFROQYjr1P9lp]{サイレンス}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.BV0mpbHh29IbbIj5]{クリエイト・フード・アンド・ウォータ一}, @UUID[Compendium.dnd5e.spells.Item.j8NtLXOOJ3GAKF8I]{プロテクション・フロム・エナジー}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.pybg5MNc3lkerH4Y]{ブライト}, @UUID[Compendium.dnd5e.spells.Item.sTIkQK7KuQNOyY0C]{ハリューサナトリ・テレイン}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.OVikYmSdHliAG2YD]{インセクト・プレイグ}, @UUID[Compendium.dnd5e.spells.Item.NmoRmM1mhuM3pqnY]{ウオール・オヴ・ストーン}</td>\n</tr>\n</tbody>\n</table>\n<table><caption>\n森林\n</caption>\n<thead>\n<tr>\n<td><strong>ドルイド・レベル</strong></td>\n<td><strong>円感の呪文</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.JPwIEfgUPVebr5AH]{バークスキン}, @UUID[Compendium.dnd5e.spells.Item.KJRVzeMQXPj8Gtyx]{スパイダー・クライム}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.ehvmg9U9fcMEhE4z]{コール・ライトニング}, @UUID[Compendium.dnd5e.spells.Item.YWtwzp6ZnQJMEmVW]{プラント・グロウス}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.XqzXSKNR75ZdYTA9]{ディヴィネーション}, @UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{フリーダム・オヴ・ムーヴメント}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.dp6xny4v8PDoIGjh]{コミューン・ウィズ・ネイチャ一}, @UUID[Compendium.dnd5e.spells.Item.DUBgwHPakcLDkB6W]{ツリー・ストライド}</td>\n</tr>\n</tbody>\n</table>\n<table><caption>\n草原\n</caption>\n<thead>\n<tr>\n<td><strong>ドルイド・レベル</strong></td>\n<td><strong>円感の呪文</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{インヴィジビリテイ}, @UUID[Compendium.dnd5e.spells.Item.pRMvmknwLf2tdMTj]{パス・ウィズアウト・トレイス}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG]{デイライト}, @UUID[Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5]{へイスト}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.XqzXSKNR75ZdYTA9]{ディヴィネーション}, @UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{フリーダム・オヴ・ムーヴメント}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.kSPRpeIx3w3nihrF]{ドリーム}, @UUID[Compendium.dnd5e.spells.Item.OVikYmSdHliAG2YD]{インセクト・プレイグ}</td>\n</tr>\n</tbody>\n</table>\n<table><caption>\n山岳\n</caption>\n<thead>\n<tr>\n<td><strong>ドルイド・レベル</strong></td>\n<td><strong>円感の呪文</strong><strong>山岳</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.KJRVzeMQXPj8Gtyx]{スパイダー・クライム}, @UUID[Compendium.dnd5e.spells.Item.9gYGkrL6qFTsE6fw]{スパイク・グロウス}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{ライトニング・ボルト}, @UUID[Compendium.dnd5e.spells.Item.64uo4fHriHLjRUrX]{メルド・イントゥ・ストーン}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.QvGcdRUSNRKEQJlK]{ストーン・シェイプ}, @UUID[Compendium.dnd5e.spells.Item.ReMbjfeOKoSj3O79]{ストーンスキン}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.d9MwcXi7Il3HROXd]{パスウォール}, @UUID[Compendium.dnd5e.spells.Item.NmoRmM1mhuM3pqnY]{ウォール・オヴ・ストーン}</td>\n</tr>\n</tbody>\n</table>\n<table><caption>\n湿地\n</caption>\n<thead>\n<tr>\n<td><strong>ドルイド・レベル</strong></td>\n<td><strong>円感の呪文</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.4H6YgYdKgnX6ZQ8M]{アシッド・アロー}, @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{ダークネス}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.YBda6nLKjxdT1LbS]{ウォーター・ウォーク}, @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{スティンキング・クラウド}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{フリーダム・オヴ・ムーヴメント}, @UUID[Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4]{ロケート・クリーチャー}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.OVikYmSdHliAG2YD]{インセクト・プレイグ}, @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{スクライング}</td>\n</tr>\n</tbody>\n</table>"
 		},
 		"Cleansing Touch": {
 			"name": "浄化の接触",
@@ -215,7 +219,7 @@
 		},
 		"Cutting Words": {
 			"name": "言葉の刃",
-			"description": "<p>3レベル以降、君から見え、かつ君から60フィート以内にいるクリーチャーが、攻撃ロール、能力値判定、ダメージ・ロールのいずれかを行なう際、君はリアクションを用いて@Compendium[dnd5e.classfeatures.hpLNiGq7y67d2EHA]{バードの声援}の使用回数を1回消費し、声援ダイスを1個ロールして、その結果をクリーチャーのロール結果から引くことができる。</p><p>この特徴を使うかどうかを決めるのは、クリーチャーがロールを行なった後でよいが、DMが攻撃ロールや能力値判定の成否を宣言するより前――クリーチャーがダメージを与えるより前でなければならない。相手クリーチャーが君の声を聞けない場合や、相手クリーチャーが魅了状態に完全耐性を有する場合、そのクリーチャーはこの能力に対して完全耐性を有する。</p>"
+			"description": "<p>3レベル以降、君から見え、かつ君から60フィート以内にいるクリーチャーが、攻撃ロール、能力値判定、ダメージ・ロールのいずれかを行なう際、君はリアクションを用いて@UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{バードの声援}の使用回数を1回消費し、声援ダイスを1個ロールして、その結果をクリーチャーのロール結果から引くことができる。</p><p>この特徴を使うかどうかを決めるのは、クリーチャーがロールを行なった後でよいが、DMが攻撃ロールや能力値判定の成否を宣言するより前――クリーチャーがダメージを与えるより前でなければならない。相手クリーチャーが君の声を聞けない場合や、相手クリーチャーが魅了状態に完全耐性を有する場合、そのクリーチャーはこの能力に対して完全耐性を有する。</p>"
 		},
 		"Danger Sense": {
 			"name": "危険感知",
@@ -230,23 +234,23 @@
 			"description": "<p>6レベル以降、君は能力値判定ないしセーヴィング・スローを行なう際に、この特徴を用いてロールに1d10を足すことができる。振り足すかどうかを決めるのは最初のロールの目を見た後でよいが、必ずロールが何らかの結果を生む前でなければならない。</p><p>1度この特徴を使用したなら、小休憩または大休憩を終了するまで、再び使用することはできない。</p>"
 		},
 		"Defense": {
-			"name": "戦闘スタイル：防御",
-			"description": "鎧を着ているならばACに+1のボーナスを得る。"
+			"name": "防御",
+			"description": "<p>鎧を着ているならばACに+1のボーナスを得る。</p>"
 		},
 		"Defensive Tactics": {
 			"name": "守りの技",
-			"description": "<p>7レベルの時点で、君は以下の特徴のうち任意の1つを得る。</p><p>@Compendium[dnd5e.classfeatures.pAQMJU5R9SGUmzHU]</p><p>@Compendium[dnd5e.classfeatures.slelvrm83v9UAKZU]</p><p>@Compendium[dnd5e.classfeatures.zbHu0NvHuII8lR7W]</p>"
+			"description": "<p>7レベルの時点で、君は以下の特徴のうち任意の1つを得る。</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.pAQMJU5R9SGUmzHU]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.slelvrm83v9UAKZU]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zbHu0NvHuII8lR7W]</p>"
 		},
 		"Deflect Missiles": {
 			"name": "矢止め",
-			"description": "<p>3レベル以降、君は遠隔武器攻撃でヒットを受けた時にリアクションを用いてその飛び道具をそらし、あるいはつかみとることができる。</p><p>これを行なう場合、君がその攻撃から受けるダメージは1d10+君の【敏捷力】修正値+君のモンク・レベル)だけ減少する。</p><p>これによってダメージを0まで減少させたなら、君はその飛ぴ道具をつかみとることができる。ただしその飛び道具が片手で持てる大きさで、かつ君の手が1本以上空いている場合に限る。このように飛び道具をつかみとった場合、君は@Compendium[dnd5e.classfeatures.10b6z2W1txNkrGP7]{気ポイント} を1点消費することにより、同じリアクションの一部として、今しがたつかみとった武器または矢弾を用いて1回の遠隔攻撃を行なえる。君本来の武器習熟にかかわりなく、君はこの攻撃に習熟してみるものと見なされ、その飛び道具はその攻撃においては射程は20/60フィートのモンク武器として扱われる。</p><p>注：FVTT上ではその他の式に減少のダイスが入ってます。返しの攻撃のダメージは初期で1d4になっているので、レベルアップごとに手動で修正してください。</p>"
+			"description": "<p>3レベル以降、君は遠隔武器攻撃でヒットを受けた時にリアクションを用いてその飛び道具をそらし、あるいはつかみとることができる。</p><p>これを行なう場合、君がその攻撃から受けるダメージは1d10+君の【敏捷力】修正値+君のモンク・レベル)だけ減少する。</p><p>これによってダメージを0まで減少させたなら、君はその飛ぴ道具をつかみとることができる。ただしその飛び道具が片手で持てる大きさで、かつ君の手が1本以上空いている場合に限る。このように飛び道具をつかみとった場合、君は@UUID[Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7]{気ポイント} を1点消費することにより、同じリアクションの一部として、今しがたつかみとった武器または矢弾を用いて1回の遠隔攻撃を行なえる。君本来の武器習熟にかかわりなく、君はこの攻撃に習熟してみるものと見なされ、その飛び道具はその攻撃においては射程は20/60フィートのモンク武器として扱われる。</p><p>注：FVTT上ではその他の式に減少のダイスが入ってます。返しの攻撃のダメージは初期で1d4になっているので、レベルアップごとに手動で修正してください。</p>"
 		},
 		"Destroy Undead": {
 			"name": "アンデッド破壊",
-			"description": "<p>5レベル以降、君の“アンデッド退散\"に対するセーヴに失敗したアンデッドは、『アンデッド破壊』表に記された脅威度の値以下であるなら即座に破壊される。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>クレリック・レベル</strong></td>\n<td><strong>破壊されるアンデッドの脅威度</strong></td>\n</tr>\n<tr>\n<td>5th</td>\n<td>1/2以下</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>1以下</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>2以下</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>3以下</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>4以下</td>\n</tr>\n</tbody>\n</table>"
+			"description": "<p>5レベル以降、君の“アンデッド退散”に対するセーヴに失敗したアンデッドは、『アンデッド破壊』表に記された脅威度の値以下であるなら即座に破壊される。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>クレリック・レベル</strong></td>\n<td><strong>破壊されるアンデッドの脅威度</strong></td>\n</tr>\n<tr>\n<td>5th</td>\n<td>1/2以下</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>1以下</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>2以下</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>3以下</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>4以下</td>\n</tr>\n</tbody>\n</table>"
 		},
 		"Devil's Sight": {
-			"name": "妖術：悪魔の目",
+			"name": "悪魔の目",
 			"description": "<p>魔法の暗聞や魔法でない暗閣の中でも、距離120フィートまで、通常に物を見ることができる。</p>"
 		},
 		"Diamond Soul": {
@@ -258,7 +262,7 @@
 			"description": "<p>1レベルから既に、君の治癒呪文はより効果的になる。</p><p>君が呪文レベル1以上の呪文を用いてクリーチャーのヒット・ポイントを回復する時には常に、クリーチャーは追加で2+呪文レベルのヒット・ポイントを回復する。</p>"
 		},
 		"Distant Spell": {
-			"name": "呪文修正：呪文射程延長",
+			"name": "呪文射程延長",
 			"description": "<p>君は、射程が5フィート以上の呪文を発動する場合、魔力点を1消費して呪文の射程を2倍にできる。</p><p>また、射程が“接触”の呪文を発動する場合、魔力点を1消費して呪文の射程を30フィートにできる。</p>"
 		},
 		"Divine Domain": {
@@ -287,19 +291,19 @@
 		},
 		"Draconic Presence": {
 			"name": "竜の威風",
-			"description": "18レベル以降、君は祖先の竜の恐るべき存在の憑代となって、周囲の者たちを畏服するか、恐怖させることができる。君は1回のアクションとして魔力点を5消費し、この力を宿して畏服または恐怖(君が選択する)のオーラを60フィートの距離まで放つ。1分が経過するか君が精神集中を失うまで(精神集中を要する呪文を発動している場合と同様に処理)、敵対的なクリーチャーはみな、このオーラの範囲内で自身のターンを開始したなら【判断力】セーヴィング・スローを行ない、失敗したならこのオーラが終了するまで、(君が畏服を選択していたなら)魅了状態か、(君が恐怖を選択していたなら)恐怖状態になる。このセーヴイング・スローに成功したクリーチャーは、以後24時間、君のオーラに対する完全耐性を得る。"
+			"description": "<p>18レベル以降、君は祖先の竜の恐るべき存在の憑代となって、周囲の者たちを畏服するか、恐怖させることができる。君は1回のアクションとして魔力点を5消費し、この力を宿して畏服または恐怖(君が選択する)のオーラを60フィートの距離まで放つ。1分が経過するか君が精神集中を失うまで(精神集中を要する呪文を発動している場合と同様に処理)、敵対的なクリーチャーはみな、このオーラの範囲内で自身のターンを開始したなら【判断力】セーヴィング・スローを行ない、失敗したならこのオーラが終了するまで、(君が畏服を選択していたなら)魅了状態か、(君が恐怖を選択していたなら)恐怖状態になる。このセーヴイング・スローに成功したクリーチャーは、以後24時間、君のオーラに対する完全耐性を得る。</p>"
 		},
 		"Draconic Resilience": {
 			"name": "竜の防御力",
-			"description": "君の体内を流れる魔力が、祖先の竜の肉体的性質を具現化する。君の最大ヒット・ポイントは、1レベルの時点で1上昇し、加えて君がこのクラスのレベルを得るたびに1ずつ上昇する。\nさらに、君の皮膚の一部は竜に似た簿い“うろこ\"に覆われる。鎧を着用していない時、君のACは13+【敏捷力】修正値になる。"
+			"description": "<p>君の体内を流れる魔力が、祖先の竜の肉体的性質を具現化する。君の最大ヒット・ポイントは、1レベルの時点で1上昇し、加えて君がこのクラスのレベルを得るたびに1ずつ上昇する。\nさらに、君の皮膚の一部は竜に似た簿い“うろこ”に覆われる。鎧を着用していない時、君のACは13+【敏捷力】修正値になる。</p>"
 		},
 		"Dragon Ancestor": {
 			"name": "龍の先祖",
-			"description": "<p>1レベルの時点で、君は1種類のドラゴンを祖先として選ぶ。各ドラゴンに対応するダメージ種別が、君が後に得る特徴に影響を与える。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>ドラゴン</strong></td>\n<td><strong>ダメージ種別</strong></td>\n</tr>\n<tr>\n<td>ブラック</td>\n<td>［酸］</td>\n</tr>\n<tr>\n<td>ブルー </td>\n<td>［電撃］</td>\n</tr>\n<tr>\n<td>ブラス</td>\n<td>［火］</td>\n</tr>\n<tr>\n<td>ブロンズ </td>\n<td>［電撃］</td>\n</tr>\n<tr>\n<td>カッパー</td>\n<td>［酸］</td>\n</tr>\n<tr>\n<td>ゴールド</td>\n<td>［火］</td>\n</tr>\n<tr>\n<td>グリーン</td>\n<td>［毒］</td>\n</tr>\n<tr>\n<td>レッド </td>\n<td>［火］</td>\n</tr>\n<tr>\n<td>シルヴァー</td>\n<td>［冷気］</td>\n</tr>\n<tr>\n<td>ホワイト </td>\n<td>［冷気］</td>\n</tr>\n</tbody>\n</table>\n<p>君は竜語の会話と読み書きができる。加えて、君がドラゴンとのやりとりのための【魅力】判定を行なう際には、判定に習熟ボーナスを足せる場合は常にそのボーナスの値が2倍になる。</p>"
+			"description": "<p>1レベルの時点で、君は1種類のドラゴンを祖先として選ぶ。各ドラゴンに対応するダメージ種別が、君が後に得る特徴に影響を与える。</p>\n<table>\n<tbody>\n<tr>\n<td><strong>ドラゴン</strong></td>\n<td><strong>ダメージ種別</strong></td>\n</tr>\n<tr>\n<td>ブラック</td>\n<td>［酸］</td>\n</tr>\n<tr>\n<td>ブルー </td>\n<td>［電撃］</td>\n</tr>\n<tr>\n<td>ブラス</td>\n<td>［火］</td>\n</tr>\n<tr>\n<td>ブロンズ </td>\n<td>［電撃］</td>\n</tr>\n<tr>\n<td>カッパー</td>\n<td>［酸］</td>\n</tr>\n<tr>\n<td>ゴールド</td>\n<td>［火］</td>\n</tr>\n<tr>\n<td>グリーン</td>\n<td>［毒］</td>\n</tr>\n<tr>\n<td>レッド </td>\n<td>［火］</td>\n</tr>\n<tr>\n<td>シルヴァー</td>\n<td>［冷気］</td>\n</tr>\n<tr>\n<td>ホワイト </td>\n<td>［冷気］</td>\n</tr>\n</tbody>\n</table>\n<p>君は竜語の会話と読み書きができる。加えて、君がドラゴンとのやりとりのための【魅力】判定を行なう際には、判定に習熟ボーナスを足せる場合は常にそのボーナスの値が2倍になる。</p>"
 		},
 		"Dragon Wings": {
 			"name": "竜の翼",
-			"description": "14レベルの時点で、君は背中に一対の竜の翼を生やす能力を得る。翼を生やせば君の現在の移動速度に等しい飛行移動速度が得られる。翼は君のターンにおいて1回のボーナス・アクションとして生み出せる。そして翼は君がこれを君のターンにおいて1回のボーナス・アクションとして消すまで持続する。\n　君は、鎧を着用している場合、(その鎧が翼に対応したつくりになっていない限り)翼を生やすことができない。また、翼に対応したつくりになっていない衣服は、君が翼を生み出した時点で破壊される。"
+			"description": "<p>14レベルの時点で、君は背中に一対の竜の翼を生やす能力を得る。翼を生やせば君の現在の移動速度に等しい飛行移動速度が得られる。翼は君のターンにおいて1回のボーナス・アクションとして生み出せる。そして翼は君がこれを君のターンにおいて1回のボーナス・アクションとして消すまで持続する。</p>\n<p>君は、鎧を着用している場合、(その鎧が翼に対応したつくりになっていない限り)翼を生やすことができない。また、翼に対応したつくりになっていない衣服は、君が翼を生み出した時点で破壊される。</p>"
 		},
 		"Dreadful Word": {
 			"name": "恐ろしき言葉",
@@ -307,23 +311,23 @@
 		},
 		"Druid Circle": {
 			"name": "ドルイドの円環",
-			"description": "君は@Compendium[dnd5e.subclasses.4Ae2SPZRXEVbVs0M]{土地の円環}等のドルイドの円環を選んでこれと結びつく。この選択によって、2、 6、 10、 14レベルで得られる特徴が決定される。"
+			"description": "<p>君は@UUID[Compendium.dnd5e.subclasses.Item.4Ae2SPZRXEVbVs0M]{土地の円環}等のドルイドの円環を選んでこれと結びつく。この選択によって、2、 6、 10、 14レベルで得られる特徴が決定される。</p>"
 		},
 		"Druidic": {
 			"name": "ドルイド語",
-			"description": "君はドルイドの使う秘密の言語、ドルイド語を知っている。君はこの言語を話すことができ、これを用いて秘密のメッセージを残すこともできる。君や、この言語を知っている者はすべて、こうしたメッセージに自動的に気づく。そうでない者は、メッセージの存在に気づくには難易度15の【判断力】〈知覚〉判定に成功せねばならず、解読するには魔法を用いねばならない。"
+			"description": "<p>君はドルイドの使う秘密の言語、ドルイド語を知っている。君はこの言語を話すことができ、これを用いて秘密のメッセージを残すこともできる。君や、この言語を知っている者はすべて、こうしたメッセージに自動的に気づく。そうでない者は、メッセージの存在に気づくには難易度15の【判断力】〈知覚〉判定に成功せねばならず、解読するには魔法を用いねばならない。</p>"
 		},
 		"Dueling": {
 			"name": "片手武器戦闘",
-			"description": "一本の手で武器を持ち、そして他の武器を何も持っていないならば、その武器のダメージ・ロールに+2のボーナスを得る。なお、盾は武器ではないため、一本の手で武器を持ち、一本の手で盾を持っていてもこの利益は得られる。"
+			"description": "<p>一本の手で武器を持ち、そして他の武器を何も持っていないならば、その武器のダメージ・ロールに+2のボーナスを得る。なお、盾は武器ではないため、一本の手で武器を持ち、一本の手で盾を持っていてもこの利益は得られる。</p>"
 		},
 		"Eldritch Invocations": {
 			"name": "妖術",
-			"description": "<p>君は以下の契約の妖術から、クラス表の契約の妖術に等しい数の妖術を得ることができる。レベルアップするたびに君は取得した妖術を一つを取得可能な他のものと入れ替えることができる。</p>\n<h3>契約の妖術</h3>\n<p>妖術に前提条件が指定されている場合、それを満たすことで取得できる。前提条件を満たしたそのレベルで取得可能である。レベルとは君のウォーロックレベルを指す。</p>\n<table border=\"1\">\n<thead>\n<tr>\n<td colspan=\"2\">前提条件</td>\n<td rowspan=\"2\">恩寵</td>\n</tr>\n<tr>\n<td>クラスレベル</td>\n<td>その他</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"16\">2nd</td>\n<td>@Compendium[dnd5e.spells.Z9p1vezIn95jw1Yw]</td>\n<td>@Compendium[dnd5e.classfeatures.2fyuw7MiCnocDeAU]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.alUqO6c6OEKFQJdb]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.61kXR1sniXHjvN17]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.eNvpIaSnJUdF8fHl]</td>\n</tr>\n<tr>\n<td>@Compendium[dnd5e.classfeatures.MYM908WLZ1lVvA1u]</td>\n<td>@Compendium[dnd5e.classfeatures.CFIYXDmbmSP8BXjN]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.3sN91lT1R3oxcDKd]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.bbUEsCPTLzbbwK6o]</td>\n</tr>\n<tr>\n<td>@Compendium[dnd5e.spells.Z9p1vezIn95jw1Yw]</td>\n<td>@Compendium[dnd5e.classfeatures.r01WtcxTg4yTHm9m]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.lEZKbWaVrSljRa9n]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.id0gmGvzNZBEdzbx]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.65ReXU4ZWqcSs3Cm]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.MhJfdBl1B7PdU4oZ]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.k5DU0mMuYVHejiqz]</td>\n</tr>\n<tr>\n<td>@Compendium[dnd5e.spells.Z9p1vezIn95jw1Yw]</td>\n<td>@Compendium[dnd5e.classfeatures.rdBPd6CwqXT64iJM]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.rhbwDZ9XNTmdkX2u]</td>\n</tr>\n<tr>\n<td>@Compendium[dnd5e.classfeatures.Ic1CSjvbWKudVUv9]</td>\n<td>@Compendium[dnd5e.classfeatures.k5M8gsl7MMcdjOjs]</td>\n</tr>\n<tr>\n<td rowspan=\"4\">5th</td>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.DjXi0IkCTbJx1gsp]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.KfnUyjUWAk0bAAus]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.dTSV0xZMpY5CxkRk]</td>\n</tr>\n<tr>\n<td>@Compendium[dnd5e.classfeatures.9dSSa68mIPoX2ezA]</td>\n<td>@Compendium[dnd5e.classfeatures.pJADgAxxefgcATWr]</td>\n</tr>\n<tr>\n<td rowspan=\"3\">7th</td>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.KygHql3cTj4IRrvZ]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.QBk1RsuTIEF4GEBC]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.Xa2MLUJGCReJ28B7]</td>\n</tr>\n<tr>\n<td rowspan=\"4\">9th</td>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.QEuH5TeBN4PPYT2g]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.QnRKYXb2bXpnNd2k]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.8zciiglzEOZo7DDN]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.gFjxo01hAN4c9hDG]</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>@Compendium[dnd5e.classfeatures.9dSSa68mIPoX2ezA]</td>\n<td>@Compendium[dnd5e.classfeatures.zUIAzBnyt0NDvVXb]</td>\n</tr>\n<tr>\n<td rowspan=\"4\">15th</td>\n<td>@Compendium[dnd5e.classfeatures.Ic1CSjvbWKudVUv9]</td>\n<td>@Compendium[dnd5e.classfeatures.Phy02H5x0TKHd7T3]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.lxfdjLer3uKjyZqU]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.zYIdNAjqRyhS6qWs]</td>\n</tr>\n<tr>\n<td></td>\n<td>@Compendium[dnd5e.classfeatures.snsjxGfmzWfZR5Nh]</td>\n</tr>\n</tbody>\n</table>\n<p><em>選択した恩寵をキャラクターシートにドラッグ＆ドロップすると獲得できます。</em></p>"
+			"description": "<p>君は以下の契約の妖術から、クラス表の契約の妖術に等しい数の妖術を得ることができる。レベルアップするたびに君は取得した妖術を一つを取得可能な他のものと入れ替えることができる。</p>\n<h5>契約の妖術</h5>\n<p>妖術に前提条件が指定されている場合、それを満たすことで取得できる。前提条件を満たしたそのレベルで取得可能である。レベルとは君のウォーロックレベルを指す。</p>\n<table>\n<thead>\n<tr>\n<td colspan=\"2\">前提条件</td>\n<td rowspan=\"2\">恩寵</td>\n</tr>\n<tr>\n<td>クラスレベル</td>\n<td>その他</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"16\">2nd</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.Z9p1vezIn95jw1Yw]</td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.2fyuw7MiCnocDeAU]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.alUqO6c6OEKFQJdb]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.61kXR1sniXHjvN17]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.eNvpIaSnJUdF8fHl]</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.MYM908WLZ1lVvA1u]</td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.CFIYXDmbmSP8BXjN]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.3sN91lT1R3oxcDKd]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.bbUEsCPTLzbbwK6o]</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.spells.Item.Z9p1vezIn95jw1Yw]</td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.r01WtcxTg4yTHm9m]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.lEZKbWaVrSljRa9n]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.id0gmGvzNZBEdzbx]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.65ReXU4ZWqcSs3Cm]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.MhJfdBl1B7PdU4oZ]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.k5DU0mMuYVHejiqz]</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.spells.Item.Z9p1vezIn95jw1Yw]</td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.rdBPd6CwqXT64iJM]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.rhbwDZ9XNTmdkX2u]</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.Ic1CSjvbWKudVUv9]</td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.k5M8gsl7MMcdjOjs]</td>\n</tr>\n<tr>\n<td rowspan=\"4\">5th</td>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.DjXi0IkCTbJx1gsp]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.KfnUyjUWAk0bAAus]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.dTSV0xZMpY5CxkRk]</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.9dSSa68mIPoX2ezA]</td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.pJADgAxxefgcATWr]</td>\n</tr>\n<tr>\n<td rowspan=\"3\">7th</td>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.KygHql3cTj4IRrvZ]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.QBk1RsuTIEF4GEBC]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.Xa2MLUJGCReJ28B7]</td>\n</tr>\n<tr>\n<td rowspan=\"4\">9th</td>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.QEuH5TeBN4PPYT2g]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.QnRKYXb2bXpnNd2k]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.8zciiglzEOZo7DDN]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.gFjxo01hAN4c9hDG]</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.9dSSa68mIPoX2ezA]</td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.zUIAzBnyt0NDvVXb]</td>\n</tr>\n<tr>\n<td rowspan=\"4\">15th</td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.Ic1CSjvbWKudVUv9]</td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.Phy02H5x0TKHd7T3]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.lxfdjLer3uKjyZqU]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.zYIdNAjqRyhS6qWs]</td>\n</tr>\n<tr>\n<td></td>\n<td>@UUID[Compendium.dnd5e.classfeatures.Item.snsjxGfmzWfZR5Nh]</td>\n</tr>\n</tbody>\n</table>\n<p><em>選択した恩寵をキャラクターシートにドラッグ＆ドロップすると獲得できます。</em></p>"
 		},
 		"Eldritch Master": {
 			"name": "呪文復活",
-			"description": "20レベルに至って、君は契約相手に懇願して、内なる神秘の力の蓄積を誘い、消費済の呪文スロットを回復できるようになる。契約相手への懇願に1分を費やすことで、消費済の\"契約による魔術\"の呪文スロットをすべて回復できる。1度この特徴によって呪文スロットを回復したなら、大休憩を終了するまでは、再びこの特徴によって呪文スロットを回復することはできない。"
+			"description": "<p>20レベルに至って、君は契約相手に懇願して、内なる神秘の力の蓄積を誘い、消費済の呪文スロットを回復できるようになる。契約相手への懇願に1分を費やすことで、消費済の“契約による魔術”の呪文スロットをすべて回復できる。1度この特徴によって呪文スロットを回復したなら、大休憩を終了するまでは、再びこの特徴によって呪文スロットを回復することはできない。</p>"
 		},
 		"Eldritch Sight": {
 			"name": "魔力を見る目",
@@ -335,19 +339,19 @@
 		},
 		"Elemental Affinity": {
 			"name": "対応元素",
-			"description": "君は6レベル以降、自分の“祖先の竜\"に対応する種別のダメージを与える呪文を発動するさい、1回のダメージ・ロールに【魅力】修正値を加算する。またこのとき、君は魔力点を1消費することで以後1時間、そのダメージ種別に対する抵抗を得ることができる。"
+			"description": "<p>君は6レベル以降、自分の“祖先の竜”に対応する種別のダメージを与える呪文を発動するさい、1回のダメージ・ロールに【魅力】修正値を加算する。またこのとき、君は魔力点を1消費することで以後1時間、そのダメージ種別に対する抵抗を得ることができる。</p>"
 		},
 		"Elusive": {
 			"name": "捕捉不能",
-			"description": "18レベル以降、君がとてつもなく軽やかに身をかわすので、君を攻撃する者は滅多に優位に立つことはできない。君が無力状態でない限り、君に対する攻撃ロールは決して有利を得られない。"
+			"description": "<p>18レベル以降、君がとてつもなく軽やかに身をかわすので、君を攻撃する者は滅多に優位に立つことはできない。君が無力状態でない限り、君に対する攻撃ロールは決して有利を得られない。</p>"
 		},
 		"Empowered Evocation": {
 			"name": "力術強化",
-			"description": "10レベル以降、君は自分が発動するあらゆるウィザードカ術呪文に関して、その呪文の1回のダメージ・ロールにのみ【知力】修正値を加算できる。"
+			"description": "<p>10レベル以降、君は自分が発動するあらゆるウィザードカ術呪文に関して、その呪文の1回のダメージ・ロールにのみ【知力】修正値を加算できる。</p>"
 		},
 		"Empowered Spell": {
 			"name": "呪文威力強化",
-			"description": "　君は呪文のダメージをロールする際、魔力点を1消費して君の【魅力】修正値(最低1)個までのダメージ・ダイスを振りなおせるが，振りなおしたダイスの目は必ず使用する。呪文威力強化は，呪文発動時に他の呪文修正能力を使用済みの場合でも使用可能である。"
+			"description": "<p>君は呪文のダメージをロールする際、魔力点を1消費して君の【魅力】修正値(最低1)個までのダメージ・ダイスを振りなおせるが，振りなおしたダイスの目は必ず使用する。呪文威力強化は，呪文発動時に他の呪文修正能力を使用済みの場合でも使用可能である。</p>"
 		},
 		"Empty Body": {
 			"name": "虚身",
@@ -355,143 +359,155 @@
 		},
 		"Escape the Horde": {
 			"name": "くぐり抜け",
-			"description": "君に対する機会攻撃にはみな不利が付く。"
+			"description": "<p>君に対する機会攻撃にはみな不利が付く。</p>"
 		},
 		"Evasion": {
 			"name": "身かわし",
-			"description": "7レベル以降、君の本能的機敏さは、ブルー・ドラゴンの電撃のブレス、ファイアーボールの呪文のような特定の範囲効果を交わすことができる。君が【敏捷力】セーヴィング・スローに成功すれば半分のダメージですむような効果にさらされた場合、君はそのセーヴィング・スローに成功すれば一切ダメージを受けず、失敗しでも半分のダメージですむ。"
+			"description": "<p>7レベル以降、君の本能的機敏さは、ブルー・ドラゴンの電撃のブレス、ファイアーボールの呪文のような特定の範囲効果を交わすことができる。君が【敏捷力】セーヴィング・スローに成功すれば半分のダメージですむような効果にさらされた場合、君はそのセーヴィング・スローに成功すれば一切ダメージを受けず、失敗しでも半分のダメージですむ。</p>"
 		},
 		"Evocation Savant": {
 			"name": "力術の専門家",
-			"description": "2レベルでこの系統を選択した時から、君が力術呪文を自分の呪文書に書き写すのに要する金額と時間は半分になる。"
+			"description": "<p>2レベルでこの系統を選択した時から、君が力術呪文を自分の呪文書に書き写すのに要する金額と時間は半分になる。</p>"
 		},
 		"Expanded Spell List": {
 			"name": "呪文リスト拡張",
-			"description": "<p>契約相手のフィーンドのおかげで、君がウォーロック呪文を選択する\n際、選択可能な呪文のリストは拡張される。すなわち、君のウォーロ\nック呪文リストには以下の呪文が加わるのである。</p>\n<table border=\"1\"><caption>フィーンド呪文リスト拡張</caption>\n<thead>\n<tr>\n<td><strong>呪文レベル</strong></td>\n<td><strong>呪文</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td>@Compendium[dnd5e.spells.5SuJewoa1CRWaj1F]{バーニング・ハンズ}, @Compendium[dnd5e.spells.arzCrMRgcNiQuh43]{コマンド}</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>@Compendium[dnd5e.spells.zwGsAv6kmwzYGhh3]{ブラインドネス／デフネス}, @Compendium[dnd5e.spells.7u2obDvuvtZBkTfq]{スコーチング・レイ}</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>@Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{ファイアーボール}, @Compendium[dnd5e.spells.TwlD4PLcltv7Xh7j]{スティンキング・クラウド}</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>@Compendium[dnd5e.spells.avD5XUtkBPQQR97c]{ファイアー・シールド}, @Compendium[dnd5e.spells.X3DrXgxjwI2dvkD6]{ウォール・オヴ・ファイア一}</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>@Compendium[dnd5e.spells.5e1xTohkzqFqbYH4]{フレイム・ストライク}, @Compendium[dnd5e.spells.SLxA9QhrggTz0taU]{ハロウ}</td>\n</tr>\n</tbody>\n</table>"
+			"description": "<p>契約相手のフィーンドのおかげで、君がウォーロック呪文を選択する際、選択可能な呪文のリストは拡張される。すなわち、君のウォーロック呪文リストには以下の呪文が加わるのである。</p>\n<table><caption>フィーンド呪文リスト拡張</caption>\n<thead>\n<tr>\n<td><strong>呪文レベル</strong></td>\n<td><strong>呪文</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{バーニング・ハンズ}, @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{コマンド}</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3]{ブラインドネス／デフネス}, @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{スコーチング・レイ}</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{ファイアーボール}, @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{スティンキング・クラウド}</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{ファイアー・シールド}, @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{ウォール・オヴ・ファイア一}</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{フレイム・ストライク}, @UUID[Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU]{ハロウ}</td>\n</tr>\n</tbody>\n</table>"
 		},
 		"Expertise": {
 			"name": "習熟強化",
-			"description": "3レベルの時点で、君が既に得ている技能習熟のうち2種類を選択すること。それらの習熟を使用して行なう能力値判定においては、君の習熟ボーナスは2倍になる。\n10レベルの時点で、君はさらに2種類の技能習熟を選択してこの利益を得られる。"
+			"description": "<p>3レベルの時点で、君が既に得ている技能習熟のうち2種類を選択すること。それらの習熟を使用して行なう能力値判定においては、君の習熟ボーナスは2倍になる。</p>\n<p>10レベルの時点で、君はさらに2種類の技能習熟を選択してこの利益を得られる。</p>"
 		},
 		"Extended Spell": {
 			"name": "呪文持続時間延長",
-			"description": "君は呪文のダメージをロールする際、魔力点を1消費して君の【魅力】修正値（最低1）個までのダメージ・ダイスを振りなおせるが，振りなおしたダイスの目は必ず使用する。呪文威力強化は，呪文発動時に他の呪文修正能力を使用済みの場合でも使用可能である。"
+			"description": "<p>君は呪文のダメージをロールする際、魔力点を1消費して君の【魅力】修正値（最低1）個までのダメージ・ダイスを振りなおせるが，振りなおしたダイスの目は必ず使用する。呪文威力強化は，呪文発動時に他の呪文修正能力を使用済みの場合でも使用可能である。</p>"
 		},
-		"Extra Attack": {
+		"q9g1MLXuLZyxjQMg": {
 			"name": "追加攻撃",
-			"description": "君は自分のターンに攻撃アクションをとるたびに1回ではなく2回攻撃を行なえるようになる。"
+			"description": "<p>君は自分のターンに攻撃アクションをとるたびに1回ではなく計2回の攻撃を行なえるようになる。</p><p>この攻撃回数はフェイター11レベルで計3回、20レベルで計4回まで増加する。</p>"
+		},
+		"XogoBnFWmCAHXppo": {
+			"name": "追加攻撃",
+			"description": "<p>君は自分のターンに攻撃アクションをとるたびに1回ではなく2回攻撃を行なえるようになる。</p>"
 		},
 		"Eyes of the Rune Keeper": {
 			"name": "ルーンの守り人の目",
-			"description": "あらゆる文字を読める。"
+			"description": "<p>あらゆる文字を読める。</p>"
 		},
 		"Fast Hands": {
 			"name": "器用な指先",
-			"description": "3レベル以降、君は“巧妙なアクション\"によって得られるボーナス・アクションを用いて、【敏捷力】〈手先の早業〉判定を行なうことや、盗賊道具を用いて罠の解除や解錠を行なうことや、\"物体の操作\"アクションを行なうことができる。"
+			"description": "<p>3レベル以降、君は“巧妙なアクション”によって得られるボーナス・アクションを用いて、【敏捷力】〈手先の早業〉判定を行なうことや、盗賊道具を用いて罠の解除や解錠を行なうことや、“物体の操作”アクションを行なうことができる。</p>"
 		},
 		"Fast Movement": {
 			"name": "高速移動",
-			"description": "5レベル以降、君の移動速度は、重装鎧を着用していない限り10フィート増加する。"
+			"description": "<p>5レベル以降、君の移動速度は、重装鎧を着用していない限り10フィート増加する。</p>"
 		},
 		"Favored Enemy": {
 			"name": "得意な敵",
-			"description": "<p>1レベルから、君は特定の種別の敵に対する分析、追跡、狩猟、さ\nらには会話など、かなりの経験を得る。</p>\n<p>得意な敵の穏別を以下の中から1つ選択すること：アンデッド、異形、エレメンタル、怪物、巨人、植物、人造、セレスチャル、ドラゴン、粘体、フィーンド、フェイ、野獣。あるいは、2種族の人型生物(たとえばノールやオーク)を得意な敵として選択することもできる。</p>\n<p>君は得意な敵を追跡するための【判断力】〈生存〉判定や、特異な敵に関する情報を思い出すための【知力】判定に有利を得る。</p>\n<p>この特徴を得たとき、君の選択した\"得意な敵\"が会話するなら、\"得意な敵\"の話す言語のうち任意のものを1つ学ぶ。</p>\n<p>君は6レベルおよび14レベルの時点でさらに1種類の\"得意な敵\"を選択できる。レベルアップに応じた選択の際には、冒険の中でどのような種類のモンスターに遭遇してきたかを考慮して決定すべきである。</p>"
+			"description": "<p>1レベルから、君は特定の種別の敵に対する分析、追跡、狩猟、さらには会話など、かなりの経験を得る。</p>\n<p>得意な敵の穏別を以下の中から1つ選択すること：アンデッド、異形、エレメンタル、怪物、巨人、植物、人造、セレスチャル、ドラゴン、粘体、フィーンド、フェイ、野獣。あるいは、2種族の人型生物(たとえばノールやオーク)を得意な敵として選択することもできる。</p>\n<p>君は得意な敵を追跡するための【判断力】〈生存〉判定や、特異な敵に関する情報を思い出すための【知力】判定に有利を得る。</p>\n<p>この特徴を得たとき、君の選択した“得意な敵”が会話するなら、“得意な敵”の話す言語のうち任意のものを1つ学ぶ。</p>\n<p>君は6レベルおよび14レベルの時点でさらに1種類の“得意な敵”を選択できる。レベルアップに応じた選択の際には、冒険の中でどのような種類のモンスターに遭遇してきたかを考慮して決定すべきである。</p>"
 		},
 		"Feral Instinct": {
 			"name": "野生の直感",
-			"description": "7レベルになると、直感が研ぎ澄まされイニシアチブロールに有利を得る。さらに、不意討ちを無力化状態でない場合、最初のターンは普通に行動することができる。ただし、そのターンに他のことを前に激怒する必要がある。"
+			"description": "<p>7レベルになると、直感が研ぎ澄まされイニシアチブロールに有利を得る。さらに、不意討ちを無力化状態でない場合、最初のターンは普通に行動することができる。ただし、そのターンに他のことを前に激怒する必要がある。</p>"
 		},
 		"Feral Senses": {
 			"name": "野生の勘",
-			"description": "　君は見えない敵と戦う時に役立つ、異常に鋭い感覚を身につける。君は、視認できない相手に対して攻撃する場合、それによって攻撃ロールに不利を受けることはない。\n\n　また、君は君から30フィート以内にいる不可視状態のクリーチャーすべての位置に自動的に気づく(ただし、そのクリーチャーが君に対して隠れておらず、君が盲目状態でも聴覚喪失状態でもない場合に限る)。"
+			"description": "<p>君は見えない敵と戦う時に役立つ、異常に鋭い感覚を身につける。君は、視認できない相手に対して攻撃する場合、それによって攻撃ロールに不利を受けることはない。</p>\n<p>また、君は君から30フィート以内にいる不可視状態のクリーチャーすべての位置に自動的に気づく(ただし、そのクリーチャーが君に対して隠れておらず、君が盲目状態でも聴覚喪失状態でもない場合に限る)。</p>"
 		},
 		"Fiendish Resilience": {
 			"name": "魔物の抵抗力",
-			"description": "　君は小休憩や大休憩を終えるたびに1種類のダメージ種別を選択し、そのダメージ種別に対する抵抗を得る。この抵抗は、この特徴によって別のダメージ種別を選択するまで持続する。また、魔法の武器や銀の武器によるダメージはこの抵抗を無視する。"
+			"description": "<p>君は小休憩や大休憩を終えるたびに1種類のダメージ種別を選択し、そのダメージ種別に対する抵抗を得る。この抵抗は、この特徴によって別のダメージ種別を選択するまで持続する。また、魔法の武器や銀の武器によるダメージはこの抵抗を無視する。</p>"
 		},
 		"Fiendish Vigor": {
 			"name": "魔物の生命力",
 			"description": "<p>@UUID[Compendium.dnd5e.spells.Item.7e3QXF10hLNDEdr6] を1レベル呪文として、自分自身に対して、回数無制限で、呪文スロットも物質要素も一切消費することなく発動できる。</p>"
 		},
-		"Fighting Style": {
+		"fbExzwNwEAl2kW9c": {
 			"name": "戦闘スタイル",
-			"description": "<p>君は得意の戦法として1種類の戦闘スタイルを採用する。以下の中から1つを選択すること。これ以後また戦闘スタイルを選択することがあっても、同一の戦闘スタイルを2度選択することはできない。</p>\n<h3>ファイターの選択肢</h3>\n<p>@Compendium[dnd5e.classfeatures.8YwPFv3UAPjWVDNf]</p><p>@Compendium[dnd5e.classfeatures.zSlV0O2rQMdoq6pB]</p><p>@Compendium[dnd5e.classfeatures.hCop9uJrWhF1QPb4]</p><p>@Compendium[dnd5e.classfeatures.3Nc6u9pyStByuJsm]</p><p>@Compendium[dnd5e.classfeatures.06NVMYf58Z76O85O]</p><p>@Compendium[dnd5e.classfeatures.mHcSjcHJ8oZu3hkb]</p>\n<h3>パラディンの選択肢</h3>\n<p>@Compendium[dnd5e.classfeatures.zSlV0O2rQMdoq6pB]</p><p>@Compendium[dnd5e.classfeatures.hCop9uJrWhF1QPb4]</p><p>@Compendium[dnd5e.classfeatures.3Nc6u9pyStByuJsm]</p><p>@Compendium[dnd5e.classfeatures.06NVMYf58Z76O85O]</p>\n<h3>レンジャーの選択肢</h3>\n<p>@Compendium[dnd5e.classfeatures.8YwPFv3UAPjWVDNf]</p><p>@Compendium[dnd5e.classfeatures.zSlV0O2rQMdoq6pB]</p><p>@Compendium[dnd5e.classfeatures.hCop9uJrWhF1QPb4]</p><p>@Compendium[dnd5e.classfeatures.mHcSjcHJ8oZu3hkb]</p>"
+			"description": "<p>君は得意の戦法として1種類の戦闘スタイルを採用する。以下の中から1つを選択すること。これ以後また戦闘スタイルを選択することがあっても、同一の戦闘スタイルを2度選択することはできない。</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]</p>"
+		},
+		"Ho7dVxBlOYFlfBHk": {
+			"name": "戦闘スタイル",
+			"description": "<p>君は得意の戦法として1種類の戦闘スタイルを採用する。以下の中から1つを選択すること。これ以後また戦闘スタイルを選択することがあっても、同一の戦闘スタイルを2度選択することはできない。</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O]</p>"
+		},
+		"nJA3ISVmyj3uPRVM": {
+			"name": "戦闘スタイル",
+			"description": "<p>君は得意の戦法として1種類の戦闘スタイルを採用する。以下の中から1つを選択すること。これ以後また戦闘スタイルを選択することがあっても、同一の戦闘スタイルを2度選択することはできない。</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]</p>"
 		},
 		"Flurry of Blows": {
 			"name": "連打",
-			"description": "君は、自分のターンに攻撃アクションを行なった直後に、気ポイントを1点消費することで1回のボーナス・アクションとして2回の素手打撃を行なえる。"
+			"description": "<p>君は、自分のターンに攻撃アクションを行なった直後に、気ポイントを1点消費することで1回のボーナス・アクションとして2回の素手打撃を行なえる。</p>"
 		},
 		"Foe Slayer": {
 			"name": "仇敵殺し",
-			"description": "20レベルの時点で、君は敵を狩る比類なき狩人となる。君は自身のターンごとに1回だけ、君の“得意な敵\"に含まれるクリーチャーに対する攻撃の“攻撃ロールまたはダメージ・ロールのどちらか片方\"に、君の【判断力】修正値を加えることができる。この特徴は、ロールを行なう前に使用しでも後に使用しでもいいが、しかし必ずロールの結果が適用されるより前に使用せねばならない。"
+			"description": "<p>20レベルの時点で、君は敵を狩る比類なき狩人となる。君は自身のターンごとに1回だけ、君の“得意な敵”に含まれるクリーチャーに対する攻撃の“攻撃ロールまたはダメージ・ロールのどちらか片方”に、君の【判断力】修正値を加えることができる。この特徴は、ロールを行なう前に使用しでも後に使用しでもいいが、しかし必ずロールの結果が適用されるより前に使用せねばならない。</p>"
 		},
 		"Font of Inspiration": {
 			"name": "声援高速回復",
-			"description": "<p>5レベル以降、君は小休憩または大休憩を終えるたびに@Compendium[dnd5e.classfeatures.hpLNiGq7y67d2EHA]{バードの声援}の使用回数をすべて回復する。</p>\n<p>バードの声援の特徴はデフォルトで大休憩回復として設定されています。適宜これを小休憩に変更してください。</p>"
+			"description": "<p>5レベル以降、君は小休憩または大休憩を終えるたびに@UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{バードの声援}の使用回数をすべて回復する。</p>\n<p>バードの声援の特徴はデフォルトで大休憩回復として設定されています。適宜これを小休憩に変更してください。</p>"
 		},
 		"Font of Magic": {
 			"name": "魔力の源泉",
-			"description": "<p>2レベルの時点で、君は自分の奥深い魔力の源泉を利用できる。この泉は魔力点としてあらわされる。魔力点を使用することで、君はさまざまな魔法的効果を生み出すことができる。</p>\n<h3>魔力点</h3>\n<p>君の魔力点は2で、レベル上昇に伴って魔力点は増加する。きみの有する魔力点はソーサラーのレベルに等しく、4レベルのソーサラーは魔力点を4、16レベルのソーサラーは魔力点を16有する。また、大休憩を終えたとき、使用した魔力点はすべて回復する。</p>\n<h3>柔軟な呪文発動</h3>\n<p>魔力点を消費して追加の呪文スロットを得たり、追加の魔術点を得るために呪文スロットを消費したりできる。君のレベル上昇に伴って魔力点を他のことにも使用できるようになる。</p><p><em><strong>呪文スロット生成：</strong></em>Y自分のターンのボーナス・アクションとして、未使用の魔力点を呪文スロット1つに変換できる。呪文スロット生成表は、特定のレベルの呪文スロットを作成するのに必要な魔力点を示している。</p><p>この特徴で生成した呪文スロットは、大休憩を終えたときに消滅する。</p>\n<table border=\"1\"><caption>呪文スロット生成</caption>\n<thead>\n<tr>\n<td><strong>呪文スロットのレベル</strong></td>\n<td><strong>必要魔力点</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>2</td>\n</tr>\n<tr>\n<td>2</td>\n<td>3</td>\n</tr>\n<tr>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>4</td>\n<td>6</td>\n</tr>\n<tr>\n<td>5</td>\n<td>7</td>\n</tr>\n</tbody>\n</table>\n<p><em><strong>呪文スロットを魔力点へ変換：</strong></em>自分のターンのボーナス・アクションとして、呪文スロットを1つを消費し、呪文スロットのレベルに等しい値の魔力点を得ることができる。</p><p><em>使用回数のデフォルトは初期取得時の2になっていて、大休憩で回復します。</em></p>"
+			"description": "<p>2レベルの時点で、君は自分の奥深い魔力の源泉を利用できる。この泉は魔力点としてあらわされる。魔力点を使用することで、君はさまざまな魔法的効果を生み出すことができる。</p>\n<h5>魔力点</h5>\n<p>君の魔力点は2で、レベル上昇に伴って魔力点は増加する。きみの有する魔力点はソーサラーのレベルに等しく、4レベルのソーサラーは魔力点を4、16レベルのソーサラーは魔力点を16有する。また、大休憩を終えたとき、使用した魔力点はすべて回復する。</p>\n<h5>柔軟な呪文発動</h5>\n<p>魔力点を消費して追加の呪文スロットを得たり、追加の魔術点を得るために呪文スロットを消費したりできる。君のレベル上昇に伴って魔力点を他のことにも使用できるようになる。</p><p><em><strong>呪文スロット生成：</strong></em>Y自分のターンのボーナス・アクションとして、未使用の魔力点を呪文スロット1つに変換できる。呪文スロット生成表は、特定のレベルの呪文スロットを作成するのに必要な魔力点を示している。</p><p>この特徴で生成した呪文スロットは、大休憩を終えたときに消滅する。</p>\n<table><caption>呪文スロット生成</caption>\n<thead>\n<tr>\n<td><strong>呪文スロットのレベル</strong></td>\n<td><strong>必要魔力点</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>2</td>\n</tr>\n<tr>\n<td>2</td>\n<td>3</td>\n</tr>\n<tr>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>4</td>\n<td>6</td>\n</tr>\n<tr>\n<td>5</td>\n<td>7</td>\n</tr>\n</tbody>\n</table>\n<p><em><strong>呪文スロットを魔力点へ変換：</strong></em>自分のターンのボーナス・アクションとして、呪文スロットを1つを消費し、呪文スロットのレベルに等しい値の魔力点を得ることができる。</p><p><em>使用回数のデフォルトは初期取得時の2になっていて、大休憩で回復します。</em></p>"
 		},
 		"Frenzy": {
 			"name": "狂乱",
-			"description": "3レベルでこの道を選んだ時点から、君は@Compendium[dnd5e.classfeatures.VoR0SUrNX5EJVPIO]{激怒}する際に“狂乱\"に入ることができる。狂乱に入ったなら、激怒した次のターンから、その激怒が続くあいだ、各ターンにボーナス・アクションとして1回の近接武器攻撃を行なえる。その激怒が終ったなら、君は1段階の消耗状態をこうむる(付録A参照)。\n"
+			"description": "<p>3レベルでこの道を選んだ時点から、君は@UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{激怒}する際に“狂乱”に入ることができる。狂乱に入ったなら、激怒した次のターンから、その激怒が続くあいだ、各ターンにボーナス・アクションとして1回の近接武器攻撃を行なえる。その激怒が終ったなら、君は1段階の消耗状態をこうむる(付録A参照)。</p>"
 		},
 		"Gaze of Two Minds": {
 			"name": "感覚借用",
-			"description": "君は自分のアクションを用いて、同意する人型生物1体に触れ、君の次のターンの終了時まで、その人型生物の感覚を通じて知覚できる。相手クリーチャーが君と同じ次元界にいる限り、以後君は毎ターン、自分のアクションを使用することでこのつながりを維持し、この効果の持続時間を、君の次のターンの終了時まで延長できる。相手クリーチャーの感覚を通じて知覚している間、君は相手クリーチャーの有するすべての特殊な知覚能力の利益を得る一方、自分自身を取り巻く環境に対しては盲目状態かつ聴覚喪失状態となる。"
+			"description": "<p>君は自分のアクションを用いて、同意する人型生物1体に触れ、君の次のターンの終了時まで、その人型生物の感覚を通じて知覚できる。相手クリーチャーが君と同じ次元界にいる限り、以後君は毎ターン、自分のアクションを使用することでこのつながりを維持し、この効果の持続時間を、君の次のターンの終了時まで延長できる。相手クリーチャーの感覚を通じて知覚している間、君は相手クリーチャーの有するすべての特殊な知覚能力の利益を得る一方、自分自身を取り巻く環境に対しては盲目状態かつ聴覚喪失状態となる。</p>"
 		},
 		"Giant Killer": {
 			"name": "でかぶつ殺し",
-			"description": "君から5フィート以内にいる、サイズ分類が大型以上のクリーチャーが、君を攻撃してヒットまたはミスしたなら、君はリアクションを用いてそのクリーチャーの攻撃の直後にそのクリーチャーを攻撃できる。ただし、君がそのクリーチャーを見ることができる場合に限る。"
+			"description": "<p>君から5フィート以内にいる、サイズ分類が大型以上のクリーチャーが、君を攻撃してヒットまたはミスしたなら、君はリアクションを用いてそのクリーチャーの攻撃の直後にそのクリーチャーを攻撃できる。ただし、君がそのクリーチャーを見ることができる場合に限る。</p>"
 		},
 		"Grappler": {
 			"name": "組み技の達人",
-			"description": "<p>前提条件：【筋力】13以上</p>\n<p>君は近接格闘の組み技で力を発揮するために必要な技術を身につけた。以下の利益を得る。</p>\n<p>・君は自分がつかんでいるクリーチャーに対する攻撃ロールに有利を得る。</p>\n<p>・君はアクションを使用して、君がつかんでいるクリーチャーを\"押え込み\"を試みることができる。そのためには、新たにつかみ判定を行うこと。つかみ判定に成功したなら、君とそのクリーチャーは両方ともつかみが終了するまで拘束状態となる。</p>\n"
+			"description": "<p><em>前提条件：【筋力】13以上</em></p>\n<p>君は近接格闘の組み技で力を発揮するために必要な技術を身につけた。以下の利益を得る。</p>\n<ul><li>君は自分がつかんでいるクリーチャーに対する攻撃ロールに有利を得る。</li>\n<li>君はアクションを使用して、君がつかんでいるクリーチャーを“押え込み“を試みることができる。そのためには、新たにつかみ判定を行うこと。つかみ判定に成功したなら、君とそのクリーチャーは両方ともつかみが終了するまで拘束状態となる。</li></ul>"
 		},
 		"Great Weapon Fighting": {
 			"name": "両手武器戦闘",
-			"description": "両手で1つの近接武器を使用して攻撃を行ない、その攻撃のダメージ・ダイスで1か2の目を出したなら、君はその1や2が出たダイスを再ロールできる。そうした場合、必ず再ロールの結果を使用すること。この利益を得るためには、武器が“両手用”または“両用”の特性を有している必要がある。"
+			"description": "<p>両手で1つの近接武器を使用して攻撃を行ない、その攻撃のダメージ・ダイスで1か2の目を出したなら、君はその1や2が出たダイスを再ロールできる。そうした場合、必ず再ロールの結果を使用すること。この利益を得るためには、武器が“両手用”または“両用”の特性を有している必要がある。</p>"
 		},
 		"Heightened Spell": {
 			"name": "呪文セーヴ妨害",
-			"description": "　君は、他のクリーチャーに呪文効果に抵抗するためのセーヴィング・スローを要求するような呪文を発動するさい、魔力点を3消費して、その呪文の目標のうち1体に、その呪文に対して行なう最初の1回のセーヴィング・スローに不利を負わせる。"
+			"description": "<p>君は、他のクリーチャーに呪文効果に抵抗するためのセーヴィング・スローを要求するような呪文を発動するさい、魔力点を3消費して、その呪文の目標のうち1体に、その呪文に対して行なう最初の1回のセーヴィング・スローに不利を負わせる。</p>"
 		},
 		"Hide in Plain Sight": {
 			"name": "擬装",
-			"description": "10レベル以降、君は1分の時間を費やして自分の姿に迷彩を施すことができる。ひとたび迷彩を施したなら、君は木や壁など、自身の身長と同じ高さと幅を持つ、しっかりした実体のある表面に体を押しつけ隠れ身を試みることができる。君は移動せずアクションを行なわずそこにいる限り、【敏捷力】〈隠密〉判定に+10のボーナスを得る。ひとたび移動するか、アクションを行なうか、リアクションを行なったならば、君は再び迷彩を施さなければこの利益を得られなくなる。"
+			"description": "<p>10レベル以降、君は1分の時間を費やして自分の姿に迷彩を施すことができる。ひとたび迷彩を施したなら、君は木や壁など、自身の身長と同じ高さと幅を持つ、しっかりした実体のある表面に体を押しつけ隠れ身を試みることができる。君は移動せずアクションを行なわずそこにいる限り、【敏捷力】〈隠密〉判定に+10のボーナスを得る。ひとたび移動するか、アクションを行なうか、リアクションを行なったならば、君は再び迷彩を施さなければこの利益を得られなくなる。</p>"
 		},
 		"Holy Nimbus": {
 			"name": "後光",
-			"description": "<p>20レベルの時点で、君は1回のアクションとして太陽のオーラを放つことが可能になる。このオーラを放ったならば、以後1分、君から半径30フィートに\"明るい\"光、さらに30フィート先まで\"薄暗い\"光が放たれる。</p>\n<p>敵クリーチャーは、この\"明るい\"光の範囲内で自身のターンを開始するたび、10[光輝]ダメージを受ける。</p>\n<p>加えて、この特徴の持続時間中、君はアンデッドやフィーンドの発動した呪文に対するセーヴイング・スローに有利を得る。</p>\n<p>1度この特徴を使用したなら、大休憩を終了するまで、再び使用することはできない。</p>"
+			"description": "<p>20レベルの時点で、君は1回のアクションとして太陽のオーラを放つことが可能になる。このオーラを放ったならば、以後1分、君から半径30フィートに“明るい”光、さらに30フィート先まで“薄暗い”光が放たれる。</p>\n<p>敵クリーチャーは、この“明るい”光の範囲内で自身のターンを開始するたび、10[光輝]ダメージを受ける。</p>\n<p>加えて、この特徴の持続時間中、君はアンデッドやフィーンドの発動した呪文に対するセーヴイング・スローに有利を得る。</p>\n<p>1度この特徴を使用したなら、大休憩を終了するまで、再び使用することはできない。</p>"
 		},
 		"Horde Breaker": {
 			"name": "群崩し",
-			"description": "君は自分のターンごとに1度、1回の武器攻撃を行なう際に、同じ武器を用いて、\"元の目標から5フィート以内、かつ同じ武器の射程内にいる、別のクリーチャー1体\"に対して、同じ武器でもう1回の攻撃を行なえる。"
+			"description": "<p>君は自分のターンごとに1度、1回の武器攻撃を行なう際に、同じ武器を用いて、“元の目標から5フィート以内、かつ同じ武器の射程内にいる、別のクリーチャー1体”に対して、同じ武器でもう1回の攻撃を行なえる。</p>"
 		},
 		"Hunter's Prey": {
 			"name": "狩の技",
-			"description": "<p>3レベルの時点で、君は以下の特徴のうち任意の1つを得る</p>\n<p>@Compendium[dnd5e.classfeatures.5gx1O0sxK08awEO9]{強敵狩り}</p>\n<p>@Compendium[dnd5e.classfeatures.StfmqK1twVfukpa0]{でかぶつ殺し}</p>\n<p>@Compendium[dnd5e.classfeatures.C6sHdDGmCMo0cYHd]{群崩し}</p>"
+			"description": "<p>3レベルの時点で、君は以下の特徴のうち任意の1つを得る</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.5gx1O0sxK08awEO9]{強敵狩り}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.StfmqK1twVfukpa0]{でかぶつ殺し}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.C6sHdDGmCMo0cYHd]{群崩し}</p>"
 		},
 		"Hurl Through Hell": {
 			"name": "地獄送り",
-			"description": "14レベル以降、君はクリーチャーに攻撃を行なってヒットを与えた際、この特徴を用いてその1体の目標を瞬時に下方次元界へ送りこむことができる。そのクリーチャーは君の前から姿を消し、悪夢のごとき下方次元界を駆け巡る。\n次の君のターンの終了時に、目標は以前に占めていたのと同じ場所、あるいはそこから一番近い、何ものにも占められていない場所に再び現れる。目標は、クリーチャ一種別がフィーンドでないならば、恐るべき体験によってふらふらになり10d10[精神]ダメージを受ける。\n1度この特徴を使用したなら、大休憩を終了するまで、再び使用することはできない。"
+			"description": "<p>14レベル以降、君はクリーチャーに攻撃を行なってヒットを与えた際、この特徴を用いてその1体の目標を瞬時に下方次元界へ送りこむことができる。そのクリーチャーは君の前から姿を消し、悪夢のごとき下方次元界を駆け巡る。</p>\n<p>次の君のターンの終了時に、目標は以前に占めていたのと同じ場所、あるいはそこから一番近い、何ものにも占められていない場所に再び現れる。目標は、クリーチャ一種別がフィーンドでないならば、恐るべき体験によってふらふらになり10d10[精神]ダメージを受ける。</p>\n<p>1度この特徴を使用したなら、大休憩を終了するまで、再び使用することはできない。</p>"
 		},
 		"Improved Critical": {
 			"name": "クリティカル率上昇",
-			"description": "君の武器攻撃はダイスの目が19～20でクリティカル・ヒットになる。"
+			"description": "<p>君の武器攻撃はダイスの目が19～20でクリティカル・ヒットになる。</p>"
 		},
 		"Improved Divine Smite": {
 			"name": "信仰を込めた一撃",
-			"description": "11レベルの時点で、正義のカに満ちている君の近接武器による打撃は信仰の力を帯びている。君が近接武器でクリーチャーにヒットを与えるたび、そのクリーチャーは追加で1d8の[光輝]ダメージを受ける。もし君が攻撃に“神聖なる一撃\"を使用したなら、この特徴の追加ダメージに\"神聖なる一撃\"の追加ダメージが加算される。"
+			"description": "<p>11レベルの時点で、正義のカに満ちている君の近接武器による打撃は信仰の力を帯びている。君が近接武器でクリーチャーにヒットを与えるたび、そのクリーチャーは追加で1d8の[光輝]ダメージを受ける。もし君が攻撃に“神聖なる一撃”を使用したなら、この特徴の追加ダメージに“神聖なる一撃”の追加ダメージが加算される。</p>"
 		},
 		"Indomitable": {
 			"name": "不屈",
-			"description": "君は失敗したセーヴイング・スローを再ロールできるようになる。再ロールを行なった場合、再ロールの結果を必ず使用せねばならない。この特徴はひとたび使用したなら、大休憩を終了するまでは、再び使用することはできない。\n13レベル以降、君はこの特徴を次の大休憩までの間に2回使用でき、17レベル以降、君はこの特徴を次の大休憩までの聞に3回使用できるようになる。"
+			"description": "<p>君は失敗したセーヴイング・スローを再ロールできるようになる。再ロールを行なった場合、再ロールの結果を必ず使用せねばならない。この特徴はひとたび使用したなら、大休憩を終了するまでは、再び使用することはできない。</p>\n<p>13レベル以降、君はこの特徴を次の大休憩までの間に2回使用でき、17レベル以降、君はこの特徴を次の大休憩までの聞に3回使用できるようになる。</p>"
 		},
 		"Indomitable Might": {
 			"name": "大力無双",
-			"description": "18レベル以降、君は【筋力】判定の結果が【筋力】値より低かったならば、かわりに【筋力】値のほうを使用できる。"
+			"description": "<p>18レベル以降、君は【筋力】判定の結果が【筋力】値より低かったならば、かわりに【筋力】値のほうを使用できる。</p>"
 		},
 		"Intimidating Presence": {
 			"name": "恐怖の存在",
@@ -499,18 +515,18 @@
 		},
 		"Jack of All Trades": {
 			"name": "なんでも屋",
-			"description": "2レベル以降、君は習熟ボーナスを得ていない能力値判定すべてに、習熟ボーナスの半分(切り捨て)を加えることができる。"
+			"description": "<p>2レベル以降、君は習熟ボーナスを得ていない能力値判定すべてに、習熟ボーナスの半分(切り捨て)を加えることができる。</p>"
 		},
 		"Ki": {
 			"name": "気",
-			"description": "<p>2レベル以降、気の神秘的なエネルギーを利用する訓練を開始する。このエネルギーをどれだけ利用できるかは、気ポイントの数によってあらわされる。君の有する気ポイントはモンク・レベルによって決定され、2レベルのモンクは気ポイントを2つ有し、16レベルのモンクは気ポイントを16有している。</p>\n<p>君は、このポイントを消費することによって、気を用いるさまざまな特徴に力を与える。君は最初に3つの特徴を手に入れる：</p><p>@Compendium[dnd5e.classfeatures.5MwNlVZK7m6VolOH]、@Compendium[dnd5e.classfeatures.TDglPcxIVEzvVSgK]、@Compendium[dnd5e.classfeatures.yrSFIGTaQOH2PFRI]。</p><p>君はモンクのレベルを得るにつれ、気を用いる新たな特徴を修得する。</p></p>\n<p>1度消費した気ポイントは、小休憩または大休憩を終えるまでは再び使用できない。小休憩や大休憩の終了時には、消費済の気ポイン卜をすべて回復する。ただし気ポイントを回復するには休憩のうち30分以上を瞑想に費やす必要がある。</p>\n<p>気を用いる特徴の中には、目標がその特徴の効果に低抗するためにセーヴィング・スローを行なうものがある。そのセーヴィング・スローの難易度は以下の式に従う。</p>\n<p>気に対するセーヴ難易度=8+君の習熟ボーナス+君の【判断力】修正値</p>"
+			"description": "<p>2レベル以降、気の神秘的なエネルギーを利用する訓練を開始する。このエネルギーをどれだけ利用できるかは、気ポイントの数によってあらわされる。君の有する気ポイントはモンク・レベルによって決定され、2レベルのモンクは気ポイントを2つ有し、16レベルのモンクは気ポイントを16有している。</p>\n<p>君は、このポイントを消費することによって、気を用いるさまざまな特徴に力を与える。君は最初に3つの特徴を手に入れる：</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.5MwNlVZK7m6VolOH]、@UUID[Compendium.dnd5e.classfeatures.Item.TDglPcxIVEzvVSgK]、@UUID[Compendium.dnd5e.classfeatures.Item.yrSFIGTaQOH2PFRI]。</p><p>君はモンクのレベルを得るにつれ、気を用いる新たな特徴を修得する。</p></p>\n<p>1度消費した気ポイントは、小休憩または大休憩を終えるまでは再び使用できない。小休憩や大休憩の終了時には、消費済の気ポイン卜をすべて回復する。ただし気ポイントを回復するには休憩のうち30分以上を瞑想に費やす必要がある。</p>\n<p>気を用いる特徴の中には、目標がその特徴の効果に低抗するためにセーヴィング・スローを行なうものがある。そのセーヴィング・スローの難易度は以下の式に従う。</p>\n<p>気に対するセーヴ難易度=8+君の習熟ボーナス+君の【判断力】修正値</p>"
 		},
 		"Ki-Empowered Strikes": {
 			"name": "“気”打撃",
-			"description": "6レベル以降、君の素手打撃は、\"非魔法的な攻撃やダメージ\"に対する抵抗や完全耐性を克服する際には魔法のものと見なされる。"
+			"description": "<p>6レベル以降、君の素手打撃は、“非魔法的な攻撃やダメージ“に対する抵抗や完全耐性を克服する際には魔法のものと見なされる。</p>"
 		},
-		"Ki: Quivering Palm": {
-			"name": "気：激震掌",
+		"Quivering Palm": {
+			"name": "激震掌",
 			"description": "<p>17レベルの時点で、君は他者の肉体に致命的な振動を生じさせる能力を得る。君は素手打撃でクリーチャーにヒットを与えた際に、気ポイントを3点消費することで、この感知不能な振動を開始でき、その振動は君のモンク・レベルと同じ日数だけ持続する。この娠動は、君がアクションを用いて振動を停止させない限り、無害である。振動を停止させるには、君と目標とが同じ次元界にいる必要がある。君がこのアクションを行なったならば、目標は【耐久力】セーヴィング・スローを行なわねばならない。セーヴに失敗したなら目標のヒット・ポイントは0になる。セーヴに成功したなら目標は10d10の[死霊]ダメージを受ける。</p>\n<p>君がこの特徴の影響下に置いておけるクリーチャーは1度に1体だけである。また、君はこの振動を無害なまま終了させることもでき、それにはアクションは必要ない。</p>"
 		},
 		"Land's Stride": {
@@ -519,23 +535,23 @@
 		},
 		"Lay on Hands": {
 			"name": "癒しの手",
-			"description": "<p>　君の祝福された接触は傷を癒す。君は治癒力のプールを持っており、プールは君が大休憩を取ることですべて回復する。このプールを用いて君は合計で(パラディン・レベル×5)に等しいヒット・ポイントを回復できる。\n</p>\n　<p>君は1回のアクションとして1体のクリーチャーに接触し、プールから力を引き出してそのクリーチャーのヒット・ポイントを任意の数値だけ回復できる(最大で、現在プールに残っている値まで)。</p>\n\n<p>　また君は、治癒力のプールから5ヒット・ポイント分を、目標のヒット・ポイントを回復するのではなく、目標の病気1つの治療、または目標に作用している1つの毒の中和のために消費できる。“癒しの手”の1回の使用によって複数の病気ならびに複数の毒を癒すことも可能である。その場合、治癒力のプールから、病気または毒1つごとに5ポイント分を消費すること。</p>\n<p>\n　この特徴はアンデッドおよび人造クリーチャーに対しては効果がない。</p>"
+			"description": "<p>君の祝福された接触は傷を癒す。君は治癒力のプールを持っており、プールは君が大休憩を取ることですべて回復する。このプールを用いて君は合計で(パラディン・レベル×5)に等しいヒット・ポイントを回復できる。</p>\n<p>君は1回のアクションとして1体のクリーチャーに接触し、プールから力を引き出してそのクリーチャーのヒット・ポイントを任意の数値だけ回復できる(最大で、現在プールに残っている値まで)。</p>\n<p>また君は、治癒力のプールから5ヒット・ポイント分を、目標のヒット・ポイントを回復するのではなく、目標の病気1つの治療、または目標に作用している1つの毒の中和のために消費できる。“癒しの手”の1回の使用によって複数の病気ならびに複数の毒を癒すことも可能である。その場合、治癒力のプールから、病気または毒1つごとに5ポイント分を消費すること。</p>\n<p>この特徴はアンデッドおよび人造クリーチャーに対しては効果がない。</p>"
 		},
 		"Lifedrinker": {
 			"name": "命取りの剣",
-			"description": "君が自分の契約武器でクリーチャーにヒットを与えると、そのクリーチャーは君の【魅力】修正値に等しい追加[死霊]ダメージ(最低1)を受ける。"
+			"description": "<p>君が自分の契約武器でクリーチャーにヒットを与えると、そのクリーチャーは君の【魅力】修正値に等しい追加[死霊]ダメージ(最低1)を受ける。</p>"
 		},
 		"Magical Secrets": {
 			"name": "魔法の秘密",
-			"description": "<p>10レベルに達した君は、さまざまな魔法の教えの中から、魔法の知識をほしいままにあさってきた。あらゆるクラス(バードも可)の呪文の中から2つの呪文を選択すること。ただしこのとき選択する呪文は君が発動できるレベルのものか、あるいは初級呪文でなければならない。</p>\n<p>　ここで選択した呪文は、君にとってはバード呪文となり、『バード』表の『呪文修得数』の数字に含まれる。君は14レベルおよび18レベルでもそれぞれ2つの呪文をあらゆるクラスの呪文の中から選んで修得できる。</p>"
+			"description": "<p>10レベルに達した君は、さまざまな魔法の教えの中から、魔法の知識をほしいままにあさってきた。あらゆるクラス(バードも可)の呪文の中から2つの呪文を選択すること。ただしこのとき選択する呪文は君が発動できるレベルのものか、あるいは初級呪文でなければならない。</p>\n<p>ここで選択した呪文は、君にとってはバード呪文となり、『バード』表の『呪文修得数』の数字に含まれる。君は14レベルおよび18レベルでもそれぞれ2つの呪文をあらゆるクラスの呪文の中から選んで修得できる。</p>"
 		},
 		"Martial Archetype": {
 			"name": "戦士の類型",
-			"description": "3レベルの時点で君は、@Compendium[dnd5e.subclasses.sprHbe7cRg9osTzf]{チャンピオン}など自分の戦闘スタイルや技術を磨く戦士の類型を選ぶ。選択した戦士の類型は、3レベルと7レベル、10レベル、15レベル、18レベルでで得られる特徴が決定される。"
+			"description": "<p>3レベルの時点で君は、@UUID[Compendium.dnd5e.subclasses.Item.sprHbe7cRg9osTzf]{チャンピオン}など自分の戦闘スタイルや技術を磨く戦士の類型を選ぶ。選択した戦士の類型は、3レベルと7レベル、10レベル、15レベル、18レベルでで得られる特徴が決定される。</p>"
 		},
 		"Martial Arts": {
 			"name": "武術",
-			"description": "<p>　君は武術修業によって素手打撃とモンク武器(=“両手用”でも“重武器”でもない単純近接武器、およびショートソード)を用いる戦闘スタイルを身につける。君は、素手であるかモンク武器しか使用しておらず、かつ鎧を着用しておらず盾も使用していないならば、以下の利益を得る。</p>\n\n<p>素手打撃およびモンク武器での攻撃ロールおよびダメージ・ロールに【筋力】のかわりに【敏捷力】を使用できる。\n素手打撃やモンク武器の通常のダメージのかわりにld4を使用できる。このダイスはモンク・レベルの上昇にともなって変化する。『モンク表』の武術の欄を参照。</p><p>\n君自身のターンに素手打撃やモンク武器を用いて攻撃アクションを行なった場合、(そのターン中に)ボーナス・アクションとして1回の素手打撃を行なえる。たとえば君が攻撃アクションを使用してクオータースタッフでの攻撃を行なった場合、これに加えてボーナス・アクションとして1回の素手打撃を行なえる――そのターン中にすでにボーナス・アクションを使用して“いない”ならば。</p><p>\n　一部の僧院では特殊な形態のモンク武器が用いられる。たとえば2本の木の棒を短い鎖でつないだクラブ(これをヌンチャクという)、より短く刃がまっすぐなシックル(これをカマという)等である。モンク武器をどのような名前で呼ぼうとも、武器のゲームデータは第5章の武器のものをそのまま使用すればよい。</p>"
+			"description": "<p>君は武術修業によって素手打撃とモンク武器(=“両手用”でも“重武器”でもない単純近接武器、およびショートソード)を用いる戦闘スタイルを身につける。君は、素手であるかモンク武器しか使用しておらず、かつ鎧を着用しておらず盾も使用していないならば、以下の利益を得る。</p><ul><li><p>素手打撃およびモンク武器での攻撃ロールおよびダメージ・ロールに【筋力】のかわりに【敏捷力】を使用できる。</p></li>\n<li><p>素手打撃やモンク武器の通常のダメージのかわりにld4を使用できる。このダイスはモンク・レベルの上昇にともなって変化する。『モンク表』の武術の欄を参照。</p></li>\n<li><p>君自身のターンに素手打撃やモンク武器を用いて攻撃アクションを行なった場合、(そのターン中に)ボーナス・アクションとして1回の素手打撃を行なえる。たとえば君が攻撃アクションを使用してクオータースタッフでの攻撃を行なった場合、これに加えてボーナス・アクションとして1回の素手打撃を行なえる――そのターン中にすでにボーナス・アクションを使用して“いない”ならば。</p></li></ul>\n<p>一部の僧院では特殊な形態のモンク武器が用いられる。たとえば2本の木の棒を短い鎖でつないだクラブ(これをヌンチャクという)、より短く刃がまっすぐなシックル(これをカマという)等である。モンク武器をどのような名前で呼ぼうとも、武器のゲームデータは第5章の武器のものをそのまま使用すればよい。</p>"
 		},
 		"Mask of Many Faces": {
 			"name": "百面相",
@@ -547,15 +563,15 @@
 		},
 		"Metamagic": {
 			"name": "呪文修正",
-			"description": "<p>3レベルの時点で、君は必要に応じて呪文に変更修正を加える能力を身につける。以下の呪文修正能力のうち2つを得る。加えて，10、17レベルでさらに1つずつ呪文修正能力を得る。1つの呪文を発動する時には、特に書かれていない限り、1つの呪文修正能力しか使用できない。</p>\n<p>@Compendium[dnd5e.classfeatures.tNG2qi9zhmXEkecA]{呪文修正：呪文セーヴ妨害}</p>\n<p>@Compendium[dnd5e.classfeatures.Qb391hakCfmH4w8p]{呪文修正：呪文二重化}</p>\n<p>@Compendium[dnd5e.classfeatures.IWpe0Y9uAStHGiH1]{呪文修正：呪文威力強化}</p>\n<p>@Compendium[dnd5e.classfeatures.DZpAa3LzMNBexbmX]{呪文修正：呪文射程延長}</p>\n<p>@Compendium[dnd5e.classfeatures.tQxlKyAx9sgPrbgj]{呪文修正：呪文持続時間延長}</p>\n<p>@Compendium[dnd5e.classfeatures.fXa0DMhoVLtbBu9l]{呪文修正：呪文発動秘匿}</p>\n<p>@Compendium[dnd5e.classfeatures.nViGf6bZ6DQAJhkw]{呪文修正：呪文高速化}</p>\n<p>@Compendium[dnd5e.classfeatures.zElYrOcCFFMhB6Xl]{呪文修正：敵味方識別}</p>\n<p>1つの呪文を発動する時には、特に書かれていない限り、1つの呪文修正能力しか使用できない。</p>"
+			"description": "<p>3レベルの時点で、君は必要に応じて呪文に変更修正を加える能力を身につける。以下の呪文修正能力のうち2つを得る。加えて，10、17レベルでさらに1つずつ呪文修正能力を得る。1つの呪文を発動する時には、特に書かれていない限り、1つの呪文修正能力しか使用できない。</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.tNG2qi9zhmXEkecA]{呪文修正：呪文セーヴ妨害}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.Qb391hakCfmH4w8p]{呪文修正：呪文二重化}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.IWpe0Y9uAStHGiH1]{呪文修正：呪文威力強化}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.DZpAa3LzMNBexbmX]{呪文修正：呪文射程延長}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.tQxlKyAx9sgPrbgj]{呪文修正：呪文持続時間延長}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.fXa0DMhoVLtbBu9l]{呪文修正：呪文発動秘匿}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.nViGf6bZ6DQAJhkw]{呪文修正：呪文高速化}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.zElYrOcCFFMhB6Xl]{呪文修正：敵味方識別}</p>\n<p>1つの呪文を発動する時には、特に書かれていない限り、1つの呪文修正能力しか使用できない。</p>"
 		},
 		"Mindless Rage": {
 			"name": "考えなしの激怒",
-			"description": "6レベル以降、君は@Compendium[dnd5e.classfeatures.VoR0SUrNX5EJVPIO]中は決して魅了状態にも恐怖状態にもならない。もし激怒に入った時点ですでに魅了状態や恐怖状態であったなら、その効果は激怒の期間中は一時停止する。"
+			"description": "<p>6レベル以降、君は@UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]中は決して魅了状態にも恐怖状態にもならない。もし激怒に入った時点ですでに魅了状態や恐怖状態であったなら、その効果は激怒の期間中は一時停止する。</p>"
 		},
 		"Minions of Chaos": {
 			"name": "混沌のしもべ",
-			"description": "<p>ウォーロック呪文スロットを1つ使用して  @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR] を1回発動できる。大休憩を終えるまでは再びこれを行えない。</p>"
+			"description": "<p>ウォーロック呪文スロットを1つ使用して @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR] を1回発動できる。大休憩を終えるまでは再びこれを行えない。</p>"
 		},
 		"Mire the Mind": {
 			"name": "精神の沼地",
@@ -567,19 +583,19 @@
 		},
 		"Monastic Tradition": {
 			"name": "門派",
-			"description": "3レベルに達した時点で、君は@Compendium[dnd5e.subclasses.IvlpKMXX3PmW1NY2]{開手門}などの特定の門派と深く結びつく。ここで選択した門派によって、3、6、11、17レベルで得られる特徴が決定される。"
+			"description": "<p>3レベルに達した時点で、君は@UUID[Compendium.dnd5e.subclasses.Item.IvlpKMXX3PmW1NY2]{開手門}などの特定の門派と深く結びつく。ここで選択した門派によって、3、6、11、17レベルで得られる特徴が決定される。</p>"
 		},
 		"Multiattack": {
 			"name": "複数回攻撃",
 			"description": "<p>11レベルの時点で、君は以下の特徴のうち任意の1つを得る。</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.l7W6JB9yWLLLtQKP]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.1DY8w3CXeD7PHDXF]</p>"
 		},
 		"Multiattack Defense": {
-			"name": "守りの技：追打ち封じ",
-			"description": "クリーチャーが君に攻撃を行なってヒットを与えたなら、その同じクリーチャーが同じターン内に行なうあらゆる攻撃に対して、君はACに+4のボーナスを得る。"
+			"name": "追打ち封じ",
+			"description": "<p>クリーチャーが君に攻撃を行なってヒットを与えたなら、その同じクリーチャーが同じターン内に行なうあらゆる攻撃に対して、君はACに+4のボーナスを得る。</p>"
 		},
 		"Multiattack: Volley": {
 			"name": "複数回攻撃：掃射",
-			"description": "君はアクションを用いて、君の武器の射程内の、君から見える一点から10フィート以内にいる任意の数のクリーチャーに対してそれぞれ1回ずつ遠隔攻撃を行なえる。君は通常通り、目標1体ごとに1発の矢弾を有しておらねばならず、攻撃ロールは目標1体ごとに別々に行う。"
+			"description": "<p>君はアクションを用いて、君の武器の射程内の、君から見える一点から10フィート以内にいる任意の数のクリーチャーに対してそれぞれ1回ずつ遠隔攻撃を行なえる。君は通常通り、目標1体ごとに1発の矢弾を有しておらねばならず、攻撃ロールは目標1体ごとに別々に行う。</p>"
 		},
 		"Mystic Arcanum": {
 			"name": "秘奥義",
@@ -591,23 +607,23 @@
 		},
 		"Natural Recovery": {
 			"name": "自然魔法回復",
-			"description": "<p>　2レベルでこの円環を選択した時点で君は、座して瞑想し自然と交感することにより、魔法エネルギーを一部回復できる。君は、小休憩の間に、消費済の呪文スロットを一部回復できる。</p>\n\n<p>　回復する呪文スロット群のレベルは、合計で君のドルイド・レベルの半分(端数切り上げ)以下でなければならない。かつ、回復する個々の呪文スロットはみな5レベル以下でなければならない。この特徴は、1度使用したなら、大休憩を終了するまでは再び使用できない。</p>\n\n<p>　たとえば君が4レベル・ドルイドであるなら、君は合計2レベル分の呪文スロットを回復できる。2レベル・スロットを1つ回復しても、1レベル・スロットを2つ回復してもよい。</p>"
+			"description": "<p>2レベルでこの円環を選択した時点で君は、座して瞑想し自然と交感することにより、魔法エネルギーを一部回復できる。君は、小休憩の間に、消費済の呪文スロットを一部回復できる。</p>\n\n<p>回復する呪文スロット群のレベルは、合計で君のドルイド・レベルの半分(端数切り上げ)以下でなければならない。かつ、回復する個々の呪文スロットはみな5レベル以下でなければならない。この特徴は、1度使用したなら、大休憩を終了するまでは再び使用できない。</p>\n\n<p>たとえば君が4レベル・ドルイドであるなら、君は合計2レベル分の呪文スロットを回復できる。2レベル・スロットを1つ回復しても、1レベル・スロットを2つ回復してもよい。</p>"
 		},
 		"Nature's Sanctuary": {
 			"name": "生ける聖域",
-			"description": "<p>　自然世界のクリーチャーは君と自然とのつながりを感知し、君を攻撃することをためらうようになる。種別が“野獣”や“植物”のクリーチャーが君を攻撃する際には、そのクリーチャーは君のドルイド呪文のセーヴ難易度に対して【判断力】セーヴィング・スローをする。</p>\n\n<p>　セーヴに失敗したなら、そのクリーチャーは別の目標を選択し、その攻撃は自動的にミスする。セーヴに成功したなら、そのクリーチャーは以後24時間、この効果に対して完全耐性を得る。クリーチャーは、君に対する攻撃を行なう前に、この効果の存在に気づく。</p>"
+			"description": "<p>自然世界のクリーチャーは君と自然とのつながりを感知し、君を攻撃することをためらうようになる。種別が“野獣”や“植物”のクリーチャーが君を攻撃する際には、そのクリーチャーは君のドルイド呪文のセーヴ難易度に対して【判断力】セーヴィング・スローをする。</p>\n\n<p>セーヴに失敗したなら、そのクリーチャーは別の目標を選択し、その攻撃は自動的にミスする。セーヴに成功したなら、そのクリーチャーは以後24時間、この効果に対して完全耐性を得る。クリーチャーは、君に対する攻撃を行なう前に、この効果の存在に気づく。</p>"
 		},
 		"Nature's Ward": {
 			"name": "大自然の加護",
-			"description": "　君は種別が“エレメンタル”や“フェイ”のクリーチャーによっては魅了状態にも恐怖状態にもならなくなる。また、君は毒および病気に完全耐性を有する。"
+			"description": "<p>君は種別が“エレメンタル”や“フェイ”のクリーチャーによっては魅了状態にも恐怖状態にもならなくなる。また、君は毒および病気に完全耐性を有する。</p>"
 		},
 		"One With Shadows": {
 			"name": "影なる者",
-			"description": "君は、\"薄暗い\"明るさや暗闇の範囲にいる時、アクションを用いて不可視状態になることができる。この不可視状態は君が移動するか、アクションを行なうか、リアクションを行なうまで持続する。"
+			"description": "<p>君は、“薄暗い”明るさや暗闇の範囲にいる時、アクションを用いて不可視状態になることができる。この不可視状態は君が移動するか、アクションを行なうか、リアクションを行なうまで持続する。</p>"
 		},
 		"Open Hand Technique": {
 			"name": "開手の技",
-			"description": "<p>　3レベルでこの門派に入った時から、君はおのれの気を制御し敵の気を操作する術を身につける。君は“連打”によって行なう打撃でクリーチャーにヒットを与えるたび、その目標に以下の効果のいずれか1つを及ぼせる。</p>\n\n<p>目標は【敏捷力】セーヴィング・スローを行なわねばならず、失敗すると倒れて伏せ状態になる。</p>\n<p>目標は【筋力】セーヴィング・スローを行なわねばならない。目標がこのセーヴに失敗したなら、君は目標を君から離れる方向へ15フィートまで押しやれる。</p>\n<p>目標は君の次のターンの終了時までリアクションを行なえない。</p>"
+			"description": "<p>3レベルでこの門派に入った時から、君はおのれの気を制御し敵の気を操作する術を身につける。君は“連打”によって行なう打撃でクリーチャーにヒットを与えるたび、その目標に以下の効果のいずれか1つを及ぼせる。</p>\n\n<p>目標は【敏捷力】セーヴィング・スローを行なわねばならず、失敗すると倒れて伏せ状態になる。</p>\n<p>目標は【筋力】セーヴィング・スローを行なわねばならない。目標がこのセーヴに失敗したなら、君は目標を君から離れる方向へ15フィートまで押しやれる。</p>\n<p>目標は君の次のターンの終了時までリアクションを行なえない。</p>"
 		},
 		"Otherworldly Leap": {
 			"name": "怪跳躍",
@@ -615,87 +631,87 @@
 		},
 		"Otherworldly Patron": {
 			"name": "この世ならぬ契約相手",
-			"description": "1レベル時点で、君はすでに、@Compendium[dnd5e.subclasses.WPFVBg589uI8iOMH]{フィーンド}などのこの世ならぬなにものかと契約を済ませている。この選択によって、君が1、6、10、14レベルで得る特徴が決定される。"
+			"description": "<p>1レベル時点で、君はすでに、@UUID[Compendium.dnd5e.subclasses.Item.WPFVBg589uI8iOMH]{フィーンド}などのこの世ならぬなにものかと契約を済ませている。この選択によって、君が1、6、10、14レベルで得る特徴が決定される。</p>"
 		},
 		"Overchannel": {
 			"name": "限界突破",
-			"description": "<p>14レベル以降、君は比較的単純な呪文の力を増すことができる。ダメージを与える1レベル～5レベルのウィザード呪文を発動する際、君はその呪文で最大ダメージを与えられる。初めてそうした時には何の副作用もない。だがこの特徴を大休憩を終える前に2度目に使用したなら、発動の直後に(呪文レベル×2)d12の[死霊]ダメージを受ける。</p>\n<p>　この特徴を大休憩を終えることなく使うたびに、この[死霊]ダメージは呪文レベルごとに1d12だけ増加する(訳注:たとえばこの特徴を3度目に使い、そのときの呪文が3レベル呪文だったなら、9d12の[死霊]ダメージ)。このダメージは抵抗や完全耐性を無視する。</p>"
+			"description": "<p>14レベル以降、君は比較的単純な呪文の力を増すことができる。ダメージを与える1レベル～5レベルのウィザード呪文を発動する際、君はその呪文で最大ダメージを与えられる。初めてそうした時には何の副作用もない。だがこの特徴を大休憩を終える前に2度目に使用したなら、発動の直後に(呪文レベル×2)d12の[死霊]ダメージを受ける。</p>\n<p>この特徴を大休憩を終えることなく使うたびに、この[死霊]ダメージは呪文レベルごとに1d12だけ増加する(訳注:たとえばこの特徴を3度目に使い、そのときの呪文が3レベル呪文だったなら、9d12の[死霊]ダメージ)。このダメージは抵抗や完全耐性を無視する。</p>"
 		},
 		"Pact Boon": {
 			"name": "契約の恩恵",
-			"description": "<p>3レベルの時点で、この世ならぬ契約相手は、君の忠実な奉仕を愛でて贈物を贈る。君は以下の特徴のうち1つを得る。</p>\n<p>@Compendium[dnd5e.classfeatures.9dSSa68mIPoX2ezA]{剣の契約}</p>\n<p>@Compendium[dnd5e.classfeatures.MYM908WLZ1lVvA1u]{書の契約}</p>\n<p>@Compendium[dnd5e.classfeatures.Ic1CSjvbWKudVUv9]{鎖の契約}</p>"
+			"description": "<p>3レベルの時点で、この世ならぬ契約相手は、君の忠実な奉仕を愛でて贈物を贈る。君は以下の特徴のうち1つを得る。</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.9dSSa68mIPoX2ezA]{剣の契約}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.MYM908WLZ1lVvA1u]{書の契約}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.Ic1CSjvbWKudVUv9]{鎖の契約}</p>"
 		},
 		"Pact Magic": {
 			"name": "契約による魔術",
-			"description": "<p>君は秘術の研究と、契約相手から与えられた魔力によって、呪文を自在に操れるようになった。呪文発動の一般則は第10章、ウォーロック呪文リストは第11章を参照。</p>\n<h3>初級呪文</h3>\n<p>1レベルの時点で、君はウォーロック呪文リストから2種類の初級呪文を修得している。さらに、レベルアップにともない、『ウォーロック』表の『修得初級呪文』の項にある通り、追加でウォーロックの初級呪文を学んでゆく。</p>\n<h3>呪文スロット</h3>\n<p>君が1レベルおよびそれ以後のレベルにおいて、呪文発動のための呪文スロットをどれだけ有するかは、『ウォーロック』表に示してある。君の呪文スロットはすべて同じレベルである。1レベル以上のウォーロック呪文を1つ発動するには、呪文スロットを1つ消費せねばならない。君は、小休憩または大休憩を終えるたび、消費済の呪文スロットをすべて回復する。</p><p>たとえば5レベル・ウォーロックは3レベル呪文スロットを2つ有している。1レベル呪文のウィッチ・ボルトを発動するにも、この3レベル呪文スロットを1つ使用せねばならず、そしてその呪文は3レベル呪文として発動される。</p>\n<h3>1レベル以上の修得呪文</h3>\n<p>1レベルの時点で、君はウォーロック呪文リストから任意の2種類の1レベル呪文を修得している。</p><p>『ウォーロック』表の修得呪文の項には、君がどの段階で1レベル以上のウォーロック呪文を追加で修得してゆくかが示されている。選択する呪文は、表のスロット・レベルの欄にある数字以下のレベルのものに限られる。たとえば君は6レベルになった時点で新しいウォーロック呪文を1つ修得するが、それは1~3レベルのものでなければならない。</p><p>また君は、このクラスのレベルを得るたびに、修得しているウォーロック呪文のうち1つを、ウォーロック呪文リストの中から選んだ任意の呪文1つと入れ替えることができる。新しい呪文は君が呪文スロットを有しているレベルのものでなければならない。</p>\n<table border=\"0\" cellspacing=\"0\">\n<thead>\n<tr>\n<td>レベル</td>\n<td>初級呪文習得</td>\n<td>呪文修得数</td>\n<td>呪文スロット</td>\n<td>スロット・レベル</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>2</td>\n<td>2</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3</td>\n<td>2</td>\n<td>4</td>\n<td>2</td>\n<td>2</td>\n</tr>\n<tr>\n<td>4</td>\n<td>3</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n</tr>\n<tr>\n<td>5</td>\n<td>3</td>\n<td>6</td>\n<td>2</td>\n<td>3</td>\n</tr>\n<tr>\n<td>6</td>\n<td>3</td>\n<td>7</td>\n<td>2</td>\n<td>3</td>\n</tr>\n<tr>\n<td>7</td>\n<td>3</td>\n<td>8</td>\n<td>2</td>\n<td>4</td>\n</tr>\n<tr>\n<td>8</td>\n<td>3</td>\n<td>9</td>\n<td>2</td>\n<td>4</td>\n</tr>\n<tr>\n<td>9</td>\n<td>3</td>\n<td>10</td>\n<td>2</td>\n<td>5</td>\n</tr>\n<tr>\n<td>10</td>\n<td>4</td>\n<td>10</td>\n<td>2</td>\n<td>5</td>\n</tr>\n<tr>\n<td>11</td>\n<td>4</td>\n<td>11</td>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>12</td>\n<td>4</td>\n<td>11</td>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>13</td>\n<td>4</td>\n<td>12</td>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>14</td>\n<td>4</td>\n<td>12</td>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>15</td>\n<td>4</td>\n<td>13</td>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>16</td>\n<td>4</td>\n<td>13</td>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>17</td>\n<td>4</td>\n<td>14</td>\n<td>4</td>\n<td>5</td>\n</tr>\n<tr>\n<td>18</td>\n<td>4</td>\n<td>14</td>\n<td>4</td>\n<td>5</td>\n</tr>\n<tr>\n<td>19</td>\n<td>4</td>\n<td>15</td>\n<td>4</td>\n<td>5</td>\n</tr>\n<tr>\n<td>20</td>\n<td>4</td>\n<td>15</td>\n<td>4</td>\n<td>5</td>\n</tr>\n</tbody>\n</table>\n<h3>呪文発動能力値</h3>\n<p>君のウォーロック呪文発動能力値は【魅力】である。呪文に\"呪文発動能力値\"とある場合、君は常に【魅力】を使う。加えて、君が発動するウォーロック呪文のセーヴ難易度を決定する際や、ウォーロック呪文の攻撃ロールを行なう際にも【魅力】を使う。</p><p><strong>呪文のセーヴ難易度</strong> = 8+君の習熟ボーナス+君の【魅力】修正値</p><p><strong>呪文攻撃の修正値 </strong>= 君の習熟ボーナス+君の【魅力】修正値</p>\n<h3>呪文発動の焦点具</h3>\n<p>君はウォーロック呪文発動の焦点具として秘術焦点具（第5章「装備」参照）を使うことができる。</p>"
+			"description": "<p>君は秘術の研究と、契約相手から与えられた魔力によって、呪文を自在に操れるようになった。呪文発動の一般則は第10章、ウォーロック呪文リストは第11章を参照。</p>\n<h5>初級呪文</h5>\n<p>1レベルの時点で、君はウォーロック呪文リストから2種類の初級呪文を修得している。さらに、レベルアップにともない、『ウォーロック』表の『修得初級呪文』の項にある通り、追加でウォーロックの初級呪文を学んでゆく。</p>\n<h5>呪文スロット</h5>\n<p>君が1レベルおよびそれ以後のレベルにおいて、呪文発動のための呪文スロットをどれだけ有するかは、『ウォーロック』表に示してある。君の呪文スロットはすべて同じレベルである。1レベル以上のウォーロック呪文を1つ発動するには、呪文スロットを1つ消費せねばならない。君は、小休憩または大休憩を終えるたび、消費済の呪文スロットをすべて回復する。</p><p>たとえば5レベル・ウォーロックは3レベル呪文スロットを2つ有している。1レベル呪文のウィッチ・ボルトを発動するにも、この3レベル呪文スロットを1つ使用せねばならず、そしてその呪文は3レベル呪文として発動される。</p>\n<h5>1レベル以上の修得呪文</h5>\n<p>1レベルの時点で、君はウォーロック呪文リストから任意の2種類の1レベル呪文を修得している。</p><p>『ウォーロック』表の修得呪文の項には、君がどの段階で1レベル以上のウォーロック呪文を追加で修得してゆくかが示されている。選択する呪文は、表のスロット・レベルの欄にある数字以下のレベルのものに限られる。たとえば君は6レベルになった時点で新しいウォーロック呪文を1つ修得するが、それは1~3レベルのものでなければならない。</p><p>また君は、このクラスのレベルを得るたびに、修得しているウォーロック呪文のうち1つを、ウォーロック呪文リストの中から選んだ任意の呪文1つと入れ替えることができる。新しい呪文は君が呪文スロットを有しているレベルのものでなければならない。</p>\n<table border=\"0\" cellspacing=\"0\">\n<thead>\n<tr>\n<td>レベル</td>\n<td>初級呪文習得</td>\n<td>呪文修得数</td>\n<td>呪文スロット</td>\n<td>スロット・レベル</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>2</td>\n<td>2</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3</td>\n<td>2</td>\n<td>4</td>\n<td>2</td>\n<td>2</td>\n</tr>\n<tr>\n<td>4</td>\n<td>3</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n</tr>\n<tr>\n<td>5</td>\n<td>3</td>\n<td>6</td>\n<td>2</td>\n<td>3</td>\n</tr>\n<tr>\n<td>6</td>\n<td>3</td>\n<td>7</td>\n<td>2</td>\n<td>3</td>\n</tr>\n<tr>\n<td>7</td>\n<td>3</td>\n<td>8</td>\n<td>2</td>\n<td>4</td>\n</tr>\n<tr>\n<td>8</td>\n<td>3</td>\n<td>9</td>\n<td>2</td>\n<td>4</td>\n</tr>\n<tr>\n<td>9</td>\n<td>3</td>\n<td>10</td>\n<td>2</td>\n<td>5</td>\n</tr>\n<tr>\n<td>10</td>\n<td>4</td>\n<td>10</td>\n<td>2</td>\n<td>5</td>\n</tr>\n<tr>\n<td>11</td>\n<td>4</td>\n<td>11</td>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>12</td>\n<td>4</td>\n<td>11</td>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>13</td>\n<td>4</td>\n<td>12</td>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>14</td>\n<td>4</td>\n<td>12</td>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>15</td>\n<td>4</td>\n<td>13</td>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>16</td>\n<td>4</td>\n<td>13</td>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>17</td>\n<td>4</td>\n<td>14</td>\n<td>4</td>\n<td>5</td>\n</tr>\n<tr>\n<td>18</td>\n<td>4</td>\n<td>14</td>\n<td>4</td>\n<td>5</td>\n</tr>\n<tr>\n<td>19</td>\n<td>4</td>\n<td>15</td>\n<td>4</td>\n<td>5</td>\n</tr>\n<tr>\n<td>20</td>\n<td>4</td>\n<td>15</td>\n<td>4</td>\n<td>5</td>\n</tr>\n</tbody>\n</table>\n<h5>呪文発動能力値</h5>\n<p>君のウォーロック呪文発動能力値は【魅力】である。呪文に“呪文発動能力値”とある場合、君は常に【魅力】を使う。加えて、君が発動するウォーロック呪文のセーヴ難易度を決定する際や、ウォーロック呪文の攻撃ロールを行なう際にも【魅力】を使う。</p><p><strong>呪文のセーヴ難易度</strong> = 8+君の習熟ボーナス+君の【魅力】修正値</p><p><strong>呪文攻撃の修正値 </strong>= 君の習熟ボーナス+君の【魅力】修正値</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はウォーロック呪文発動の焦点具として秘術焦点具（第5章「装備」参照）を使うことができる。</p>"
 		},
 		"Pact of the Blade": {
 			"name": "剣の契約",
-			"description": "<p>　君は1回のアクションとして、空いている手の中に1つの契約武器を生み出す。この近接武器の形態は、君がこれを生み出すたびに自由に選択でき、その武器を装備している間は習熟を得る。</p>\n<p>　この武器は“非魔法的な攻撃やダメージ”に対する抵抗や完全耐性を克服するに際しては魔法の武器として扱われる。君の契約武器は以下の条件のいずれかが満たされたなら消え去る。</p>\n<p><li>契約武器が、まるまる1分間に渡って、君から5フィートより遠く離れている。</li>\n<li>君がこの特徴を再度使用する。</li>\n<li>君がこの武器をしまう（アクションではない）。</li>\n<li>君が死ぬ。<//li></p>\n<p>　君は魔法の武器を手に持って特殊な儀式を執り行なうことにより、その魔法の武器を契約武器にできる。この儀式に要する時間は1時間であり、小休憩中に執り行なえる。</p>\n<p>　儀式が終了したなら、それ以後君は武器を異次元空間にしまえる。また、それ以後君が契約武器を生み出そうとした時には、常にその魔法武器が現れる。この儀式によってアーティファクトや知性ある武器を契約武器にはできない。この儀式によって契約武器となった武器は、以下の条件のいずれかが満たされたなら、もはや契約武器ではなくなる。</p>"
+			"description": "<p>君は1回のアクションとして、空いている手の中に1つの契約武器を生み出す。この近接武器の形態は、君がこれを生み出すたびに自由に選択でき、その武器を装備している間は習熟を得る。</p>\n<p>この武器は“非魔法的な攻撃やダメージ”に対する抵抗や完全耐性を克服するに際しては魔法の武器として扱われる。君の契約武器は以下の条件のいずれかが満たされたなら消え去る。</p>\n<p><li>契約武器が、まるまる1分間に渡って、君から5フィートより遠く離れている。</li>\n<li>君がこの特徴を再度使用する。</li>\n<li>君がこの武器をしまう（アクションではない）。</li>\n<li>君が死ぬ。<//li></p>\n<p>君は魔法の武器を手に持って特殊な儀式を執り行なうことにより、その魔法の武器を契約武器にできる。この儀式に要する時間は1時間であり、小休憩中に執り行なえる。</p>\n<p>儀式が終了したなら、それ以後君は武器を異次元空間にしまえる。また、それ以後君が契約武器を生み出そうとした時には、常にその魔法武器が現れる。この儀式によってアーティファクトや知性ある武器を契約武器にはできない。この儀式によって契約武器となった武器は、以下の条件のいずれかが満たされたなら、もはや契約武器ではなくなる。</p>"
 		},
 		"Pact of the Chain": {
 			"name": "鎖の契約",
-			"description": "<p>　君は@Compendium[dnd5e.spells.JGT5bNqu9REL7Fuz]の呪文を修得し、これを儀式として発動できる。この呪文は君の呪文修得数を数える際には計算に入れない。君はこの呪文を発動する際、使い魔の形態として通常のものを選択してもよいし、「@Compendium[dnd5e.monsters.dLQiESMsfsXijD5c]{Imp}」、「pseudodragon,」「@Compendium[dnd5e.monsters.bwtkdzavdNHISgp4]{Quasit}」「@Compendium[dnd5e.monsters.MUpBNDoJEr09bLaO]{Sprite}」の中から選択しても良い。</p>\n\n<p>　また、君は攻撃アクションを行なう際、自分の攻撃のうち1回分を取り止めにして、代わりに使い魔にリアクションとして使い魔自身の攻撃を1回行なわせることもできる。</p>"
+			"description": "<p>君は@UUID[Compendium.dnd5e.spells.Item.JGT5bNqu9REL7Fuz]の呪文を修得し、これを儀式として発動できる。この呪文は君の呪文修得数を数える際には計算に入れない。</p>\n<p>君はこの呪文を発動する際、使い魔の形態として通常のものを選択してもよいし、@UUID[Compendium.dnd5e.monsters.Actor.dLQiESMsfsXijD5c]、@UUID[Compendium.dnd5e.monsters.Actor.fkCNtbvPOMd7mipF]、@UUID[Compendium.dnd5e.monsters.Actor.bwtkdzavdNHISgp4]、@UUID[Compendium.dnd5e.monsters.Actor.MUpBNDoJEr09bLaO]の中から選択しても良い。</p>\n<p>また、君は攻撃アクションを行なう際、自分の攻撃のうち1回分を取り止めにして、代わりに使い魔にリアクションとして使い魔自身の攻撃を1回行なわせることもできる。</p>"
 		},
 		"Pact of the Tome": {
 			"name": "書の契約",
-			"description": "　<p>契約相手から『影の書』と呼ばれる魔法の書物を授かった。この特徴を得た時点で、任意のクラス（複数でも可）の呪文リストから、合計3つの初級呪文を選択すること。</p>\n<p>　この書物を身につけている限り、君はこれらの初級呪文を回数無制限で発動できる。これらの初級呪文は、君の修得初級呪文数を数える際には勘定に入れない。これらの呪文がウォーロックの呪文リストに載っていないとしても、君にとってそれらの呪文はウォーロック呪文である。</p>\n<p>　君がもし『影の書』を失ったなら、1時間かけて儀式を執り行ない、契約相手から代りの書物を受け取れる。この儀式は小休憩または大休憩中に執り行なうことができる。この儀式によって、失ったほうの書物は破壊される。また、君が死んだなら『影の書』は灰になってしまう。</p>"
+			"description": "<p>契約相手から『影の書』と呼ばれる魔法の書物を授かった。この特徴を得た時点で、任意のクラス（複数でも可）の呪文リストから、合計3つの初級呪文を選択すること。</p>\n<p>この書物を身につけている限り、君はこれらの初級呪文を回数無制限で発動できる。これらの初級呪文は、君の修得初級呪文数を数える際には勘定に入れない。これらの呪文がウォーロックの呪文リストに載っていないとしても、君にとってそれらの呪文はウォーロック呪文である。</p>\n<p>君がもし『影の書』を失ったなら、1時間かけて儀式を執り行ない、契約相手から代りの書物を受け取れる。この儀式は小休憩または大休憩中に執り行なうことができる。この儀式によって、失ったほうの書物は破壊される。また、君が死んだなら『影の書』は灰になってしまう。</p>"
 		},
 		"Patient Defense": {
 			"name": "護身",
-			"description": "君は、気ポイントを1点消費することで、自分のターンに1回のボーナス・アクションとして回避アクションを行なえる。"
+			"description": "<p>君は、気ポイントを1点消費することで、自分のターンに1回のボーナス・アクションとして回避アクションを行なえる。</p>"
 		},
 		"Peerless Skill": {
 			"name": "無類の腕前",
-			"description": "14レベル以降、君は能力値判定を行なう際に“バードの声援”の使用回数を1回消費できる。そうしたならば、声援ダイスを1個ロールして、その結果を君の能力値判定に加えること。そうするかどうかを決めるのは、能力値判定のダイスをロールした後でよいが、DMがそのロールの成否を宣言するより前でなければならない。"
+			"description": "14レベル以降、君は能力値判定を行なう際に“バードの声援”の使用回数を1回消費できる。そうしたならば、声援ダイスを1個ロールして、その結果を君の能力値判定に加えること。そうするかどうかを決めるのは、能力値判定のダイスをロールした後でよいが、DMがそのロールの成否を宣言するより前でなければならない。</p>"
 		},
 		"Perfect Self": {
 			"name": "即身成道",
-			"description": "　イニシアチブをロールする際に気ポイントが1点も残っていなかったならば、気ポイントを4点回復する。"
+			"description": "　イニシアチブをロールする際に気ポイントが1点も残っていなかったならば、気ポイントを4点回復する。</p>"
 		},
 		"Persistent Rage": {
 			"name": "終らぬ激怒",
-			"description": "<p>15レベル以降、君の@Compendium[dnd5e.classfeatures.VoR0SUrNX5EJVPIO]{激怒} はきわめて激しいため、君が気絶状態になるか、君が自ら進んで激怒を終了させたときにのみ終了する。</p>"
+			"description": "<p>15レベル以降、君の@UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{激怒} はきわめて激しいため、君が気絶状態になるか、君が自ら進んで激怒を終了させたときにのみ終了する。</p>"
 		},
 		"Potent Cantrip": {
 			"name": "初級呪文強化",
-			"description": "6レベル以降、君の初級呪文のうちダメージを与えるものは、効果の直撃を避けた者にも作用を及ぼすようになる。クリーチャーが君の初級呪文に対するセーヴに成功したなら、そのクリーチャーはその初級呪文のダメージの半分を受ける。この場合、追加の効果は一切受けない。"
+			"description": "<p>6レベル以降、君の初級呪文のうちダメージを与えるものは、効果の直撃を避けた者にも作用を及ぼすようになる。クリーチャーが君の初級呪文に対するセーヴに成功したなら、そのクリーチャーはその初級呪文のダメージの半分を受ける。この場合、追加の効果は一切受けない。</p>"
 		},
 		"Primal Champion": {
 			"name": "原始の王者",
-			"description": "　20レベルの時点で、君は野生の力を体現する。君の【筋力】および【耐久力]は4増加し、これらの能力値の最大値はいまや24となる。"
+			"description": "<p>20レベルの時点で、君は野生の力を体現する。君の【筋力】および【耐久力]は4増加し、これらの能力値の最大値はいまや24となる。</p>"
 		},
 		"Primal Path": {
 			"name": "原始の道",
-			"description": "　3レベルの時点で君は@Compendium[dnd5e.subclasses.uGuDQX9Mz3oHNHkU]{狂戦士の道}などの1つの道を選ぶ。その道が君の激怒の性質を左右する。3、6、10、14レベルで得られる特徴が決定される。"
+			"description": "<p>3レベルの時点で君は@UUID[Compendium.dnd5e.subclasses.Item.uGuDQX9Mz3oHNHkU]{狂戦士の道}などの1つの道を選ぶ。その道が君の激怒の性質を左右する。3、6、10、14レベルで得られる特徴が決定される。</p>"
 		},
 		"Primeval Awareness": {
 			"name": "野生の感知力",
-			"description": "3レベル以降、君はアクションを使用し、レンジャー呪文スロットを1つ消費して、周辺地域に知覚力を集中できる。(消費した呪文スロットのレベル×1)分の間、君は自分から1マイル(君が得意な地形にいる場合6マイル)以内に、「アンデッド」「異形」「エレメンタル」「セレスチャル」「ドラゴン」「フィーンド」「フェイ」がそれぞれ居るかどうかを察知できる。ただし、この特徴によってクリーチャーの位置や数がわかるわけではない。"
+			"description": "<p>3レベル以降、君はアクションを使用し、レンジャー呪文スロットを1つ消費して、周辺地域に知覚力を集中できる。(消費した呪文スロットのレベル×1)分の間、君は自分から1マイル(君が得意な地形にいる場合6マイル)以内に、「アンデッド」「異形」「エレメンタル」「セレスチャル」「ドラゴン」「フィーンド」「フェイ」がそれぞれ居るかどうかを察知できる。ただし、この特徴によってクリーチャーの位置や数がわかるわけではない。</p>"
 		},
 		"Protection": {
 			"name": "護衛",
-			"description": "君が見ることができるクリーチャーが、君以外の君から5フィート以内にいるクリーチャーを攻撃したなら、君はリアクションを用いてその攻撃の攻撃ロールに不利を付けれる。ただしこれには君が盾を使用していなければならない。"
+			"description": "<p>君が見ることができるクリーチャーが、君以外の君から5フィート以内にいるクリーチャーを攻撃したなら、君はリアクションを用いてその攻撃の攻撃ロールに不利を付けれる。ただしこれには君が盾を使用していなければならない。</p>"
 		},
 		"Purity of Body": {
 			"name": "無病身",
-			"description": "10レベルの時点で、君は体内の気の流れを修めたゆえに、病気と毒に対する完全耐性を得る。"
+			"description": "<p>10レベルの時点で、君は体内の気の流れを修めたゆえに、病気と毒に対する完全耐性を得る。</p>"
 		},
 		"Purity of Spirit": {
 			"name": "清い心",
-			"description": "<p>15レベル以降、君は常に@Compendium[dnd5e.spells.xmDBqZhRVrtLP8h2]{プロテクション・フロム・イーヴル・アンド・グッド} 呪文の影響下にある。</p>"
+			"description": "<p>15レベル以降、君は常に@UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{プロテクション・フロム・イーヴル・アンド・グッド} 呪文の影響下にある。</p>"
 		},
 		"Quickened Spell": {
 			"name": "呪文高速化",
-			"description": "　君は、発動時間が1アクションの呪文を発動するさい、魔力点を2消費してその発動時間を(今回の発動に限って)1回のボーナス・アクションに変えられる。"
+			"description": "<p>君は、発動時間が1アクションの呪文を発動するさい、魔力点を2消費してその発動時間を(今回の発動に限って)1回のボーナス・アクションに変えられる。</p>"
 		},
 		"Rage": {
 			"name": "激怒",
-			"description": "<p>君は戦場にあっては原始の檸猛さをもって戦う。君は自分のターンに1回のボーナス・アクションとして“激怒”に入ることができる。激怒中、君は重装鎧を着用していない限り以下の利益を得る。</p>\n<ul>\n<li>\n<p>【筋力】判定と【筋力】セーヴィング・スローに有利を得る。</p>\n</li>\n<li>\n<p>【筋力】を用いて近接武器攻撃を行なう際、ダメージ・ロールにボーナスを得る。ボーナスの値はバーバリアンのレベルが上昇するにつれて増加する。『バーバリアン』表の激怒時ダメージの欄を参照。</p>\n</li>\n<li>\n<p>[殴打]、[刺突]、[斬撃]ダメージに対する抵抗を得る。</p>\n</li>\n</ul>\n<p>君は、もし呪文発動が可能であっても、激怒中は呪文発動も呪文に対する精神集中も不可能になる。</p>\n<p>激怒は1分間持続する。君が気絶状態になるか、あるいは君が、前の君のターンの終了時からずっと、ダメージを受けることも敵対的なクリーチャーを攻撃することもないまま、ターンを終了したなら、その時は(まだ1分間経っていなくても)激怒は終了する。</p>\n<p>また、君は自分のターンに1回のボーナス・アクションとして激怒を終了させることもできる。『バーバリアン』表にある回数だけ激怒したなら、以後君は大休憩を終了するまでは再び激怒できない。</p>\n<p><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">注意：使用回数は1に設定されていますが、取得後に適切な数に設定し直してください。</em></p>\n<table style=\"width: 286px; height: 170px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\"><strong>レベル</strong></td>\n<td style=\"width: 68px; height: 17px;\"><strong>激怒</strong></td>\n<td style=\"width: 96px; height: 17px;\"><strong>激怒ダメージ</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">1</td>\n<td style=\"width: 68px; height: 17px;\">2</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">2</td>\n<td style=\"width: 68px; height: 17px;\">2</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">3</td>\n<td style=\"width: 68px; height: 17px;\">3</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">4</td>\n<td style=\"width: 68px; height: 17px;\">3</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">5</td>\n<td style=\"width: 68px; height: 17px;\">3</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">6</td>\n<td style=\"width: 68px; height: 17px;\">4</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">7</td>\n<td style=\"width: 68px; height: 17px;\">4</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">8</td>\n<td style=\"width: 68px;\">4</td>\n<td style=\"width: 96px;\">+2</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">9</td>\n<td style=\"width: 68px;\">4</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">10</td>\n<td style=\"width: 68px;\">4</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">11</td>\n<td style=\"width: 68px;\">4</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">12</td>\n<td style=\"width: 68px;\">5</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">13</td>\n<td style=\"width: 68px;\">5</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">14</td>\n<td style=\"width: 68px;\">5</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">15</td>\n<td style=\"width: 68px; height: 17px;\">5</td>\n<td style=\"width: 96px; height: 17px;\">+3</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">16</td>\n<td style=\"width: 68px; height: 17px;\">5</td>\n<td style=\"width: 96px; height: 17px;\">+4</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">17</td>\n<td style=\"width: 68px;\">6</td>\n<td style=\"width: 96px;\">+4</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">18</td>\n<td style=\"width: 68px;\">6</td>\n<td style=\"width: 96px;\">+4</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">19</td>\n<td style=\"width: 68px; height: 17px;\">6</td>\n<td style=\"width: 96px; height: 17px;\">+4</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">20</td>\n<td style=\"width: 68px; height: 17px;\">無限回</td>\n<td style=\"width: 96px; height: 17px;\">+4</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>"
+			"description": "<p>君は戦場にあっては原始の檸猛さをもって戦う。君は自分のターンに1回のボーナス・アクションとして“激怒”に入ることができる。激怒中、君は重装鎧を着用していない限り以下の利益を得る。</p>\n<ul>\n<li>\n<p>【筋力】判定と【筋力】セーヴィング・スローに有利を得る。</p>\n</li>\n<li>\n<p>【筋力】を用いて近接武器攻撃を行なう際、ダメージ・ロールにボーナスを得る。ボーナスの値はバーバリアンのレベルが上昇するにつれて増加する。『バーバリアン』表の激怒時ダメージの欄を参照。</p>\n</li>\n<li>\n<p> [殴打]、[刺突]、[斬撃]ダメージに対する抵抗を得る。</p>\n</li>\n</ul>\n<p>君は、もし呪文発動が可能であっても、激怒中は呪文発動も呪文に対する精神集中も不可能になる。</p>\n<p>激怒は1分間持続する。君が気絶状態になるか、あるいは君が、前の君のターンの終了時からずっと、ダメージを受けることも敵対的なクリーチャーを攻撃することもないまま、ターンを終了したなら、その時は(まだ1分間経っていなくても)激怒は終了する。</p>\n<p>また、君は自分のターンに1回のボーナス・アクションとして激怒を終了させることもできる。『バーバリアン』表にある回数だけ激怒したなら、以後君は大休憩を終了するまでは再び激怒できない。</p>"
 		},
 		"Ranger Archetype": {
 			"name": "レンジャーの類型",
-			"description": "3レベルの時点で、君は@Compendium[dnd5e.subclasses.uqd2q6WjVfcsaaGb]{ハンター}などの類型の技を磨いてゆく。ここで選択した類型によって、3、7、11、15レベルで得られる特徴が決定される。"
+			"description": "<p>3レベルの時点で、君は@UUID[Compendium.dnd5e.subclasses.Item.uqd2q6WjVfcsaaGb]{ハンター}などの類型の技を磨いてゆく。ここで選択した類型によって、3、7、11、15レベルで得られる特徴が決定される。</p>"
 		},
 		"Reckless Attack": {
 			"name": "捨て身の攻撃",
@@ -703,15 +719,15 @@
 		},
 		"Relentless Rage": {
 			"name": "倒れずの激怒",
-			"description": "<p>　レベル11の時点で君は激怒を力に、深手にも関わらず戦い続けることが可能になる。激怒中にヒット・ポイントが0になり、かつ即死しなかった場合、君は難易度10の【耐久力】セーヴィング・スローを行なえる。</p><p>セーヴに成功したなら君のヒット・ポイントは0でなく1になる。この特徴を1回目より後に1度使うたび、セーヴ難易度は5ずつ増加する。小休憩または大休憩を終了したなら、難易度はまた10に戻る。</p>"
+			"description": "<p>レベル11の時点で君は激怒を力に、深手にも関わらず戦い続けることが可能になる。激怒中にヒット・ポイントが0になり、かつ即死しなかった場合、君は難易度10の【耐久力】セーヴィング・スローを行なえる。</p><p>セーヴに成功したなら君のヒット・ポイントは0でなく1になる。この特徴を1回目より後に1度使うたび、セーヴ難易度は5ずつ増加する。小休憩または大休憩を終了したなら、難易度はまた10に戻る。</p>"
 		},
 		"Reliable Talent": {
 			"name": "確かな技術",
-			"description": "11レベルに至った君は、身につけた技術を、完璧に近いまでに砥ぎすました。習熟ボーナスを足せる能力値判定を行なう時には常に、d20ロールでの9以下の目を10として扱うことができる。"
+			"description": "<p>11レベルに至った君は、身につけた技術を、完璧に近いまでに砥ぎすました。習熟ボーナスを足せる能力値判定を行なう時には常に、d20ロールでの9以下の目を10として扱うことができる。</p>"
 		},
 		"Remarkable Athlete": {
 			"name": "抜群の身体能力",
-			"description": "7レベル以降、君は習熟ボーナスを得ていない【筋力】、【敏捷力】、【耐久力】判定のすべてに、習熟ボーナスの1/2（切り上げ）を加えることができる。\n\n加えて、助走つきの幅跳びを行なう際には、跳躍可能な距離が（【筋力】修正値×1）フィートだけ増大する。"
+			"description": "<p>7レベル以降、君は習熟ボーナスを得ていない【筋力】、【敏捷力】、【耐久力】判定のすべてに、習熟ボーナスの1/2（切り上げ）を加えることができる。\n\n加えて、助走つきの幅跳びを行なう際には、跳躍可能な距離が（【筋力】修正値×1）フィートだけ増大する。</p>"
 		},
 		"Repelling Blast": {
 			"name": "拒絶の怪光線",
@@ -719,31 +735,31 @@
 		},
 		"Retaliation": {
 			"name": "反撃の一発",
-			"description": "レベル14の時点で君は、5フィート以内のクリーチャーからダメージを受けた際に、リアクションを用いてそのクリーチャーに1回の近接武器攻撃を行なえる。"
+			"description": "<p>レベル14の時点で君は、5フィート以内のクリーチャーからダメージを受けた際に、リアクションを用いてそのクリーチャーに1回の近接武器攻撃を行なえる。</p>"
 		},
 		"Roguish Archetype": {
 			"name": "ローグの類型",
-			"description": "3レベルの時点で、君は類型の中から1つを選び、これに従ってローグの能力を鍛錬する。ここでは@Compendium[dnd5e.subclasses.k8iuefRorWOjb9gR]{シーフ}の類型のみを詳述する。他の類型に関しては『Player's Handbook』を参照のこと。ここで選択した類型によって、3、9、13、17レベルで得られる特徴が決定される。"
+			"description": "<p>3レベルの時点で、君は類型の中から1つを選び、これに従ってローグの能力を鍛錬する。ここでは@UUID[Compendium.dnd5e.subclasses.Item.k8iuefRorWOjb9gR]{シーフ}の類型のみを詳述する。他の類型に関しては『Player's Handbook』を参照のこと。ここで選択した類型によって、3、9、13、17レベルで得られる特徴が決定される。</p>"
 		},
 		"Sacred Oath": {
 			"name": "聖なる誓い",
-			"description": "<p>パラディンになるということの中には、パラディンを大義に、進んで悪と戦う道に、結びつける誓いを立てることが含まれている。最後の誓い（@Compendium[dnd5e.subclasses.sZ86mbX8D5PfYuhl]{献身の誓い}等）はパラディンが3レベルに達した時点で行なわれる。これはあらゆるパラディンの訓練の最終段階である。パラディンのうち、ある者は、3レベルに達して誓いを立てるまでは、自分を本当のパラディンとは考えない。またある者は、実際にこの誓いを立てるのは儀礼上の手続きであり、パラディンの心の中では常に真実であったものを公に認めることであるに過ぎないと考える。</p>\n\n<p>誓いにより、君は信仰のエネルギーを放って魔法効果を生み出せる。その用法は、誓いによって得られる個々の神性伝導の項に記してある。</p>\n\n<p>　神性伝導を用いるさい、どの効果を生み出すかは君が選択する。ひとたび神性伝導を使用したなら、以後小休憩または大休憩を終了するまでは、神性伝導は使用できなくなる。</p>\n\n<p>　神性伝導の効果の中にはセーヴィング・スローを要求するものがある。パラディンのクラスに由来するこのような効果を用いる場合、そのセーヴ難易度は、君のパラディン呪文のセーヴ難易度に等しい。</p>"
+			"description": "<p>パラディンになるということの中には、パラディンを大義に、進んで悪と戦う道に、結びつける誓いを立てることが含まれている。最後の誓い（@UUID[Compendium.dnd5e.subclasses.Item.sZ86mbX8D5PfYuhl]{献身の誓い}等）はパラディンが3レベルに達した時点で行なわれる。これはあらゆるパラディンの訓練の最終段階である。パラディンのうち、ある者は、3レベルに達して誓いを立てるまでは、自分を本当のパラディンとは考えない。またある者は、実際にこの誓いを立てるのは儀礼上の手続きであり、パラディンの心の中では常に真実であったものを公に認めることであるに過ぎないと考える。</p>\n\n<p>誓いにより、君は信仰のエネルギーを放って魔法効果を生み出せる。その用法は、誓いによって得られる個々の神性伝導の項に記してある。</p>\n\n<p>神性伝導を用いるさい、どの効果を生み出すかは君が選択する。ひとたび神性伝導を使用したなら、以後小休憩または大休憩を終了するまでは、神性伝導は使用できなくなる。</p>\n\n<p>神性伝導の効果の中にはセーヴィング・スローを要求するものがある。パラディンのクラスに由来するこのような効果を用いる場合、そのセーヴ難易度は、君のパラディン呪文のセーヴ難易度に等しい。</p>"
 		},
 		"Sculpt Spells": {
 			"name": "呪文効果範囲操作",
-			"description": "　君から見えるクリーチャーに作用する力術呪文を発動する際、（1+呪文レベル）体まで選択し、君が作り出した小さな穴の中に退避させられる。\n\n　選択されたクリーチャーは、その呪文に対するセーヴィング・スローに自動的に成功する。もしもその呪文が本来、セーヴに成功すれば半分のダメージを受けるものであったならば、選択されたクリーチャーはダメージを受けない。"
+			"description": "<p>君から見えるクリーチャーに作用する力術呪文を発動する際、（1+呪文レベル）体まで選択し、君が作り出した小さな穴の中に退避させられる。</p>\n<p>選択されたクリーチャーは、その呪文に対するセーヴィング・スローに自動的に成功する。もしもその呪文が本来、セーヴに成功すれば半分のダメージを受けるものであったならば、選択されたクリーチャーはダメージを受けない。</p>"
 		},
 		"Sculptor of Flesh": {
 			"name": "肉体変容",
-			"description": "<p> ウォーロック呪文を1つ使用して@UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]を1回発動できる。大休憩を終えるまでは再びこれを使えない。</p>"
+			"description": "<p>ウォーロック呪文を1つ使用して@UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]を1回発動できる。大休憩を終えるまでは再びこれを使えない。</p>"
 		},
 		"Second Wind": {
 			"name": "底力",
-			"description": "　君は持久力の泉を有しており、危機を逃れるために泉から力を汲み上げる。君は自身のターンに、1回のボーナス・アクションを用いて、(1d10+ファイター・レベル)のヒット・ポイントを回復する。この特徴はひとたび使用したなら、小休憩または大休憩を終了するまでは、再び使用できない。"
+			"description": "<p>君は持久力の泉を有しており、危機を逃れるために泉から力を汲み上げる。君は自身のターンに、1回のボーナス・アクションを用いて、(1d10+ファイター・レベル)のヒット・ポイントを回復する。この特徴はひとたび使用したなら、小休憩または大休憩を終了するまでは、再び使用できない。</p>"
 		},
 		"Second-Story Work": {
 			"name": "屋根渡り",
-			"description": "　君は通常の移動と同じようにして登攀できる。加えて、君が助走つきの跳躍を行なう際には、跳躍距離が（【敏捷力】修正値）フィートだけ伸びる。"
+			"description": "<p>君は通常の移動と同じようにして登攀できる。加えて、君が助走つきの跳躍を行なう際には、跳躍距離が（【敏捷力】修正値）フィートだけ伸びる。</p>"
 		},
 		"Sign of Ill Omen": {
 			"name": "凶兆の印",
@@ -755,15 +771,15 @@
 		},
 		"Slippery Mind": {
 			"name": "囚われぬ心",
-			"description": "　君は今まで以上の精神力を身につけた。【判断力】セーヴィング・スローの習熟を得る。"
+			"description": "<p>君は今まで以上の精神力を身につけた。【判断力】セーヴィング・スローの習熟を得る。</p>"
 		},
 		"Slow Fall": {
 			"name": "浮身",
-			"description": "4レベル以降、君は落下時にリアクションを用いて、受ける落下ダメージを（君のモンク・レベルx5)に等しい値だけ減少させることができる。"
+			"description": "<p>4レベル以降、君は落下時にリアクションを用いて、受ける落下ダメージを（君のモンク・レベルx5)に等しい値だけ減少させることができる。</p>"
 		},
 		"Sneak Attack": {
 			"name": "急所攻撃",
-			"description": "<p>　君は1ターンに1回、有利な攻撃ロールがヒットした相手に、追加で1d6ダメージを与えられる。ただし、その攻撃は“妙技”の特性を持つ武器または遠隔武器を使用したものでなければならない。また以下の状況をすべて満たせば有利である必要はない。</p>\n\n<p>・対象の5フィート以内に対象にとっての敵がいる。</p>\n<p>・その敵が無力状態ではない。</p>\n<p>・君の攻撃ロールが不利ではない。</p>"
+			"description": "<p>君は1ターンに1回、有利な攻撃ロールがヒットした相手に、追加で1d6ダメージを与えられる。ただし、その攻撃は“妙技”の特性を持つ武器または遠隔武器を使用したものでなければならない。また以下の状況をすべて満たせば有利である必要はない。</p>\n<ul><li>対象の5フィート以内に対象にとっての敵がいる。</li>\n<li>その敵が無力状態ではない。</li>\n<li>君の攻撃ロールが不利ではない。</li></ul>"
 		},
 		"Song of Rest": {
 			"name": "休息の歌",
@@ -771,103 +787,103 @@
 		},
 		"Sorcerous Origins": {
 			"name": "魔力の起源",
-			"description": "　君の内なる魔力がどこから来たのか、@Compendium[dnd5e.subclasses.2nadB2MBSHTQ0kcl]{竜の血脈}などの起源を1つ選択すること。\n　この選択によって、1、6、14、18レベルで得られる特徴が決定される。"
+			"description": "<p>君の内なる魔力がどこから来たのか、@UUID[Compendium.dnd5e.subclasses.Item.2nadB2MBSHTQ0kcl]{竜の血脈}などの起源を1つ選択すること。</p>\n<p>この選択によって、1、6、14、18レベルで得られる特徴が決定される。</p>"
 		},
 		"Sorcerous Restoration": {
 			"name": "魔力点高速回復",
-			"description": "君は小休憩を終了するたび、消費ずみの魔力点を4回復するようになる。"
+			"description": "<p>君は小休憩を終了するたび、消費ずみの魔力点を4回復するようになる。</p>"
 		},
 		"Spell Mastery": {
 			"name": "呪文体得",
 			"description": "<p>君は特定の呪文を体得して意のままに発動できる。君の呪文書から1レベル・ウィザード呪文を1つ、2レベル・ウィザード呪文を1つ選択すること。君はこれらの呪文を最低レベルで（1レベル呪文なら1レベル・スロットで、2レベル呪文なら2レベル・スロットで）発動する場合、その呪文を準備していさえすれば、呪文スロットを消費することなく発動できる。これらの呪文をもっと高いレベルで発動する場合は、通常通り呪文スロットを消費せねばならない。</p>\n\n<p>8時間を学習に費やせば、これらの選択した呪文の片方または両方を、同じレベルの他の呪文と交換できる。</p>"
 		},
-    "u4NLajXETJhJU31v": {
-        "name": "呪文発動",
-        "description": "<p>君は世界を織りなす糸をほどき、織りなおして、君の望みにかない歌にかなうようにつくりかえる術を学んだ。呪文は君の数あるわざの一つであり、君は状況に合せて魔法を使い分ける。</p>\n<h5>初級呪文</h5>\n<p> </p>\n<h5>呪文スロット</h5>\n<p>君が1レベルおよびそれ以後のレベルにおいて、バード呪文発動のための呪文スロットをどれだけ有するかは、『バード』表に示してある。これらのバード呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>たとえば君が1レベル呪文のキュア・ウーンズを修得しており、1レベル・スロット1つ、2レベル・スロット1つが使用可能であるならば、君はどちらでも好きなほうのスロットを用いてキュア・ウーンズを発動できる。</p>\n<h5> 1レベル以上の修得呪文</h5>\n<p>君はバード呪文リストから任意の4種類の1レベル呪文を修得している。</p>\n<p>『バード』表の呪文修得数の項には、君がどの段階で任意のバード呪文を追加で修得してゆくかが示されている。これらの呪文はいずれも君が呪文スロットを有しているレベルのものでなければならない。たとえばこのクラスが3レベルに達した際には1レベルか2レベルの新しい呪文を1つ修得できる。</p>\n<p>また君は、このクラスのレベルを得るたびに、修得しているバード呪文のうち1つを、バード呪文リストの中から選んだ任意の呪文と入れ替えることができる。新しい呪文は君が呪文スロットを有しているレベルのものでなければならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のバード呪文発動能力値は【魅力】である。君の魔法の力は、君が歌や弁舌に心をこめ魂をこめることに由来するからである。呪文に“呪文発動能力値”とある場合、君は常に【魅力】を使う。加えて、君が発動するバード呪文のセーヴ難易度を決定する際や、バード呪文の攻撃ロールを行なう際にも【魅力】を使う。</p>\n<p><strong>呪文のセーヴ難易度</strong> =8+君の習熟ボーナス+君の【魅力】修正値</p>\n<p><strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【魅力】修正値</p>\n<h5>儀式発動</h5>\n<p>あるバード呪文に(儀式)のタグが付いており、かつ君がその呪文を修得しているなら、君はその呪文を儀式として発動できる。</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はバード呪文発動の焦点具として楽器(@UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]参照)を使うことができる。</p>"
-    },
+		"u4NLajXETJhJU31v": {
+			"name": "呪文発動",
+			"description": "<p>君は世界を織りなす糸をほどき、織りなおして、君の望みにかない歌にかなうようにつくりかえる術を学んだ。呪文は君の数あるわざの一つであり、君は状況に合せて魔法を使い分ける。</p>\n<h5>初級呪文</h5>\n<p> </p>\n<h5>呪文スロット</h5>\n<p>君が1レベルおよびそれ以後のレベルにおいて、バード呪文発動のための呪文スロットをどれだけ有するかは、『バード』表に示してある。これらのバード呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>たとえば君が1レベル呪文のキュア・ウーンズを修得しており、1レベル・スロット1つ、2レベル・スロット1つが使用可能であるならば、君はどちらでも好きなほうのスロットを用いてキュア・ウーンズを発動できる。</p>\n<h5> 1レベル以上の修得呪文</h5>\n<p>君はバード呪文リストから任意の4種類の1レベル呪文を修得している。</p>\n<p>『バード』表の呪文修得数の項には、君がどの段階で任意のバード呪文を追加で修得してゆくかが示されている。これらの呪文はいずれも君が呪文スロットを有しているレベルのものでなければならない。たとえばこのクラスが3レベルに達した際には1レベルか2レベルの新しい呪文を1つ修得できる。</p>\n<p>また君は、このクラスのレベルを得るたびに、修得しているバード呪文のうち1つを、バード呪文リストの中から選んだ任意の呪文と入れ替えることができる。新しい呪文は君が呪文スロットを有しているレベルのものでなければならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のバード呪文発動能力値は【魅力】である。君の魔法の力は、君が歌や弁舌に心をこめ魂をこめることに由来するからである。呪文に“呪文発動能力値”とある場合、君は常に【魅力】を使う。加えて、君が発動するバード呪文のセーヴ難易度を決定する際や、バード呪文の攻撃ロールを行なう際にも【魅力】を使う。</p>\n<p><strong>呪文のセーヴ難易度</strong> =8+君の習熟ボーナス+君の【魅力】修正値</p>\n<p><strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【魅力】修正値</p>\n<h5>儀式発動</h5>\n<p>あるバード呪文に(儀式)のタグが付いており、かつ君がその呪文を修得しているなら、君はその呪文を儀式として発動できる。</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はバード呪文発動の焦点具として楽器(@UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]参照)を使うことができる。</p>"
+		},
 		"v4gKwLhAq9vuqza7": {
 			"name": "呪文発動",
 			"description": "<p>信仰の力を伝える導管である君は、クレリック呪文を発動できる。</p>\n<h5>初級呪文</h5>\n<p>1レベルの時点で、君はクレリック呪文リストから任意の3つの初級呪文を修得している。さらに、レベルアップにともない、『クレリック』表の初級呪文修得数の項にある通り、追加でクレリックの初級呪文を学んでゆく。</p>\n<h5>呪文の準備と発動</h5>\n<p>君が1レベル以上の呪文を発動するための呪文スロットをどれだけ有するかは、『クレリック』表に示してある。これらの呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>君は、クレリック呪文リストから“自分が発動可能なクレリック呪文”はどれとどれにするかを選択し、そのリストを作成する(リストにある呪文が、君の準備した呪文になる)。発動可能なものとして選択できるクレリック呪文の数は、(【判断力】修正値+クレリック・レベル)に等しい(最低1種)。また、選択する呪文の呪文レベルは、君が呪文スロットを有する呪文レベルでなければならない。</p>\n<p>たとえば君が3レベル・クレリックだったとしよう。君は1レベルの呪文スロットを4つ、2レベルの呪文スロットを2つ有している。【判断力】が16なら、君は1レベル呪文、2レベル呪文あわせて6種類を準備できる(うち、1レベル呪文をいくつ、2レベル呪文をいくつ準備するかは自由である)。1レベル呪文のキュア・ウーンズを準備している場合、君はこれを1レベル・スロットを使って発動することも、2レベル・スロットを使って発動することもできる。呪文を発動しても、その呪文が“いま準備している呪文”のリストから消え去るわけではない。</p>\n<p>君は、大休憩を終了するたびに、準備している呪文のリストを変更できる。新しいリストを作成するには、祈りと瞑想に時を過ごす必要がある。リストに含める呪文1つごとに(その呪文の呪文レベル×1分)以上の時間をかけねばならない。</p>\n<h5>呪文発動能力</h5>\n<p>君のクレリック呪文発動能力値は【判断力】である。君の魔法の力は神への献身に由来するからである。クレリック呪文に“呪文発動能力値”とある場合、君は常に【判断力】を使う。加えて、君が発動するクレリック呪文のセーヴ難易度を決定する際や、クレリック呪文の攻撃ロールを行なう際にも【判断力】を使う。</p>\n<p><strong>呪文のセーヴ難易度</strong>=8+君の習熟ボーナス+君の【判断力】修正値</p>\n<p><strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【判断力】修正値</p>\n<h5>儀式発動</h5>\n<p>あるクレリック呪文に(儀式)のタグが付いており、君がその呪文を準備しているなら、君はその呪文を儀式として発動できる。</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はクレリック呪文発動の焦点具として聖印 (@UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI] 参照)を使える。</p>"
 		},
-    "i6tPm3FNK13Ftc9v": {
-        "name": "呪文発動",
-        "description": "<p>君は大自然の神聖な精髄を引きだし、呪文の発動によってこの精髄を望む形に変える。</p>\n<h5>初級呪文</h5>\n<p> 1レベルの時点で、君はドルイド呪文リストから2種類の初級呪文を選んで修得する。さらに、レベルアップにともない、『ドルイド』表の『初級呪文修得数』の項にある通り、追加でドルイドの初級呪文を学んでゆく。</p>\n<h5>呪文の準備と発動</h5>\n<p>君が1レベル以上のドルイド呪文発動のための呪文スロットをどれだけ有するかは、『ドルイド』表に示してある。これらの呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>君は、ドルイド呪文リストから“自分が発動可能なドルイド呪文”はどれとどれにするかを選択し、そのリストを作成する(リストにある呪文が、君の準備した呪文になる)。発動可能なものとして選択できるドルイド呪文の数は、(【判断力】修正値+ドルイド・レベル)に等しい(最低1種)。また、選択する呪文の呪文レベルは、君が呪文スロットを有する呪文レベルでなければならない。</p>\n<p>たとえば君が3レベル・ドルイドだったとしよう。君は1レベルの呪文スロットを4つ、2レベルの呪文スロットを2つ有している。【判断力】が16なら、君は1レベル呪文、2レベル呪文あわせて6種類を準備できる(うち、1レベル呪文をいくつ、2レベル呪文をいくつ準備するかは自由である)。1レベル呪文のキュア・ウーンズを準備している場合、君はこれを1レベル・スロットを使って発動することも、2レベル・スロットを使って発動することもできる。呪文を発動しても、その呪文が“いま準備している呪文”のリストから消え去るわけではない。</p>\n<p>君は、大休憩を終了するたびに、準備している呪文のリストを変更できる。新しいリストを作成するには、祈りと瞑想に時を過ごす必要がある。リストに含める呪文1つごとに(その呪文の呪文レベル×1分)以上の時間をかけねばならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のドルイド呪文発動能力値は【判断力】である。君の魔法の力は大自然への献身と同調に由来するからである。ドルイド呪文に“呪文発動能力値”とある場合、君は常に【判断力】を使う。加えて、君が発動するドルイド呪文のセーヴ難易度を決定する際や、ドルイド呪文の攻撃ロールを行なう際にも【判断力】を使う。</p>\n<p><strong>呪文のセーヴ難易度</strong> =8+君の習熟ボーナス+君の【判断力】修正値</p>\n<p><strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【判断力】修正値</p>\n<h5>儀式発動</h5>\n<p>あるドルイド呪文に(儀式)のタグが付いており、君がその呪文を準備しているなら、君はその呪文を儀式として発動できる。</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はドルイド呪文発動の焦点具としてドルイド用焦点具(@UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]参照)を使える。</p>"
-    },
-    "ihoQHsmVZlyDbPhX": {
-        "name": "呪文発動",
-        "description": "<p> 2レベルの時点で、君は瞑想と祈りによって信仰魔法の力を引き出し、クレリックのように呪文を発動することが可能になる。</p>\n<h5>呪文の準備と発動</h5>\n<p>君がパラディン呪文発動のための呪文スロットをどれだけ有するかは、『パラディン』表に示してある。1レベル以上のパラディン呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>君はパラディン呪文リストから“自分が発動可能なパラディン呪文”はどれとどれにするかを選択し、そのリストを作成する(リストにある呪文が、君の準備した呪文になる)。発動可能なものとして選択できるパラディン呪文の数は、(【魅力】修正値+パラディン・レベルの半分(端数切捨))に等しい(最低1つ)。また、選択する呪文の呪文レベルは、君が呪文スロットを有する呪文レベルでなければならない。</p>\n<p>たとえば君が5レベル・パラディンだったとしよう。君は1レベルの呪文スロットを4つ、2レベルの呪文スロットを2つ有している。【魅力】が14なら、君が準備している呪文のリストは、1レベル呪文および2レベル呪文あわせて4つ(うち、1レベル呪文をいくつ、2レベル呪文をいくつ準備するかは自由)である。1レベル呪文のキュア・ウーンズを準備している場合、君はこれを1レベル・スロットを使って発動することも、2レベル・スロットを使って発動することもできる。呪文を発動しても、その呪文が“いま準備している呪文”のリストから消え去るわけではない。</p>\n<p>君は、大休憩を終了するたびに、準備している呪文のリストを変更できる。新しいリストを作成するには、祈りと瞑想に時を過ごす必要がある。リストに含める呪文1つごとに(その呪文の呪文レベル×1分)以上の時間をかけねばならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のパラディン呪文発動能力値は【魅力】である。君の魔法の力は強靭な信念に由来するからである。パラディン呪文に“呪文発動能力値”とある場合、君は常に【魅力】を使う。加えて、君が発動するパラディン呪文のセーヴ難易度を決定する際や、パラディン呪文の攻撃ロールを行なう際にも【魅力】を使う。</p>\n<p><strong>呪文のセーヴ難易度</strong> =8+君の習熟ボーナス+君の【魅力】修正値</p>\n<p><strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【魅力】修正値</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はパラディン呪文発動の焦点具として聖印を使うことができる。</p>"
-    },
-    "u6xV3Ki3TXRrD7zg": {
-        "name": "呪文発動",
-        "description": "<p> 2レベルの時点で、君はドルイドのように大自然に宿る魔法の力を用いて呪文を発動するすべを学ぶ。</p>\n<h5>呪文スロット</h5>\n<p>君が1レベル以上のレンジャー呪文発動のための呪文スロットをどれだけ有するかは、『レンジャー』表に示してある。これらの呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>たとえば君が1レベル呪文アニマル・フレンドシップを修得しており、1レベル呪文スロットと2レベル呪文スロットが使用可能であるなら、どちらのスロットを使ってアニマル・フレンドシップを発動してもよい。</p>\n<h5> 1レベル以上の修得呪文</h5>\n<p>君はレンジャー呪文リストから任意の2種類の1レベル呪文を修得する。</p>\n<p>『レンジャー』表の呪文修得数の項には、君がどの段階でレンジャ一呪文を追加で修得してゆくかが示されている。これらの呪文はいずれも、君が呪文スロットを有しているレベルのものでなければならない。たとえばこのクラスが5レベルに達した際には1レベルか2レベルの新しい呪文を1つ修得できる。</p>\n<p>加えて君は、このクラスのレベルを得るたびに、修得しているレンジャー呪文のうち1つを、レンジャー呪文リストの中から選んだ任意の呪文と入れ替えることができる。新しい呪文は君が呪文スロットを有しているレベルのものでなければならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のレンジャー呪文発動能力値は【判断力】である。君の魔法の力は大自然との同調に由来するからである。呪文に“呪文発動能力値”とある場合、君は常に【判断力】を使う。加えて、君が発動するレンジャー呪文のセーヴ難易度を決定する際や、レンジャー呪文の攻擊口ールを行なう際にも【判断力】を使う。</p>\n<p><strong>呪文のセーヴ難易度</strong> =8+君の習熟ボーナス+君の【判断力】修正値</p>\n<p><strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【判断力】修正値</p>"
-    },
-    "oygRF3ZjTv2T7z0Y": {
-        "name": "呪文発動",
-        "description": "<p>君自身の、あるいは親や先祖の生涯におけるひとつの事件が、消し去ることのできぬ印を君に捺し、君の体を秘術魔法で満たした。起源は知らず、いずれにせよこの魔力の泉が君の呪文に力を与える。</p>\n<h5>初級呪文</h5>\n<p> 1レベルの時点で、君はソーサラー呪文リストから4種類の初級呪文を修得している。さらに、レベルアップにともない、『ソーサラー』表の『初級呪文修得数』の項にある通り、追加でソーサラーの初級呪文を学んでゆく。</p>\n<h5>呪文スロット</h5>\n<p>君が1レベル以上のソーサラー呪文発動のための呪文スロットをどれだけ有するかは、『ソーサラー』表に示してある。これらのソーサラー呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>たとえば君が1レベル呪文のバーニング・ハンズを修得しており、1レベル・スロット1つ、2レベル・スロット1つが使用可能であるならば、君はどちらでも好きなほうのスロットを用いてバーニング・ハンズを発動できる。</p>\n<h5> 1レベル以上の修得呪文</h5>\n<p>君はソーサラー呪文リストから任意の2種類の1レベル呪文を修得している。</p>\n<p>『ソーサラー』表の呪文修得数の項には、君がどの段階で任意のソーサラー呪文を追加で修得してゆくかが示されている。これらの呪文はいずれも君が呪文スロットを有しているレベルのものでなければならない。たとえばこのクラスが3レベルに達した際には1レベルか2レベルの新しい呪文を1つ修得できる。</p>\n<p>また君は、このクラスのレベルを得るたびに、修得しているソーサラー呪文のうち1つを、ソーサラー呪文リストの中から選んだ任意の呪文と入れ替えることができる。新しい呪文は君が呪文スロットを有しているレベルのものでなければならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のソーサラー呪文発動能力値は【魅力】である。君の魔法の力は、君がおのれの意思を世界に投影する能力によって決まるからである。呪文に“呪文発動能力値”とある場合、君は常に【魅力】を使う。加えて、君が発動するソーサラー呪文のセーヴ難易度を決定する際や、ソーサラー呪文の攻撃ロールを行なう際にも【魅力】を使う。</p>\n<p> <strong>呪文のセーヴ難易度</strong> =8+君の習熟ボーナス+君の【魅力】修正値</p>\n<p> <strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【魅力】修正値</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はソーサラー呪文発動の焦点具として秘術焦点具を使うことができる。</p>"
-    },
-    "gbNo5eVPaqr8IVKL": {
-        "name": "呪文発動",
-        "description": "<p>秘術の学徒である君は呪文書を持っており、呪文書には呪文が書きこまれている。それらの呪文こそ、いずれ君が身につける真の力の端緒である。</p>\n<h5>初級呪文</h5>\n<p> 1レベルの時点で、君はウィザード呪文リストから任意の3つの初級呪文を修得している。さらに、レベルアップにともない、『ウィザード』表の初級呪文修得数の項にある通り、追加でウィザードの初級呪文を学んでゆく。</p>\n<h5>呪文書</h5>\n<p> 1レベルの時点で、君は任意の6つの1レベル・ウィザード呪文を収めた呪文書を有している。呪文書は君の修得ウィザード呪文の保管庫だが、ただ初級呪文は例外である――初級呪文は君の精神に固定されているのだ。</p>\n<h5>呪文の準備と発動</h5>\n<p>君が1レベル以上のウィザード呪文発動のための呪文スロットをどれだけ有するかは、『ウィザード』表に示してある。これらの呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>君は、“自分が発動可能なウィザード呪文”はどれとどれにするかを選択し、そのリストを作成する(リストにある呪文が、君の準備した呪文になる)。君の呪文書にある中から、(【知力】修正値+ウィザード・レベル)に等しい数(最低1つ)の呪文を選択すること。このとき、呪文スロットを持たないレベルの呪文は選択できない。</p>\n<p>たとえば君が3レベル・ウィザードだったとしよう。君は1レベルの呪文スロットを4つ、2レベルの呪文スロットを2つ有している。【知力】が16なら、君は1レベル呪文、2レベル呪文あわせて6つを準備できる(うち、1レベル呪文をいくつ、2レベル呪文をいくつ準備するかは自由である)。1レベル呪文のマジック・ミサイルを準備している場合、君はこれを1レベル・スロットを使って発動することも、2レベル・スロットを使って発動することもできる。呪文を発動しても、その呪文が“いま準備している呪文”のリストから消え去るわけではない。</p>\n<p>君は、大休憩を終了するたびに、準備している呪文のリストを変更できる。新しいリストを作成するには、自分の呪文書によく目を通し、呪文発動に必要な詠唱と身振りを憶えこむ必要がある。リストに含める呪文1つごとに(その呪文の呪文レベル×1分)以上の時間をかけねばならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のウィザード呪文発動能力値は【知力】である。君は呪文書に丹念に目を通し記憶することで呪文を学ぶからである。ウィザード呪文に“呪文発動能力値”とある場合、君は常に【知力】を使う。加えて、君が発動するウィザード呪文のセーヴ難易度を決定する際や、ウィザード呪文の攻撃ロールを行なう際にも【知力】を使う。</p>\n<p><strong>呪文のセーヴ難易度</strong>=8+君の習熟ボーナス+君の【知力】修正値</p>\n<p><strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【知力】修正値</p>\n<h5>儀式発動</h5>\n<p>あるウィザード呪文に(儀式)のタグが付いており、かつその呪文が君の呪文書にあるなら、君はその呪文を儀式として発動できる。その呪文を準備している必要はない。</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はウィザード呪文発動の焦点具として秘術焦点具を使える。</p>\n<h5> 1レベル以上の呪文の修得</h5>\n<p>君はウィザードのレベルを得るたび、新たに2つのウィザード呪文を選んで呪文書に加えることができる。これらの呪文はいずれも君が呪文スロットを有しているレベルのものでなければならない(『ウィザード』表を参照)。また、君は冒険の中で他の呪文を発見して呪文書に加えることができるかもしれない(コラム『君の呪文書』を参照)。</p>"
-    },
+		"i6tPm3FNK13Ftc9v": {
+			"name": "呪文発動",
+			"description": "<p>君は大自然の神聖な精髄を引きだし、呪文の発動によってこの精髄を望む形に変える。</p>\n<h5>初級呪文</h5>\n<p> 1レベルの時点で、君はドルイド呪文リストから2種類の初級呪文を選んで修得する。さらに、レベルアップにともない、『ドルイド』表の『初級呪文修得数』の項にある通り、追加でドルイドの初級呪文を学んでゆく。</p>\n<h5>呪文の準備と発動</h5>\n<p>君が1レベル以上のドルイド呪文発動のための呪文スロットをどれだけ有するかは、『ドルイド』表に示してある。これらの呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>君は、ドルイド呪文リストから“自分が発動可能なドルイド呪文”はどれとどれにするかを選択し、そのリストを作成する(リストにある呪文が、君の準備した呪文になる)。発動可能なものとして選択できるドルイド呪文の数は、(【判断力】修正値+ドルイド・レベル)に等しい(最低1種)。また、選択する呪文の呪文レベルは、君が呪文スロットを有する呪文レベルでなければならない。</p>\n<p>たとえば君が3レベル・ドルイドだったとしよう。君は1レベルの呪文スロットを4つ、2レベルの呪文スロットを2つ有している。【判断力】が16なら、君は1レベル呪文、2レベル呪文あわせて6種類を準備できる(うち、1レベル呪文をいくつ、2レベル呪文をいくつ準備するかは自由である)。1レベル呪文のキュア・ウーンズを準備している場合、君はこれを1レベル・スロットを使って発動することも、2レベル・スロットを使って発動することもできる。呪文を発動しても、その呪文が“いま準備している呪文”のリストから消え去るわけではない。</p>\n<p>君は、大休憩を終了するたびに、準備している呪文のリストを変更できる。新しいリストを作成するには、祈りと瞑想に時を過ごす必要がある。リストに含める呪文1つごとに(その呪文の呪文レベル×1分)以上の時間をかけねばならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のドルイド呪文発動能力値は【判断力】である。君の魔法の力は大自然への献身と同調に由来するからである。ドルイド呪文に“呪文発動能力値”とある場合、君は常に【判断力】を使う。加えて、君が発動するドルイド呪文のセーヴ難易度を決定する際や、ドルイド呪文の攻撃ロールを行なう際にも【判断力】を使う。</p>\n<p><strong>呪文のセーヴ難易度</strong> =8+君の習熟ボーナス+君の【判断力】修正値</p>\n<p><strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【判断力】修正値</p>\n<h5>儀式発動</h5>\n<p>あるドルイド呪文に(儀式)のタグが付いており、君がその呪文を準備しているなら、君はその呪文を儀式として発動できる。</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はドルイド呪文発動の焦点具としてドルイド用焦点具(@UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]参照)を使える。</p>"
+		},
+		"ihoQHsmVZlyDbPhX": {
+			"name": "呪文発動",
+			"description": "<p> 2レベルの時点で、君は瞑想と祈りによって信仰魔法の力を引き出し、クレリックのように呪文を発動することが可能になる。</p>\n<h5>呪文の準備と発動</h5>\n<p>君がパラディン呪文発動のための呪文スロットをどれだけ有するかは、『パラディン』表に示してある。1レベル以上のパラディン呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>君はパラディン呪文リストから“自分が発動可能なパラディン呪文”はどれとどれにするかを選択し、そのリストを作成する(リストにある呪文が、君の準備した呪文になる)。発動可能なものとして選択できるパラディン呪文の数は、(【魅力】修正値+パラディン・レベルの半分(端数切捨))に等しい(最低1つ)。また、選択する呪文の呪文レベルは、君が呪文スロットを有する呪文レベルでなければならない。</p>\n<p>たとえば君が5レベル・パラディンだったとしよう。君は1レベルの呪文スロットを4つ、2レベルの呪文スロットを2つ有している。【魅力】が14なら、君が準備している呪文のリストは、1レベル呪文および2レベル呪文あわせて4つ(うち、1レベル呪文をいくつ、2レベル呪文をいくつ準備するかは自由)である。1レベル呪文のキュア・ウーンズを準備している場合、君はこれを1レベル・スロットを使って発動することも、2レベル・スロットを使って発動することもできる。呪文を発動しても、その呪文が“いま準備している呪文”のリストから消え去るわけではない。</p>\n<p>君は、大休憩を終了するたびに、準備している呪文のリストを変更できる。新しいリストを作成するには、祈りと瞑想に時を過ごす必要がある。リストに含める呪文1つごとに(その呪文の呪文レベル×1分)以上の時間をかけねばならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のパラディン呪文発動能力値は【魅力】である。君の魔法の力は強靭な信念に由来するからである。パラディン呪文に“呪文発動能力値”とある場合、君は常に【魅力】を使う。加えて、君が発動するパラディン呪文のセーヴ難易度を決定する際や、パラディン呪文の攻撃ロールを行なう際にも【魅力】を使う。</p>\n<p><strong>呪文のセーヴ難易度</strong> =8+君の習熟ボーナス+君の【魅力】修正値</p>\n<p><strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【魅力】修正値</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はパラディン呪文発動の焦点具として聖印を使うことができる。</p>"
+		},
+		"u6xV3Ki3TXRrD7zg": {
+			"name": "呪文発動",
+			"description": "<p> 2レベルの時点で、君はドルイドのように大自然に宿る魔法の力を用いて呪文を発動するすべを学ぶ。</p>\n<h5>呪文スロット</h5>\n<p>君が1レベル以上のレンジャー呪文発動のための呪文スロットをどれだけ有するかは、『レンジャー』表に示してある。これらの呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>たとえば君が1レベル呪文アニマル・フレンドシップを修得しており、1レベル呪文スロットと2レベル呪文スロットが使用可能であるなら、どちらのスロットを使ってアニマル・フレンドシップを発動してもよい。</p>\n<h5> 1レベル以上の修得呪文</h5>\n<p>君はレンジャー呪文リストから任意の2種類の1レベル呪文を修得する。</p>\n<p>『レンジャー』表の呪文修得数の項には、君がどの段階でレンジャ一呪文を追加で修得してゆくかが示されている。これらの呪文はいずれも、君が呪文スロットを有しているレベルのものでなければならない。たとえばこのクラスが5レベルに達した際には1レベルか2レベルの新しい呪文を1つ修得できる。</p>\n<p>加えて君は、このクラスのレベルを得るたびに、修得しているレンジャー呪文のうち1つを、レンジャー呪文リストの中から選んだ任意の呪文と入れ替えることができる。新しい呪文は君が呪文スロットを有しているレベルのものでなければならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のレンジャー呪文発動能力値は【判断力】である。君の魔法の力は大自然との同調に由来するからである。呪文に“呪文発動能力値”とある場合、君は常に【判断力】を使う。加えて、君が発動するレンジャー呪文のセーヴ難易度を決定する際や、レンジャー呪文の攻擊口ールを行なう際にも【判断力】を使う。</p>\n<p><strong>呪文のセーヴ難易度</strong> =8+君の習熟ボーナス+君の【判断力】修正値</p>\n<p><strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【判断力】修正値</p>"
+		},
+		"oygRF3ZjTv2T7z0Y": {
+			"name": "呪文発動",
+			"description": "<p>君自身の、あるいは親や先祖の生涯におけるひとつの事件が、消し去ることのできぬ印を君に捺し、君の体を秘術魔法で満たした。起源は知らず、いずれにせよこの魔力の泉が君の呪文に力を与える。</p>\n<h5>初級呪文</h5>\n<p> 1レベルの時点で、君はソーサラー呪文リストから4種類の初級呪文を修得している。さらに、レベルアップにともない、『ソーサラー』表の『初級呪文修得数』の項にある通り、追加でソーサラーの初級呪文を学んでゆく。</p>\n<h5>呪文スロット</h5>\n<p>君が1レベル以上のソーサラー呪文発動のための呪文スロットをどれだけ有するかは、『ソーサラー』表に示してある。これらのソーサラー呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>たとえば君が1レベル呪文のバーニング・ハンズを修得しており、1レベル・スロット1つ、2レベル・スロット1つが使用可能であるならば、君はどちらでも好きなほうのスロットを用いてバーニング・ハンズを発動できる。</p>\n<h5> 1レベル以上の修得呪文</h5>\n<p>君はソーサラー呪文リストから任意の2種類の1レベル呪文を修得している。</p>\n<p>『ソーサラー』表の呪文修得数の項には、君がどの段階で任意のソーサラー呪文を追加で修得してゆくかが示されている。これらの呪文はいずれも君が呪文スロットを有しているレベルのものでなければならない。たとえばこのクラスが3レベルに達した際には1レベルか2レベルの新しい呪文を1つ修得できる。</p>\n<p>また君は、このクラスのレベルを得るたびに、修得しているソーサラー呪文のうち1つを、ソーサラー呪文リストの中から選んだ任意の呪文と入れ替えることができる。新しい呪文は君が呪文スロットを有しているレベルのものでなければならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のソーサラー呪文発動能力値は【魅力】である。君の魔法の力は、君がおのれの意思を世界に投影する能力によって決まるからである。呪文に“呪文発動能力値”とある場合、君は常に【魅力】を使う。加えて、君が発動するソーサラー呪文のセーヴ難易度を決定する際や、ソーサラー呪文の攻撃ロールを行なう際にも【魅力】を使う。</p>\n<p> <strong>呪文のセーヴ難易度</strong> =8+君の習熟ボーナス+君の【魅力】修正値</p>\n<p> <strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【魅力】修正値</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はソーサラー呪文発動の焦点具として秘術焦点具を使うことができる。</p>"
+		},
+		"gbNo5eVPaqr8IVKL": {
+			"name": "呪文発動",
+			"description": "<p>秘術の学徒である君は呪文書を持っており、呪文書には呪文が書きこまれている。それらの呪文こそ、いずれ君が身につける真の力の端緒である。</p>\n<h5>初級呪文</h5>\n<p> 1レベルの時点で、君はウィザード呪文リストから任意の3つの初級呪文を修得している。さらに、レベルアップにともない、『ウィザード』表の初級呪文修得数の項にある通り、追加でウィザードの初級呪文を学んでゆく。</p>\n<h5>呪文書</h5>\n<p> 1レベルの時点で、君は任意の6つの1レベル・ウィザード呪文を収めた呪文書を有している。呪文書は君の修得ウィザード呪文の保管庫だが、ただ初級呪文は例外である――初級呪文は君の精神に固定されているのだ。</p>\n<h5>呪文の準備と発動</h5>\n<p>君が1レベル以上のウィザード呪文発動のための呪文スロットをどれだけ有するかは、『ウィザード』表に示してある。これらの呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>君は、“自分が発動可能なウィザード呪文”はどれとどれにするかを選択し、そのリストを作成する(リストにある呪文が、君の準備した呪文になる)。君の呪文書にある中から、(【知力】修正値+ウィザード・レベル)に等しい数(最低1つ)の呪文を選択すること。このとき、呪文スロットを持たないレベルの呪文は選択できない。</p>\n<p>たとえば君が3レベル・ウィザードだったとしよう。君は1レベルの呪文スロットを4つ、2レベルの呪文スロットを2つ有している。【知力】が16なら、君は1レベル呪文、2レベル呪文あわせて6つを準備できる(うち、1レベル呪文をいくつ、2レベル呪文をいくつ準備するかは自由である)。1レベル呪文のマジック・ミサイルを準備している場合、君はこれを1レベル・スロットを使って発動することも、2レベル・スロットを使って発動することもできる。呪文を発動しても、その呪文が“いま準備している呪文”のリストから消え去るわけではない。</p>\n<p>君は、大休憩を終了するたびに、準備している呪文のリストを変更できる。新しいリストを作成するには、自分の呪文書によく目を通し、呪文発動に必要な詠唱と身振りを憶えこむ必要がある。リストに含める呪文1つごとに(その呪文の呪文レベル×1分)以上の時間をかけねばならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のウィザード呪文発動能力値は【知力】である。君は呪文書に丹念に目を通し記憶することで呪文を学ぶからである。ウィザード呪文に“呪文発動能力値”とある場合、君は常に【知力】を使う。加えて、君が発動するウィザード呪文のセーヴ難易度を決定する際や、ウィザード呪文の攻撃ロールを行なう際にも【知力】を使う。</p>\n<p><strong>呪文のセーヴ難易度</strong>=8+君の習熟ボーナス+君の【知力】修正値</p>\n<p><strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【知力】修正値</p>\n<h5>儀式発動</h5>\n<p>あるウィザード呪文に(儀式)のタグが付いており、かつその呪文が君の呪文書にあるなら、君はその呪文を儀式として発動できる。その呪文を準備している必要はない。</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はウィザード呪文発動の焦点具として秘術焦点具を使える。</p>\n<h5> 1レベル以上の呪文の修得</h5>\n<p>君はウィザードのレベルを得るたび、新たに2つのウィザード呪文を選んで呪文書に加えることができる。これらの呪文はいずれも君が呪文スロットを有しているレベルのものでなければならない(『ウィザード』表を参照)。また、君は冒険の中で他の呪文を発見して呪文書に加えることができるかもしれない(コラム『君の呪文書』を参照)。</p>"
+		},
 		"Stand Against the Tide": {
 			"name": "対多数戦闘",
-			"description": "敵対的なクリーチャーが君に近接攻撃をしてミスした時、君はリアクションを用いて、そのクリーチャーに、君の選択する(そのクリーチャー自身を除く)1体のクリーチャーに対して、同じ攻撃をもう1度行わせられる。"
+			"description": "<p>敵対的なクリーチャーが君に近接攻撃をしてミスした時、君はリアクションを用いて、そのクリーチャーに、君の選択する(そのクリーチャー自身を除く)1体のクリーチャーに対して、同じ攻撃をもう1度行わせられる。</p>"
 		},
 		"Steel Will": {
 			"name": "鋼の意思",
 			"description": "<p>恐怖状態をもたらす効果に対するセーヴィング・スローに有利を得る。</p>"
 		},
 		"Step of the Wind": {
-			"name": "運足法",
-			"description": "君は、気ポイントを1点消費することで、自分のターンに1回のボーナス・アクションとして離脱アクションまたは早足アクションのいずれかを行なえるようになり、かつそのターンの間じゅう跳躍距離が2倍になる。"
+			"name": "疾風足",
+			"description": "<p>君は、気ポイントを1点消費することで、自分のターンに1回のボーナス・アクションとして離脱アクションまたは早足アクションのいずれかを行なえるようになり、かつそのターンの間じゅう跳躍距離が2倍になる。</p>"
 		},
 		"Stillness of Mind": {
 			"name": "不動心",
-			"description": "　君は自分のアクションを用いて、君自身が受けている、魅了状態または恐怖状態をもたらす効果1つを終了させられる。"
+			"description": "<p>君は自分のアクションを用いて、君自身が受けている、魅了状態または恐怖状態をもたらす効果1つを終了させられる。</p>"
 		},
 		"Stroke of Luck": {
 			"name": "幸運児",
-			"description": "20レベルの時点で、君は“得意な敵”を狩る比類なき狩人となる。君は自身のターンごとに1回だけ、君の“得意な敵”に含まれるクリーチャーに対する攻撃の“攻撃ロールまたはダメージ・ロールのどちらか片方”に、君の【判断力】修正値を加えることができる。特徴の使用はロールをする前でも後でもよいが、必ずロールの結果が適用されるより前に使用せねばならない。"
+			"description": "<p>20レベルの時点で、君は“得意な敵”を狩る比類なき狩人となる。君は自身のターンごとに1回だけ、君の“得意な敵”に含まれるクリーチャーに対する攻撃の“攻撃ロールまたはダメージ・ロールのどちらか片方”に、君の【判断力】修正値を加えることができる。特徴の使用はロールをする前でも後でもよいが、必ずロールの結果が適用されるより前に使用せねばならない。</p>"
 		},
 		"Stunning Strike": {
 			"name": "朦朧撃",
-			"description": "5レベル以降、君は相手の体内の気の流れに干渉できるようになる。君は、他のクリーチャーに近接武器攻撃をヒットさせた時に気ポイントを1点消費することで朦朧撃を使える。目標は【耐久力】セーヴィング・スローを行なわねばならず、失敗すると君の次のターンの終了時まで朦朧状態になる。"
+			"description": "<p>5レベル以降、君は相手の体内の気の流れに干渉できるようになる。君は、他のクリーチャーに近接武器攻撃をヒットさせた時に気ポイントを1点消費することで朦朧撃を使える。目標は【耐久力】セーヴィング・スローを行なわねばならず、失敗すると君の次のターンの終了時まで朦朧状態になる。</p>"
 		},
 		"Subtle Spell": {
 			"name": "呪文発動秘匿",
-			"description": "　君は、呪文を発動するさい、魔力点を1消費してその呪文を動作要素も音声要素も一切なしで発動できる。"
+			"description": "<p>君は、呪文を発動するさい、魔力点を1消費してその呪文を動作要素も音声要素も一切なしで発動できる。</p>"
 		},
 		"Superior Critical": {
 			"name": "クリティカル率大上昇",
-			"description": "15レベル以降、君の武器攻撃はダイスの目が18〜20でクリティカル・ヒットになる。"
+			"description": "<p>15レベル以降、君の武器攻撃はダイスの目が18〜20でクリティカル・ヒットになる。</p>"
 		},
 		"Superior Hunter's Defense": {
 			"name": "守りの技の奥義",
-			"description": "<p>15レベルの時点で、君は以下の特徴のうち任意の1つを得る。</p><p>@Compendium[dnd5e.classfeatures.laVHAIOKIsUeezWd]</p><p>@Compendium[dnd5e.classfeatures.Xf763cJoDHPPWSGG]</p><p>@Compendium[dnd5e.classfeatures.7pyZjz5vlUWV01qQ]</p><p>特徴をキャラクターシートにドラッグ＆ドロップすると取得できます。</p>"
+			"description": "<p>15レベルの時点で、君は以下の特徴のうち任意の1つを得る。</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.laVHAIOKIsUeezWd]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.Xf763cJoDHPPWSGG]</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.7pyZjz5vlUWV01qQ]</p><p>特徴をキャラクターシートにドラッグ＆ドロップすると取得できます。</p>"
 		},
 		"Superior Inspiration": {
 			"name": "尽きせぬ声援",
-			"description": "君がイニシアチブをロールした際に“バードの声援”の使用回数がゼロになっていたなら、君は使用回数を1だけ回復する。"
+			"description": "<p>君がイニシアチブをロールした際に“バードの声援”の使用回数がゼロになっていたなら、君は使用回数を1だけ回復する。</p>"
 		},
 		"Supreme Healing": {
 			"name": "治癒の極意",
-			"description": "君は呪文でヒット・ポイントを回復する場合、すべてのダイスの最大の目を使用できる。たとえばあるクリーチャーのヒット・ポイントを2d6回復させる場合は、12ポイント回復できる。"
+			"description": "<p>君は呪文でヒット・ポイントを回復する場合、すべてのダイスの最大の目を使用できる。たとえばあるクリーチャーのヒット・ポイントを2d6回復させる場合は、12ポイント回復できる。</p>"
 		},
 		"Supreme Sneak": {
 			"name": "隠密無双",
-			"description": "君はもしもあるターンに移動速度の半分以下しか移動しないなら、そのターンに行なう【敏捷力】〈隠密〉判定に有利を得る。"
+			"description": "<p>君はもしもあるターンに移動速度の半分以下しか移動しないなら、そのターンに行なう【敏捷力】〈隠密〉判定に有利を得る。</p>"
 		},
 		"Survivor": {
 			"name": "生命力",
-			"description": "君が打撃に耐えて戦いぬく力は頂点に達する。君は自分のターンの開始時ごとに、もしヒット・ポイントが最大値の半分以下であるならば、(5+【耐久力】修正値)のヒット・ポイントを回復する。君はヒット・ポイントが0の時にはこの利益を得られない。"
+			"description": "<p>君が打撃に耐えて戦いぬく力は頂点に達する。君は自分のターンの開始時ごとに、もしヒット・ポイントが最大値の半分以下であるならば、(5+【耐久力】修正値)のヒット・ポイントを回復する。君はヒット・ポイントが0の時にはこの利益を得られない。</p>"
 		},
 		"Thief of Five Fates": {
 			"name": "運盗む五ツ星",
-			"description": "<p> ウォーロック呪文を1つ使用して@UUID[Compendium.dnd5e.spells.Item.95K2aUhAGV9qXjnf]を1回発動できる。大休憩を終えるまでは再びこれを使えない。</p>"
+			"description": "<p>ウォーロック呪文を1つ使用して@UUID[Compendium.dnd5e.spells.Item.95K2aUhAGV9qXjnf]を1回発動できる。大休憩を終えるまでは再びこれを使えない。</p>"
 		},
 		"Thief's Reflexes": {
 			"name": "神速",
-			"description": "君は待ち伏せをしかける、また危険から素早く逃れるときに自在を得る。すなわち、君は各戦闘において、最初のラウンドに2回のターンを得る。1回目のターンは通常のイニシアチブで回ってくる。2回目のターンは(君のイニシアチブー10)で回ってくる。君は、不意を討たれている時には、この特徴を使用できない。"
+			"description": "<p>君は待ち伏せをしかける、また危険から素早く逃れるときに自在を得る。すなわち、君は各戦闘において、最初のラウンドに2回のターンを得る。1回目のターンは通常のイニシアチブで回ってくる。2回目のターンは(君のイニシアチブー10)で回ってくる。君は、不意を討たれている時には、この特徴を使用できない。</p>"
 		},
 		"Thieves' Cant": {
 			"name": "盗賊の符牒",
@@ -875,27 +891,27 @@
 		},
 		"Thirsting Blade": {
 			"name": "血に飢えた剣",
-			"description": "君は自分のターンに攻撃アクションをとるたび、契約武器を用いて1回ではなく2回の攻撃を行なえる。"
+			"description": "<p>君は自分のターンに攻撃アクションをとるたび、契約武器を用いて1回ではなく2回の攻撃を行なえる。</p>"
 		},
 		"Timeless Body": {
 			"name": "時知らずの肉体",
-			"description": "15レベルの時点で君は、気によって肉体を支える為もはや老齢による衰えをこうむることも、魔法によって年をとることもなくなる（ただし寿命によって死ぬことはある）。くわえて、君はもはや食物も水も必要としなくなる。"
+			"description": "<p>15レベルの時点で君は、気によって肉体を支える為もはや老齢による衰えをこうむることも、魔法によって年をとることもなくなる（ただし寿命によって死ぬことはある）。くわえて、君はもはや食物も水も必要としなくなる。</p>"
 		},
 		"Tongue of the Sun and Moon": {
 			"name": "日月語",
-			"description": "　13レベルの時点で君は、自分以外の存在の気にふれることであらゆる会話の言語を理解できる。また、何らかの言語を理解するクリーチャーはみな、君の言うことを理解できる。"
+			"description": "<p>13レベルの時点で君は、自分以外の存在の気にふれることであらゆる会話の言語を理解できる。また、何らかの言語を理解するクリーチャーはみな、君の言うことを理解できる。</p>"
 		},
 		"Tranquility": {
 			"name": "明鏡止水",
-			"description": "<p>君は特殊な瞑想に入れる。その瞑想は君を平安のオーラで包む。大休憩の終了時に、君は@Compendium[dnd5e.spells.gvdA9nPuWLck4tBl]{サンクチュアリ} の呪文の効果を受け、その効果は次の大休憩の開始時まで持続する(ただし@Compendium[dnd5e.spells.gvdA9nPuWLck4tBl]{サンクチュアリ}を普通に発動した場合と同じく、もっと早くに終了することはあり得る)。この呪文のセーヴ難易度は(8+君の【判断力】修正値+君の習熟ボーナス)である。</p>"
+			"description": "<p>君は特殊な瞑想に入れる。その瞑想は君を平安のオーラで包む。大休憩の終了時に、君は@UUID[Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl]{サンクチュアリ} の呪文の効果を受け、その効果は次の大休憩の開始時まで持続する(ただし@UUID[Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl]{サンクチュアリ}を普通に発動した場合と同じく、もっと早くに終了することはあり得る)。この呪文のセーヴ難易度は(8+君の【判断力】修正値+君の習熟ボーナス)である。</p>"
 		},
 		"Twinned Spell": {
 			"name": "呪文二重化",
-			"description": "<p>君は、本来ただ1体のクリーチャーのみを目標とし、かつ射程距離が“自身”でない呪文を発動するさい、魔力点をその呪文のレベルに等しい値(初級呪文の場合は1)だけ消費し、射程距離内にいる2体目のクリーチャーをもその呪文の目標とすることができる。</p><p>T二重化できる呪文は、その呪文の今回のレベルにおいては2体以上のクリーチャーを目標に“できない”ものに限る。たとえば @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs] や  @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq] は二重化できない。@UUID[Compendium.dnd5e.spells.Item.ctW81uiX56xZR2c5] は二重化できる。</p>"
+			"description": "<p>君は、本来ただ1体のクリーチャーのみを目標とし、かつ射程距離が“自身”でない呪文を発動するさい、魔力点をその呪文のレベルに等しい値(初級呪文の場合は1)だけ消費し、射程距離内にいる2体目のクリーチャーをもその呪文の目標とすることができる。</p><p>二重化できる呪文は、その呪文の今回のレベルにおいては2体以上のクリーチャーを目標に“できない”ものに限る。たとえば @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs] や @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq] は二重化できない。@UUID[Compendium.dnd5e.spells.Item.ctW81uiX56xZR2c5] は二重化できる。</p>"
 		},
 		"Two-Weapon Fighting": {
 			"name": "二刀流",
-			"description": "二刀流を行なうとき、君は2つ目の武器の攻撃のダメージにも能力修正値を足せる。"
+			"description": "<p>二刀流を行なうとき、君は2つ目の武器の攻撃のダメージにも能力修正値を足せる。</p>"
 		},
 		"Unarmed Strike": {
 			"name": "素手打撃",
@@ -903,27 +919,31 @@
 		},
 		"Unarmored Defense": {
 			"name": "鎧わぬ守り",
-			"description": "1レベルの時点で君は、鎧を着用しておらず盾を使用していない時には、君のACは(10+【敏捷力】修正値+【判断力】修正値)になる。"
+			"description": "<p>1レベルの時点で君は、鎧を着用しておらず盾を使用していない時には、君のACは(10+【敏捷力】修正値+【判断力】修正値)になる。</p>"
 		},
 		"Unarmored Defense (Barbarian)": {
 			"name": "鎧わぬ守り（バーバリアン）",
-			"description": "1レベルの時点で君は、いかなる鎧も着用していない時、君のアーマー・クラスは(10+君の【敏捷力】修正値+君の【耐久力】修正値)に等しくなる。盾を使用していてもこの利益は問題なく得られる。"
+			"description": "<p>1レベルの時点で君は、いかなる鎧も着用していない時、君のアーマー・クラスは(10+君の【敏捷力】修正値+君の【耐久力】修正値)に等しくなる。盾を使用していてもこの利益は問題なく得られる。</p>"
 		},
 		"Unarmored Movement": {
 			"name": "運足法",
 			"description": "<p>2レベル以降、君の移動速度は、鎧を着用しておらず盾を使用していない時には10フィート増加する。このボーナスは、君のモンク・レベルが特定の値に達するたび、さらに増加する（『@UUID[Compendium.dnd5e.classes.Item.6VoZrWxhOEKGYhnq]』表を参照）。</p><p>9レベルの時点で君は、液体の上や垂直な面を沈んだり落下することなく移動できるようになる（ただし、自分のターンの間のみ）。</p>"
 		},
-		"Uncanny Dodge": {
-			"name": "直感回避（ローグ）",
-			"description": "君から見える者が君を攻撃してヒットを与えたなら、君はリアクションを用いてその攻撃の君に対するダメージを半分にできる。"
+		"7pyZjz5vlUWV01qQ": {
+			"name": "直感回避",
+			"description": "<p>君から見える者が君を攻撃してヒットを与えたなら、君はリアクションを用いてその攻撃の君に対するダメージを半分にすることができる。</p>"
+		},
+		"Mm64SKAHJWYecgXS": {
+			"name": "直感回避",
+			"description": "<p>5レベル以降、君から見える者が君を攻撃してヒットを与えたなら、君はリアクションを用いてその攻撃の君に対するダメージを半分にすることができる。</p>"
 		},
 		"Use Magic Device": {
 			"name": "魔法装置使用",
-			"description": "魔法の働きについて多くを学んできた君は、本来は自分のではない魔法のアイテムをその場で適当にごまかして使えるようになった。君は魔法のアイテムの使用にあたってクラス、種族、レベルの条件をすべて無視する。"
+			"description": "<p>魔法の働きについて多くを学んできた君は、本来は自分のではない魔法のアイテムをその場で適当にごまかして使えるようになった。君は魔法のアイテムの使用にあたってクラス、種族、レベルの条件をすべて無視する。</p>"
 		},
 		"Vanish": {
 			"name": "雲隠れ",
-			"description": "君は自分のターンにボーナス・アクションとして“隠れ身”アクションを行なえる。また、魔法的でない手段によって君を追跡することは、君が自ら進んで痕跡を残そうとしない限りは不可能になる。"
+			"description": "<p>君は自分のターンにボーナス・アクションとして“隠れ身”アクションを行なえる。また、魔法的でない手段によって君を追跡することは、君が自ら進んで痕跡を残そうとしない限りは不可能になる。</p>"
 		},
 		"Visions of Distant Realms": {
 			"name": "遠見の目",
@@ -931,11 +951,15 @@
 		},
 		"Voice of the Chain Master": {
 			"name": "鎖持つ者の声",
-			"description": "君は使い魔と同じ次元界にいる限り、使い魔とテレパシー的に意志を疎通でき、使い魔の感覚を通じて知覚することができる。加えて、使い魔の感覚を通じて知覚している問、通常話すことができない使い魔でも、使い魔の口を通じて君の声で話すことができる。"
+			"description": "<p>君は使い魔と同じ次元界にいる限り、使い魔とテレパシー的に意志を疎通でき、使い魔の感覚を通じて知覚することができる。加えて、使い魔の感覚を通じて知覚している問、通常話すことができない使い魔でも、使い魔の口を通じて君の声で話すことができる。</p>"
+		},
+		"Volley": {
+			"name": "掃射",
+			"description": "<p>君はアクションを用いて、君の武器の射程内の、君から見える一点から10フィート以内にいる任意の数のクリーチャーに対してそれぞれ1回ずつ遠隔攻撃を行なえる。君は通常通り、目標1体ごとに1発の矢弾を有しておらねばならず、攻撃ロールは目標1体ごとに別々に行なう。</p>"
 		},
 		"Whirlwind Attack": {
 			"name": "大旋風",
-			"description": "君はアクションを用いて、君から5フィート以内の任意の数のクリーチャーに対してそれぞれ1回ずつ近接攻撃を行なえる。攻撃ロールは目標1体ごとに別々に行なう。"
+			"description": "<p>君はアクションを用いて、君から5フィート以内の任意の数のクリーチャーに対してそれぞれ1回ずつ近接攻撃を行なえる。攻撃ロールは目標1体ごとに別々に行なう。</p>"
 		},
 		"Whispers of the Grave": {
 			"name": "墓場のささやき",
@@ -943,15 +967,15 @@
 		},
 		"Wholeness of Body": {
 			"name": "肉体の完成",
-			"description": "君は自分自身の傷を癒す能力を得る。君は1回のアクションとして(君のモンク・レベル×3)に等しいヒット・ポイントを回復できる。この特徴はひとたび使用したなら、大休憩を終了するまでは、再び使用できない。"
+			"description": "<p>君は自分自身の傷を癒す能力を得る。君は1回のアクションとして(君のモンク・レベル×3)に等しいヒット・ポイントを回復できる。この特徴はひとたび使用したなら、大休憩を終了するまでは、再び使用できない。</p>"
 		},
 		"Wild Shape": {
 			"name": "自然の化身",
-			"description": "<p>アクションを用いて、魔法の力により、自分がこれまでに見たことのある野獣クリーチャーの姿になれる。君はこの特徴を2回まで使用できる。そして小休憩や大休憩を終了するたび、消費した使用回数をすべて回復する。</p><p>君がいかなる野獣に変化し得るかはドルイド・レベルによって異なる(『野獣形態』表を参照)。たとえば2レベルの時点では、脅威度が¼以下でかつ飛行移動速度も水泳移動速度もない任意の野獣に変化し得る。</p>\n<h4><strong>化身</strong></h4>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Lv</strong></td>\n<td><strong>脅威度上限</strong></td>\n<td><strong>制限</strong></td>\n<td><strong>例</strong></td>\n</tr>\n<tr>\n<td>2</td>\n<td>1/4</td>\n<td>飛行水泳なし</td>\n<td>@Compendium[dnd5e.monsters.yawTeS8u2FCfzzZH]</td>\n</tr>\n<tr>\n<td>4</td>\n<td>1/2</td>\n<td>飛行なし</td>\n<td>@Compendium[dnd5e.monsters.8aCTKP5qaBPFOqxM]</td>\n</tr>\n<tr>\n<td>8</td>\n<td>1</td>\n<td>--</td>\n<td>@Compendium[dnd5e.monsters.DBCCRXiLn6mIS8hX]</td>\n</tr>\n</tbody>\n</table>\n<p>君は最大で『ドルイド・レベルの半分（端数切り下げ）』時間まで野獣形態でいられる。この持続時間が過ぎたならば、この特徴の使用回数をもう1回ぶん消費しない限り、本来の形態に戻ってしまう。\n\n自分のターンに1回のボーナス・アクションを使用して、これより早く本来の形態に戻ることもできる。加えて、気絶状態になった時、ヒット・ポイントが0になった時、死亡した時にも、自動的に本来の形態に戻る。</p><p>変化している間は以下のルールが適用される</p>\n<ul>\n<li>\n<p>君のゲーム・データは、その野獣のものに置き換わる。ただし君の属性、人格、【知力】、【判断力】、【魅力】の値は元のままである。君は元の技能習熟およびセーヴ習熟を保持し、加えてそのクリーチャーの技能習熟およびセーヴ習熟を得る。そのクリーチャーが君と同じ習熟を有しており、かつそのクリーチャーのデータブロック中でのボーナスが君よりも高いならば、君ではなくそのクリーチャーのボーナスのほうを使用する。そのクリーチャーが伝説的アクションや住処アクションを有していても、君はそれを使用できない。</p>\n</li>\n<li>\n<p>君は変化する際に、その野獣のヒット・ポイントとヒット・ダイスを得る。通常の形態に戻ったならば、変化前のヒット・ポイントに戻る。ただし、ヒット・ポイントが0になった結果として通常の形態に戻った時には、余分のダメージは通常の形態に持ち越される。たとえば動物形態でヒット・ポイントが1しか残っていない時に10ダメージを受けたなら、通常の形態に戻り、9ダメージを受ける。この余分のダメージが君の通常形態時のヒット・ポイントを0にしない限り、君が気絶状態になることはない。</p>\n</li>\n<li>\n<p>君は呪文を発動することはできない。また、会話や、手を要する行動は、その野獣にできることしかできない（たとえば犬の時には犬の声しか出せず、前足で物をつかむことはできない）。ただし変化したからといって既に発動済の呪文に対する精神集中には影響はなく、既に発動済の呪文(たとえばコール・ライトニング)の一部であるアクションがとれなくなるわけでもない。</p>\n</li>\n<li>\n<p>君はクラスや種族などに由来する特徴の利益をすべて保持し、使用できる(新たな形態の体でその特徴を使用できる限りは)。ただし特殊な感覚(たとえば暗視)は、新たな形態がその感覚を有していない限り、使用できなくなる。</p>\n</li>\n<li>\n<p>個々の装備についてそれぞれ君のいる場所の地面に落ちるか、君の新たな形態に溶けこむか、君の新たな形態に着用されるかを選択すること。着用された装備は通常通りに機能する。ただしDMは、クリーチャーの体形やサイズ分類に基いて、新しい形態でその装備を着用できるのが現実的かどうかを判断する。装備は新しい形態に適合するように大きさや形を変えるわけではない。新しい形態で着用できない装備はそれぞれ、地面に落ちるか、新たな形態に溶けこむ。新たな形態に溶けこんだ装備は、君がその形態をやめるまで、いかなる効果も発揮しない。</p>\n</li>\n</ul>"
+			"description": "<p>アクションを用いて、魔法の力により、自分がこれまでに見たことのある野獣クリーチャーの姿になれる。君はこの特徴を2回まで使用できる。そして小休憩や大休憩を終了するたび、消費した使用回数をすべて回復する。</p><p>君がいかなる野獣に変化し得るかはドルイド・レベルによって異なる(『野獣形態』表を参照)。たとえば2レベルの時点では、脅威度が¼以下でかつ飛行移動速度も水泳移動速度もない任意の野獣に変化し得る。</p>\n<table>\n<caption>野獣形態</caption><tbody>\n<tr>\n<td><strong>Lv</strong></td>\n<td><strong>脅威度上限</strong></td>\n<td><strong>制限</strong></td>\n<td><strong>例</strong></td>\n</tr>\n<tr>\n<td>2</td>\n<td>1/4</td>\n<td>飛行水泳なし</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.yawTeS8u2FCfzzZH]</td>\n</tr>\n<tr>\n<td>4</td>\n<td>1/2</td>\n<td>飛行なし</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.8aCTKP5qaBPFOqxM]</td>\n</tr>\n<tr>\n<td>8</td>\n<td>1</td>\n<td>--</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.9bHoR8k5D2DKHaF3]</td>\n</tr>\n</tbody>\n</table>\n<p>君は最大で『ドルイド・レベルの半分（端数切り下げ）』時間まで野獣形態でいられる。この持続時間が過ぎたならば、この特徴の使用回数をもう1回ぶん消費しない限り、本来の形態に戻ってしまう。\n\n自分のターンに1回のボーナス・アクションを使用して、これより早く本来の形態に戻ることもできる。加えて、気絶状態になった時、ヒット・ポイントが0になった時、死亡した時にも、自動的に本来の形態に戻る。</p><p>変化している間は以下のルールが適用される</p>\n<ul>\n<li>\n<p>君のゲーム・データは、その野獣のものに置き換わる。ただし君の属性、人格、【知力】、【判断力】、【魅力】の値は元のままである。君は元の技能習熟およびセーヴ習熟を保持し、加えてそのクリーチャーの技能習熟およびセーヴ習熟を得る。そのクリーチャーが君と同じ習熟を有しており、かつそのクリーチャーのデータブロック中でのボーナスが君よりも高いならば、君ではなくそのクリーチャーのボーナスのほうを使用する。そのクリーチャーが伝説的アクションや住処アクションを有していても、君はそれを使用できない。</p>\n</li>\n<li>\n<p>君は変化する際に、その野獣のヒット・ポイントとヒット・ダイスを得る。通常の形態に戻ったならば、変化前のヒット・ポイントに戻る。ただし、ヒット・ポイントが0になった結果として通常の形態に戻った時には、余分のダメージは通常の形態に持ち越される。たとえば動物形態でヒット・ポイントが1しか残っていない時に10ダメージを受けたなら、通常の形態に戻り、9ダメージを受ける。この余分のダメージが君の通常形態時のヒット・ポイントを0にしない限り、君が気絶状態になることはない。</p>\n</li>\n<li>\n<p>君は呪文を発動することはできない。また、会話や、手を要する行動は、その野獣にできることしかできない（たとえば犬の時には犬の声しか出せず、前足で物をつかむことはできない）。ただし変化したからといって既に発動済の呪文に対する精神集中には影響はなく、既に発動済の呪文(たとえばコール・ライトニング)の一部であるアクションがとれなくなるわけでもない。</p>\n</li>\n<li>\n<p>君はクラスや種族などに由来する特徴の利益をすべて保持し、使用できる(新たな形態の体でその特徴を使用できる限りは)。ただし特殊な感覚(たとえば暗視)は、新たな形態がその感覚を有していない限り、使用できなくなる。</p>\n</li>\n<li>\n<p>個々の装備についてそれぞれ君のいる場所の地面に落ちるか、君の新たな形態に溶けこむか、君の新たな形態に着用されるかを選択すること。着用された装備は通常通りに機能する。ただしDMは、クリーチャーの体形やサイズ分類に基いて、新しい形態でその装備を着用できるのが現実的かどうかを判断する。装備は新しい形態に適合するように大きさや形を変えるわけではない。新しい形態で着用できない装備はそれぞれ、地面に落ちるか、新たな形態に溶けこむ。新たな形態に溶けこんだ装備は、君がその形態をやめるまで、いかなる効果も発揮しない。</p>\n</li>\n</ul>"
 		},
 		"Witch Sight": {
 			"name": "魔女の目",
-			"description": "変身生物や、幻術や変成術によって姿を変えあるいは姿を隠しているクリーチャーすべての真の姿を見てとることができる。ただしそのクリーチャーが君から30フィート以内にいて、君から視線が通っている場合に限る。"
+			"description": "<p>変身生物や、幻術や変成術によって姿を変えあるいは姿を隠しているクリーチャーすべての真の姿を見てとることができる。ただしそのクリーチャーが君から30フィート以内にいて、君から視線が通っている場合に限る。</p>"
 		}
 	}
 }

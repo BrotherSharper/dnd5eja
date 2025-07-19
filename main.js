@@ -1,23 +1,4 @@
 
-let removedPacks1 = ["dnd5e.heroes"];
-
-Hooks.on("renderCompendiumDirectory", function(app, html, other) {
-	console.log("CleanSRD Ready")
-    $(html).find('[data-pack]').each(function(li) {
-      const pack = game.packs.find(pack => pack.collection === this.dataset.pack);
-      if (pack && removedPacks1.includes(pack.collection)) {
-        $(this).remove();
-      }
-    });
-  });
-
-  Hooks.on("renderJournalSheet", (app, html, data) => {
-    if (game.settings.get("dnd5eja", "PhbStyle") === true  ) {
-      html[0].classList.add("phbs");
-    }
-  });
-  
-
 Hooks.once("init", () => {
 
 if(game.modules.get("automated-evocations")?.active){

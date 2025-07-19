@@ -1,0 +1,88 @@
+{
+	"label": "スターター･ヒーロー",
+	"mapping": {
+		"alignment": {
+			"converter": "alignment",
+			"path": "system.details.alignment"
+		}
+	},
+	"entries": {
+		"Akra (Dragonborn Cleric)": {
+			"name": "アクラ (ドラゴンボーン・クレリック)",
+			"description": "<p>A devout follower of her deity and of her society's customs, Akra feels somewhat out of place adventuring in foreign lands. But she feels bound to do everything in her power to bring peace to the region.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>",
+			"items": {
+				"Spellcasting": {
+					"name": "呪文発動",
+					"description": "<p>信仰の力を伝える導管である君は、クレリック呪文を発動できる。</p>\n<h5>初級呪文</h5>\n<p>1レベルの時点で、君はクレリック呪文リストから任意の3つの初級呪文を修得している。さらに、レベルアップにともない、『クレリック』表の初級呪文修得数の項にある通り、追加でクレリックの初級呪文を学んでゆく。</p>\n<h5>呪文の準備と発動</h5>\n<p>君が1レベル以上の呪文を発動するための呪文スロットをどれだけ有するかは、『クレリック』表に示してある。これらの呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>君は、クレリック呪文リストから“自分が発動可能なクレリック呪文”はどれとどれにするかを選択し、そのリストを作成する(リストにある呪文が、君の準備した呪文になる)。発動可能なものとして選択できるクレリック呪文の数は、(【判断力】修正値+クレリック・レベル)に等しい(最低1種)。また、選択する呪文の呪文レベルは、君が呪文スロットを有する呪文レベルでなければならない。</p>\n<p>たとえば君が3レベル・クレリックだったとしよう。君は1レベルの呪文スロットを4つ、2レベルの呪文スロットを2つ有している。【判断力】が16なら、君は1レベル呪文、2レベル呪文あわせて6種類を準備できる(うち、1レベル呪文をいくつ、2レベル呪文をいくつ準備するかは自由である)。1レベル呪文のキュア・ウーンズを準備している場合、君はこれを1レベル・スロットを使って発動することも、2レベル・スロットを使って発動することもできる。呪文を発動しても、その呪文が“いま準備している呪文”のリストから消え去るわけではない。</p>\n<p>君は、大休憩を終了するたびに、準備している呪文のリストを変更できる。新しいリストを作成するには、祈りと瞑想に時を過ごす必要がある。リストに含める呪文1つごとに(その呪文の呪文レベル×1分)以上の時間をかけねばならない。</p>\n<h5>呪文発動能力</h5>\n<p>君のクレリック呪文発動能力値は【判断力】である。君の魔法の力は神への献身に由来するからである。クレリック呪文に“呪文発動能力値”とある場合、君は常に【判断力】を使う。加えて、君が発動するクレリック呪文のセーヴ難易度を決定する際や、クレリック呪文の攻撃ロールを行なう際にも【判断力】を使う。</p>\n<p><strong>呪文のセーヴ難易度</strong>=8+君の習熟ボーナス+君の【判断力】修正値</p>\n<p><strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【判断力】修正値</p>\n<h5>儀式発動</h5>\n<p>あるクレリック呪文に(儀式)のタグが付いており、君がその呪文を準備しているなら、君はその呪文を儀式として発動できる。</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はクレリック呪文発動の焦点具として聖印 (@UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI] 参照)を使える。</p>"
+				}
+			}
+		},
+		"Aoth (Human Druid)": {
+			"name": "アオト (ヒューマン・ドルイド)",
+			"description": "<p>Aoth lived among animals for so long that he now has difficulty speaking Common. His natural habitat in danger, he decided to join an adventuring group to return balance to his land.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>",
+			"items": {
+				"Spellcasting": {
+					"name": "呪文発動",
+					"description": "<p>君は大自然の神聖な精髄を引きだし、呪文の発動によってこの精髄を望む形に変える。</p>\n<h5>初級呪文</h5>\n<p> 1レベルの時点で、君はドルイド呪文リストから2種類の初級呪文を選んで修得する。さらに、レベルアップにともない、『ドルイド』表の『初級呪文修得数』の項にある通り、追加でドルイドの初級呪文を学んでゆく。</p>\n<h5>呪文の準備と発動</h5>\n<p>君が1レベル以上のドルイド呪文発動のための呪文スロットをどれだけ有するかは、『ドルイド』表に示してある。これらの呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>君は、ドルイド呪文リストから“自分が発動可能なドルイド呪文”はどれとどれにするかを選択し、そのリストを作成する(リストにある呪文が、君の準備した呪文になる)。発動可能なものとして選択できるドルイド呪文の数は、(【判断力】修正値+ドルイド・レベル)に等しい(最低1種)。また、選択する呪文の呪文レベルは、君が呪文スロットを有する呪文レベルでなければならない。</p>\n<p>たとえば君が3レベル・ドルイドだったとしよう。君は1レベルの呪文スロットを4つ、2レベルの呪文スロットを2つ有している。【判断力】が16なら、君は1レベル呪文、2レベル呪文あわせて6種類を準備できる(うち、1レベル呪文をいくつ、2レベル呪文をいくつ準備するかは自由である)。1レベル呪文のキュア・ウーンズを準備している場合、君はこれを1レベル・スロットを使って発動することも、2レベル・スロットを使って発動することもできる。呪文を発動しても、その呪文が“いま準備している呪文”のリストから消え去るわけではない。</p>\n<p>君は、大休憩を終了するたびに、準備している呪文のリストを変更できる。新しいリストを作成するには、祈りと瞑想に時を過ごす必要がある。リストに含める呪文1つごとに(その呪文の呪文レベル×1分)以上の時間をかけねばならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のドルイド呪文発動能力値は【判断力】である。君の魔法の力は大自然への献身と同調に由来するからである。ドルイド呪文に“呪文発動能力値”とある場合、君は常に【判断力】を使う。加えて、君が発動するドルイド呪文のセーヴ難易度を決定する際や、ドルイド呪文の攻撃ロールを行なう際にも【判断力】を使う。</p>\n<p><strong>呪文のセーヴ難易度</strong> =8+君の習熟ボーナス+君の【判断力】修正値</p>\n<p><strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【判断力】修正値</p>\n<h5>儀式発動</h5>\n<p>あるドルイド呪文に(儀式)のタグが付いており、君がその呪文を準備しているなら、君はその呪文を儀式として発動できる。</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はドルイド呪文発動の焦点具としてドルイド用焦点具(@UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]参照)を使える。</p>"
+				}
+			}
+		},
+		"Beiro (Half-Elf Bard)": {
+			"name": "ベイロ (ハーフエルフ・バード)",
+			"description": "<p>Beiro was a famed entertainer at his local tavern, when he one day ran out of stories to tell. To solve this, he set out to make his own stories, so as to one day tell them again at his tavern.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>",
+			"items": {
+				"Spellcasting": {
+					"name": "呪文発動",
+					"description": "<p>君は世界を織りなす糸をほどき、織りなおして、君の望みにかない歌にかなうようにつくりかえる術を学んだ。呪文は君の数あるわざの一つであり、君は状況に合せて魔法を使い分ける。</p>\n<h5>初級呪文</h5>\n<p> </p>\n<h5>呪文スロット</h5>\n<p>君が1レベルおよびそれ以後のレベルにおいて、バード呪文発動のための呪文スロットをどれだけ有するかは、『バード』表に示してある。これらのバード呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>たとえば君が1レベル呪文のキュア・ウーンズを修得しており、1レベル・スロット1つ、2レベル・スロット1つが使用可能であるならば、君はどちらでも好きなほうのスロットを用いてキュア・ウーンズを発動できる。</p>\n<h5> 1レベル以上の修得呪文</h5>\n<p>君はバード呪文リストから任意の4種類の1レベル呪文を修得している。</p>\n<p>『バード』表の呪文修得数の項には、君がどの段階で任意のバード呪文を追加で修得してゆくかが示されている。これらの呪文はいずれも君が呪文スロットを有しているレベルのものでなければならない。たとえばこのクラスが3レベルに達した際には1レベルか2レベルの新しい呪文を1つ修得できる。</p>\n<p>また君は、このクラスのレベルを得るたびに、修得しているバード呪文のうち1つを、バード呪文リストの中から選んだ任意の呪文と入れ替えることができる。新しい呪文は君が呪文スロットを有しているレベルのものでなければならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のバード呪文発動能力値は【魅力】である。君の魔法の力は、君が歌や弁舌に心をこめ魂をこめることに由来するからである。呪文に“呪文発動能力値”とある場合、君は常に【魅力】を使う。加えて、君が発動するバード呪文のセーヴ難易度を決定する際や、バード呪文の攻撃ロールを行なう際にも【魅力】を使う。</p>\n<p><strong>呪文のセーヴ難易度</strong> =8+君の習熟ボーナス+君の【魅力】修正値</p>\n<p><strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【魅力】修正値</p>\n<h5>儀式発動</h5>\n<p>あるバード呪文に(儀式)のタグが付いており、かつ君がその呪文を修得しているなら、君はその呪文を儀式として発動できる。</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はバード呪文発動の焦点具として楽器(@UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]参照)を使うことができる。</p>"
+				}
+			}
+		},
+		"Krusk (Half-Orc Paladin)": {
+			"name": "クラスク (ハーフオーク・パラディン)",
+			"description": "<p>Roaming the land brigning justice to all, Krusk has just one goal: the destruction of evil wherever it lies.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+		},
+		"Merric (Halfling Barbarian)": {
+			"name": "メリック (ハーフリング・バーバリアン)",
+			"description": "<p>Merric was once a vigilante, due to her innate sense of street justice. Though her small size may not seem like much in combat, she more than makes up for it with her violent outbursts of anger.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+		},
+		"Morthos (Tiefling Sorcerer)": {
+			"name": "モルトス (ティーフリング・ソーサラー)",
+			"description": "<p>Morthos's investigation into her complex draconic-infernal ancestry led her to an academic life, but it soon became apparent that the fools in charge were keeping many secrets from her.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>",
+			"items": {
+				"Spellcasting": {
+					"name": "呪文発動",
+					"description": "<p>君自身の、あるいは親や先祖の生涯におけるひとつの事件が、消し去ることのできぬ印を君に捺し、君の体を秘術魔法で満たした。起源は知らず、いずれにせよこの魔力の泉が君の呪文に力を与える。</p>\n<h5>初級呪文</h5>\n<p> 1レベルの時点で、君はソーサラー呪文リストから4種類の初級呪文を修得している。さらに、レベルアップにともない、『ソーサラー』表の『初級呪文修得数』の項にある通り、追加でソーサラーの初級呪文を学んでゆく。</p>\n<h5>呪文スロット</h5>\n<p>君が1レベル以上のソーサラー呪文発動のための呪文スロットをどれだけ有するかは、『ソーサラー』表に示してある。これらのソーサラー呪文を1つ発動するには、その呪文のレベル以上のスロットを1つ消費せねばならない。大休憩を終えたなら、君は消費した呪文スロットをすべて回復する。</p>\n<p>たとえば君が1レベル呪文のバーニング・ハンズを修得しており、1レベル・スロット1つ、2レベル・スロット1つが使用可能であるならば、君はどちらでも好きなほうのスロットを用いてバーニング・ハンズを発動できる。</p>\n<h5> 1レベル以上の修得呪文</h5>\n<p>君はソーサラー呪文リストから任意の2種類の1レベル呪文を修得している。</p>\n<p>『ソーサラー』表の呪文修得数の項には、君がどの段階で任意のソーサラー呪文を追加で修得してゆくかが示されている。これらの呪文はいずれも君が呪文スロットを有しているレベルのものでなければならない。たとえばこのクラスが3レベルに達した際には1レベルか2レベルの新しい呪文を1つ修得できる。</p>\n<p>また君は、このクラスのレベルを得るたびに、修得しているソーサラー呪文のうち1つを、ソーサラー呪文リストの中から選んだ任意の呪文と入れ替えることができる。新しい呪文は君が呪文スロットを有しているレベルのものでなければならない。</p>\n<h5>呪文発動能力値</h5>\n<p>君のソーサラー呪文発動能力値は【魅力】である。君の魔法の力は、君がおのれの意思を世界に投影する能力によって決まるからである。呪文に“呪文発動能力値”とある場合、君は常に【魅力】を使う。加えて、君が発動するソーサラー呪文のセーヴ難易度を決定する際や、ソーサラー呪文の攻撃ロールを行なう際にも【魅力】を使う。</p>\n<p> <strong>呪文のセーヴ難易度</strong> =8+君の習熟ボーナス+君の【魅力】修正値</p>\n<p> <strong>呪文攻撃の修正値</strong> =君の習熟ボーナス+君の【魅力】修正値</p>\n<h5>呪文発動の焦点具</h5>\n<p>君はソーサラー呪文発動の焦点具として秘術焦点具を使うことができる。</p>"
+				}
+			}
+		},
+		"Perrin (Halfling Monk)": {
+			"name": "ペリン (ハーフリング・モンク)",
+			"description": "<p>A devoted student of his local monastery, Perrin has been tasked with bringing balance to the surrounding lands.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+		},
+		"Quillathe (Elf Ranger)": {
+			"name": "クィルラセ (エルフ・レンジャー)",
+			"description": "<p>Quillathe cleanses monsters from her woods as a hobby, but now a new force menaces her land and she must band with adventurers to defeat it.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+		},
+		"Randal (Human Fighter)": {
+			"name": "ランダル (ヒューマン・ファイター)",
+			"description": "<p>Randal worked his way through the ranks of his hometown's guard, ultimately growing restless with city life and wandering off in search of adventure.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>",
+			"items": {
+				"Variant Human": {
+					"name": "ヒューマン (選択)"
+				}
+			}
+		},
+		"Riswynn (Dwarf Rogue)": {
+			"name": "リスウィン (ドワーフ・ローグ)",
+			"description": "<p>Once a well-respected bureaucrat at the dwarven halls, Riswynn dabbled in intruigue, picked up a few tricks, and ran intro trouble with some nobles. She looks to make a name for herself and regain her social status.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+		},
+		"Sefris (Half-Elf Warlock)": {
+			"name": "セフリス (ハーフエルフ・ウォーロック)",
+			"description": "<p>Sefris's pickpocketing as a child grew into small burglaries and eventually complex heists, using the dark bond with his fiend to aid his exploits. He'll work for anyone who can throw some coin his way.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+		},
+		"Zanna (Gnome Wizard)": {
+			"name": "ザナ (ノーム・ウィザード)",
+			"description": "<p>Always interested in tinkering, Zanna set out for adventure in order to find more spells for her spellbook, and perhaps one day create some of her own.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>"
+		}
+	}
+}
