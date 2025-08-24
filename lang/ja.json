@@ -9,17 +9,20 @@
 
 "TYPES.Actor.character": "PC",
 "TYPES.Actor.characterPl": "PC",
+"TYPES.Actor.encounter": "遭遇",
+"TYPES.Actor.encounterPl": "遭遇",
+"TYPES.Actor.group": "グループ",
+"TYPES.Actor.groupPl": "グループ",
 "TYPES.Actor.npc": "NPC",
 "TYPES.Actor.npcPl": "NPC",
 "TYPES.Actor.vehicle": "乗り物",
 "TYPES.Actor.vehiclePl": "乗り物",
-"TYPES.Actor.group": "グループ",
-"TYPES.Actor.groupPl": "グループ",
 
 "TYPES.ActiveEffect.enchantment": "付与効果",
 "TYPES.ActiveEffect.enchantmentPl": "付与効果",
 
 "TYPES.ChatMessage": {
+  "request": "要求メッセージ",
   "rest": "休憩メッセージ",
   "turn": "戦闘ターンメッセージ"
 },
@@ -53,6 +56,11 @@
 "TYPES.Item.weapon": "武器",
 "TYPES.Item.weaponPl": "武器",
 
+"TYPES.RegionBehavior": {
+  "dnd5e.difficultTerrain": "移動困難な地形",
+  "dnd5e.rotateArea": "範囲の回転"
+},
+
 "DND5E.title": "ダンジョンズ＆ドラゴンズ第5版",
 "DND5E.AbbreviationCR": "脅威度",
 "DND5E.AbbreviationConc": "集中",
@@ -65,6 +73,8 @@
 
 "DND5E.ABILITY": {
   "Configure": {
+    "CheckLabel": "{ability}判定",
+    "SaveLabel": "{ability}セーヴ",
     "Title": "{ability}設定"
   },
   "SECTIONS": {
@@ -237,6 +247,7 @@
 },
 
 "DND5E.ACTIVEEFFECT": {
+  "AttributeKeyTooltip": "一般的なキーの一覧については、<a href=\"{url}\">wiki</a>を参照してください。",
   "FIELDS": {
     "statuses": {
       "label": "状態",
@@ -284,8 +295,15 @@
   }
 },
 
-"DND5E.ActorWarningInvalidItem": "{itemType} 項目を {actorType} に追加することはできません。",
-"DND5E.ActorWarningSingleton": "{actorType}に一つ以上の{itemType}を追加することはできません。",
+"DND5E.ACTOR": {
+  "Warning": {
+    "CreateActor": "時点から直接召喚するには「新規キャラクター作成」の権限が必要です。",
+    "InvalidItem": "{itemType}項目を{actorType}に追加することはできません。",
+    "NoActor": "Actor UUID '{uuid}' のキャラクターが見つからないため、召喚できません。",
+    "Singleton": "{actorType}に1つ以上の{itemType}を追加することはできません。"
+  }
+},
+
 "DND5E.ActiveEffectOverrideWarning": "この値はアクティブ効果によって変更されていますので編集不可能です。効果を無効にしてから編集してください。",
 "DND5E.Add": "追加",
 "DND5E.AdditionalControls": "追加操作",
@@ -309,28 +327,37 @@
     },
     "FIELDS": {
       "cap": {
-        "label": "割り振り最大値",
-        "hint": "一つの能力値に割り振れる最大値です。"
+        "hint": "一つの能力値に割り振れる最大値です。",
+        "label": "割り振り最大値"
+      },
+      "fixed": {
+        "hint": "固定の上昇値が指定された能力値は手動で上昇できなくなります。",
+        "label": "固定"
       },
       "locked": {
-        "label": "ロック",
         "hint": "この能力値は上昇できなくなります。",
+        "label": "ロック",
         "locked": "この能力値はこれ以上上昇できません。",
         "unlocked": "この能力値は上昇できます。"
       },
-      "fixed": {
-        "label": "固定",
-        "hint": "固定の上昇値が指定された能力値は手動で上昇できなくなります。"
+      "max": {
+        "hint": "キャラクターに設定されている最大スコアを増加させます。",
+        "label": "最大"
       },
       "points": {
-        "label": "ポイント",
-        "hint": "自由に配置できる能力値上昇のポイント。固定されている能力値には配置できません。",
         "decrease": "ポイント減少",
-        "increase": "ポイント増加"
+        "hint": "自由に配置できる能力値上昇のポイント。固定されている能力値には配置できません。",
+        "increase": "ポイント増加",
+        "label": "ポイント"
+      },
+      "recommendation": {
+        "hint": "クラスが推奨する偉業の証特技。",
+        "label": "推奨"
       }
     },
     "Hint": "能力値を上昇させたり、オプションルール採用時には特技を獲得できるように設定します。",
     "Journal": {
+      "DescriptionEpic": "<p>君は偉業の証特技、または取得条件を満たす別の特技を1つ得る。{recommendation}が推奨される。</p>",
       "DescriptionLegacy": "<p>{firstLevelOrdinal}レベルに到達した時点で、さらに{otherLevelsOrdinal}レベルの時点で、君は任意の1種類の能力値を2上昇させるか、あるいは任意の2種類の能力値を1ずつ上昇させることができる。通常通り、この特徴によってもまた、能力値を{maxAbilityScore}より上にすることはできない。</p><p>オプションルールとして特技を使用する場合、この特徴の代わりに任意の特技を取得することもできる。</p>",
       "DescriptionModern": "<p>君は能力値上昇の特技、または君が取得条件を満たす任意の特技を1つ得る。君は{class}の{otherLevels}レベルに達するたびに再びこの特徴を得る。</p>",
       "Name": "能力値上昇"
@@ -341,8 +368,8 @@
       "other": "残り {points} ポイント"
     },
     "Title": "能力値上昇",
+    "TitleEpic": "偉業の証",
     "Warning": {
-      "Level": "この特技の獲得に必要な最低レベルは{level}です。",
       "Type": "「特技」種別の特徴しか獲得できません。"
     }
   },
@@ -356,6 +383,12 @@
   "Config": {
     "AnyLevel": "任意",
     "Details": "成長詳細"
+  },
+  "Defaults": {
+    "BackgroundFeat": "背景特技",
+    "BackgroundFeature": "背景特徴",
+    "BackgroundProficiencies": "背景習熟",
+    "ChooseLanguages": "言語を選択"
   },
   "HitPoints": {
     "Action": {
@@ -374,6 +407,10 @@
     }
   },
   "ItemChoice": {
+    "Action": {
+      "SelectGeneric": "アイテム選択",
+      "SelectSpecific": "{type}選択"
+    },
     "Choose": "{count}つ選択",
     "Chosen": "選択: {current} / {max}",
     "Details": "選択詳細",
@@ -404,6 +441,10 @@
           "hint": "獲得できる呪文のレベルを指定します。",
           "label": "呪文レベル"
         },
+        "list": {
+          "hint": "これらのリストに載っている呪文のみ使用可能です。",
+          "label": "呪文リスト"
+        },
         "subtype": {
           "label": "サブ種別"
         },
@@ -424,12 +465,12 @@
     },
     "Title": "アイテム選択",
     "Warning": {
-      "FeatureLevel": "この特徴を取得するにはキャラクターレベル{level}以上必要です。",
       "InvalidType": "{type}種別のアイテムのみを追加できます。",
+      "MaxSelected": "追加のアイテムを選択することができません。これ以上のアイテムを選択する前に、選択を解除してください。",
       "NoOriginal": "前回選択した特徴が存在しないため、入れ替え不可能です。",
-      "PreviouslyChosen": "このアイテムは過去のレベルですでに選択済みです。",
       "SpellLevelAvailable": "{level}以下のレベルの呪文のみを選べます。",
-      "SpellLevelSpecific": "{level}レベルの呪文のみを獲得できます。"
+      "SpellLevelSpecific": "{level}レベルの呪文のみを獲得できます。",
+      "SpellList": "この成長で選択可能な呪文は、呪文リスト {lists} に記載されているもののみです。"
     }
   },
   "ItemGrant": {
@@ -573,8 +614,11 @@
         "ability": {
           "label": "能力値"
         },
-        "preparation": {
-          "label": "Preparation Mode"
+        "method": {
+          "label": "呪文発動方法"
+        },
+        "prepared": {
+          "label": "準備"
         },
       "uses": {
           "max": {
@@ -1098,6 +1142,7 @@
     "FastForwardHint": "<kbd>Shift</kbd> + <left-click>でこのダイアログをスキップできます。"
   }
 },
+"DND5E.Challenge": "脅威度",
 "DND5E.ChallengeRating": "脅威度 (CR)",
 "DND5E.Charged": "チャージ",
 "DND5E.Charges": "チャージ",
@@ -1114,6 +1159,13 @@
   "Activities": "用途",
   "Deltas": {
     "Recovery": "回復"
+  },
+  "REQUEST": {
+    "Action": {
+      "Handle": "要求を処理"
+    },
+    "Complete": "要求が完了しました",
+    "PartyMembers": "パーティーメンバー"
   },
   "TURN": {
     "NoCombatant": "参戦者が存在しません！"
@@ -1178,6 +1230,9 @@
         "label": "主能力値",
         "hint": "このクラスが最も多く使用する能力値。マルチクラスの制限を決定するために使用されます。"
       }
+    },
+    "properties": {
+      "label": "クラス特性"
     }
   }
 },
@@ -1220,6 +1275,7 @@
   },
   "Filters": {
     "Label": "フィルター",
+    "Grouped": "{type} ({group})",
     "HasDarkvision": "暗視を持つ",
     "HasSpellcasting": "呪文発動能力を持つ",
     "SearchResults": "検索結果"
@@ -1910,6 +1966,10 @@
       "identifier": {
         "label": "クラス識別子",
         "hint": "キャラクターレベルまたは特定のクラスレベルを付与効果レベル制限として使用するかどうかを判断するための識別子。"
+      },
+      "self": {
+        "label": "自動的に自身に付与",
+        "hint": "この用途を含むアイテムが使用された際に、選択された付与効果を自動的に適用し、用途が再び使用された際にそれを削除します。"
       }
     },
     "restrictions": {
@@ -1917,7 +1977,7 @@
       "hint": "この付与が適用できるアイテムの種類に関する制限。",
       "allowMagical": {
         "label": "魔法アイテムを許可",
-        "hint": "既に魔法アイテムとなっているアイテムにも付与効果の適用を許可する。"
+        "hint": "既に魔法アイテムとなっている物理的アイテムにも付与効果の適用を許可する。"
       },
       "categories": {
         "label": "有効なカテゴリ",
@@ -1946,6 +2006,7 @@
       "Create": "付与効果を作成",
       "Delete": "付与効果を削除"
     },
+    "Active": "{name} (有効)",
     "Empty": "関連する付与効果がありません。上の<i class=\"fas fa-plus\"></i>ボタンを使用して新規作成するか、ドロップダウンから既存の付与効果を選択してください。"
   },
   "Warning": {
@@ -2001,6 +2062,23 @@
   }
 },
 
+"DND5E.ENCOUNTER": {
+  "Action": {
+    "Award": "経験点と貨幣を与える"
+  },
+  "Difficulty": {
+    "high": "高難易度",
+    "low": "低難易度",
+    "moderate": "中難易度"
+  },
+  "DropCreature": "クリーチャーをドロップ",
+  "Tab": {
+    "Description": "説明",
+    "Loot": "戦利品",
+    "Members": "メンバー"
+  }
+},
+
 "DND5E.Environment": "環境",
 
 "DND5E.EQUIPMENT": {
@@ -2049,6 +2127,7 @@
   "Current": "経験点合計",
   "Format": "{value} XP",
   "Label": "経験点",
+  "Pool": "XPプール",
   "Progress": "次レベルまでの進行",
   "StatBlock": {
     "Standard": "XP {value}",
@@ -2467,8 +2546,8 @@
 "DND5E.FlagsElvenAccuracyHint": "敏捷力、知力、魅力が有利のとき、追加のD20ダイスをロールします。",
 "DND5E.FlagsHalflingLucky": "ハーフリングの幸運",
 "DND5E.FlagsHalflingLuckyHint": "D20ロールで１の出目が出たときダイスを振り直します。",
-"DND5E.FlagsInitiativeAdv": "イニシアチブへの有利",
-"DND5E.FlagsInitiativeAdvHint": "特技や魔法のアイテムなどによって得られます。",
+"DND5E.FlagsHalflingNimbleness": "ハーフリングのすり抜け移動",
+"DND5E.FlagsHalflingNimblenessHint": "より大きいクリーチャーの占めるスペースを通り抜けて移動できます。",
 "DND5E.FlagsAlert": "警戒 特技",
 "DND5E.FlagsAlertHint": "イニシアチブロールに習熟",
 "DND5E.FlagsAlertHintLegacy": "イニシアチブに+5が得られます。",
@@ -2488,6 +2567,8 @@
 "DND5E.FlagsSpellCritThresholdHint": "呪文攻撃によるクリティカルの閾値を拡張します。",
 "DND5E.FlagsMeleeCriticalDice": "近接クリティカルによるダメージ拡大",
 "DND5E.FlagsMeleeCriticalDiceHint": "近接武器によるクリティカル･ヒットで、ダメージダイスを追加します。",
+"DND5E.FlagsToolExpertise": "道具習熟強化",
+"DND5E.FlagsToolExpertiseHint": "道具に対する習熟を適用できる能力値判定で、習熟ボーナスを2倍にします。",
 "DND5E.Flat": "平目",
 "DND5E.Formula": "計算式",
 "DND5E.FormulaMalformedError": "{name}の内部にある{property}の式の処理に問題が発生しました。",
@@ -2502,7 +2583,24 @@
 "DND5E.GroupSummaryEmpty": "空のグループ",
 "DND5E.GroupControls": "操作",
 "DND5E.Group": {
+  "Action": {
+    "ChangePace": "ペース変更",
+    "Remove": "メンバー削除",
+    "View": "メンバー閲覧"
+  },
+  "Config": {
+    "Art": {
+      "Label": "メンバー画像",
+      "portraits": "立ち絵画像",
+      "tokens": "コマ画像"
+    },
+    "Legend": "グループシートオプション"
+  },
   "Challenge": "脅威度",
+  "Distribute": {
+    "noxp": "プールされた貨幣を分配",
+    "xp": "プールされた経験点と貨幣を分配"
+  },
   "Member": {
     "one": "メンバー",
     "other": "メンバー"
@@ -2519,6 +2617,9 @@
   "Vehicle": {
     "one": "乗り物",
     "other": "乗り物"
+  },
+  "Warning": {
+    "PhysicalItemOnly": "物理的なアイテムのみが対応しています。"
   }
 },
 "DND5E.Habitat": {
@@ -2609,6 +2710,9 @@
   "Counted": {
     "one": "{number} ヒット･ポイント",
     "other": "{number} ヒット･ポイント"
+  },
+  "DT": {
+    "Abbr": "DT"
   }
 },
 
@@ -2632,6 +2736,7 @@
 "DND5E.HPFormulaRollMessage": "HPロール式",
 
 "DND5E.HITDICE": {
+  "Abbreviation": "HD",
   "Action": {
     "Decrease": "減少",
     "Increase": "増加"
@@ -2772,6 +2877,7 @@
     "Reload": "再装填",
     "Returning": "戻ってくる",
     "Ritual": "儀式",
+    "Sidekick": "サイドキック",
     "Silvered": "銀",
     "Somatic": "動作",
     "Special": "特殊",
@@ -2858,9 +2964,10 @@
 "DND5E.Languages": "言語",
 
 "DND5E.LegendaryAction": {
-  "Description": "伝説的アクションの使用回数: {uses}。",
+  "Description": "伝説的アクションの使用回数: {uses}。他のクリーチャーのターン終了直後、{name}は使用回数を1回消費して、以下のいずれかのアクションを行うことができます。{name}は、自身のターン開始時に消費した使用回数をすべて回復します。",
   "DescriptionLegacy": "{name}は{usesNamed}を行うことができ、以下の選択肢から選ぶ。伝説的アクションは他のクリーチャーのターン終了時にのみ使用でき、1度に1つの選択肢しか使用できない。{name}は自分のターン開始時に消費した伝説的アクションの使用回数を回復する。",
   "Label": "伝説的アクション",
+  "LabelPl": "伝説的アクション",
   "LairUses": "{normal}（住処では{lair}）",
   "Max": "最大伝説的アクション",
   "Ordinal": {
@@ -2869,7 +2976,8 @@
     "few": "{n}回目の伝説的アクション",
     "other": "{n}回目の伝説的アクション"
   },
-  "Remaining": "残存伝説的アクション"
+  "Remaining": "残存伝説的アクション",
+  "Spent": "消費済み伝説的アクション"
 },
 
 "DND5E.LegendaryResistance": {
@@ -2877,6 +2985,7 @@
     "Resist": "伝説的抵抗"
   },
   "Label": "伝説的抵抗",
+  "LabelPl": "伝説的抵抗",
   "Max": "伝説的抵抗 (最大)",
   "Ordinal": {
     "one": "{n}回目の伝説的抵抗",
@@ -2885,10 +2994,12 @@
     "other": "{n}回目の伝説的抵抗"
   },
   "Remaining": "伝説的抵抗（現在）",
-  "Resisted": "伝説的抵抗（消費済み）"
+  "Resisted": "伝説的抵抗（消費済み）",
+  "Spent": "消費済み伝説的アクション"
 },
 
 "DND5E.Level": "レベル",
+"DND5E.LevelAvg": "平均レベル",
 "DND5E.LevelPl": "レベル",
 "DND5E.LevelActionDecrease": "レベル減少",
 "DND5E.LevelActionIncrease": "レベル上昇",
@@ -2916,6 +3027,7 @@
 "DND5E.MaxClassLevelMinimumWarn": "クラスには最低でも1レベルが必要です。",
 "DND5E.Maximum": "最大",
 "DND5E.Minimum": "最低",
+"DND5E.Method": "方法",
 "DND5E.Modifier": "修正値",
 "DND5E.ModuleArtConfigH": "Modが提供している素材のうち、どちらを使用するのか設定できます。",
 "DND5E.ModuleArtConfigL": "画像素材設定",
@@ -2985,20 +3097,31 @@
 "DND5E.PersonalityTraits": "人格的特徴",
 "DND5E.Portrait": "立ち絵",
 "DND5E.Prepared": "要準備",
+"DND5E.Preparation": "準備",
 "DND5E.Prerequisites": {
   "Header": "特徴の前提条件",
   "FIELDS": {
     "prerequisites": {
+      "items": {
+        "hint": "このアイテムを選択する前にキャラクターが所持している必要があるアイテムの識別子。",
+        "label": "必要なアイテム"
+      },
       "label": "前提条件",
       "level": {
-        "label": "必要なレベル",
-        "hint": "レベルアップ時、この特徴を選ぶのに必要な最低のキャラクターレベル。"
+        "hint": "レベルアップ時、この特徴を選ぶのに必要な最低のキャラクターレベル。",
+        "label": "必要なレベル"
       },
       "repeatable": {
         "hint": "この特徴を複数回取ることができる。",
         "label": "複数回取得可"
       }
     }
+  },
+  "Warning": {
+    "InvalidLevel": "レベル{level}以上である必要があります",
+    "Message": "{actor}がこの{type}を取得するには、{requirements}。",
+    "MissingItem": "事前に{items}を取得する必要があります",
+    "NotRepeatable": "以前に取得していない必要があります"
   }
 },
 "DND5E.Price": "価格",
@@ -3070,6 +3193,110 @@
 "DND5E.RechargeShort": "小休憩後または大休憩に再び使用可能",
 "DND5E.Recovery": "回復",
 "DND5E.RecoveryFormula": "回復式",
+
+"DND5E.REGIONBEHAVIORS": {
+  "DIFFICULTTERRAIN": {
+    "FIELDS": {
+      "ignoredDispositions": {
+        "hint": "これらの関係性を持つコマは、この移動困難な地形の影響を受けません。",
+        "label": "無視する関係性"
+      },
+      "magical": {
+        "hint": "この移動困難な地形は魔法効果によって作られています。",
+        "label": "魔法的"
+      },
+      "types": {
+        "hint": "この移動困難な地形の原因を最もよく表す種別（ある場合）。",
+        "label": "種別"
+      }
+    },
+    "Type": {
+      "All": "全種別",
+      "Ice": "滑りやすい氷",
+      "Magical": "魔法的",
+      "Nonmagical": "非魔法的",
+      "Plants": "植物や下生え",
+      "Rocks": "がれきや岩",
+      "Liquid": "浅い水辺",
+      "Slope": "急な斜面",
+      "Snow": "深い雪"
+    }
+  },
+  "ROTATEAREA": {
+    "Action": {
+      "AddPosition": "位置を追加",
+      "DeletePosition": "位置を削除",
+      "RotateToPosition": "位置に回転"
+    },
+    "DirectionMode": {
+      "Clockwise": "時計回り",
+      "CounterClockwise": "反時計回り",
+      "Longest": "最長",
+      "Shortest": "最短"
+    },
+    "FIELDS": {
+      "directionMode": {
+        "label": "方向モード",
+        "hint": "次の位置に移動する際、回転方向がどのように決定されるか。"
+      },
+      "lights": {
+        "ids": {
+          "label": "ライト"
+        }
+      },
+      "positions": {
+        "label": "位置",
+        "element": {
+          "angle": {
+            "label": "角度"
+          }
+        }
+      },
+      "regions": {
+        "ids": {
+          "label": "リージョン"
+        }
+      },
+      "sounds": {
+        "ids": {
+          "label": "環境音"
+        }
+      },
+      "tiles": {
+        "ids": {
+          "label": "タイル"
+        }
+      },
+      "time": {
+        "mode": {
+          "label": "速度モード",
+          "hint": "回転速度が回転時間からどのように決定されるか、移動距離に関わらず一定（固定）か、または回転距離に依存する（可変）か。"
+        },
+        "value": {
+          "label": "回転時間",
+          "hint": "次の位置へ回転するまでのミリ秒時間（固定モードの場合）または90度回転するまでのミリ秒時間（可変モードの場合）。"
+        }
+      },
+      "walls": {
+        "ids": {
+          "label": "ウォール"
+        },
+        "link": {
+          "label": "ウォールをリンク",
+          "hint": "指定されたウォールセグメントに接続されているすべてのウォールセグメントを回転させます。"
+        }
+      }
+    },
+    "SpeedMode": {
+      "Fixed": "固定 (総回転時間)",
+      "Variable": "可変 (90度回転までの時間)"
+    },
+    "Warning": {
+      "RecursiveRegion": "挙動にそのリージョン自体を含むリージョンは回転できません。"
+    }
+  }
+},
+
 "DND5E.Remaining": "残",
 "DND5E.RequiredMaterials": "物質要素",
 "DND5E.Requirements": "必要条件",
@@ -3115,6 +3342,20 @@
     "Hint": "夕暮れ、日の出、一日の経過に限定されている能力のチャージが回復します。",
     "Label": "一日経過"
   },
+  "RecoverTempHP": {
+    "Label": "一時的HP削除"
+  },
+  "RecoverTempMaxHP": {
+    "Hint": "キャラクターの最大ヒット･ポイントに対するすべての調整を削除します。",
+    "Label": "最大HPまで回復"
+  },
+  "Request": {
+    "AutoRest": {
+      "Hint": "選択したパーティメンバーに対して、プレイヤーに休憩要求を送る代わりに、自動的に休憩を実行します。",
+      "Label": "自動休憩"
+    },
+    "Label": "休憩要求"
+  },
   "Short": {
     "Abbreviation": "小",
     "Hint": {
@@ -3128,6 +3369,9 @@
       "Full": "{name} は小休憩を取り、{dice}を消費して{health}回復しました。",
       "Short": "{name} は小休憩を取りました。"
     }
+  },
+  "Warning": {
+    "OnlyByRequest": "休憩は、GMの指示がある場合のみ行うことができます。"
   }
 },
 
@@ -3175,6 +3419,7 @@
 "DND5E.MovementAir": "空",
 "DND5E.MovementSpeeds": "移動速度",
 "DND5E.MovementUnits": "単位",
+"DND5E.MovementIgnoredDifficultTerrain": "無視する移動困難な地形",
 
 "DND5E.SAVE": {
   "Title": {
@@ -3252,22 +3497,26 @@
 "DND5E.SenseUnits": "単位",
 "DND5E.SenseSpecial": "その他",
 "DND5E.Shape": "形状",
-"DND5E.SheetClassCharacter": "新デザイン",
-"DND5E.SheetClassCharacterLegacy": "従来",
-"DND5E.SheetClassClassSummary": "デフォルト",
-"DND5E.SheetClassContainer": "デフォルト",
-"DND5E.SheetClassContainerLegacy": "従来",
-"DND5E.SheetClassGroup": "デフォルト",
-"DND5E.SheetClassItem": "デフォルト",
-"DND5E.SheetClassItemLegacy": "従来",
-"DND5E.SheetClassJournalEntry": "デフォルト",
-"DND5E.SheetClassMapLocation": "デフォルト",
-"DND5E.SheetClassNPC": "新デザイン",
-"DND5E.SheetClassNPCLegacy": "従来",
-"DND5E.SheetClassRule": "新デザイン",
-"DND5E.SheetClassSpellList": "デフォルト",
-"DND5E.SheetClassToken": "デフォルト",
-"DND5E.SheetClassVehicle": "デフォルト",
+
+"DND5E.SheetClass": {
+  "Character": "デフォルト5版キャラクターシート",
+  "ClassSummary": "デフォルト5版クラス概要シート",
+  "Container": "デフォルト5版容器シート",
+  "DifficultTerrain": "デフォルト5版移動困難な地形シート",
+  "Encounter": "デフォルト5版遭遇シート",
+  "Group": "デフォルト5版グループシート",
+  "Item": "デフォルト5版アイテムシート",
+  "JournalEntry": "デフォルト5版資料シート",
+  "JournalEntryLegacy": "従来5版資料シート",
+  "MapLocation": "デフォルト5版マップロケーションシート",
+  "NPC": "デフォルト5版NPCシート",
+  "RotateArea": "デフォルト5版範囲の回転シート",
+  "Rule": "デフォルト5版ルールシート",
+  "SpellList": "デフォルト5版呪文リストシート",
+  "Token": "デフォルト5版コマシート",
+  "Vehicle": "デフォルト5版乗り物シート"
+},
+
 "DND5E.SheetModeEdit": "編集",
 "DND5E.SheetModePlay": "プレイ",
 "DND5E.SavingThrow": "セーヴィング･スロー",
@@ -3336,6 +3585,7 @@
 "DND5E.SkillSlt": "手先の早業",
 "DND5E.SkillSte": "隠密",
 "DND5E.SkillSur": "生存",
+"DND5E.SkillRoll": "{ability} ({skill})判定をロール",
 "DND5E.SkillPromptTitle": "【{ability}】〈{skill}〉判定",
 "DND5E.SkillConfigureTitle": "{skill}設定",
 "DND5E.SkillConfigure": "技能設定",
@@ -3414,6 +3664,61 @@
 "DND5E.SpellcasterLevel": "術者レベル",
 "DND5E.SpellCastingHeader": "呪文の発動",
 "DND5E.Spellcasting": "呪文発動能力値",
+
+"DND5E.SPELLCASTING": {
+  "METHODS": {
+    "AtWill": {
+      "label": "常に発動可能"
+    },
+    "Innate": {
+      "label": "生得呪文発動能力"
+    },
+    "Ritual": {
+      "label": "儀式のみ"
+    },
+    "Spell": {
+      "label": "呪文発動能力",
+      "Full": {
+        "label": "術者"
+      },
+      "Half": {
+        "label": "1/2術者"
+      },
+      "Third": {
+        "label": "1/3術者"
+      },
+      "Artificer": {
+        "label": "アーティフィサー"
+      }
+    },
+    "Pact": {
+      "abbr": "契約",
+      "label": "契約魔法",
+      "Full": {
+        "label": "契約魔法"
+      }
+    }
+  },
+  "SLOTS": {
+    "spell0": "初級呪文",
+    "spell1": "1レベル",
+    "spell2": "2レベル",
+    "spell3": "3レベル",
+    "spell4": "4レベル",
+    "spell5": "5レベル",
+    "spell6": "6レベル",
+    "spell7": "7レベル",
+    "spell8": "8レベル",
+    "spell9": "9レベル"
+  },
+  "STATES": {
+    "Unprepared": "未準備",
+    "Prepared": "準備済",
+    "AlwaysPrepared": "常に準備済"
+  },
+  "Unlabeled": "未ラベルの呪文発動"
+},
+
 "DND5E.SpellcastingClass": "{class}の呪文発動",
 "DND5E.SpellComponent": "構成要素",
 "DND5E.SpellComponents": "構成要素",
@@ -3441,7 +3746,7 @@
 "DND5E.SpellLevel7": "7レベル",
 "DND5E.SpellLevel8": "8レベル",
 "DND5E.SpellLevel9": "9レベル",
-"DND5E.SpellLevelSlot": "{level} ({n} ｽﾛｯﾄ)",
+"DND5E.SpellLevelSpell": "{level} ({n} ｽﾛｯﾄ)",
 "DND5E.SpellLevelPact": "契約呪文 [ﾚﾍﾞﾙ {level}] ({n} ｽﾛｯﾄ)",
 "DND5E.SpellMaterials": "物質構成要素",
 "DND5E.SpellMaterialsConsumed": "物質構成要素を消費",
@@ -3458,7 +3763,7 @@
 "DND5E.SpellPreparation": {
   "Label": "呪文の準備",
   "Formula": "準備の式",
-  "Mode": "準備の種別"
+  "Method": "呪文発動方法"
 },
 "DND5E.SpellSourceClass": "獲得クラス",
 "DND5E.SpellPrepared": "準備済",
@@ -3529,6 +3834,7 @@
 "DND5E.SubclassMismatchWarn": "サブクラス「{name}」に対応する識別子「{class}」を持った親クラスが存在しません。",
 "DND5E.SubclassName": "サブクラス名",
 "DND5E.Subtype": "種別",
+"DND5E.Summary": "概要",
 
 "DND5E.SUMMON": {
   "Title": "召喚",
@@ -3667,8 +3973,6 @@
     "EmptyDrop": "<i class=\"fas fa-plus\"></i> ボタンをクリックしてプロファイルを作成するか、ここに召喚するクリーチャーをドロップしてください。"
   },
   "Warning": {
-    "CreateActor": "辞典から直接召喚するには「新規キャラクター作成」の権限が必要です。",
-    "NoActor": "UUID '{uuid}' を持つキャラクターが見つからないため、召喚できません。",
     "NoOwnership": "召喚するには '{actor}' の所有権限が必要です。",
     "NoProfile": "'{item}' の召喚プロファイル {profileId} が見つかりません。",
     "Wildcard": "ワイルドカードの画像パスを持つクリーチャーを召喚するには「ファイル・ブラウザの使用」権限が必要です。"
@@ -4072,6 +4376,9 @@
         "types": {
           "hint": "元クリーチャーを選択できるクリーチャー種別のリスト。",
           "label": "クリーチャー種別"
+        },
+        "uuid": {
+          "label": "リンクされたキャラクター"
         }
       },
       "label": "変化プロファイル"
@@ -4089,8 +4396,7 @@
       "mode": {
         "label": "モード",
         "hint": "変化元クリーチャーの選択方法を設定します。",
-        "Appearance": "外見のみ",
-        "Default": "辞典ブラウザ",
+        "CR": "脅威度による",
         "Direct": "直接リンクで指定"
       },
       "preset": {
@@ -4117,6 +4423,7 @@
       "Delete": "プロファイルを削除"
     },
     "ChallengeRatingLabel": "Challenge Rating of {cr} or lower",
+    "DropHint": "ここにクリーチャーをドロップ",
     "Empty": "Click the <i class=\"fas fa-plus\"></i> button above to create a profile.",
     "Label": "変化プロファイル"
   },
@@ -4167,8 +4474,16 @@
         "hint": "これらの習熟を統合し、より高い修正値を持つ方を保持します。",
         "label": "統合"
       },
+      "minimumAC": {
+        "hint": "変化したクリーチャーのアーマー･クラスを定義する式。ただし、対象のキャラクターのACが既にそれより高い場合は除く。",
+        "label": "最低アーマー･クラス"
+      },
       "other": {
         "label": "その他オプション"
+      },
+      "spellLists": {
+        "hint": "これらの呪文リストに載っている呪文は、キャラクターが対応するアイテムを所持している場合、保持されます。",
+        "label": "保持する呪文リスト"
       },
       "tempFormula": {
         "hint": "変身時に追加される一時HPの計算式です。",
@@ -4191,8 +4506,14 @@
       "Features": {
         "Label": "特徴"
       },
+      "GearProficiency": {
+        "Label": "装備習熟"
+      },
       "Health": {
         "Label": "HP & ヒット･ダイス"
+      },
+      "Languages": {
+        "Label": "言語"
       },
       "Mental": {
         "Hint": "知力、判断力、魅力の能力値を保持します。",
@@ -4204,6 +4525,9 @@
       },
       "Proficiency": {
         "Label": "習熟ボーナス"
+      },
+      "Resistances": {
+        "Label": "ダメージ抵抗"
       },
       "Saves": {
         "Label": "セーヴ習熟"
@@ -4238,6 +4562,15 @@
     "NoPermission": "プレイヤーには変化が許可されていません。",
     "OriginalActor": "ID '{reference}' を持つオリジナルのキャラクターが見つかりませんでした。",
     "SourceActor": "変化先のキャラクターが見つかりませんでした。"
+  }
+},
+
+"DND5E.Travel": {
+  "Label": "移動のペース",
+  "Pace": {
+    "Fast": "速い",
+    "Normal": "通常",
+    "Slow": "遅い"
   }
 },
 
@@ -4672,6 +5005,7 @@
   "AwardEach": "各{award}",
   "CheckShort": "{check}",
   "CheckLong": "{check}判定",
+  "CheckUsing": "{tool}を使用する{check}",
   "DamageExtended": "<em><strong>ヒット：</strong></em> {damage} ダメージ",
   "DamageDouble": "{first} および {second}",
   "DamageShort": "{formula}{type}",
@@ -4875,6 +5209,12 @@
 "SETTINGS.5eGridAlignedSquareTemplatesL": "呪文やアイテムの使用から出現した四角テンプレートはマス目に沿うようになり、回転が不可となります。",
 "SETTINGS.5eGridAlignedSquareTemplatesN": "四角テンプレートは回転不可",
 "SETTINGS.DND5E": {
+  "AUTOMATION": {
+    "Movement": {
+      "Name": "移動自動化を無効にする",
+      "Hint": "ルールバージョンに従って、移動困難な地形による移動ペナルティを適用しないように、クリーチャーが互いに通り抜けることを妨げないようにします。"
+    }
+  },
   "BLOODIED": {
     "Name": "重傷状態",
     "Hint": "重傷状態を自動的に追跡するかどうか、その表示方法を設定します。",
@@ -4887,7 +5227,8 @@
     "Hint": "チャットカードのダメージ、命中、効果のトレイを自動的に縮小するかどうかを制御します。",
     "Always": "すべて縮小",
     "Older": "過去のカードのみ縮小",
-    "Never": "すべて展開"
+    "Never": "すべて展開",
+    "Manual": "縮小しない"
   },
   "COMBAT": {
     "Hint": "戦闘に影響を与える各種設定オプション。",
@@ -4961,6 +5302,10 @@
     "Hint": "UIやシートに適用されるテーマ。「自動」を選択した場合、ブラウザやOSに定義されたテーマが自動的に使用されます。"
   },
   "PERMISSIONS": {
+    "AllowRests": {
+      "Hint": "プレイヤーがキャラクターシートから直接休憩を取れるようにします。この機能を無効にすると、プレイヤーはGMがパーティに要求した場合のみ休憩を取れるようになります。",
+      "Name": "個別の休憩を許可"
+    },
     "AllowSummoning": {
       "Hint": "アイテムに召喚の設定が施されている場合、それの使用をPLに許可します。適切に機能するには「新規キャラクター作成」の権限も必要です。",
       "Name": "召喚を許可"
