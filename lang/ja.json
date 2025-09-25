@@ -189,8 +189,8 @@
       "Label": "ボーナスアクション"
     },
     "Crew": {
-      "Header": "乗員アクション",
-      "Label": "乗員アクション"
+      "Header": "乗組員アクション",
+      "Label": "乗組員アクション"
     },
     "Day": {
       "Header": "日",
@@ -398,9 +398,9 @@
     "Hint": "クラスのレベルを得たときのHP上昇を設定します。",
     "MaxAtFirstLevel": "1レベル時の最大値: <strong>{max}</strong>",
     "Roll": "{class}のHPロール",
-    "Starting": "1レベル時のヒット・ポイント",
+    "Starting": "1レベル時のヒット･ポイント",
     "TakeAverage": "平均値を使用",
-    "Title": "ヒット・ポイント",
+    "Title": "ヒット･ポイント",
     "Warning": {
       "Empty": "HPの値をロールするか、平均値を使用する必要があります。",
       "Invalid": "HPは整数である必要があります。"
@@ -622,10 +622,10 @@
         },
       "uses": {
           "max": {
-            "label": "Uses"
+            "label": "回数"
           },
           "per": {
-            "label": "Period"
+            "label": "期間"
           },
           "requireSlot": {
             "label": "スロットを必要とする",
@@ -709,7 +709,7 @@
 "DND5E.AdvancementChoices": "選択",
 "DND5E.AdvancementClassRestriction": "利用できるクラス",
 "DND5E.AdvancementClassRestrictionNone": "すべてのクラス",
-"DND5E.AdvancementClassRestrictionPrimary": "元のクラスのみ",
+"DND5E.AdvancementClassRestrictionPrimary": "オリジナル･クラスのみ",
 "DND5E.AdvancementClassRestrictionSecondary": "マルチクラスのみ",
 "DND5E.AdvancementConfigurationActionDisable": "編集を無効化",
 "DND5E.AdvancementConfigurationActionEnable": "編集を有効化",
@@ -775,13 +775,13 @@
   }
 },
 "DND5E.Armor": "防具",
-"DND5E.ArmorClass": "アーマー・クラス",
+"DND5E.ArmorClass": "アーマー･クラス",
 "DND5E.ArmorClassEquipment": "装備中の防具",
 "DND5E.ArmorClassFlat": "手動",
 "DND5E.ArmorClassUnarmored": "防具無し",
 "DND5E.ArmorClassNatural": "外皮",
 "DND5E.ArmorClassMage": "メイジ・アーマー",
-"DND5E.ArmorClassMotionless": "静止時のアーマー・クラス",
+"DND5E.ArmorClassMotionless": "静止時のアーマー･クラス",
 "DND5E.ArmorClassDraconic": "竜の防御力",
 "DND5E.ArmorClassUnarmoredMonk": "鎧わぬ守り（モンク）",
 "DND5E.ArmorClassUnarmoredBarbarian": "鎧わぬ守り（バーバリアン）",
@@ -963,9 +963,9 @@
     "Order": "{link}が<strong>{order}</strong>の命令を完了した。"
   },
   "Trade": {
-    "Cancel": "Cancel Pending Trade",
-    "Invalid": "Removing a pending trade will invalidate your trade order.",
-    "Pending": "Pending trade"
+    "Cancel": "保留中の取引をキャンセル",
+    "Invalid": "保留中の取引を削除すると、取引注文が無効になります。",
+    "Pending": "保留中の取引"
   }
 },
 
@@ -1133,7 +1133,7 @@
 },
 
 "DND5E.Controls": {
-  "Hint": "UI上にヒントを表示するためのショートカットを有効にする。",
+  "Hint": "特定のマウスやキーボード操作について、UI全体で様々なヒントを表示します。",
   "LeftClick": "左クリック",
   "LockHint": "マウスホイールクリックでツールチップを固定",
   "MiddleClick": "ホイールクリック",
@@ -1165,7 +1165,7 @@
       "Handle": "要求を処理"
     },
     "Complete": "要求が完了しました",
-    "PartyMembers": "パーティーメンバー"
+    "PartyMembers": "パーティメンバー"
   },
   "TURN": {
     "NoCombatant": "参戦者が存在しません！"
@@ -1209,13 +1209,13 @@
   },
   "FIELDS": {
     "hd": {
-      "label": "ヒット・ポイント・ダイス",
+      "label": "ヒット･ポイント･ダイス",
       "additional": {
-        "label": "追加のヒット・ダイス",
-        "hint": "通常の計算式以外にこのキャラクターが持っているヒット・ダイスの値。"
+        "label": "追加のヒット･ダイス",
+        "hint": "通常の計算式以外にこのキャラクターが持っているヒット･ダイスの値。"
       },
       "spent": {
-        "label": "消費したヒット・ダイス"
+        "label": "消費したヒット･ダイス"
       }
     },
     "levels": {
@@ -1394,7 +1394,7 @@
 "DND5E.ConsumeType": "消費分類",
 "DND5E.ConsumeAmmunition": "矢弾",
 "DND5E.ConsumeAttribute": "リソース",
-"DND5E.ConsumeHitDice": "ヒットダイス",
+"DND5E.ConsumeHitDice": "ヒット･ダイス",
 "DND5E.ConsumeHitDiceLargest": "一番大きいHD",
 "DND5E.ConsumeHitDiceLargestLong": "利用可能な一番大きいHD",
 "DND5E.ConsumeHitDiceSmallest": "一番小さいHD",
@@ -1439,7 +1439,7 @@
       "Bolt": "ボルト",
       "BulletFirearm": "弾丸, 銃",
       "BulletSling": "弾丸, スリング",
-      "EnergyCell": "Energy Cell",
+      "EnergyCell": "エナジー・セル",
       "Needle": "ニードル"
     },
     "Food": {
@@ -1564,16 +1564,16 @@
       "Warning": "{attribute}の値"
     },
     "HitDice": {
-      "Label": "ヒットダイス",
-      "PromptDecrease": "ヒットダイスを消費しますか？",
-      "PromptIncrease": "ヒットダイスを回復しますか？",
-      "PromptHintDecrease": "<strong>{cost}</strong>の{denomination}ヒットダイスを消費します。",
-      "PromptHintIncrease": "<strong>{cost}</strong>の{denomination}ヒットダイスを回復します。",
-      "Warning": "{denomination}ヒットダイス"
+      "Label": "ヒット･ダイス",
+      "PromptDecrease": "ヒット･ダイスを消費しますか？",
+      "PromptIncrease": "ヒット･ダイスを回復しますか？",
+      "PromptHintDecrease": "<strong>{cost}</strong>の{denomination}ヒット･ダイスを消費します。",
+      "PromptHintIncrease": "<strong>{cost}</strong>の{denomination}ヒット･ダイスを回復します。",
+      "Warning": "{denomination}ヒット･ダイス"
     },
     "HitDie": {
-      "one": "ヒットダイス",
-      "other": "ヒットダイス"
+      "one": "ヒット･ダイス",
+      "other": "ヒット･ダイス"
     },
     "ItemUses": {
       "Label": "アイテム使用",
@@ -1610,7 +1610,7 @@
   },
   "Warning": {
     "MissingAttribute": "{item}の用途{activity}によって消費されるように構成された属性{attribute}が見つかりませんでした。",
-    "MissingHitDice": "アクターには{denomination}ヒットダイスを持つクラスがありません。",
+    "MissingHitDice": "キャラクターには{denomination}ヒット･ダイスを持つクラスがありません。",
     "MissingItem": "{item}の用途{activity}によって消費されるように構成されたアイテムが見つかりませんでした。",
     "MissingSpellSlot": "{level}スロットがありません。",
     "None": "{type}を消費できません。{cost}が必要です。",
@@ -1665,7 +1665,7 @@
 "DND5E.CreatureTypeSelectorSubtype": "副種別",
 "DND5E.CreatureUndead": "アンデッド",
 "DND5E.CreatureUndeadPl": "アンデッド",
-"DND5E.Crewed": "乗員",
+"DND5E.Crewed": "乗組員",
 "DND5E.Critical": "クリティカル",
 "DND5E.CriticalHit": "クリティカル・ヒット",
 "DND5E.PowerfulCritical": "クリティカル最大化",
@@ -1974,7 +1974,7 @@
     },
     "restrictions": {
       "label": "制限",
-      "hint": "この付与が適用できるアイテムの種類に関する制限。",
+      "hint": "この付与効果が適用できるアイテムの種類に関する制限。",
       "allowMagical": {
         "label": "魔法アイテムを許可",
         "hint": "既に魔法アイテムとなっている物理的アイテムにも付与効果の適用を許可する。"
@@ -2051,9 +2051,9 @@
   },
   "Label": "付与効果",
   "Period": {
-    "AtWill": "At Will",
+    "AtWill": "好きなだけ",
     "LongRest": "大休憩",
-    "Never": "Never",
+    "Never": "できない",
     "ShortRest": "小休憩"
   },
   "Warning": {
@@ -2481,7 +2481,7 @@
     }
   },
   "Warning": {
-    "NoActivity": "Linked activity must be configured before Forward activity can be used."
+    "NoActivity": "転送用途を使用する前に、リンクされた用途を設定する必要があります。"
   }
 },
 
@@ -2742,7 +2742,7 @@
     "Increase": "増加"
   },
   "Available": "{number}個消費可能",
-  "Config": "ヒット・ダイス調整",
+  "Config": "ヒット･ダイス調整",
   "Counted": {
     "one": "{number}個のヒット･ダイス",
     "other": "{number}個のヒット･ダイス"
@@ -3499,22 +3499,22 @@
 "DND5E.Shape": "形状",
 
 "DND5E.SheetClass": {
-  "Character": "デフォルト5版キャラクターシート",
-  "ClassSummary": "デフォルト5版クラス概要シート",
-  "Container": "デフォルト5版容器シート",
-  "DifficultTerrain": "デフォルト5版移動困難な地形シート",
-  "Encounter": "デフォルト5版遭遇シート",
-  "Group": "デフォルト5版グループシート",
-  "Item": "デフォルト5版アイテムシート",
-  "JournalEntry": "デフォルト5版資料シート",
-  "JournalEntryLegacy": "従来5版資料シート",
-  "MapLocation": "デフォルト5版マップロケーションシート",
-  "NPC": "デフォルト5版NPCシート",
-  "RotateArea": "デフォルト5版範囲の回転シート",
-  "Rule": "デフォルト5版ルールシート",
-  "SpellList": "デフォルト5版呪文リストシート",
-  "Token": "デフォルト5版コマシート",
-  "Vehicle": "デフォルト5版乗り物シート"
+  "Character": "デフォルトの5版キャラクターシート",
+  "ClassSummary": "デフォルトの5版クラス概要シート",
+  "Container": "デフォルトの5版容器シート",
+  "DifficultTerrain": "デフォルトの5版移動困難な地形シート",
+  "Encounter": "デフォルトの5版遭遇シート",
+  "Group": "デフォルトの5版グループシート",
+  "Item": "デフォルトの5版アイテムシート",
+  "JournalEntry": "デフォルトの5版資料シート",
+  "JournalEntryLegacy": "従来の5版資料シート",
+  "MapLocation": "デフォルトの5版マップ地点シート",
+  "NPC": "デフォルトの5版NPCシート",
+  "RotateArea": "デフォルトの5版範囲の回転シート",
+  "Rule": "デフォルトの5版ルールシート",
+  "SpellList": "デフォルトの5版呪文リストシート",
+  "Token": "デフォルトの5版コマシート",
+  "Vehicle": "デフォルトの5版乗り物シート"
 },
 
 "DND5E.SheetModeEdit": "編集",
@@ -3842,23 +3842,23 @@
     "bonuses": {
       "ac": {
         "label": "アーマークラスボーナス",
-        "hint": "召喚されたクリーチャーのアーマークラスに、ステータスブロックに記載されたものに加えて追加されるボーナス。"
+        "hint": "召喚されたクリーチャーのアーマークラスに、データ･ブロックに記載されたものに加えて追加されるボーナス。"
       },
       "attackDamage": {
         "label": "攻撃ダメージボーナス",
         "hint": "クリーチャーの攻撃によって与えられる追加ダメージ。"
       },
       "hd": {
-        "label": "ヒットダイスボーナス",
-        "hint": "クリーチャーのステータスブロックに記載されたHP計算式に加えて追加されるヒットダイス。NPCアクターを召喚する場合にのみ使用可能。"
+        "label": "ヒット･ダイスボーナス",
+        "hint": "クリーチャーのデータ･ブロックに記載されたHP計算式に加えて追加されるヒット･ダイス。NPCを召喚する場合にのみ使用可能。"
       },
       "healing": {
         "label": "回復ボーナス",
         "hint": "回復能力によって提供される追加回復量。"
       },
       "hp": {
-        "label": "ヒットポイントボーナス",
-        "hint": "クリーチャーのステータスブロックに記載されたヒットポイントに加えて追加されるヒットポイント。"
+        "label": "ヒット･ポイントボーナス",
+        "hint": "クリーチャーのデータ･ブロックに記載されたヒット･ポイントに加えて追加されるヒット･ポイント。"
       },
       "saveDamage": {
         "label": "セーヴダメージボーナス",
@@ -3876,7 +3876,7 @@
     "match": {
       "ability": {
         "label": "能力値を一致",
-        "hint": "Specific ability to use when when matching attacks and save DCs."
+        "hint": "攻撃とセーヴ難易度を一致させる際に使用する特定の能力値。"
       },
       "attacks": {
         "label": "攻撃を一致",
@@ -3955,7 +3955,7 @@
   },
   "CreatureChanges": {
     "Label": "クリーチャーの変更点",
-    "Hint": "召喚されるクリーチャーに対して行われる変更点。以下の計算式で使用される@参照はすべて召喚者のステータスに基づきます。召喚されたクリーチャーのステータスは@summonで参照できます（例: @summon.attributes.hd.max でクリーチャーのヒットダイス数を参照）。"
+    "Hint": "召喚されるクリーチャーに対して行われる変更点。以下の計算式で使用される@参照はすべて召喚者のデータに基づきます。召喚されたクリーチャーのデータは@summonで参照できます（例: @summon.attributes.hd.max でクリーチャーのヒット･ダイス数を参照）。"
   },
   "ItemChanges": {
     "Label": "アイテムの変更点",
@@ -4422,9 +4422,9 @@
       "Create": "プロファイルを作成",
       "Delete": "プロファイルを削除"
     },
-    "ChallengeRatingLabel": "Challenge Rating of {cr} or lower",
+    "ChallengeRatingLabel": "脅威度{cr}以下",
     "DropHint": "ここにクリーチャーをドロップ",
-    "Empty": "Click the <i class=\"fas fa-plus\"></i> button above to create a profile.",
+    "Empty": "上の<i class=\"fas fa-plus\"></i>ボタンをクリックしてプロファイルを作成してください。",
     "Label": "変化プロファイル"
   },
   "SECTIONS": {
@@ -4591,7 +4591,7 @@
 },
 "DND5E.Trigger": "トリガー",
 "DND5E.Type": "種別",
-"DND5E.Uncrewed": "非乗員",
+"DND5E.Uncrewed": "非乗組員",
 "DND5E.Unequipped": "未装備",
 "DND5E.Unidentified.DefaultName": "？{name}",
 "DND5E.Unidentified.Notice": "アイテムの詳細を知るには識別する必要があります。",
@@ -4953,7 +4953,7 @@
     },
     "armor": {
       "value": {
-        "label": "アーマー・クラス"
+        "label": "アーマー･クラス"
       }
     },
     "damage": {
@@ -5073,8 +5073,8 @@
           "hint": "初期装備品セクションの下に表示される追加説明文。"
         },
         "additionalHitPoints": {
-          "label": "追加ヒットポイントの説明",
-          "hint": "自動生成されたヒットポイントセクションの下に表示される追加説明文。"
+          "label": "追加ヒット･ポイントの説明",
+          "hint": "自動生成されたヒット･ポイントセクションの下に表示される追加説明文。"
         },
         "additionalTraits": {
           "label": "追加習熟の説明",
@@ -5194,8 +5194,8 @@
 "MACRO.5eNoActorSelected": "選択されたキャラクターがありませんのでマクロを実行できませんでした。",
 "MACRO.5eUnownedWarn": "アイテムマクロは所有しているアイテムのみに対して作成できます。",
 
-"MIGRATION.5eBegin": "D&D5版システムのバージョン{version}更新を行っています。作業が完了するまでワールドやサーバを閉じないでください。",
-"MIGRATION.5eComplete": "D&D5版システムのバージョン{version}更新が完了しました！",
+"MIGRATION.5eBegin": "D&D5版システムのバージョン{version}への移行を行っています。作業が完了するまでワールドやサーバーを閉じないでください。",
+"MIGRATION.5eComplete": "D&D5版システムのバージョン{version}への移行が完了しました！",
 "MIGRATION.5eVersionTooOldWarning": "現在使用しているD&D5版のシステムバージョンが想定以上に古いため、正確なデータ移行ができません。頑張ってやってみますが、途中でエラーが出ることが予想されます。",    
 
 "SETTINGS.5eAutoCollapseCardL": "チャットログのアイテムカードの説明を自動的にたたみます。",
@@ -5205,7 +5205,7 @@
 "SETTINGS.5eNoAdvancementsN": "レベルアップ自動化を無効化",
 "SETTINGS.5eNoAdvancementsL": "クラスのレベルが上昇したときの選択肢を表示しなくなります。",
 "SETTINGS.5eNoConcentrationN": "集中の管理を無効化する",
-"SETTINGS.5eNoConcentrationL": "自動化された集中管理を無効にする。",
+"SETTINGS.5eNoConcentrationL": "自動化された集中管理を無効にします。",
 "SETTINGS.5eGridAlignedSquareTemplatesL": "呪文やアイテムの使用から出現した四角テンプレートはマス目に沿うようになり、回転が不可となります。",
 "SETTINGS.5eGridAlignedSquareTemplatesN": "四角テンプレートは回転不可",
 "SETTINGS.DND5E": {
@@ -5263,21 +5263,21 @@
   },
   "General": "一般",
   "LOYALTY": {
-    "Hint": "オプションの忠誠度追跡を有効にする。",
+    "Hint": "オプションの忠誠度追跡を有効にします。",
     "Name": "忠誠度"
   },
   "METRIC": {
     "LengthUnits": {
       "Name": "長さ単位をメートル法に変更",
-      "Hint": "移動距離や感覚の単位をフィートからメートルに変更する。"
+      "Hint": "移動距離や感覚の単位をフィートからメートルに変更します。"
     },
     "VolumeUnits": {
       "Name": "体積単位をメートル法に変更",
-      "Hint": "容器の容量を立方フィートではなくリットルで表示する。"
+      "Hint": "容器の容量を立方フィートではなくリットルで表示します。"
     },
     "WeightUnits": {
       "Name": "重量単位をメートル法に変更",
-      "Hint": "ポンド（lbs）の表記をキログラム（kg）に置き換え、荷重計算をメートル法で行う。"
+      "Hint": "ポンド（lbs）の表記をキログラム（kg）に置き換え、荷重計算をメートル法で行います。"
     }
   },
   "NPCS": {
@@ -5290,7 +5290,7 @@
       "Yes": "再充填し、チャットカードを表示"
     },
     "AutoRollNPCHP": {
-      "Name": "ヒット・ポイント",
+      "Name": "ヒット･ポイント",
       "Hint": "新しいコマを作成する際に、NPCの最大HPをロールするかどうかを設定する。",
       "No": "ロールしない",
       "Silent": "チャットカードを作成せずにロール",
