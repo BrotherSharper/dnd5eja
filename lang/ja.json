@@ -760,7 +760,7 @@
 "DND5E.AdvancementChoices": "選択",
 "DND5E.AdvancementClassRestriction": "利用できるクラス",
 "DND5E.AdvancementClassRestrictionNone": "すべてのクラス",
-"DND5E.AdvancementClassRestrictionPrimary": "オリジナル･クラスのみ",
+"DND5E.AdvancementClassRestrictionPrimary": "元のクラスのみ",
 "DND5E.AdvancementClassRestrictionSecondary": "マルチクラスのみ",
 "DND5E.AdvancementConfigurationActionDisable": "編集を無効化",
 "DND5E.AdvancementConfigurationActionEnable": "編集を有効化",
@@ -1519,10 +1519,10 @@
 "DND5E.ClassIdentifier": "クラス識別名",
 "DND5E.ClassIdentifierHint": "ここで記入した識別名は「<strong>@classes.{identifier}</strong>」としてロール式に使用できます。",
 "DND5E.ClassLevels": "クラスレベル",
-"DND5E.ClassMakeOriginal": "オリジナル･クラス",
+"DND5E.ClassMakeOriginal": "元のクラス",
 "DND5E.ClassMakeOriginalHint": "マルチクラスをした時に特定のクラス特徴を決定するために使用されるキャラクターにより取得された最初のクラス。",
 "DND5E.ClassName": "クラス名",
-"DND5E.ClassOriginal": "オリジナル･クラス",
+"DND5E.ClassOriginal": "元のクラス",
 "DND5E.ClassSaves": "セーヴィング･スロー",
 "DND5E.Confirm": "確定",
 
@@ -2136,9 +2136,9 @@
 "DND5E.DeathSaveRoll": "死亡セーヴをロールする",
 "DND5E.DeathSavingThrow": "死亡セーヴ",
 "DND5E.DeathSaveUnnecessary": "すでに3回の成功または失敗をしているか、hpが1以上であるため、死亡セーヴをロールする必要はありません。",
-"DND5E.Default": "既定",
-"DND5E.DefaultSpecific": "規定({default})",
-"DND5E.DefaultAbilityCheck": "既定の能力値判定",
+"DND5E.Default": "デフォルト",
+"DND5E.DefaultSpecific": "デフォルト（{default}）",
+"DND5E.DefaultAbilityCheck": "デフォルトの能力値判定",
 "DND5E.Denomination": "名称",
 "DND5E.Description": "説明",
 "DND5E.DescriptionChat": "フレーバーテキスト",
@@ -3728,7 +3728,7 @@
   "Rolls": "ロール"
 },
 "DND5E.RollExample": "例 +1d4",
-"DND5E.RollMode": "ロール･モード",
+"DND5E.RollMode": "ロールモード",
 "DND5E.RollSituationalBonus": "状況ボーナス有？",
 "DND5E.Rule": {
   "Tooltip": "ツールチップ",
@@ -4250,7 +4250,7 @@
       },
       "saves": {
         "label": "セーヴを一致",
-        "hint": "召喚されたクリーチャーのセーヴィング・スローDCを召喚者に一致させます。"
+        "hint": "召喚されたクリーチャーのセーヴィング・スローの難易度を召喚者に一致させます。"
       }
     },
     "profiles": {
@@ -4317,7 +4317,7 @@
   "Hint": "シーンに新しいクリーチャーを召喚します。",
   "ItemChanges": {
     "Label": "アイテムの変更点",
-    "Hint": "召喚されたクリーチャーのアイテムに行われた変更点。"
+    "Hint": "召喚されたクリーチャーのアイテムに行われる変更点。"
   },
   "Profile": {
     "Label": "召喚プロファイル",
@@ -4911,7 +4911,7 @@
   "Warning": {
     "NoOwnership": "このキャラクターを変身させる権限がありません。",
     "NoPermission": "プレイヤーには変化が許可されていません。",
-    "OriginalActor": "ID '{reference}' を持つオリジナルのキャラクターが見つかりませんでした。",
+    "OriginalActor": "ID '{reference}' を持つ元のキャラクターが見つかりませんでした。",
     "SourceActor": "変化先のキャラクターが見つかりませんでした。"
   }
 },
@@ -5801,7 +5801,7 @@
       "Name": "召喚を許可"
     },
     "AllowTransformation": {
-      "Hint": "プレイヤーが自分のキャラクターを変化できるようにします。適切に機能するには「新規キャラクター作成」と「新規コマ作成」の権限も必要です。",
+      "Hint": "プレイヤーが自分のキャラクターを変化できるようにします。「新規キャラクター作成」と「新規コマ作成」の権限も必要です。",
       "Name": "変化を許可"
     }
   },
