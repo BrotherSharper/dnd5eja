@@ -110,7 +110,7 @@
 				},
 				"Athletics": {
 					"name": "運動",
-					"text": "<p><strong>〈運動〉技能は</strong>一部の【筋力】判定に熟達していることを意味する。〈運動〉：【筋力】〈運動〉判定は、登攀、跳躍、水泳の途中に困難な状況に直面した際に用いる。たとえば以下のような活動である。</p><ul><li>切り立った崖やすべりやすい崖を登る。壁をよじ登っている最中に思わぬ災難に襲われたとき、無事に切り抜ける。他の者が君を突き落そうとするとき、崖にしがみついて離さない。</li><li>遠くまで跳躍する。跳躍の最中に見事な身のこなしを見せる。</li><li>危険な水流、荒れ狂う大波、海藻の生い茂る海のなかで、がんばって泳いだり水面上に浮き続けたりする。他のクリーチャーが君を水中へ押しこもう、引きこもう、何らかの形で水泳の邪魔をしようとするとき、これを免れる。</li></ul>",
+					"text": "<p><strong>〈運動〉：</strong>【筋力】〈運動〉判定は、登攀、跳躍、水泳の途中に困難な状況に直面した際に用いる。たとえば以下のような活動である。</p><ul><li>切り立った崖やすべりやすい崖を登る。壁をよじ登っている最中に思わぬ災難に襲われたとき、無事に切り抜ける。他の者が君を突き落そうとするとき、崖にしがみついて離さない。</li><li>遠くまで跳躍する。跳躍の最中に見事な身のこなしを見せる。</li><li>危険な水流、荒れ狂う大波、海藻の生い茂る海のなかで、がんばって泳いだり水面上に浮き続けたりする。他のクリーチャーが君を水中へ押しこもう、引きこもう、何らかの形で水泳の邪魔をしようとするとき、これを免れる。</li></ul>",
 					"system": {
 						"tooltip": "<p>【筋力】〈運動〉判定は、登攀、跳躍、水泳の途中に困難な状況に直面した際に用いる。たとえば以下のような活動である。</p><ul><li>切り立った崖やすべりやすい崖を登る。壁をよじ登っている最中に思わぬ災難に襲われたとき、無事に切り抜ける。他の者が君を突き落そうとするとき、崖にしがみついて離さない。</li><li>遠くまで跳躍する。跳躍の最中に見事な身のこなしを見せる。</li><li>危険な水流、荒れ狂う大波、海藻の生い茂る海のなかで、がんばって泳いだり水面上に浮き続けたりする。他のクリーチャーが君を水中へ押しこもう、引きこもう、何らかの形で水泳の邪魔をしようとするとき、これを免れる。</li></ul>"
 					}
@@ -234,6 +234,118 @@
 						"tooltip": "【魅力】〈ペテン〉判定は、君が真実を（口車で、あるいは行動で）たくみに隠すことができたかどうかを決定する際に行なう。ここでいうペテンには、情報をボカして相手を誤導することから真っ赤な嘘までのすべてが含まれる。〈ペテン〉を用いる典型的状況としては、番兵を言いくるめること、商人を詐欺のカモにすること、賭博で金をもうけること、変装して正体を見破られずに通すこと、（本当は安全ではないのに）安全を保証して人の警戒を解くこと、真顔で大嘘をつくこと、などがある。"
 					}
 				},
+        "Strength": {
+          "name": "【筋力】",
+          "text": "<p>【筋力】は体の力、運動訓練、そして純粋に物理的な力をどれだけ生み出せるかをあらわす尺度である。</p> <h3>【筋力】判定</h3> <p>@Embed[.Tu30XV5UKGAdgz4Z inline]</p> <h3>攻撃ロールとダメージ</h3> <p>@Embed[.9DPXJOLEsspMYK0D inline]</p> <h3>持ち上げと運搬</h3> <p>@Embed[.Kuj7Lkfn8ZckcNGH inline]</p> <h3>選択ルール：荷重</h3> <p>@Embed[.JwqYf9qb6gJAWZKs inline]</p>"
+        },
+        "Strength Checks": {
+          "name": "【筋力】判定",
+          "text": "<p>物を持ち上げたり、押し引きしたり、力づくで壊そうとしたり、狭いところへ体をねじこんで通り抜けたりといった、力づくで状況を打破しようとする試みには、すべて【筋力】判定を適用できる。〈運動〉技能は一部の【筋力】判定に熟達していることを意味する。</p> <p>@Embed[.rIR7ttYDUpH3tMzv inline]</p> <p><strong>その他の【筋力】判定：</strong>このほか、GMは君が以下のような作業をやりとげようとする場合にも【筋力】判定を要求することだろう。</p> <ul> <li>たてつけの悪い扉、鍵やかんぬきのかかった扉を力づくで開ける。</li> <li>縛っている物や拘束具などを引きちぎる。</li> <li>小さすぎるトンネルを無理やり通り抜ける。</li> <li>馬車の後ろを引きずられながら、馬車にしがみつく。</li> <li>立像を倒す。</li> <li>大岩を転がり出さないように押し止める。</li> </ul>"
+        },
+        "Attacks Rolls and Damage": {
+          "name": "攻撃ロールとダメージ",
+          "text": "<p>メイス、バトルアックス、ジャヴェリンといった近接武器で攻撃を行なうとき、君は攻撃ロールとダメージ・ロールの双方に【筋力】修正値を足す。近接武器は白兵戦闘で近接攻撃を行なうときに使うものだが、一部の近接武器は投擲することで遠隔攻撃にも使える。</p>"
+        },
+        "Lifting and Carrying": {
+          "name": "持ち上げと運搬",
+          "text": "<p>君がどれだけの重みに耐えられるかは【筋力】の値で決まる。君がどれだけのものを持ち上げられるか、持ち運べるかを言い表すには以下の用語を用いる。</p> <p>@Embed[.1PnjDBKbQJIVyc2t inline]</p> <p>@Embed[.Hni8DjqLzoqsVjb6 inline]</p> <p>@Embed[.oONHbeR1vPpfU1aT inline]</p>"
+        },
+        "Carrying Capacity": {
+          "name": "運搬能力",
+          "text": "<p><strong>運搬能力：</strong>君の運搬能力は(【筋力】×15)である。君はポンド単位でこれだけの重量のものを運搬できる。これは充分に高い値であるため、通常、キャラクターは自分がどれだけのものを持ち運べるか心配する必要はない。</p>"
+        },
+        "Push, Drag, or Lift": {
+          "name": "押し引きと持ち上げ",
+          "text": "<p><strong>押し引きと持ち上げ：</strong>君は(運搬能力×2)ポンド、すなわち(【筋力】×30)ポンドまでの重量を押し、引き、持ち上げることができる。運搬能力を超える重量を押し引きしている間、君の移動速度は5フィートにまで低下する。</p>"
+        },
+        "Size and Strength": {
+          "name": "サイズ分類と運搬能力",
+          "text": "<p><strong>サイズ分類と運搬能力：</strong>サイズ分類の大きいクリーチャーはより多くの重量に耐えられる。一方、超小型サイズのクリーチャーはより少ないものしか運べない。サイズ分類が“中型”よりも1段階大きくなるごとに、クリーチャーの運搬能力と押し、引き、持ち上げられる重量を2倍にすること。サイズ分類が“超小型”のクリーチャーについては、これらの重量を1/2にすること。</p>"
+        },
+        "Variant: Encumbrance": {
+          "name": "選択ルール：荷重",
+          "text": "<p>持ち上げと運搬のルールは故意に単純化したものである。“キャラクターは装備重量によってどの程度の不利をこうむるか”に関するより詳細なルールを求める向きには以下の選択ルールがある。この選択ルールを採用する場合、『鎧』表の【筋力】の欄は無視すること。</p> <p>@Embed[.Ur7xWFlpVK5X8ueP inline]</p> <p>@Embed[.RhVgQfF29CyStS22 inline]</p>"
+        },
+        "Encumbered": {
+          "name": "荷重",
+          "text": "<p>もし君が【筋力】値の5倍を超える重量を運搬しているなら、君には<strong>荷重</strong>がかかっている。これは君の移動速度が10フィートだけ減少することを意味する。</p>"
+        },
+        "Heavily Encumbered": {
+          "name": "重荷重",
+          "text": "<p>もし君が【筋力】値の10倍を超えかつ運搬能力上限以下の重量を運搬しているなら、君には<strong>重荷重</strong>がかかっている。これの意味するところは、君の移動速度は20フィート減少し、かつ君は“【筋力】、【敏捷力】、【耐久力】”のいずれかを用いる“能力値判定、攻撃ロール、セーヴィング・スロー”のすべてに不利を受けるというものである。</p>"
+        },
+        "Dexterity": {
+          "name": "【敏捷力】",
+          "text": " <p>【敏捷力】は俊敏さ、反射神経、平衡感覚をあらわす尺度である。</p> <h3>【敏捷力】判定</h3> <p>@Embed[.310T6po5xJuu8FoZ inline]</p> <h3>攻撃ロールとダメージ</h3> <p>@Embed[.Rk5nUGsGWHkSzPub inline]</p> <h3>AC</h3> <p>@Embed[.YSFOauOValBylNc7 inline]</p> <h3>イニシアチブ</h3> <p>@Embed[.4AXnTyno7dLBB6Ct inline]</p> <div class=\"fvtt advice\"> <figure class=\"icon\"> <img src=\"icons/equipment/back/cloak-hooded-blue.webp\" class=\"round\"> </figure> <article> <h4>隠れ身</h4> <p>@Embed[.plHuoNdS0j3umPNS inline]</p> </article> </div>"
+        },
+        "Dexterity Checks": {
+          "name": "【敏捷力】判定",
+          "text": "<p>巧妙に、素早く、あるいは静かに動こうとしたり、すべりやすいぐらつく足場の上で落下を免れたりする試みは、すべて【敏捷力】判定であらわせる。〈隠密〉、〈軽業〉、〈手先の早業〉技能はそれぞれ一部の【敏捷力】判定に熟達していることを意味する。</p> <p>@Embed[.AvvBLEHNl7kuwPkN inline]</p> <p>@Embed[.yg6SRpGNVz9nDW0A inline]</p> <p>@Embed[.4MfrpERNiQXmvgCI inline]</p> <p><strong>その他の【敏捷力】判定：</strong>このほか、GMは君が以下のような作業をやりとげようとする場合にも【敏捷力】判定を要求することだろう。</p> <ul> <li>荷物を満載した馬車を御して急な下り坂を下る。</li> <li>チャリオット(二輪戦車)を急旋回させる。</li> <li>錠前を開ける。</li> <li>罠を無力化する。</li> <li>捕虜を縄抜けできないよう縛りあげる。</li> <li>身をよじって束縛を逃れる。</li> <li>弦楽器を演奏する。</li> <li>小さな品や細工の細かな品を作り上げる。</li> </ul>"
+        },
+        "Attack Rolls and Damage": {
+          "name": "攻撃ロールとダメージ",
+          "text": "<p>スリング、ロングボウといった遠隔武器で攻撃を行なうとき、君は攻撃ロールとダメージ・ロールの双方に【敏捷力】修正値を足す。また、ダガーやレイピアなど“妙技”の特性を有する近接武器で攻撃を行なうときにも、攻撃ロールとダメージ・ロールの双方に【敏捷力】修正値を足すこともできる。</p>"
+        },
+        "Armor Class": {
+          "name": "AC",
+          "text": "<p>着用している鎧によっては、ACに【敏捷力】修正値の一部または全部を足せることがある。</p>"
+        },
+        "4AXnTyno7dLBB6Ct": {
+          "name": "イニシアチブ",
+          "text": "<p>戦闘の開始時ごとに、君は【敏捷力】判定を行なうことでイニシアチブをロールする。イニシアチブによって、戦闘における各クリーチャーのターンの順番が決まる。</p>"
+        },
+        "RcwElV4GAcVXKWxo": {
+          "name": "イニシアチブ",
+          "text": "<p>Initiative determines the order of turns during combat. When combat starts, every participant makes a Dexterity check to determine their place in the initiative order. The GM makes one roll for an entire group of identical creatures, so each member of the group acts at the same time.</p><p>The GM ranks the combatants in order from the one with the highest Dexterity check total to the one with the lowest. This is the order (called the initiative order) in which they act during each round. The initiative order remains the same from round to round.</p><p>If a tie occurs, the GM decides the order among tied GM-controlled creatures, and the players decide the order among their tied characters. The GM can decide the order if the tie is between a monster and a player character. Optionally, the GM can have the tied characters and monsters each roll a d20 to determine the order, highest roll going first.</p>"
+        },
+        "Hiding": {
+          "name": "隠れ身",
+          "text": "<p>君は、君を“はっきりと”見ることができているクリーチャーから隠れることはできない。また、もし大きな音を立てたなら(警告の叫びをあげる、花瓶をひっくり返すなど)、君は自分の位置を明らかにしてしまう。</p> <p>不可視状態のクリーチャーは見られることがないため、常に隠れ身を試みることができる。それでも不可視状態のクリーチャーが移動した痕跡は気づかれる可能性があるし、不可視状態のクリーチャーも音をたてないようにはしていなければならない。</p> <p>戦闘時には、ほとんどのクリーチャーはまわりじゅうの危険のしるしに注意を払う。そのため、君が隠れ場所を出て他のクリーチャーに近づけば、普通は、相手は君を見る。けれどもGMは特定の状況下では、注意がそれているクリーチャーに君が隠れたまま近づいてゆくのを許可し、相手が君の姿を見る前に、君が1回の攻撃に有利を得ることを許可してくれるだろう。</p> <p>@Embed[.988C2hQNyvqkdbND inline]</p> <p><strong>何が見えて何が見えないか：</strong>隠れているクリーチャーや物体を君が見ることができるかできないかを決定する主な要素の一つは、“君はその範囲をどの程度よく見通せるか”である。特定の範囲は<strong>軽度に隠蔽</strong>、あるいは<strong>重度に隠蔽</strong>されている。詳しくは@UUID[Compendium.dnd5e.rules.JournalEntry.aYmUMcQfSIqYWpKk.JournalEntryPage.9jyye7TeGlY4FRf3]参照。</p>"
+        },
+        "Passive Perception": {
+          "name": "受動〈知覚〉",
+          "text": "<p><strong>受動〈知覚〉：</strong>君が隠れているとき、何者かが(たとえ意識的に探していなくても)君の存在に気づく可能性はある。こうしたクリーチャーが君に気づくかどうかを決定するために、GMは君の【敏捷力】〈隠密〉判定とそのクリーチャーの受動【判断力】〈知覚〉値(=10+そのクリーチャーの【判断力】修正値、これにその他のボーナスやペナルティが加わる)を比べる。もしそのクリーチャーが判定に有利を得ているなら+5する。不利を受けているなら-5する。たとえばここに〈知覚〉に習熟している1レベル・キャラクター(習熟ボーナス+2)がおり、【判断力】が15(能力修正値+2)であったとすれば、その受動【判断力】〈知覚〉は14 になる。</p>"
+        },
+        "Constitution": {
+          "name": "【耐久力】",
+          "text": "<p>【耐久力】は健康、スタミナ、生命力をあらわす尺度である。</p> <h3>【耐久力】判定</h3> <p>@Embed[.PxYak7E7jGQMxuzh inline]</p> <h3>ヒット・ポイント</h3> <p>@Embed[.8TSg6dtVxOVPzvuY inline]</p>"
+        },
+        "Constitution Checks": {
+          "name": "【耐久力】判定",
+          "text": "<p>【耐久力】判定が行なわれることはそれほど多くない。そして【耐久力】判定に対応する技能は存在しない。【耐久力】があらわしている持ちこたえ耐えぬく力というのは多分に受け身のものであり、キャラクターまたはモンスターが進んで何らかの努力をするようなものではないからである。しかし君が通常の限界を超えて何事かをやりぬこうとする試みは【耐久力】判定であらわせる。</p> <p>GMは君が以下のような作業をやりとげようとする場合に【耐久力】判定を要求することだろう。</p> <ul> <li>息を止める。</li> <li>何時間も休みなしで行進、あるいは労働する。</li> <li>眠らずにいる。</li> <li>食糧も水もなしで生き抜く。</li> <li>大ジョッキ一杯のエールを一息で飲み干す。</li> </ul>"
+        },
+        "Hit Points": {
+          "name": "ヒット・ポイント",
+          "text": "<p>【耐久力】修正値はヒット・ポイント(hp)に影響を与える。通常、君はhpを決定するためにヒット・ダイスを1つロールするたび、これに【耐久力】修正値を加える。</p><p>【耐久力】修正値が変ったなら、最大hpもこれに伴って変る――まるで1レベルの時点から今の修正値を持っていたかのように。たとえば、君が4レベルに達したときに【耐久力】を上昇させ、これにより【耐久力】修正値が+1から+2になったとしよう。この場合、君はまず1〜3レベル分としてhpを3上昇させ、しかるのち4レベル目のhpを、新しい修正値を用いてロールすることになる。またたとえば、君が7レベルの時点で、何らかの効果が【耐久力】修正値を1減少させてしまったとしよう。この場合、君の最大hpは7減少する！</p>"
+        },
+        "Intelligence": {
+          "name": "【知力】",
+          "text": "<p>【知力】は鋭敏な知性、正確な記憶力、論理的思考能力をあらわす尺度である。</p> <h3>【知力】判定</h3> <p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.sLw1gfc1aLg7djmZ inline]</p> <h3>呪文発動能力値</h3> <p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.u46Rva9Nrm9bG1Mu inline]</p>"
+        },
+        "Intelligence Checks": {
+          "name": "【知力】判定",
+          "text": "<p>【知力】判定を使用するのは、君が論理、教育、記憶、演繹的推論を用いるときである。〈自然〉、〈宗教〉、〈捜査〉、〈魔法学〉、〈歴史〉技能はそれぞれ一部の【知力】判定に熟達していることを意味する。</p> <p>@Embed[.h3bYSPge8IOqne1N inline]</p> <p>@Embed[.kRBZbdWMGW9K3wdY inline]</p> <p>@Embed[.Y7nmbQAruWOs7WRM inline]</p> <p>@Embed[.ueMx3uF2PQlcye31 inline]</p> <p>@Embed[.CXVzERHdP4qLhJXM inline]</p> <p><strong>その他の【知力】判定：</strong>このほか、GMは君が以下のような作業をやりとげようとする場合にも【知力】判定を要求することだろう。</p> <ul> <li>言語を用いることなくクリーチャーとの意思疎通を図る</li> <li>貴重品の値踏みをする。</li> <li>仲間が市の衛兵に化けるとき、コツを助言する。</li> <li>文書を偽造する。</li> <li>商工業に関する知識を思い出す。</li> <li>技術を要するゲームに勝つ。</li> </ul>"
+        },
+        "Spellcasting Ability": {
+          "name": "呪文発動能力値",
+          "text": "<p>ウィザードの呪文発動能力値は【知力】である。ウィザードが発動する呪文のセーヴ難易度を決定する際には【知力】を使う。</p>"
+        },
+        "Wisdom": {
+          "name": "【判断力】",
+          "text": "<p>【判断力】は君がどれほど周囲の世界に順応しており、知覚と直感と洞察にすぐれているかをあらわす尺度である。</p> <h3>【判断力】判定</h3> <p>@Embed[.CUSrUMAS8EvE3buX inline]</p> <h3>呪文発動能力値</h3> <p>@Embed[.va0sfLfuz2kDP78g inline]</p>"
+        },
+        "Wisdom Checks": {
+          "name": "【判断力】判定",
+          "text": "<p>身ぶり手ぶりを見て言わんとすることを察したり、他人の気分を読んだり、周囲の事どもに気づいたり、傷ついた者の手当をしたりする試みは、すべて【判断力】判定であらわせる。〈医術〉、〈看破〉、〈生存〉、〈知覚〉、〈動物使い〉技能はそれぞれ一部の【判断力】判定に熟達していることを意味する。</p> <p>@Embed[.xb3MCjUvopOU4viE inline]</p> <p>@Embed[.8R5SMbAGbECNgO8z inline]</p> <p>@Embed[.GeYmM7BVfSCAga4o inline]</p> <p>@Embed[.zjEeHCUqfuprfzhY inline]</p> <p>@Embed[.t3EzDU5b9BVAIEVi inline]</p> <p><strong>その他の【判断力】判定：</strong>このほか、GMは君が以下のような作業をやりとげようとする場合にも【判断力】判定を要求することだろう。</p> <ul> <li>いずれの行動をとるべきか本能的に悟る。</li> <li>一見死んでいる／生きているクリーチャーがアンデッドかどうかを見分ける。</li> </ul>"
+        },
+        "Charisma": {
+          "name": "【魅力】",
+          "text": "<p>【魅力】は他者とうまく交流する能力をあらわす尺度である。自信、雄弁、チャーミングな人柄、威厳ある人柄など、さまざまな要素を含む。</p> <h3>【魅力】判定</h3> <p>@Embed[.38hXYxwxxyWdZLG7 inline]</p> <h3>呪文発動能力値</h3> <p>@Embed[.KUQjsYx3HISWxjO2 inline]</p>"
+        },
+        "Charisma Checks": {
+          "name": "【魅力】判定",
+          "text": "<p>他人に影響や娯楽を与えようとするとき、自分の存在を印象づけようとするとき、説得力ある嘘をつこうとするとき、面倒な社会的状況を切り抜けようとするときには、【魅力】判定を行なう。〈威圧〉、〈芸能〉、〈説得〉、〈ペテン〉技能はそれぞれ一部の【魅力】判定に熟達していることを意味する。</p> <p>@Embed[.mqVZ2fz0L7a9VeKJ inline]</p> <p>@Embed[.4VHHI2gJ1jEsppfg inline]</p> <p>@Embed[.hYT7Z06yDNBcMtGe inline]</p> <p>@Embed[.4R5H8iIsdFQTsj3X inline]</p> <p><strong>その他の【魅力】判定：</strong>このほか、GMは君が以下のような作業をやりとげようとする場合にも【魅力】判定を要求することだろう。</p> <ul> <li>ニュース、噂、ゴシップを聞くのに最適の人物を見つける。</li> <li>人ごみに混じって、今はやりの話題は何かを聞きこんでくる。</li> </ul>"
+        },
 				"Attack": {
 					"name": "攻撃",
 					"text": "<p>戦闘中に最も多く行なわれるアクションは攻撃アクションだ。剣を振るうのも、弓から矢を放つのも、拳で殴りつけるのも攻撃アクションである。</p> <p>君はこのアクションによって1回の近接攻撃または遠隔攻撃を行なえる。攻撃に関するルールの詳細は@UUID[Compendium.dnd5e.rules.JournalEntry.6PfYpwxkdQkyS6b7.JournalEntryPage.twd4zj7m1n9sBaVG]の項を見よ。</p> <p>ファイターのクラス特徴@UUID[Compendium.dnd5e.classfeatures.Item.q9g1MLXuLZyxjQMg]を初めとしたいくつかの特徴は、君がこのアクションによって行なえる攻撃の回数を増加させる。</p>"
@@ -294,6 +406,34 @@
 					"name": "完全遮蔽",
 					"text": "<p><strong>完全遮蔽</strong>を有する目標は、攻撃や呪文の直接的な目標に選ぶことができないが、そういった目標を呪文の効果範囲に含めることによって目標に影響を及ぼせる場合もある。完全遮蔽を得るためには、目標が障害物によって完全に覆い隠されている必要がある。</p>"
 				},
+        "Melee Attacks": {
+          "name": "近接攻撃",
+          "text": "<p>接近戦闘において、間合い内の敵を攻撃するのが近接攻撃だ。近接攻撃は普通、剣、ウォーハンマー、斧などの手に持った武器で行なわれる。モンスターは爪、ツノ、牙、触手、その他身体の一部を用いて近接攻撃を行なうものが多い。近接攻撃を伴う呪文も少ないながら存在する。</p> <p>@Embed[.hgZ5ZN4B3y7tmFlt inline]</p> <p>@Embed[.xJjJ4lhymAYXAOvO inline]</p> <h3>機会攻撃</h3> <p>@Embed[.zeU0NyCyP10lkLg3 inline]</p> <h3>二刀流</h3> <p>@Embed[.FQTS08uH74A6psL2 inline]</p> <h3>クリーチャーをつかむ</h3> <p>@Embed[.Sl4bniSPSbyrakM2 inline]</p> <div class=\"fvtt advice\"> <figure class=\"icon\"> <img src=\"icons/skills/melee/swords-parry-block-yellow.webp\" class=\"round\"> </figure> <article> <h4>戦闘中の対抗判定</h4> <p>戦闘においては君と敵が技量を競い合う状況がたびたび発生し、その状況は対抗判定によって表される。このセクションでは戦闘中に最も頻繁に用いられる、アクションを要する対抗判定――つかみと突き飛ばし――だけを解説している。これらのルールはGMが即興の対抗判定を考える材料にもなるだろう。</p> </article> </div> <h3>クリーチャーを突き飛ばす</h3> <p>@Embed[.hrdqMF8hRXJdNzJx inline]</p>"
+        },
+        "Reach": {
+          "name": "間合い",
+          "text": "<p>ほとんどのクリーチャーの<strong>間合い</strong>は5フィートであり、自分から5フィート以内の目標に対してのみ近接攻撃を行なえる。一部のクリーチャー(その多くはサイズ分類が中型よりも大きいクリーチャーである)は、データ・ブロックに書かれている通り、5フィートよりも長い間合いを有している。</p>"
+        },
+        "Unarmed Strike": {
+          "name": "素手打撃",
+          "text": "<p>近接武器攻撃を行なうさい、君は武器を用いるかわりに、<strong>素手打撃</strong>を用いることもできる。これはつまり、拳や蹴りや頭突きなどの、力をこめた打撃である(いずれも武器としては扱われない)。ヒットしたなら素手打撃は(1+君の【筋力】修正値)に等しい[殴打]ダメージを与える。君は自分の素手打撃に習熟している。</p>"
+        },
+        "Grappling": {
+          "name": "クリーチャーをつかむ",
+          "text": "<p>君がクリーチャーをつかんだり組みついたりしたい場合、君は攻撃アクションとして特殊な近接攻撃である“つかみ”を行なう。君が1回の攻撃アクションで複数回の攻撃を行なえる場合、そのうち1回の攻撃を1回のつかみに置き換えることができる(この置き換えは何回でも行なえる)。</p><p>君がつかめる目標は、サイズ分類が君のサイズより1段階大きいか、君のサイズ以下でなければならず、かつ君の間合いの中にいなければならない。君は1本以上の空いている手を使い、つかみ判定を行なって目標をつかもうとする。君の【筋力】〈運動〉判定と、目標の【筋力】〈運動〉または【敏捷力】〈軽業〉の判定(どちらを使うかは目標が選ぶ)との対抗判定を行なうこと(目標が無力状態なら、君はこの対抗判定に自動的に勝利する)。君がこの対抗判定に勝利した場合、君は目標を“つかまれた状態”(付録A参照)にする。この状態が終了する条件は状態の説明に記されたとおりである。また、君は任意のタイミングで(アクションを費やすことなく)目標から手を放すことができる。</p><p>@Embed[.2TZKy9YbMN3ZY3h8 inline]</p><p>@Embed[.x5bUdhAD7u5Bt2rg inline]</p>"
+        },
+        "Escaping a Grapple": {
+          "name": "つかみからの脱出",
+          "text": "<p><strong>つかみからの脱出：</strong>つかまれた状態のクリーチャーはアクションを使ってつかみからの脱出を行なえる。脱出するためにはそのクリーチャーの【筋力】〈運動〉または【敏捷力】〈軽業〉の判定と、つかんでいる側の【筋力】〈運動〉判定との対抗判定に勝利する必要がある。</p>"
+        },
+        "Moving a Grappled Creature": {
+          "name": "つかんでいるクリーチャーを移動させる",
+          "text": "<p><strong>つかんでいるクリーチャーを移動させる：</strong>君が移動する際には、君がつかんでいるクリーチャーを引きずって同時に移動させることができる。ただしその際には、君がつかんでいるクリーチャーのサイズ分類が君よりも2段階以上小さくないかぎり、君の移動速度は半分になる。</p>"
+        },
+        "Shoving a Creature": {
+          "name": "クリーチャーを突き飛ばす",
+          "text": "<p>君は攻撃アクションを使って、クリーチャーを突き飛ばすための特殊な近接攻撃を行ない、相手を伏せ状態にするか遠くへ押しやることができる。君が1回の攻撃アクションで複数回の攻撃を行なえる場合、そのうち1回の攻撃を1回の突き飛ばしに置き換えることができる(この置き換えは何回でも行なえる)。</p><p>君が突き飛ばす目標は、サイズ分類が君のサイズより1段階大きいか、君のサイズ以下でなければならず、かつ君の間合いの中にいなければならない。君の【筋力】〈運動〉判定と、目標の【筋力】〈運動〉または【敏捷力】〈軽業〉の判定(どちらを使うかは目標が選ぶ)との対抗判定を行なうこと(目標が無力状態なら、君はこの対抗判定に自動的に勝利する)。君がこの対抗判定に勝利したなら、君は目標を伏せ状態にするか、君から遠ざかる方向に5フィート押しやる。</p>"
+        },
 				"Opportunity Attacks": {
 					"name": "機会攻撃",
 					"text": "<p>戦闘においては誰もが、敵の守りがゆるむ瞬間を油断なく狙っている。たとえば、自分の身を危険にさらすことなく敵の脇をすり抜けられることはめったにない。そんなことをすれば機会攻撃を誘発してしまうのだ。</p><p>君から見える、君に敵対的なクリーチャーが、移動して君の間合いを離れる時、君はそのクリーチャーに機会攻撃を行なうことができる。機会攻撃を行なうためには、君は自分のリアクションを使って、機会攻撃を誘発したクリーチャー1体に1回の近接攻撃を行なう。この攻撃はそのクリーチャーが移動によって君の間合いを離れる直前に割りこんで発生する。</p><p>“離脱”のアクションを行なえば機会攻撃を誘発しなくなる。また、君が瞬間移動を行なう場合や、何ものかが君の移動もアクションもリアクションも費やさせることなく君を移動させる場合も、君は機会攻撃を誘発しない。たとえば、君が爆発によって敵の間合いの外に吹き飛ばされたり、重力によって敵の間合いを通過して落下したりした場合、君が機会攻撃を誘発することはない。</p>"
@@ -428,6 +568,15 @@
 				}
 			}
 		},
+		"Chapter 7: Using Ability Scores": {
+      "name": "第7章：能力値の使用法",
+      "pages": {
+        "Using Each Ability": {
+          "name": "各能力値の用法",
+          "text": "<p>ゲーム中でキャラクターやモンスターが試みる作業はどれも、6つの能力値のうち1つに対応している。本項では各能力値の意味と、各能力値がゲーム中でどのように使用されるかを解説する。</p> <h2>【筋力】</h2> <p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.nUPv6C66Ur64BIUH inline]</p> <h2>【敏捷力】</h2> <p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.ER8CKDUWLsFXuARJ inline]</p> <h2>【耐久力】</h2> <p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.MpA4jnwD17Q0RPg7 inline]</p> <h2>【知力】</h2> <p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.WzWWcTIppki35YvF inline]</p> <h2>【判断力】</h2> <p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.v3IPyTtqvXqN934s inline]</p> <h2>【魅力】</h2> <p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.9FyghudYFV5QJOuG inline]</p>"
+        }
+      }
+    },
 		"Chapter 9: Combat": {
 			"name": "第9章：戦闘",
 			"pages": {

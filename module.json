@@ -1,7 +1,7 @@
 {
   "id": "dnd5eja",
   "title": "日本語化（DnD5版）",
-  "description": "D&D5版システム用(v4.2.0+)の翻訳Modです。SRDの翻訳も含んでいます。このモッドを使用するには必ずモッドを適用してから言語を変更してください。このモッドの正式サポートシートはTidy5e-sheetです",
+  "description": "D&D5版システム用(v5.0.0+)の翻訳Modです。SRDの翻訳も含んでいます。このモッドを使用するには必ずモッドを適用してから言語を変更してください。",
   "version": "This is auto replaced",
   "library": "false",
   "compatibility": {
@@ -23,7 +23,7 @@
         "type": "system",
         "compatibility": {
           "minimum": "5.0.0",
-          "verified": "5.1.2"
+          "verified": "5.2.2"
         }
       }
     ],
@@ -37,6 +37,7 @@
         "id": "babele",
         "type": "module",
         "compatibility": {
+          "minimum": "2.6.0",
           "verified": "2.7.5"
         }
       },
