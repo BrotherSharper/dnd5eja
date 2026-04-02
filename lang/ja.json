@@ -1,4 +1,16 @@
 {
+"COMMON": {
+  "AreYouSure": "本当によろしいですか？",
+  "Cancel": "キャンセル",
+  "Confirm": "確定",
+  "Default": "デフォルト",
+  "Delete": "削除",
+  "No": "いいえ",
+  "None": "なし",
+  "Unknown": "不明",
+  "Yes": "はい"
+},
+
 "DOCUMENT.DND5E": {
   "Activity": "用途",
   "Advancement": "成長",
@@ -24,7 +36,8 @@
 "TYPES.ChatMessage": {
   "request": "要求メッセージ",
   "rest": "休憩メッセージ",
-  "turn": "戦闘ターンメッセージ"
+  "turn": "戦闘ターンメッセージ",
+  "usage": "使用法メッセージ"
 },
 
 "TYPES.Item.background": "背景",
@@ -59,6 +72,13 @@
 "TYPES.RegionBehavior": {
   "dnd5e.difficultTerrain": "移動困難な地形",
   "dnd5e.rotateArea": "範囲の回転"
+},
+
+"TYPES.HINTS": {
+  "RegionBehavior": {
+    "dnd5e.difficultTerrain": "リージョンを移動困難な地形として設定し、その種別と影響を受ける対象を設定します。",
+    "dnd5e.rotateArea": "中心点を軸に、コマ、タイル、ウォール、その他のオブジェクトを回転させます。"
+  }
 },
 
 "DND5E.title": "ダンジョンズ＆ドラゴンズ第5版",
@@ -371,6 +391,7 @@
       "other": "各能力値ごとに最大 {points} ポイントまで"
     },
     "Details": "上昇詳細",
+    "EffectTargetHint": "この能力値はアクティブ効果によって変更されています。最終値は {value} です。",
     "Feat": {
       "ASIName": "能力値上昇特技",
       "Hint": "能力値上昇の代わりに特技を選ぶ場合はここに特技をドロップしてください。"
@@ -441,14 +462,35 @@
     "BackgroundProficiencies": "背景習熟",
     "ChooseLanguages": "言語を選択"
   },
+  "Deletion": {
+    "Delete": {
+      "Message": "このアイテムを削除することで、成長の設定から得られたすべての選択肢も初期化されます。下のチェックボックスを有効にしているときにのみ初期化されます。",
+      "Title": "削除確認"
+    },
+    "LevelDown": {
+      "Message": "このクラスのレベルを下げることで、成長の設定から得られたすべての選択肢も初期化されます。下のチェックボックスを有効にしているときにのみ初期化されます。",
+      "Title": "レベル減少"
+    },
+    "Label": "成長の変化を初期化",
+    "Options": "オプション"
+  },
   "HitPoints": {
     "Action": {
-      "Roll": "{die}ロール"
+      "RollClass": "{class}のHPロール",
+      "RollDie": "{die}をロール"
     },
     "Average": "平均値",
+    "Breakdown": {
+      "Average": "平均",
+      "Bonus": "ボーナス",
+      "Final": "後",
+      "Max": "最大",
+      "Previous": "前",
+      "Roll": "ロール"
+    },
     "Hint": "クラスのレベルを得たときのHP上昇を設定します。",
     "MaxAtFirstLevel": "1レベル時の最大値: <strong>{max}</strong>",
-    "Roll": "{class}のHPロール",
+    "Options": "オプション",
     "Starting": "1レベル時のヒット･ポイント",
     "TakeAverage": "平均値を使用",
     "Title": "ヒット･ポイント",
@@ -510,6 +552,7 @@
       }
     },
     "Hint": "PLにアイテム（装備、特徴、呪文等）の一覧の中から選択できるように設定します。",
+    "Options": "オプション",
     "Replacement": {
       "None": "入れ替え不可",
       "Title": "入れ替え"
@@ -646,6 +689,9 @@
     }
   },
   "Size": {
+    "Action": {
+      "SelectSize": "サイズ選択"
+    },
     "DefaultHint": {
       "Multiple": "{sizes}からサイズを選択してください。",
       "Single": "君のサイズは{size}となる。"
@@ -700,7 +746,9 @@
   "Trait": {
     "Action": {
       "AddChoice": "選択を追加",
-      "RemoveChoice": "選択を削除"
+      "RemoveChoice": "選択を削除",
+      "RemoveTrait": "特性を削除",
+      "SelectTrait": "特性を選択"
     },
     "ChoicesRemaining": "{type} をあと{count}つ選択",
     "Details": "特性詳細",
@@ -774,9 +822,6 @@
 "DND5E.AdvancementConfiguredIncomplete": "未設定",
 "DND5E.AdvancementCustomIcon": "カスタムアイコン",
 "DND5E.AdvancementCustomTitle": "カスタム名",
-"DND5E.AdvancementDeleteConfirmationLabel": "成長の変化を初期化",
-"DND5E.AdvancementDeleteConfirmationMessage": "このアイテムを削除することで、成長の設定から得られたすべての選択肢も初期化されます。下のチェックボックスを有効にしているときにのみ初期化されます。",
-"DND5E.AdvancementDeleteConfirmationTitle": "削除確認",
 "DND5E.AdvancementFlowDropAreaHint": "アイテムをここにドロップすると、獲得できるようになります。",
 "DND5E.AdvancementHint": "ヒント",
 "DND5E.AdvancementItemTypeInvalidWarning": "{type}のアイテムはこの成長種別に追加できません。",
@@ -815,6 +860,15 @@
 "DND5E.AttunementOverride": "同調上書き",
 "DND5E.Attuned": "同調済",
 "DND5E.AreaOfEffect": {
+  "Description": {
+    "Height": "高さ",
+    "Length": "長さ",
+    "Radius": "半径",
+    "SizeSimple": "{number}{unit}",
+    "SizeType": "{type}{number}{unit}",
+    "Thickness": "厚さ",
+    "Width": "幅"
+  },
   "Label": "効果範囲",
   "Size": {
     "Label": "サイズ",
@@ -1986,6 +2040,7 @@
 "DND5E.Current": "現在",
 
 "DND5E.DAMAGE": {
+  "All": "全てのダメージ",
   "FIELDS": {
     "damage": {
       "label": "ダメージ",
@@ -2059,6 +2114,12 @@
       "Delete": "ダメージ式を削除"
     }
   },
+  "PhysicalBypass": {
+    "Description": "{bypassTypes}武器を用いない{damageTypes}",
+    "DescriptionShort": "{type}を用いた武器が有効",
+    "Hint": "この武器特性は物理ダメージの抵抗を貫通します。",
+    "Label": "物理抵抗貫通"
+  },
   "Scaling": {
     "Half": "隔レベル",
     "HalfCantrip": "初級呪文スケーリング（1/2レベル）",
@@ -2066,16 +2127,30 @@
     "Whole": "毎レベル",
     "WholeCantrip": "初級呪文スケーリング（通常）"
   },
-  "Title": "ダメージ"
+  "Title": "ダメージ",
+  "Type": {
+    "Acid": "[酸]",
+    "Bludgeoning": "[殴打]",
+    "Cold": "[冷気]",
+    "Fire": "[火]",
+    "Force": "[力場]",
+    "Lightning": "[電撃]",
+    "Necrotic": "[死霊]",
+    "Piercing": "[刺突]",
+    "Poison": "[毒]",
+    "Psychic": "[精神]",
+    "Radiant": "[光輝]",
+    "Slashing": "[斬撃]",
+    "Thunder": "[雷鳴]"
+  }
 },
 
 "DND5E.DamImm": "ダメージ完全耐性",
 "DND5E.DamMod": "ダメージ修正",
 "DND5E.DamRes": "ダメージ抵抗",
 "DND5E.DamVuln": "脆弱性",
+
 "DND5E.Damage": "ダメージ",
-"DND5E.DamageAcid": "[酸]",
-"DND5E.DamageAll": "全てのダメージ",
 "DND5E.DamageApplication": {
   "Change": {
     "Modification": "{type} 修正",
@@ -2087,32 +2162,16 @@
   "Downgrading": "{source} を抵抗へ降格",
   "Ignoring": "{source} を無視"
 },
-"DND5E.DamageBludgeoning": "[殴打]",
-"DND5E.DamageCold": "[冷気]",
-"DND5E.DamageFire": "[火]",
-"DND5E.DamageForce": "[力場]",
-"DND5E.DamageLightning": "[電撃]",
 "DND5E.DamageModification": {
   "Label": "ダメージ修正",
   "Hint": "この種別を持つダメージへ適用される追加ダメージの式を入れてください。「火に対して追加の2d6ダメージを受ける～」などのときに使用します。負の値は受けるダメージを軽減します。",
   "BypassHint": "この武器特性を持っている武器は斬撃、刺突、殴打（物理）の追加ダメージを無視します。"
 },
-"DND5E.DamageNecrotic": "[死霊]",
-"DND5E.DamagePiercing": "[刺突]",
-"DND5E.DamagePhysical": "非魔法物理",
-"DND5E.DamagePhysicalBypass": "物理抵抗貫通",
-"DND5E.DamagePhysicalBypassHint": "この武器特性は物理ダメージの抵抗を貫通します。",
-"DND5E.DamagePhysicalBypasses": "{bypassTypes}武器を用いない{damageTypes}",
-"DND5E.DamagePhysicalBypassesShort": "{type}を用いた武器が有効",
-"DND5E.DamagePoison": "[毒]",
-"DND5E.DamagePsychic": "[精神]",
-"DND5E.DamageRadiant": "[光輝]",
 "DND5E.DamageRoll": "ダメージ･ロール",
-"DND5E.DamageSlashing": "[斬撃]",
 "DND5E.DamageThreshold": "ダメージ限界",
-"DND5E.DamageThunder": "[雷鳴]",
 "DND5E.DamageType": "ダメージ種別",
 "DND5E.DamageTypes": "ダメージ種別",
+
 "DND5E.Dawn": "夜明け",
 "DND5E.Day": "日毎",
 "DND5E.DeathSave": "死亡セーヴ",
@@ -2361,9 +2420,9 @@
     "Award": "経験点と貨幣を与える"
   },
   "Difficulty": {
-    "high": "高難易度",
-    "low": "低難易度",
-    "moderate": "中難易度"
+    "high": "死地",
+    "low": "通常",
+    "moderate": "困難"
   },
   "Tab": {
     "Description": "説明",
@@ -2869,7 +2928,15 @@
 "DND5E.Formula": "計算式",
 "DND5E.FormulaMalformedError": "{name}の内部にある{property}の式の処理に問題が発生しました。",
 "DND5E.FormulaMissingReferenceWarn": "{name}の内部にある{property}の式は存在しない参照を行っています：{references}",
-"DND5E.Gear": "持ち物",
+
+"DND5E.Gear": {
+  "Action": {
+    "Add": "装備に追加",
+    "Remove": "装備から削除"
+  },
+  "Label": "装備"
+},
+
 "DND5E.Gender": "性別",
 "DND5E.GlobalBonus": "全般ボーナス",
 "DND5E.GrantedAbilities": "付与される能力",
@@ -3006,13 +3073,20 @@
       }
     }
   },
+  "HealingButton": "回復",
+  "HealingRoll": "回復ロール",
   "Hint": "クリーチャーを回復します。",
-  "Title": "回復"
+  "Title": "回復",
+  "Type": {
+    "Healing": "ヒット･ポイント",
+    "HealingShort": "回復",
+    "Maximum": "最大ヒット･ポイント",
+    "MaximumShort": "最大HP",
+    "Temporary": "一時的ヒット･ポイント",
+    "TemporaryShort": "一時HP"
+  }
 },
 
-"DND5E.Healing": "回復",
-"DND5E.HealingRoll": "回復ロール",
-"DND5E.HealingTemp": "回復 (一時HP)",
 "DND5E.Height": "身長",
 
 "DND5E.HITPOINTS": {
@@ -3180,6 +3254,7 @@
     "Finesse": "妙技",
     "Firearm": "射出",
     "Focus": "焦点具",
+    "Gear": "装備",
     "Heavy": "重武器",
     "Light": "軽武器",
     "Loading": "装填",
@@ -3214,9 +3289,13 @@
 "DND5E.JackOfAllTrades": "何でも屋",
 
 "DND5E.JOURNALENTRY": {
+  "Action": {
+    "ConfigureNavigation": "ナビゲーション設定"
+  },
   "Navigation": {
     "Next": "次",
     "Previous": "前",
+    "Title": "ナビゲーション",
     "Up": "Up"
   }
 },
@@ -3450,7 +3529,7 @@
     "InvalidLevel": "レベル{level}以上である必要があります",
     "Message": "{actor}がこの{type}を取得するには、{requirements}。",
     "MissingItem": "事前に{items}を取得する必要があります",
-    "NotRepeatable": "以前に取得していない必要があります"
+    "NotRepeatable": "{name}を以前に取得していない必要があります"
   }
 },
 "DND5E.Price": "価格",
@@ -3532,7 +3611,7 @@
         "label": "無視する関係性"
       },
       "magical": {
-        "hint": "この移動困難な地形は魔法効果によって作られています。",
+        "hint": "この移動困難な地形は魔法的な効果によって作られています。",
         "label": "魔法的"
       },
       "types": {
@@ -3761,11 +3840,13 @@
     }
   },
   "Hover": "浮遊",
+  "HoverSpeed": "{speed}（浮遊）",
   "Speed": "戦闘速度",
   "Type": {
     "Burrow": "穴掘り",
     "Climb": "登攀",
     "Fly": "飛行",
+    "Jump": "跳躍",
     "Speed": "速度",
     "Swim": "水泳",
     "Walk": "歩行"
@@ -3853,22 +3934,23 @@
 "DND5E.Shape": "形状",
 
 "DND5E.SheetClass": {
-  "Character": "デフォルトの5版キャラクターシート",
-  "ClassSummary": "デフォルトの5版クラス概要シート",
-  "Container": "デフォルトの5版容器シート",
-  "DifficultTerrain": "デフォルトの5版移動困難な地形シート",
-  "Encounter": "デフォルトの5版遭遇シート",
-  "Group": "デフォルトの5版グループシート",
-  "Item": "デフォルトの5版アイテムシート",
-  "JournalEntry": "デフォルトの5版資料シート",
-  "JournalEntryLegacy": "従来の5版資料シート",
-  "MapLocation": "デフォルトの5版マップ地点シート",
-  "NPC": "デフォルトの5版NPCシート",
-  "RotateArea": "デフォルトの5版範囲の回転シート",
-  "Rule": "デフォルトの5版ルールシート",
-  "SpellList": "デフォルトの5版呪文リストシート",
-  "Token": "デフォルトの5版コマシート",
-  "Vehicle": "デフォルトの5版乗り物シート"
+  "Character": "D&D5版 キャラクターシート",
+  "ClassSummary": "D&D5版 クラス概要シート",
+  "Container": "D&D5版 容器シート",
+  "DifficultTerrain": "D&D5版 移動困難な地形シート",
+  "Encounter": "D&D5版 遭遇シート",
+  "Group": "D&D5版 グループシート",
+  "Item": "D&D5版 アイテムシート",
+  "JournalEntry": "D&D5版 資料シート",
+  "JournalEntryLegacy": "従来のD&D5版資料シート",
+  "MapLocation": "D&D5版 マップ地点シート",
+  "NPC": "D&D5版 NPCシート",
+  "RollTable": "D&D5版 ロール表シート",
+  "RotateArea": "D&D5版 範囲の回転シート",
+  "Rule": "D&D5版 ルールシート",
+  "SpellList": "D&D5版 呪文リストシート",
+  "Token": "D&D5版 コマシート",
+  "Vehicle": "D&D5版 乗り物シート"
 },
 
 "DND5E.SheetModeEdit": "編集",
@@ -3994,6 +4076,10 @@
   }
 },
 
+"DND5E.SourceItem": {
+  "Label": "ソースアイテム",
+  "LockedHint": "このアイテムのソースは、それを付与したアイテムによって自動的に決定されるため、変更できません。"
+},
 "DND5E.Special": "特殊",
 "DND5E.SpecialHint": "特別な値はセミコロンで分ける",
 "DND5E.SpecialTraits": "例外的特性",
@@ -4007,6 +4093,21 @@
 },
 "DND5E.Speed": "移動速度",
 "DND5E.SpeedSpecial": "特殊移動",
+
+"DND5E.SPELL": {
+  "Embed": {
+    "CastingTimeTrigger": "{castingTime}。{trigger}に発動できる。",
+    "Tag": {
+      "Cantrip": "{school}の初級呪文",
+      "CantripLegacy": "{school}の初級呪文",
+      "Classes": "{levelSchool}（{classes}）",
+      "Leveled": "{level}レベル {school}",
+      "LeveledLegacy": "{levelOrdinal}レベル {school}",
+      "Ritual": "{levelSchool}（儀式）"
+    }
+  }
+},
+
 "DND5E.SpellAbility": "呪文発動能力",
 "DND5E.SpellAbilitySet": "メインの発動能力修正値にする",
 "DND5E.SpellAdd": "呪文追加",
@@ -4078,6 +4179,7 @@
 "DND5E.SpellcastingClass": "{class}の呪文発動",
 "DND5E.SpellComponent": "構成要素",
 "DND5E.SpellComponents": "構成要素",
+"DND5E.SpellComponentsMaterial": "{components}（{materials}）",
 "DND5E.SpellCreate": "呪文作成",
 "DND5E.SpellDC": "呪文 DC",
 "DND5E.SpellDetails": "呪文の詳細",
@@ -4121,7 +4223,6 @@
   "Formula": "準備の式",
   "Method": "呪文発動方法"
 },
-"DND5E.SpellSourceClass": "獲得クラス",
 "DND5E.SpellPrepared": "準備済",
 "DND5E.SpellProgArt": "アーティフィサー",
 "DND5E.SpellProgAvailable": "利用可能なスロット",
@@ -4303,6 +4404,10 @@
         "label": "召喚プロンプト",
         "hint": "プレイヤーに召喚する場所を選択させますか？プロンプトが無効でも、チャットカードから召喚することができます。"
       }
+    },
+    "tempHP": {
+      "label": "一時HP",
+      "hint": "召喚されたクリーチャーに一時HPを付与し、既存の一時HPを置き換えます。"
     }
   },
   "Action": {
@@ -4405,6 +4510,10 @@
           "label": "エリアの大きさ",
           "hint": "効果範囲の主軸に沿った大きさ。"
         },
+        "stationary": {
+          "label": "固定",
+          "hint": "配置したオーラ状の効果範囲は移動できません。"
+        },
         "type": {
           "label": "エリアの種類",
           "hint": "対象となる効果範囲の種類。"
@@ -4426,6 +4535,7 @@
       "Label": "味方",
       "Counted": {
         "any": "任意の味方",
+        "each": "それぞれの味方",
         "every": "全ての味方",
         "one": "{number} 味方",
         "other": "{number} 味方"
@@ -4438,20 +4548,25 @@
       "Label": "球形",
       "Counted": {
         "one": "{number} 球形",
-        "other": "{number} 球形"
+        "other": "{number} 球形",
+        "oneSized": "{sizes} 球形",
+        "otherSized": "{number} {sizes} 球形"
       }
     },
     "Cone": {
       "Label": "円錐",
       "Counted": {
         "one": "{number} 円錐",
-        "other": "{number} 円錐"
+        "other": "{number} 円錐",
+        "oneSized": "{sizes} 円錐",
+        "otherSized": "{number} {sizes} 円錐"
       }
     },
     "Creature": {
       "Label": "クリーチャー",
       "Counted": {
         "any": "任意のクリーチャー",
+        "each": "それぞれのクリーチャー",
         "every": "全てのクリーチャー",
         "one": "{number} クリーチャー",
         "other": "{number} クリーチャー"
@@ -4461,6 +4576,7 @@
       "Label": "クリーチャー・物体",
       "Counted": {
         "any": "任意のクリーチャーまたは物体",
+        "each": "それぞれのクリーチャーまたは物体",
         "every": "全てのクリーチャーまたは物体",
         "one": "{number} クリーチャー・物体",
         "other": "{number} クリーチャー・物体"
@@ -4470,27 +4586,34 @@
       "Label": "立方体",
       "Counted": {
         "one": "{number} 立方体",
-        "other": "{number} 立方体"
+        "other": "{number} 立方体",
+        "oneSized": "{sizes} 立方体",
+        "otherSized": "{number} {sizes} 立方体"
       }
     },
     "Cylinder": {
       "Label": "円筒形",
       "Counted": {
         "one": "{number} 円筒形",
-        "other": "{number} 円筒形"
+        "other": "{number} 円筒形",
+        "oneSized": "{sizes} 円筒形",
+        "otherSized": "{number} {sizes} 円筒形"
       }
     },
     "Emanation": {
-      "Label": "放射",
+      "Label": "オーラ状",
       "Counted": {
-        "one": "{number} 放射",
-        "other": "{number} 放射"
+        "one": "{number} オーラ状",
+        "other": "{number} オーラ状",
+        "oneSized": "{sizes} オーラ状",
+        "otherSized": "{number} {sizes} オーラ状"
       }
     },
     "Enemy": {
       "Label": "敵",
       "Counted": {
         "any": "任意の敵",
+        "each": "それぞれの敵",
         "every": "全ての敵",
         "one": "{number} 敵",
         "other": "{number} 敵"
@@ -4500,13 +4623,16 @@
       "Label": "直線",
       "Counted": {
         "one": "{number} 直線",
-        "other": "{number} 直線"
+        "other": "{number} 直線",
+        "oneSized": "{sizes} 直線",
+        "otherSized": "{number} {sizes} 直線"
       }
     },
     "Object": {
       "Label": "物体",
       "Counted": {
         "any": "任意の物体",
+        "each": "それぞれの物体",
         "every": "全ての物体",
         "one": "物体{number}つ",
         "other": "物体{number}つ"
@@ -4516,39 +4642,57 @@
       "Label": "半径",
       "Counted": {
         "one": "{number} 半径",
-        "other": "{number} 半径"
+        "other": "{number} 半径",
+        "oneSized": "{sizes} 半径",
+        "otherSized": "{number} {sizes} 半径"
       }
     },
     "Self": {
       "Label": "自身"
     },
-    "Sphere": {
-      "Label": "球体",
-      "Counted": {
-        "one": "{number} 球体",
-        "other": "{number} 球体"
-      }
-    },
     "Space": {
       "Label": "空間",
       "Counted": {
         "any": "任意の空間",
+        "each": "それぞれの空間",
         "every": "全ての空間",
         "one": "{number} 空間",
         "other": "{number} 空間"
+      }
+    },
+    "Sphere": {
+      "Label": "球体",
+      "Counted": {
+        "one": "{number} 球体",
+        "other": "{number} 球体",
+        "oneSized": "{sizes} 球体",
+        "otherSized": "{number} {sizes} 球体"
+      }
+    },
+    "Special": {
+      "Label": "{special}",
+      "Counted": {
+        "any": "任意の{special}",
+        "each": "それぞれの{special}",
+        "every": "全ての{special}",
+        "one": "{number} {special}",
+        "other": "{number} {special}"
       }
     },
     "Square": {
       "Label": "正方形",
       "Counted": {
         "one": "{number} 正方形",
-        "other": "{number} 正方形"
+        "other": "{number} 正方形",
+        "oneSized": "{sizes} 正方形",
+        "otherSized": "{number} {sizes} 正方形"
       }
     },
     "Target": {
       "Label": "目標",
       "Counted": {
         "any": "任意の目標",
+        "each": "それぞれの目標",
         "every": "全ての目標",
         "one": "目標{number}つ",
         "other": "目標{number}つ"
@@ -4558,13 +4702,16 @@
       "Label": "壁",
       "Counted": {
         "one": "{number} 壁",
-        "other": "{number} 壁"
+        "other": "{number} 壁",
+        "oneSized": "{sizes} 壁",
+        "otherSized": "{number} {sizes} 壁"
       }
     },
     "WillingCreature": {
       "Label": "同意するクリーチャー",
       "Counted": {
         "any": "任意の同意するクリーチャー",
+        "each": "それぞれの同意するクリーチャー",
         "every": "全ての同意するクリーチャー",
         "one": "{number} 同意するクリーチャー",
         "other": "{number} 同意するクリーチャー"
@@ -4641,9 +4788,9 @@
 "DND5E.ToolThieves": "盗賊道具",
 "DND5E.ToolVehicle": "乗り物(地上/水上)",
 "DND5E.TraitAll": "すべての{category}",
-"DND5E.TraitArmorPlural.one": "鎧の訓練",
-"DND5E.TraitArmorPlural.other": "鎧の訓練",
-"DND5E.TraitArmorProf": "鎧の訓練",
+"DND5E.TraitArmorPlural.one": "防具訓練",
+"DND5E.TraitArmorPlural.other": "防具訓練",
+"DND5E.TraitArmorProf": "防具訓練",
 "DND5E.TraitArmorLegacyPlural.one": "防具習熟",
 "DND5E.TraitArmorLegacyPlural.other": "防具習熟",
 "DND5E.TraitArmorLegacyProf": "防具習熟",
@@ -4976,21 +5123,25 @@
 "DND5E.UNITS": {
   "DISTANCE": {
     "Foot": {
+      "Abbreviation": "ft",
       "Label": "フィート",
-      "Abbreviation": "ft"
+      "Template": "フィート"
     },
     "Kilometer": {
+      "Abbreviation": "km",
       "Label": "キロメートル",
-      "Abbreviation": "km"
+      "Template": "キロメートル"
     },
     "Label": "長さ単位",
     "Meter": {
+      "Abbreviation": "m",
       "Label": "メートル",
-      "Abbreviation": "m"
+      "Template": "メートル"
     },
     "Mile": {
+      "Abbreviation": "mi",
       "Label": "マイル",
-      "Abbreviation": "mi"
+      "Template": "マイル"
     }
   },
   "TIME": {
@@ -5495,7 +5646,7 @@
   "DamageExtended": "<em><strong>ヒット：</strong></em> {damage} ダメージ",
   "DamageDouble": "{first} および {second}",
   "DamageShort": "{formula}{type}",
-  "DamageLong": "{average}({formula}){type}",
+  "DamageLong": "{average} <span class=\"formula-group\">({formula})</span> {type}",
   "DC": "難易度{dc}の【{check}】",
   "DCPassiveShort": "難易度{dc}の受動{check}",
   "DCPassiveLong": "受動{check}が{dc}以上",
@@ -5540,7 +5691,7 @@
   "StatusSleeping": "睡眠",
   "StatusStable": "容態安定",
   "StatusSuffocation": "窒息",
-  "StatusSurprised": "驚き",
+  "StatusSurprised": "不意討ち",
   "StatusThreeQuartersCover": "3/4遮蔽",
   "StatusTotalCover": "完全遮蔽",
   "StatusTransformed": "変化中"
