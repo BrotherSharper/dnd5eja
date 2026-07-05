@@ -241,7 +241,7 @@ Hooks.once('babele.init', (babele) => {
 			},
 
 			"advancement": (advancement) => {
-				return advancement.forEach(item => {
+				Object.values(advancement).forEach(item => {
 					if (!item.title) return;
 
 					const key = item.title.toLowerCase();
