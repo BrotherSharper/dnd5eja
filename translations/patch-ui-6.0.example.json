@@ -1,0 +1,22 @@
+{
+  "DND5E.ARMORCLASS": {
+    "Action": {
+      "Configure": "アーマーの設定",
+      "CreateFormula": "カスタム式を作成",
+      "DeleteFormula": "カスタム式を削除"
+    }
+  },
+  "DND5E.CONCENTRATION": {
+    "Action": {
+      "Break": "集中をやめる",
+      "End": "集中を終了"
+    },
+    "Description": "君は『{name}』の{type}の効果に集中している。"
+  },
+  "SETTINGS.DND5E": {
+    "PIETY": {
+      "Name": "信仰心",
+      "Hint": "キャラクターシートに信仰心スコアを表示する。"
+    }
+  }
+}

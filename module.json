@@ -1,13 +1,12 @@
 {
   "id": "dnd5eja",
   "title": "日本語化（DnD5版）",
-  "description": "D&D5版システム用(v5.3.0+)の翻訳Modです。SRDの翻訳も含んでいます。このモッドを使用するには必ずモッドを適用してから言語を変更してください。",
+  "description": "D&D5版システム用(dnd5e v6.0.0+ / Foundry VTT v14)の翻訳Modです。SRDの翻訳も含んでいます。このモッドを使用するには必ずモッドを適用してから言語を変更してください。一部の新規UI文字列は英語プレースホルダーの場合があります。",
   "version": "This is auto replaced",
   "library": "false",
   "compatibility": {
-    "minimum": 13,
-    "verified": 14,
-    "maximum": 14
+    "minimum": "14.359",
+    "verified": "14"
   },
   "authors": [
     {
@@ -22,8 +21,8 @@
         "id": "dnd5e",
         "type": "system",
         "compatibility": {
-          "minimum": "5.3.0",
-          "verified": "5.3.3"
+          "minimum": "6.0.0",
+          "verified": "6.0.0"
         }
       }
     ],
@@ -40,11 +39,6 @@
           "minimum": "2.6.0",
           "verified": "2.9.1"
         }
-      },
-      {
-        "id": "lib-wrapper",
-        "type": "module",
-        "compatibility": {}
       }
     ]
   },
