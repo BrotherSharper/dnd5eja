@@ -2277,7 +2277,7 @@
   }
 },
 "DND5E.EffectsApplyTokens": "選択したコマに適用",
-"DND5E.EffectApplyWarning": "所有権限を持っていないコマに効果を適用できません。",
+"DND5E.EffectApplyWarningConcentration": "他のキャラクターが集中している効果を適用するには、GM 権限が必要です。",
 "DND5E.EffectApplyWarningOwnership": "自分が所有していないコマに効果を適用することはできません。",
 "DND5E.EffectsSearch": "効果を検索",
 
@@ -3095,7 +3095,7 @@
     "other": "{number} ヒット･ポイント"
   },
   "DT": {
-    "Abbr": "DT"
+    "abbr": "DT"
   },
   "Other": {
     "label": "その他オプション"
@@ -6045,7 +6045,7 @@
 },
 
 "SOURCE.BOOK.FreeRules": "フリールール",
-"SOURCE.BOOK.SRD": "System Reference Document 5.1",
+"SOURCE.BOOK.SRD51": "システム・リファレンス・ドキュメント 5.1",
 "SOURCE.BOOK.SRD52": "System Reference Document 5.2",
 "SIDEBAR.SortModePriority": "優先順でソートする"
 }

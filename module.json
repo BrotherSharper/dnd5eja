@@ -1,7 +1,7 @@
 {
   "id": "dnd5eja",
   "title": "日本語化（DnD5版）",
-  "description": "D&D5版システム用(v5.3.0+)の翻訳Modです。SRDの翻訳も含んでいます。このモッドを使用するには必ずモッドを適用してから言語を変更してください。",
+  "description": "D&D5版システム用(dnd5e v5.3.0〜5.3.3 / Foundry VTT v13–14)の翻訳Modです。SRDの翻訳も含んでいます。このモッドを使用するには必ずモッドを適用してから言語を変更してください。",
   "version": "This is auto replaced",
   "library": "false",
   "compatibility": {

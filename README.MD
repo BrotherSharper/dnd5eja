@@ -4,7 +4,12 @@
 * **翻訳ファイル提供者**: [Brother Sharp, Asami, touge]
 * **ベーシックルール整備協力者**: [TAKUMI]
 * **SRD整備訳協力者**: [SIM_KAZ, TAKUMI, のらせす, コーラ, うどんみ, くろたる, アイリッシュ, なる, kenken, しきちきん, takagi, SikaZika, Jean.N, 弌鳥トリィ, B03, Corsha, SIM]
-* **対応dnd5eバージョン**: 4.2.0+
+* **対応 dnd5e バージョン**: **5.3.0〜5.3.3**（Stable `release-5.3.3` 追従）
+* **対応 Foundry VTT**: **13〜14**（minimum 13 / verified 14）
+
+> このブランチ（`maintenance/5.3`）は **dnd5e 5.3.x / Foundry V13–14** 向けのメンテ線です。  
+> **いまの `master` は当面 5.3 相当のまま**です。**dnd5e 6.0 / Foundry 14.359+** 向けは作業ブランチ `feature/dnd5e-6.0` を利用してください（将来 `master` へマージ予定）。  
+> 検証ピン: [`docs/dnd5e-pin-5.3.txt`](docs/dnd5e-pin-5.3.txt)
 
 ＊現在は2024年版の対応を暫定的に行っています。下の説明が完成するまで時間がかかります。
 使用はできますが、不自然な翻訳に気づきましたら教えて下さい。
@@ -13,10 +18,13 @@
 
 以下のリンクをモッドとしてインストールしてください。
 
-* リンク： https://raw.githubusercontent.com/BrotherSharper/dnd5eja/master/module.json
+* 本線（master・当面 5.3 相当）: https://raw.githubusercontent.com/BrotherSharper/dnd5eja/master/module.json
+* 5.3 メンテ線（upstream）: https://raw.githubusercontent.com/BrotherSharper/dnd5eja/maintenance/5.3/module.json
+* 5.3 メンテ線（fork・upstream 反映前の開発用）: https://raw.githubusercontent.com/kenken-trpg/dnd5eja/maintenance/5.3/module.json
+* 6.0 作業線（fork）: https://raw.githubusercontent.com/kenken-trpg/dnd5eja/feature/dnd5e-6.0/module.json
 
 ### 内容
-D&D5版システム用の翻訳ファイルよび辞典が追加されます。ベーシックルール（整備：TAKUMIさん）およびSRD（整備：オンセ工房サーバのみなさん）の辞典も中に含まれています。
+D&D5版システム用の翻訳ファイルおよび辞典が追加されます。ベーシックルール（整備：TAKUMIさん）およびSRD（整備：オンセ工房サーバのみなさん）の辞典も中に含まれています。
 さらに、D&D2024をFVTTで購入した方はフリールールのデータも日本語で利用できるようになります。
 
 #### SRD
