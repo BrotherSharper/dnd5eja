@@ -1,0 +1,18 @@
+{
+  "DND5E.ARMORCLASS": {
+    "Action": {
+      "Configure": "アーマー・クラスの設定"
+    }
+  },
+  "DND5E.CONCENTRATION": {
+    "Action": {
+      "End": "集中を終了"
+    }
+  },
+  "SETTINGS.DND5E": {
+    "PIETY": {
+      "Name": "信仰心",
+      "Hint": "プレイヤー・キャラクターの任意ルール「信仰心」の追跡を有効にする。"
+    }
+  }
+}

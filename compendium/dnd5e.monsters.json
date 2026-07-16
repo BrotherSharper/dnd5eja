@@ -5883,6 +5883,24 @@
 					"description": "<p>[[/attack extended]]。[[/damage extended]]。</p>"
 				}
 			}
+		},
+		"Guardian of Faith": {
+			"name": "信仰の守護者"
+		},
+		"Tiny Animated Object": {
+			"name": "超小型の動く物体"
+		},
+		"Small Animated Object": {
+			"name": "小型の動く物体"
+		},
+		"Medium Animated Object": {
+			"name": "中型の動く物体"
+		},
+		"Large Animated Object": {
+			"name": "大型の動く物体"
+		},
+		"Huge Animated Object": {
+			"name": "超大型の動く物体"
 		}
 	}
 }
