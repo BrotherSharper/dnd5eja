@@ -28,7 +28,7 @@
 "TYPES.ChatMessage": {
   "request": "要求メッセージ",
   "rest": "休憩メッセージ",
-  "timePassed": "Time Passed Message",
+  "timePassed": "時間経過メッセージ",
   "turn": "戦闘ターンメッセージ",
   "usage": "使用法メッセージ"
 },
@@ -65,14 +65,14 @@
 },
 
 "TYPES.RegionBehavior": {
-  "dnd5e.applyActiveEffect": "Apply Active Effect (5e)",
+  "dnd5e.applyActiveEffect": "アクティブ効果を適用 (5e)",
   "dnd5e.difficultTerrain": "移動困難な地形",
   "dnd5e.rotateArea": "範囲の回転"
 },
 
 "TYPES.HINTS": {
   "RegionBehavior": {
-    "dnd5e.applyActiveEffect": "Apply Active Effects to Tokens while they are within the Region and meet certain criteria.",
+    "dnd5e.applyActiveEffect": "リージョン内にいて条件を満たすコマにアクティブ効果を適用します。",
     "dnd5e.difficultTerrain": "リージョンを移動困難な地形として設定し、その種別と影響を受ける対象を設定します。",
     "dnd5e.rotateArea": "中心点を軸に、コマ、タイル、ウォール、その他のオブジェクトを回転させます。"
   }
@@ -96,20 +96,20 @@
   },
   "Formatter": {
     "Check": {
-      "AdvantageMode": "{name} Check Advantage Mode",
-      "Bonus": "{name} Check Bonus",
-      "Maximum": "Maximum {name} Check Roll",
-      "Minimum": "Minimum {name} Check Roll"
+      "AdvantageMode": "{name}判定の有利モード",
+      "Bonus": "{name}判定ボーナス",
+      "Maximum": "{name}判定ロールの最大値",
+      "Minimum": "{name}判定ロールの最小値"
     },
-    "Maximum": "Maximum {name}",
+    "Maximum": "{name}の最大値",
     "Save": {
-      "AdvantageMode": "{name} Save Advantage Mode",
-      "Bonus": "{name} Save Bonus",
-      "Maximum": "Maximum {name} Save Roll",
-      "Minimum": "Minimum {name} Save Roll",
-      "Proficiency": "{name} Save Proficiency"
+      "AdvantageMode": "{name}セーヴの有利モード",
+      "Bonus": "{name}セーヴ・ボーナス",
+      "Maximum": "{name}セーヴ・ロールの最大値",
+      "Minimum": "{name}セーヴ・ロールの最小値",
+      "Proficiency": "{name}セーヴ習熟"
     },
-    "Score": "{name} Score"
+    "Score": "{name}値"
   },
   "SECTIONS": {
     "Bonuses": {
@@ -292,24 +292,24 @@
   "AttributeKeyTooltip": "一般的なキーの一覧については、<a href=\"{url}\">wiki</a>を参照してください。",
   "ChangeType": {
     "Advantage": {
-      "Label": "Rule: Advantage"
+      "Label": "ルール: 有利"
     },
     "Bonus": {
-      "Label": "Rule: Bonus"
+      "Label": "ルール: ボーナス"
     }
   },
-  "Expired": "Expired",
+  "Expired": "期限切れ",
   "Expiry": {
     "GROUPS": {
-      "General": "General",
-      "Specific": "Specific"
+      "General": "一般",
+      "Specific": "特定"
     },
-    "SourceStart": "Start of Source's Next Turn",
-    "SourceEnd": "End of Source's Next Turn",
-    "TargetStart": "Start of Target's Next Turn",
-    "TargetEnd": "End of Target's Next Turn",
-    "YourStart": "Start of Your Next Turn",
-    "YourEnd": "End of Your Next Turn"
+    "SourceStart": "発生源の次のターン開始時",
+    "SourceEnd": "発生源の次のターン終了時",
+    "TargetStart": "目標の次のターン開始時",
+    "TargetEnd": "目標の次のターン終了時",
+    "YourStart": "自分の次のターン開始時",
+    "YourEnd": "自分の次のターン終了時"
   },
   "FIELDS": {
     "statuses": {
@@ -333,20 +333,20 @@
     "behaviors": {
       "element": {
         "level": {
-          "label": "Level Limit",
-          "hint": "Range of levels required to apply this behavior.",
+          "label": "レベル制限",
+          "hint": "この行動を適用するために必要なレベルの範囲。",
           "max": {
-            "label": "Maximum Level"
+            "label": "最大レベル"
           },
           "min": {
-            "label": "Minimum Level"
+            "label": "最小レベル"
           }
         },
         "name": {
-          "label": "Name"
+          "label": "名称"
         }
       },
-      "label": "Area of Effect Behaviors"
+      "label": "効果範囲の行動"
     },
     "description": {
       "label": "説明",
@@ -584,7 +584,7 @@
       "restriction": {
         "level": {
           "Available": "獲得可能なレベル",
-          "AvailableNoCantrips": "Any Available Level (Excluding Cantrips)",
+          "AvailableNoCantrips": "利用可能な任意のレベル（初級呪文を除く）",
           "hint": "獲得できる呪文のレベルを指定します。",
           "label": "呪文レベル"
         },
@@ -600,7 +600,7 @@
         }
       },
       "sorting": {
-        "label": "Sorting Mode"
+        "label": "並び替えモード"
       },
       "type": {
         "Any": "すべて",
@@ -636,7 +636,7 @@
         "hint": "成長時、PLは任意として指定されたアイテムを獲得しなくても良くなります。これ以外の場合は必ず獲得しないといけません。"
       },
       "sorting": {
-        "label": "Sorting Mode"
+        "label": "並び替えモード"
       }
     },
     "Hint": "キャラクターが特定のレベルに達したとき、アイテム（装備、特徴、呪文等）を獲得します。",
@@ -684,30 +684,30 @@
   },
   "ModifyItem": {
     "Action": {
-      "AddChange": "Add Change",
-      "DeleteChange": "Delete Change"
+      "AddChange": "変更を追加",
+      "DeleteChange": "変更を削除"
     },
-    "DropHint": "Drop an Enchantment here",
+    "DropHint": "ここに付与効果をドロップ",
     "Empty": {
-      "WithDropdown": "No changes. Use the <i class=\"fa-solid fa-plus\"></i> button above to create one, or select an existing effect from the drop-down.",
-      "WithoutDropdown": "No changes. Use the <i class=\"fa-solid fa-plus\"></i> button above to create one."
+      "WithDropdown": "変更がありません。上の<i class=\"fa-solid fa-plus\"></i>ボタンで作成するか、ドロップダウンから既存の効果を選択してください。",
+      "WithoutDropdown": "変更がありません。上の<i class=\"fa-solid fa-plus\"></i>ボタンを使用して作成してください。"
     },
     "FIELDS": {
       "changes": {
         "element": {
           "enchantment": {
-            "label": "Applied Enchantment"
+            "label": "適用する付与効果"
           },
           "identifiers": {
-            "hint": "Identifiers for items that will be modified by this enchantment. Identifiers can be prefixed using the item type (e.g. \"spell:mage-hand\").",
-            "label": "Modified Items"
+            "hint": "この付与効果で変更されるアイテムの識別子。アイテム種別を接頭辞にできます（例: \"spell:mage-hand\"）。",
+            "label": "変更対象のアイテム"
           }
         },
-        "label": "Item Changes"
+        "label": "アイテムの変更"
       }
     },
-    "Hint": "Modify existing items using an enchantment.",
-    "Title": "Modify Items"
+    "Hint": "付与効果を使って既存のアイテムを変更します。",
+    "Title": "アイテムの変更"
   },
   "ScaleValue": {
     "Action": {
@@ -745,10 +745,10 @@
       "Dice": {
         "FIELDS": {
           "faces": {
-            "label": "Faces"
+            "label": "面"
           },
           "number": {
-            "label": "Number"
+            "label": "個数"
           }
         },
         "Hint": "バードの声援のダイスや戦技ダイスなど、ダイスの式そのものが変化する特徴のためのスケール変数です。",
@@ -776,14 +776,14 @@
       "Usage": {
         "FIELDS": {
           "period": {
-            "label": "Period"
+            "label": "期間"
           },
           "value": {
-            "label": "Uses"
+            "label": "使用回数"
           }
         },
-        "Hint": "Use this to represent item uses over a certain period.",
-        "Label": "Usage"
+        "Hint": "一定期間におけるアイテムの使用回数を表すために使用します。",
+        "Label": "用法"
       }
     }
   },
@@ -939,21 +939,21 @@
 
 "DND5E.ADVENTURE": {
   "Action": {
-    "Configure": "Configure Adventure",
-    "Launch": "Launch Adventure"
+    "Configure": "アドベンチャーの設定",
+    "Launch": "アドベンチャーを開始"
   },
   "Finished": {
-    "one": "Finished preparing {adventure}.",
-    "other": "Finished preparing {number} adventures."
+    "one": "{adventure}の準備が完了しました。",
+    "other": "{number}件のアドベンチャーの準備が完了しました。"
   },
   "ImportAction": {
-    "ActivateScene": "Activate Initial Scene",
-    "CustomizeWorld": "Customize World Details",
-    "DisplayJournal": "Display Getting Started Journal"
+    "ActivateScene": "初期シーンを有効化",
+    "CustomizeWorld": "ワールド詳細をカスタマイズ",
+    "DisplayJournal": "はじめにのジャーナルを表示"
   },
   "Warning": {
-    "JournalMissing": "Journal entry `{id}` could not be found to display for {adventure}.",
-    "SceneMissing": "Scene `{id}` could not be found to activate for {adventure}."
+    "JournalMissing": "{adventure}用に表示するジャーナル項目 `{id}` が見つかりませんでした。",
+    "SceneMissing": "{adventure}用に有効化するシーン `{id}` が見つかりませんでした。"
   }
 },
 
@@ -971,7 +971,7 @@
 "DND5E.Amount": "数量",
 "DND5E.Appearance": "外見",
 "DND5E.Apply": "適用",
-"DND5E.AttributeScores": "Attribute Scores",
+"DND5E.AttributeScores": "能力値",
 "DND5E.Attunement": "同調",
 "DND5E.AttunementMax": "同調最大数",
 "DND5E.AttunementNone": "同調 不要",
@@ -1007,8 +1007,8 @@
 "DND5E.ARMORCLASS": {
   "Action": {
     "Configure": "アーマー・クラスの設定",
-    "CreateFormula": "Create Custom Formula",
-    "DeleteFormula": "Delete Custom Formula"
+    "CreateFormula": "カスタム式を作成",
+    "DeleteFormula": "カスタム式を削除"
   },
   "Calculation": {
     "Armored": "装備中の防具",
@@ -1023,74 +1023,74 @@
     "UnarmoredMonk": "鎧わぬ守り（モンク）"
   },
   "Condition": {
-    "Positive": "Must have {type}",
-    "Negative": "Must not have {type}"
+    "Positive": "{type}を持つこと",
+    "Negative": "{type}を持たないこと"
   },
   "Configuration": "設定",
-  "CurrentFormula": "Current Formula",
+  "CurrentFormula": "現在の式",
   "CustomFormulas": {
-    "Empty": "No custom formulas. Use the <i class=\"fas fa-plus\"></i> button above to create one."
+    "Empty": "カスタム式がありません。上の<i class=\"fas fa-plus\"></i>ボタンを使用して作成してください。"
   },
   "FIELDS": {
     "attributes": {
       "ac": {
         "armor": {
-          "label": "Equipped Armor Value"
+          "label": "装備中の防具の値"
         },
         "base": {
-          "label": "Base Armor Class"
+          "label": "基本アーマー･クラス"
         },
         "bonus": {
-          "label": "AC Bonus"
+          "label": "ACボーナス"
         },
         "calc": {
-          "label": "AC Calculation Method"
+          "label": "AC計算方法"
         },
         "calcs": {
-          "hint": "These formulas will be used when calculating armor class.",
-          "label": "Selected Formulas"
+          "hint": "これらの式はアーマー･クラスの計算に使用されます。",
+          "label": "選択された式"
         },
         "cover": {
-          "label": "AC from Cover"
+          "label": "遮蔽によるAC"
         },
         "flat": {
-          "hint": "Number that can be used in an armor class by using @attributes.ac.flat in the formula.",
-          "label": "Flat Value"
+          "hint": "式で @attributes.ac.flat として使用できる数値です。",
+          "label": "固定値"
         },
         "formula": {
-          "label": "Extra AC Formula"
+          "label": "追加AC式"
         },
         "formulas": {
           "element": {
             "armored": {
-              "excluded": "Not Armored",
-              "label": "Armored",
-              "required": "Armor Required"
+              "excluded": "防具なし",
+              "label": "防具あり",
+              "required": "防具必須"
             },
             "formula": {
               "label": "式"
             },
             "label": {
-              "label": "Label"
+              "label": "ラベル"
             },
             "shielded": {
-              "excluded": "No Shield",
-              "label": "Shielded",
-              "required": "Shield Required"
+              "excluded": "盾なし",
+              "label": "盾あり",
+              "required": "盾必須"
             }
           },
-          "label": "Formulas"
+          "label": "式"
         },
-        "label": "Armor Class",
+        "label": "アーマー･クラス",
         "min": {
-          "label": "Minimum Armor Class"
+          "label": "最低アーマー･クラス"
         },
         "override": {
           "hint": "この上のテキストボックスを変更すれば自動計算を上書きできます。",
-          "label": "Override"
+          "label": "上書き"
         },
         "shield": {
-          "label": "Equipped Shield Value"
+          "label": "装備中の盾の値"
         }
       }
     }
@@ -1227,17 +1227,17 @@
 "DND5E.Background": "背景",
 "DND5E.BackgroundAdd": "背景を追加",
 "DND5E.BackgroundName": "背景名",
-"DND5E.BaseItem": "Base Item",
+"DND5E.BaseItem": "基本アイテム",
 
 "DND5E.BASE": {
-  "Image": "Image",
-  "Name": "Name"
+  "Image": "画像",
+  "Name": "名前"
 },
 
 "DND5E.Bastion": {
   "Action": {
     "Advance": "拠点ターンを進める",
-    "Maintain": "Maintain Bastion"
+    "Maintain": "拠点を維持"
   },
   "Attack": {
     "Automatic": "自動解決",
@@ -1265,8 +1265,8 @@
     "Hint": "DMG 2024に記載されている拠点システムの各種設定オプション。"
   },
   "Confirm": {
-    "Advance": "This will advance all bastion facility order progress by {duration}, issue the maintain order to all idle facilities, and repair any disabled facilities, would you like to continue?",
-    "Maintain": "This will issue the maintain order to all idle bastion facilities and repair any disabled facilities, would you like to continue?"
+    "Advance": "すべての拠点施設の命令進行を{duration}進め、待機中の全施設に維持命令を出し、無効化された施設を修理します。続行しますか？",
+    "Maintain": "待機中のすべての拠点施設に維持命令を出し、無効化された施設を修理します。続行しますか？"
   },
   "Duration": {
     "Label": "拠点ターンの期間（日数）"
@@ -1295,12 +1295,12 @@
 
 "DND5E.BEHAVIOR": {
   "Action": {
-    "Create": "Create Behavior",
-    "Delete": "Delete Behavior"
+    "Create": "行動を作成",
+    "Delete": "行動を削除"
   },
-  "Empty": "No associated behaviors. Use the <i class=\"fas fa-plus\"></i> button above to create one.",
-  "Hint": "These behaviors will apply to any area of effect placed by this activity.",
-  "Label": "Behavior"
+  "Empty": "関連する行動がありません。上の<i class=\"fas fa-plus\"></i>ボタンを使用して作成してください。",
+  "Hint": "これらの行動は、この用途で配置された効果範囲に適用されます。",
+  "Label": "行動"
 },
 
 "DND5E.Biography": "経歴",
@@ -1409,11 +1409,11 @@
       "label": "有効"
     },
     "dailyRecovery": {
-      "calendar": "Calendar Recovery (via time passing)",
-      "default": "Default (tied to calendar enabled setting)",
-      "hint": "Control whether limited uses with day, dawn, and dusk recovery are recovered based on the world calendar or through the rest dialog.",
-      "label": "Daily Recovery Mode",
-      "manual": "Manual Recovery (via rest dialog)"
+      "calendar": "カレンダー回復（時間経過による）",
+      "default": "デフォルト（カレンダー有効設定に連動）",
+      "hint": "日・夜明け・夕暮れで回復する使用回数制限を、ワールドのカレンダーに基づいて回復するか、休憩ダイアログで回復するかを制御します。",
+      "label": "日次回復モード",
+      "manual": "手動回復（休憩ダイアログによる）"
     },
     "formatters": {
       "date": {
@@ -1606,15 +1606,15 @@
     }
   },
   "TimePassage": {
-    "Midnight": "A new day has begun.",
-    "Sunrise": "The sun has risen.",
-    "Sunset": "The sun has set.",
-    "SunsetSunrise": "The sun has set and the dawn of a new day has come.",
+    "Midnight": "新しい一日が始まりました。",
+    "Sunrise": "日が昇りました。",
+    "Sunset": "日が沈みました。",
+    "SunsetSunrise": "日が沈み、新しい一日の夜明けが訪れました。",
     "TimePassed": {
-      "one": "{number} has passed.",
-      "other": "{number} have passed."
+      "one": "{number}が経過しました。",
+      "other": "{number}が経過しました。"
     },
-    "Title": "Passage of Time"
+    "Title": "時間の経過"
   }
 },
 
@@ -1727,10 +1727,10 @@
       "weaponProf": {
         "mastery": {
           "bonus": {
-            "label": "Bonus Weapon Masteries"
+            "label": "追加の武器マスタリー"
           },
           "value": {
-            "label": "Weapon Masteries"
+            "label": "武器マスタリー"
           }
         }
       }
@@ -1759,12 +1759,12 @@
   "REQUEST": {
     "Action": {
       "Handle": "要求を処理",
-      "Post": "Post Request"
+      "Post": "要求を投稿"
     },
-    "AnyOwner": "Any Owner",
+    "AnyOwner": "いずれかの所有者",
     "Complete": "要求が完了しました",
     "PartyMembers": "パーティメンバー",
-    "Title": "Request"
+    "Title": "要求"
   },
   "TURN": {
     "NoCombatant": "参戦者が存在しません！"
@@ -1784,8 +1784,8 @@
         "hint": "これらの技能や道具に対する習熟度とボーナスを使って能力判定を行います。"
       },
       "bonus": {
-        "label": "Check Bonus",
-        "hint": "Bonus added to all checks made using this activity."
+        "label": "判定ボーナス",
+        "hint": "この用途で行うすべての判定に加算されるボーナス。"
       },
       "dc": {
         "label": "難易度",
@@ -1799,8 +1799,8 @@
         }
       },
       "visible": {
-        "label": "Visible to All",
-        "hint": "Display the rolling button in chat for all players."
+        "label": "全員に表示",
+        "hint": "ロールボタンをすべてのプレイヤーのチャットに表示します。"
       }
     }
   },
@@ -1858,7 +1858,7 @@
 
 "DND5E.COMBAT": {
   "Group": {
-    "ActiveCount": "{current} of {combatants}",
+    "ActiveCount": "{combatants}中 {current}",
     "Title": "{name} グループ"
   }
 },
@@ -1883,7 +1883,7 @@
   },
   "Filters": {
     "Label": "フィルター",
-    "Grouped": "{type} ({group})",
+    "Grouped": "{type}（{group}）",
     "HasDarkvision": "暗視を持つ",
     "HasSpellcasting": "呪文発動能力を持つ",
     "SearchResults": "検索結果"
@@ -1990,15 +1990,15 @@
             "label": "集中ボーナス"
           }
         },
-        "label": "Concentration",
+        "label": "精神集中",
         "limit": {
           "label": "集中上限"
         },
         "roll": {
-          "ability": "Concentration Save Ability",
-          "max": "Maximum Concentration Save Roll",
-          "min": "Minimum Concentration Save Roll",
-          "mode": "Concentration Save Advantage Mode"
+          "ability": "集中セーヴの能力値",
+          "max": "集中セーヴ・ロールの最大値",
+          "min": "集中セーヴ・ロールの最小値",
+          "mode": "集中セーヴの有利モード"
         }
       }
     }
@@ -2009,7 +2009,7 @@
     "Reached": "追加の効果に集中することができません。",
     "Zero": "集中を維持することができません！"
   },
-  "Lost": "Lost Concentration",
+  "Lost": "集中が途切れた",
   "NoSource": "無名の集中先",
   "Warning": {
     "BreakWithoutGM": "他のキャラクターに適用されている途中の効果の集中をやめるにはGMがログインしている状態が必要です。",
@@ -2047,39 +2047,39 @@
     "damage": {
       "base": {
         "bonus": {
-          "label": "Base Damage Bonus"
+          "label": "基本ダメージ・ボーナス"
         },
         "custom": {
           "enabled": {
-            "label": "Use Custom Base Damage Formula"
+            "label": "カスタム基本ダメージ式を使用"
           },
           "formula": {
-            "label": "Custom Base Damage Formula"
+            "label": "カスタム基本ダメージ式"
           }
         },
         "denomination": {
-          "label": "Base Damage Denomination"
+          "label": "基本ダメージ・ダイス面"
         },
         "number": {
-          "label": "Base Damage Die Count"
+          "label": "基本ダメージ・ダイス数"
         },
         "scaling": {
           "formula": {
-            "label": "Base Damage Scaling Formula"
+            "label": "基本ダメージ拡充式"
           },
           "mode": {
-            "label": "Base Damage Scaling Mode"
+            "label": "基本ダメージ拡充モード"
           },
           "number": {
-            "label": "Base Damage Scaling Value"
+            "label": "基本ダメージ拡充値"
           }
         },
         "types": {
-          "label": "Base Damage Types"
+          "label": "基本ダメージ種別"
         }
       },
       "bonus": {
-        "label": "Damage Bonus"
+        "label": "ダメージ・ボーナス"
       },
       "label": "矢弾ダメージ",
       "replace": {
@@ -2207,7 +2207,7 @@
     "Delete": "消費ターゲットを削除",
     "RefundResource": "リソースを回復"
   },
-  "Empty": "No associated consumption. Use the <i class=\"fas fa-plus\"></i> button above to add consumption targets.",
+  "Empty": "関連する消費がありません。上の<i class=\"fas fa-plus\"></i>ボタンで消費対象を追加してください。",
   "Scaling": {
     "Amount": "量",
     "Automatic": "自動",
@@ -2420,8 +2420,8 @@
             "hint": "ロールするダイスの種類。"
           },
           "modifiers": {
-            "label": "Modifiers",
-            "hint": "Roll modifiers added to the base die."
+            "label": "修正値",
+            "hint": "基本ダイスに加算されるロール修正値。"
           },
           "number": {
             "label": "ダイスの数",
@@ -2453,8 +2453,8 @@
       }
     }
   },
-  "Empty": "No damage configured. Use the <i class=\"fas fa-plus\"></i> button above to add damage parts.",
-  "EmptyExceptBase": "Use the <i class=\"fas fa-plus\"></i> button above to add additional damage parts.",
+  "Empty": "ダメージが設定されていません。上の<i class=\"fas fa-plus\"></i>ボタンでダメージ部分を追加してください。",
+  "EmptyExceptBase": "上の<i class=\"fas fa-plus\"></i>ボタンで追加のダメージ部分を追加してください。",
   "Hint": "攻撃やセーヴなしでクリーチャーにダメージを与えます。",
   "Part": {
     "Action": {
@@ -2614,27 +2614,27 @@
 
 "DND5E.EFFECT": {
   "Action": {
-    "AddChange": "Add Change",
+    "AddChange": "変更を追加",
     "CreateEffect": "効果を作成",
     "DeleteEffect": "効果削除",
-    "DeleteChange": "Delete Change",
+    "DeleteChange": "変更を削除",
     "DissociateEffect": "効果を解除",
-    "EditChange": "Edit Change",
+    "EditChange": "変更を編集",
     "EditEffect": "効果編集",
     "RemoveStatus": {
-      "all": "All Sources",
-      "label": "Source"
+      "all": "すべての発生源",
+      "label": "発生源"
     },
     "Search": "効果を検索"
   },
-  "AdditionalChanges": "Additional Changes",
+  "AdditionalChanges": "追加の変更",
   "Application": {
     "Action": {
       "ApplyTokens": "選択したコマに適用"
     },
     "Header": "効果",
     "Warning": {
-      "Concentration": "Applying an effect that is being concentrated on by another character requires GM permissions.",
+      "Concentration": "他のキャラクターが集中している効果を適用するにはGMの権限が必要です。",
       "Ownership": "自分が所有していないコマに効果を適用することはできません。"
     }
   },
@@ -2643,34 +2643,34 @@
       "changes": {
         "element": {
           "conditions": {
-            "hint": "Condition that must be met for this change to apply.",
-            "label": "Change Conditions"
+            "hint": "この変更を適用するために満たす必要がある条件。",
+            "label": "変更条件"
           },
           "key": {
-            "label": "Attribute Key"
+            "label": "属性キー"
           },
           "phase": {
-            "hint": "The point in data preparation, or another event, at which a change is to be applied.",
-            "label": "Phase"
+            "hint": "データ準備やその他のイベントのうち、変更が適用される時点。",
+            "label": "フェーズ"
           },
           "priority": {
-            "label": "Priority"
+            "label": "優先度"
           },
           "type": {
-            "label": "Type"
+            "label": "種別"
           },
           "value": {
-            "label": "Value"
+            "label": "値"
           }
         }
       },
       "conditions": {
-        "hint": "Conditions that control when the effect will be applied.",
-        "label": "Effect Conditions"
+        "hint": "効果が適用されるタイミングを制御する条件。",
+        "label": "効果条件"
       },
       "magical": {
-        "hint": "This effect is from a magical source and should be disabled when magic isn't available.",
-        "label": "Magical"
+        "hint": "この効果は魔法的な発生源によるもので、魔法が利用できないときは無効にすべきです。",
+        "label": "魔法的"
       }
     }
   },
@@ -2681,11 +2681,11 @@
     "Unavailable": "使用不可効果"
   },
   "Change": {
-    "Configuration": "Change Configuration",
-    "Label": "Change",
-    "Title": "{effect} Change #{number}"
+    "Configuration": "変更の設定",
+    "Label": "変更",
+    "Title": "{effect}の変更 #{number}"
   },
-  "DropHint": "Drop an Active Effect here",
+  "DropHint": "ここにアクティブ効果をドロップ",
   "Empty": "関連する効果がありません。上の<i class=\"fas fa-plus\"></i>ボタンを使用して新規作成するか、ドロップダウンから既存の効果を選択してください。",
   "Label": "利用可能な効果",
   "New": "新規効果",
@@ -2702,11 +2702,11 @@
     }
   },
   "Status": {
-    "ChangeActive": "Change Active",
-    "ChangeInactive": "Change Inactive",
+    "ChangeActive": "有効に変更",
+    "ChangeInactive": "無効に変更",
     "DeleteDialog": {
-      "hint": "You are under the effects of this condition from more than one source. Pick which effect to end.",
-      "title": "Remove Effect"
+      "hint": "この状態の効果を複数の発生源から受けています。終了する効果を選んでください。",
+      "title": "効果を除去"
     },
     "Inactive": "無効",
     "Passive": "受動",
@@ -2787,7 +2787,7 @@
     "Action": {
       "Create": "付与効果を作成",
       "Delete": "付与効果を削除",
-      "Dissociate": "Dissociate Enchantment"
+      "Dissociate": "付与効果の関連付けを解除"
     },
     "Active": "{name} (有効)",
     "Empty": "関連する付与効果がありません。上の<i class=\"fas fa-plus\"></i>ボタンを使用して新規作成するか、ドロップダウンから既存の付与効果を選択してください。"
@@ -2824,8 +2824,8 @@
   },
   "FIELDS": {
     "magical": {
-      "hint": "This enchantment is magical and should be disabled when magic isn't available.",
-      "label": "Magical"
+      "hint": "この付与効果は魔法的であり、魔法が利用できないときは無効にすべきです。",
+      "label": "魔法的"
     }
   },
   "Items": {
@@ -2869,30 +2869,30 @@
       "encumbrance": {
         "bonuses": {
           "encumbered": {
-            "label": "Bonus to Encumbered Threshold"
+            "label": "荷重閾値へのボーナス"
           },
           "heavilyEncumbered": {
-            "label": "Bonus to Heavily Encumbered Threshold"
+            "label": "重荷重閾値へのボーナス"
           },
           "maximum": {
-            "label": "Bonus to Maximum Carrying Capacity"
+            "label": "最大運搬能力へのボーナス"
           },
           "overall": {
-            "label": "Bonus to All Encumberance Thresholds"
+            "label": "すべての荷重閾値へのボーナス"
           }
         },
         "multipliers": {
           "encumbered": {
-            "label": "Encumbered Threshold Multiplier"
+            "label": "荷重閾値の乗数"
           },
           "heavilyEncumbered": {
-            "label": "Heavily Encumbered Threshold Multiplier"
+            "label": "重荷重閾値の乗数"
           },
           "maximum": {
-            "label": "Maximum Carrying Capacity Multiplier"
+            "label": "最大運搬能力の乗数"
           },
           "overall": {
-            "label": "Multiplier for All Encumberance Thresholds"
+            "label": "すべての荷重閾値の乗数"
           }
         }
       }
@@ -3281,7 +3281,7 @@
     "Origin": "起源特技"
   },
   "Monster": "モンスター特徴",
-  "PietyTrait": "Piety Trait",
+  "PietyTrait": "信仰心特性",
   "Species": "種族特徴",
   "SpeciesLegacy": "種族特徴",
   "SupernaturalGift": {
@@ -3350,14 +3350,14 @@
 
 "DND5E.FILTER": {
   "Action": {
-    "Edit": "Edit Filters"
+    "Edit": "フィルターを編集"
   },
-  "Empty": "No Filters",
-  "Invalid": "Invalid Filter",
+  "Empty": "フィルターなし",
+  "Invalid": "無効なフィルター",
   "Operator": {
-    "And": "and",
-    "Not": "not",
-    "Or": "or"
+    "And": "かつ",
+    "Not": "でない",
+    "Or": "または"
   }
 },
 
@@ -3369,8 +3369,8 @@
     "Hint": "両手持ち特性を持たない任意の近接武器でボーナスアクションによる追加攻撃を可能にします。"
   },
   "IgnoreArmorSpeedReduction": {
-    "Name": "Ignore Armor Speed Reduction",
-    "Hint": "Ignore the reduction to speed when wearing armor without meeting the strength requirement."
+    "Name": "防具による移動速度低下を無視",
+    "Hint": "筋力要件を満たさずに防具を装備した際の移動速度低下を無視します。"
   }
 },
 
@@ -3400,7 +3400,7 @@
 "DND5E.FlagsReliableTalentHint": "習熟ボーナスが足せる能力値判定を行なった時、D20で9以下の出目は10と見なす。",
 "DND5E.FlagsRemarkableAthlete": "抜群の身体能力",
 "DND5E.FlagsRemarkableAthleteHint": "習熟ボーナスが適用されていない､筋力､敏捷力､耐久力の全ての判定に､習熟ボーナスの半分を適用できます。",
-"DND5E.FlagsRemarkableAthleteHintLegacy": "Half-Proficiency (rounded-up) to physical Ability Checks and Initiative.",
+"DND5E.FlagsRemarkableAthleteHintLegacy": "筋力・敏捷力・耐久力の能力値判定とイニシアチブに、切り上げた習熟ボーナスの半分を適用できます。",
 "DND5E.FlagsWeaponCritThreshold": "武器のクリティカル閾値",
 "DND5E.FlagsWeaponCritThresholdHint": "武器のクリティカル可能域を拡大します。",
 "DND5E.FlagsSpellCritThreshold": "呪文クリティカルの閾値",
@@ -3579,7 +3579,7 @@
 
 "DND5E.HITPOINTS": {
   "Bloodied": {
-    "label": "Bloodied Threshold"
+    "label": "重傷閾値"
   },
   "Counted": {
     "one": "{number} ヒット･ポイント",
@@ -3638,7 +3638,7 @@
 "DND5E.Ideals": "尊ぶもの",
 "DND5E.Identified": "識別済",
 "DND5E.Identifier": "識別子",
-"DND5E.IdentifierCustom": "Custom Identifier",
+"DND5E.IdentifierCustom": "カスタム識別子",
 "DND5E.IdentifierError": "識別子は英文字(a-z)、数字(0-9)、半角ダッシュ(-)、半角アンダースコア(_)のみが使用できます。",
 "DND5E.Identify": "識別",
 "DND5E.Immunities": "完全耐性",
@@ -3762,14 +3762,14 @@
     "WeightlessContents": "重さ無し"
   },
   "Rarity": {
-    "Artifact": "Artifact",
-    "Common": "Common",
-    "Legendary": "Legendary",
-    "Mundane": "Mundane",
-    "Rare": "Rare",
-    "Uncommon": "Uncommon",
-    "Varies": "Varies",
-    "VeryRare": "Very Rare"
+    "Artifact": "アーティファクト",
+    "Common": "コモン",
+    "Legendary": "レジェンダリー",
+    "Mundane": "非魔法",
+    "Rare": "レア",
+    "Uncommon": "アンコモン",
+    "Varies": "さまざま",
+    "VeryRare": "ヴェリー・レア"
   },
   "SECTIONS": {
     "Activities": "用途",
@@ -3791,7 +3791,7 @@
     "Next": "次",
     "Previous": "前",
     "Title": "ナビゲーション",
-    "Up": "Up"
+    "Up": "上へ"
   }
 },
 
@@ -3995,12 +3995,12 @@
 "DND5E.PersonalityTraits": "人格的特徴",
 
 "DND5E.PIETY": {
-  "Configure": "Configure Piety",
-  "Label": "Piety",
+  "Configure": "信仰心の設定",
+  "Label": "信仰心",
   "FIELDS": {
     "value": {
-      "label": "Piety Score",
-      "hint": "This character's current piety score."
+      "label": "信仰心スコア",
+      "hint": "このキャラクターの現在の信仰心スコア。"
     }
   }
 },
@@ -4111,20 +4111,20 @@
   "APPLYACTIVEEFFECT": {
     "FIELDS": {
       "dispositions": {
-        "hint": "If set, only apply effects to Tokens with these dispositions.",
-        "label": "Dispositions"
+        "hint": "設定すると、これらの態度のコマにのみ効果を適用します。",
+        "label": "態度"
       },
       "effects": {
-        "hint": "The effects that are applied to Tokens within the Region.",
+        "hint": "リージョン内のコマに適用される効果。",
         "label": "効果"
       },
       "sizes": {
-        "hint": "If set, only apply effects to Tokens that are these sizes.",
-        "label": "Sizes"
+        "hint": "設定すると、これらのサイズのコマにのみ効果を適用します。",
+        "label": "サイズ"
       },
       "types": {
-        "hint": "If set, only apply effects to Tokens that are these creature types.",
-        "label": "Types"
+        "hint": "設定すると、これらのクリーチャー種別のコマにのみ効果を適用します。",
+        "label": "種別"
       }
     }
   },
@@ -4248,9 +4248,9 @@
 "DND5E.REST": {
   "Configuration": "休憩設定",
   "Duration": {
-    "Hint": "Amount of time to pass during the rest.",
-    "Label": "Duration",
-    "UntilSunrise": "Rest Until Sunrise"
+    "Hint": "休憩中に経過させる時間。",
+    "Label": "効果時間",
+    "UntilSunrise": "日の出まで休憩"
   },
   "HitDice": {
     "AutoSpend": {
@@ -4321,10 +4321,10 @@
 
 "DND5E.ROLL": {
   "Formatter": {
-    "AdvantageMode": "{name} Advantage Mode",
-    "Maximum": "Maximum {name} Roll",
-    "Minimum": "Minimum {name} Roll",
-    "ModifierAbility": "{name} Modifier Ability"
+    "AdvantageMode": "{name}の有利モード",
+    "Maximum": "{name}ロールの最大値",
+    "Minimum": "{name}ロールの最小値",
+    "ModifierAbility": "{name}の修正値能力値"
   },
   "Range": {
     "Label": "ロール範囲",
@@ -4345,7 +4345,7 @@
 
 "DND5E.RollExample": "例 +1d4",
 "DND5E.RollMode": "ロールモード",
-"DND5E.RollModifiers": "Modifiers",
+"DND5E.RollModifiers": "修正値",
 "DND5E.RollSituationalBonus": "状況ボーナス有？",
 
 "DND5E.Rule": {
@@ -4369,7 +4369,7 @@
       "label": "無視する移動困難な地形"
     },
     "multiplier": {
-      "label": "Movement Multiplier"
+      "label": "移動乗数"
     },
     "special": {
       "label": "特殊移動"
@@ -4426,13 +4426,13 @@
         "hint": "セーヴを試みるためにロールしなければならない能力値。"
       },
       "bonus": {
-        "label": "Save Bonus",
-        "hint": "Bonus added to all saving throws made using this activity."
+        "label": "セーヴ・ボーナス",
+        "hint": "この用途で行うすべてのセーヴィング・スローに加算されるボーナス。"
       },
       "dc": {
         "label": "難易度",
         "bonus": {
-          "label": "DC Bonus"
+          "label": "DCボーナス"
         },
         "calculation": {
           "label": "難易度の計算",
@@ -4446,8 +4446,8 @@
         "DefaultFormula": "8 + @mod + @prof"
       },
       "visible": {
-        "label": "Visible to All",
-        "hint": "Display the rolling button in chat for all players."
+        "label": "全員に表示",
+        "hint": "ロールボタンをすべてのプレイヤーのチャットに表示します。"
       }
     }
   },
@@ -4489,8 +4489,8 @@
 "DND5E.Shape": "形状",
 
 "DND5E.SheetClass": {
-  "ActiveEffect": "D&D 5e Active Effect Sheet",
-  "AdventureImporter": "D&D 5e Adventure Importer",
+  "ActiveEffect": "D&D 5e アクティブ効果シート",
+  "AdventureImporter": "D&D 5e アドベンチャー・インポーター",
   "Character": "D&D5版 キャラクターシート",
   "ClassSummary": "D&D5版 クラス概要シート",
   "Container": "D&D5版 容器シート",
@@ -4546,9 +4546,9 @@
 
 "DND5E.SKILL": {
   "Formatter": {
-    "CheckBonus": "{name} Check Bonus",
-    "PassiveBonus": "Passive {name} Bonus",
-    "Proficiency": "{name} Proficiency"
+    "CheckBonus": "{name}判定ボーナス",
+    "PassiveBonus": "受動{name}ボーナス",
+    "Proficiency": "{name}習熟"
   },
   "SECTIONS": {
     "Details": "{label}の詳細",
@@ -4825,8 +4825,8 @@
 "DND5E.Spent": "消費済み",
 
 "DND5E.SplitStack": {
-  "Action": "Split",
-  "Title": "Split Stack"
+  "Action": "分割",
+  "Title": "スタックを分割"
 },
 
 "DND5E.StartingEquipment": {
@@ -4869,7 +4869,7 @@
 "DND5E.SubclassDuplicateError": "このキャラクターにはすでに同じ識別子「{identifier}」のサブクラスが存在しています。",
 "DND5E.SubclassMismatchWarn": "サブクラス「{name}」に対応する識別子「{class}」を持った親クラスが存在しません。",
 "DND5E.SubclassName": "サブクラス名",
-"DND5E.SubclassOf": "{class} Subclass",
+"DND5E.SubclassOf": "{class}のサブクラス",
 "DND5E.Subtype": "種別",
 "DND5E.Summary": "概要",
 
@@ -4911,10 +4911,10 @@
     },
     "flat": {
       "attack": {
-        "label": "Flat Attack To Hit"
+        "label": "固定攻撃ボーナス"
       },
       "save": {
-        "label": "Flat Save DC"
+        "label": "固定セーヴDC"
       }
     },
     "match": {
@@ -5029,7 +5029,7 @@
   "Warning": {
     "NoOwnership": "召喚するには '{actor}' の所有権限が必要です。",
     "NoProfile": "'{item}' の召喚プロファイル {profileId} が見つかりません。",
-    "PlaceTokens": "Error placing summons in scene.",
+    "PlaceTokens": "シーンへの召喚物の配置中にエラーが発生しました。",
     "Wildcard": "ワイルドカードの画像パスを持つクリーチャーを召喚するには「ファイル・ブラウザの使用」権限が必要です。"
   }
 },
@@ -5043,43 +5043,43 @@
 
 "DND5E.TABLEOFCONTENTS": {
   "Action": {
-    "Configure": "Configure Table of Contents"
+    "Configure": "目次の設定"
   },
   "FIELDS": {
     "order": {
-      "label": "Order"
+      "label": "順序"
     },
     "position": {
-      "label": "Position"
+      "label": "位置"
     },
     "showPages": {
-      "label": "Show Pages"
+      "label": "ページを表示"
     },
     "title": {
-      "label": "Title Override"
+      "label": "タイトル上書き"
     },
     "type": {
-      "label": "Type"
+      "label": "種別"
     }
   },
-  "HiddenPages": "Hidden Pages",
-  "HideAllPages": "Hide All Pages",
-  "JournalEntry": "Journal Entry",
-  "NoFolder": "No Folder",
+  "HiddenPages": "非表示ページ",
+  "HideAllPages": "すべてのページを隠す",
+  "JournalEntry": "ジャーナル項目",
+  "NoFolder": "フォルダなし",
   "Special": {
-    "After": "After {chapter}",
-    "End": "End of Table of Contents"
+    "After": "{chapter}の後",
+    "End": "目次の末尾"
   },
-  "Title": "Table of Contents",
+  "Title": "目次",
   "Type": {
-    "Appendix": "Appendix",
-    "Chapter": "Chapter",
-    "Header": "Header",
-    "Special": "Special"
+    "Appendix": "付録",
+    "Chapter": "章",
+    "Header": "ヘッダ",
+    "Special": "特殊"
   },
   "Warning": {
-    "DuplicateHeader": "Only one entry can be set with the Header type.",
-    "DuplicatePosition": "Each Chapter and Appendix should have a unique position value."
+    "DuplicateHeader": "ヘッダ種別の項目は1つだけ設定できます。",
+    "DuplicatePosition": "各章と付録には一意の位置の値が必要です。"
   }
 },
 
@@ -5277,12 +5277,12 @@
       }
     },
     "Ring": {
-      "Label": "Ring",
+      "Label": "リング",
       "Counted": {
-        "one": "{number} ring",
-        "other": "{number} rings",
-        "oneSized": "{sizes} Ring",
-        "otherSized": "{number} {sizes} Rings"
+        "one": "{number}リング",
+        "other": "{number}リング",
+        "oneSized": "{sizes}リング",
+        "otherSized": "{number}個の{sizes}リング"
       }
     },
     "Self": {
@@ -5363,31 +5363,31 @@
 
 "DND5E.TELEPORT": {
   "Action": {
-    "Teleport": "Teleport"
+    "Teleport": "テレポート"
   },
   "FIELDS": {
     "teleport": {
-      "label": "Distance",
-      "hint": "Set the maximum teleport distance.",
+      "label": "距離",
+      "hint": "テレポートの最大距離を設定します。",
       "override": {
-        "label": "Override",
-        "hint": "Override the activity's normal range and manually set the maximum teleport distance."
+        "label": "上書き",
+        "hint": "用途の通常の射程を上書きし、テレポートの最大距離を手動で設定します。"
       },
       "units": {
-        "label": "Distance Unit"
+        "label": "距離単位"
       },
       "value": {
-        "label": "Maximum Distance"
+        "label": "最大距離"
       }
     }
   },
-  "Hint": "Teleport a token to a chosen destination.",
+  "Hint": "選択した目的地へコマをテレポートさせます。",
   "SECTIONS": {
-    "Teleport": "Teleport"
+    "Teleport": "テレポート"
   },
-  "Title": "Teleport",
+  "Title": "テレポート",
   "Warning": {
-    "InvalidDistance": "Teleport can't be used in scenes without supported movement units."
+    "InvalidDistance": "対応する移動単位のないシーンではテレポートを使用できません。"
   }
 },
 
@@ -5431,8 +5431,8 @@
 
 "DND5E.TOOL": {
   "Formatter": {
-    "CheckBonus": "{name} Check Bonus",
-    "Proficiency": "{name} Proficiency"
+    "CheckBonus": "{name}判定ボーナス",
+    "Proficiency": "{name}習熟"
   },
   "SECTIONS": {
     "Details": "{label}の詳細",
@@ -5558,8 +5558,8 @@
         "hint": "選択したプリセットが提供するデフォルト変化設定ではなく、カスタム設定を使用します。"
       },
       "formless": {
-        "hint": "Allow creature to remove all forms and return to a default state.",
-        "label": "Formless"
+        "hint": "すべての形態を解除し、既定の状態に戻ることを許可します。",
+        "label": "無形"
       },
       "identifier": {
         "label": "クラス識別子",
@@ -5570,7 +5570,7 @@
         "hint": "変化元クリーチャーの選択方法を設定します。",
         "CR": "脅威度による",
         "Direct": "直接リンクで指定",
-        "Form": "Select Form"
+        "Form": "形態を選択"
       },
       "preset": {
         "label": "プリセット"
@@ -5578,7 +5578,7 @@
     }
   },
   "Hint": "別のキャラクターのデータを使用してキャラクターを変更します。",
-  "NoForm": "No Form",
+  "NoForm": "形態なし",
   "Preset": {
     "Appearance": {
       "Label": "外見のみ"
@@ -5736,7 +5736,7 @@
   "TemporaryClass": "一時的クラス",
   "Title": "変化",
   "Warning": {
-    "FormActive": "{form} already active on {actor}.",
+    "FormActive": "{form}は既に{actor}に有効です。",
     "NoOwnership": "このキャラクターを変身させる権限がありません。",
     "NoPermission": "プレイヤーには変化が許可されていません。",
     "OriginalActor": "ID '{reference}' を持つ元のキャラクターが見つかりませんでした。",
@@ -6012,7 +6012,7 @@
       "Delete": "回復プロファイルを削除"
     },
     "Combat": "戦闘",
-    "Empty": "No recovery specified. Use the <i class=\"fas fa-plus\"></i> button above to add recovery periods.",
+    "Empty": "回復が指定されていません。上の<i class=\"fas fa-plus\"></i>ボタンで回復期間を追加してください。",
     "Never": "しない",
     "Period": {
       "Dawn": {
@@ -6277,39 +6277,39 @@
     "damage": {
       "base": {
         "bonus": {
-          "label": "Base Damage Bonus"
+          "label": "基本ダメージ・ボーナス"
         },
         "custom": {
           "enabled": {
-            "label": "Use Custom Base Damage Formula"
+            "label": "カスタム基本ダメージ式を使用"
           },
           "formula": {
-            "label": "Custom Base Damage Formula"
+            "label": "カスタム基本ダメージ式"
           }
         },
         "denomination": {
-          "label": "Base Damage Denomination"
+          "label": "基本ダメージ・ダイス面"
         },
         "number": {
-          "label": "Base Damage Die Count"
+          "label": "基本ダメージ・ダイス数"
         },
         "scaling": {
           "formula": {
-            "label": "Base Damage Scaling Formula"
+            "label": "基本ダメージ拡充式"
           },
           "mode": {
-            "label": "Base Damage Scaling Mode"
+            "label": "基本ダメージ拡充モード"
           },
           "number": {
-            "label": "Base Damage Scaling Value"
+            "label": "基本ダメージ拡充値"
           }
         },
         "types": {
-          "label": "Base Damage Types"
+          "label": "基本ダメージ種別"
         }
       },
       "bonus": {
-        "label": "Damage Bonus"
+        "label": "ダメージ・ボーナス"
       },
       "hint": "武器からの固有ダメージダイス。攻撃時には能力修正値および追加のダメージ式が自動的に適用されます。"
     },
@@ -6541,11 +6541,11 @@
 
 "KEYBINDINGS.DND5E.DragCopy": "ドラッグ時に複製を作る",
 "KEYBINDINGS.DND5E.DragMove": "ドラッグ時に移動を優先する",
-"KEYBINDINGS.DND5E.OpenCompendiumBrowser": "Open Compendium Browser",
+"KEYBINDINGS.DND5E.OpenCompendiumBrowser": "辞典ブラウザを開く",
 "KEYBINDINGS.DND5E.SkipDialogAdvantage": "ダイアログをスキップ（有利/クリティカルでロール）",
 "KEYBINDINGS.DND5E.SkipDialogDisadvantage": "ダイアログをスキップ（不利でロール）",
 "KEYBINDINGS.DND5E.SkipDialogNormal": "ダイアログをスキップ",
-"KEYBINDINGS.DND5E.ToggleSheetMode": "Toggle Sheet Mode",
+"KEYBINDINGS.DND5E.ToggleSheetMode": "シートモード切替",
 "MACRO.5eMissingTargetWarn": "操作しているキャラクター「{actor}」は「{name}」と名前のつく{type}を所持していません。",
 "MACRO.5eMultipleTargetsWarn": "操作しているキャラクター「{actor}」には複数個の「{name}」と名前のつく{type}が存在しています。一番最初に一致したものが選択されます。",
 "MACRO.5eNoActorSelected": "選択されたキャラクターがありませんのでマクロを実行できませんでした。",
@@ -6553,9 +6553,9 @@
 
 "MIGRATION.DND5E": {
   "Compendium": {
-    "Failed": "Migration failed for compendium {compendium}.",
-    "Migrate": "Migrating compendium {compendium} for version {version}.",
-    "Refresh": "Refreshing compendium {compendium}."
+    "Failed": "辞典 {compendium} の移行に失敗しました。",
+    "Migrate": "辞典 {compendium} をバージョン {version} 向けに移行しています。",
+    "Refresh": "辞典 {compendium} を更新しています。"
   },
   "World": {
     "Begin": "D&D5版システムのバージョン{version}への移行を行っています。作業が完了するまでワールドやサーバーを閉じないでください。",
@@ -6574,8 +6574,8 @@
 "SETTINGS.5eNoAdvancementsL": "クラスのレベルが上昇したときの選択肢を表示しなくなります。",
 "SETTINGS.5eNoConcentrationN": "集中の管理を無効化する",
 "SETTINGS.5eNoConcentrationL": "自動化された集中管理を無効にします。",
-"SETTINGS.5eNoExhaustionN": "Disable exhaustion automation",
-"SETTINGS.5eNoExhaustionL": "Disable the system's automation of exhaustion effects.",
+"SETTINGS.5eNoExhaustionN": "消耗状態の自動化を無効化",
+"SETTINGS.5eNoExhaustionL": "システムの消耗状態の自動化を無効にします。",
 "SETTINGS.5eGridAlignedSquareTemplatesL": "呪文やアイテムの使用から出現した四角テンプレートはマス目に沿うようになり、回転が不可となります。",
 "SETTINGS.5eGridAlignedSquareTemplatesN": "四角テンプレートは回転不可",
 
@@ -6589,10 +6589,10 @@
       "None": "なし"
     },
     "SenseVision": {
-      "Name": "Sync Senses to Token Vision",
-      "Hint": "Automatically configure token vision range, vision mode, and detection modes based on the actor's senses.",
-      "Notice": "Vision and detection are synced from this actor's {senses}.",
-      "Senses": "senses"
+      "Name": "感覚をコマの視覚と同期",
+      "Hint": "アクターの感覚に基づき、コマの視覚範囲・視覚モード・感知モードを自動設定します。",
+      "Notice": "視覚と感知は、このアクターの{senses}から同期されています。",
+      "Senses": "感覚"
     }
   },
   "BLOODIED": {
@@ -6619,12 +6619,12 @@
       "Hint": "イニシアチブの同値時に、敏捷力の基本値を加えて順位を決定する。"
     },
     "AutoApplyDowned": {
-      "Name": "Auto-Apply Downed",
-      "Hint": "Automatically mark a creature as Dead or Unconscious when it is reduced to 0 HP in combat. Unimportant NPCs are marked Dead. Important NPCs and PCs are marked Unconscious first, and Dead if they fail three death saving throws.",
-      "None": "Never",
-      "DeadOnly": "For NPCs (dead only)",
-      "NPCs": "For NPCs (dead and unconscious)",
-      "All": "Always"
+      "Name": "ダウン状態の自動適用",
+      "Hint": "戦闘中にHPが0になったクリーチャーを自動的に死亡または気絶としてマークします。重要でないNPCは死亡になります。重要なNPCとPCはまず気絶になり、死亡セーヴィング・スローに3回失敗すると死亡になります。",
+      "None": "しない",
+      "DeadOnly": "NPCのみ（死亡のみ）",
+      "NPCs": "NPCのみ（死亡と気絶）",
+      "All": "常に"
     },
     "InitiativeScore": {
       "Name": "イニシアチブ値",
@@ -6634,16 +6634,16 @@
       "NPCs": "GM管理のNPCにスコアを適用"
     },
     "InitiativeGroupCombatants": {
-      "Name": "Group Combatants",
-      "Hint": "Group combatants with the same initiative score in the encounter tracker."
+      "Name": "戦闘参加者をグループ化",
+      "Hint": "同じイニシアチブ値の戦闘参加者を遭遇トラッカーでグループ化します。"
     },
     "InitiativeGroupRoll": {
-      "Name": "Roll Once per Creature",
-      "Hint": "Use the same initiative roll for identical creatures."
+      "Name": "クリーチャーごとに1回ロール",
+      "Hint": "同一のクリーチャーに同じイニシアチブ・ロールを使用します。"
     }
   },
   "CONDITIONS": {
-    "Name": "Conditions"
+    "Name": "状態"
   },
   "CRITICAL": {
     "Name": "クリティカルダメージ",
@@ -6661,13 +6661,13 @@
     "Hint": "習熟度に関係なく、NPCシートに表示されるデフォルトの技能。"
   },
   "ENCOUNTERS": {
-    "Name": "Encounters",
+    "Name": "遭遇",
     "EncounterPlacementBehavior": {
-      "Name": "Placement Options",
-      "Hint": "Configure whether to add encounter members to combat when placed on a scene.",
-      "CreateCombatants": "Add to Combat",
-      "None": "Do Nothing",
-      "RollInitiative": "Add to Combat and Roll Initiative"
+      "Name": "配置オプション",
+      "Hint": "シーンに配置した際、遭遇メンバーを戦闘に追加するかどうかを設定します。",
+      "CreateCombatants": "戦闘に追加",
+      "None": "何もしない",
+      "RollInitiative": "戦闘に追加してイニシアチブをロール"
     }
   },
   "General": "一般",
