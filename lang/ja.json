@@ -669,7 +669,7 @@
         "Label": "ダイス"
       },
       "Distance": {
-        "Hint": "オーラの距離や移動速度を上昇する特徴のための距離を表す変数に使用してください。",
+        "Hint": "放射の距離や移動速度を上昇する特徴のための距離を表す変数に使用してください。",
         "Label": "距離"
       },
       "Number": {
@@ -4512,7 +4512,7 @@
         },
         "stationary": {
           "label": "固定",
-          "hint": "配置したオーラ状の効果範囲は移動できません。"
+          "hint": "配置した放射状の効果範囲は移動できません。"
         },
         "type": {
           "label": "エリアの種類",
@@ -4601,12 +4601,12 @@
       }
     },
     "Emanation": {
-      "Label": "オーラ状",
+      "Label": "放射状",
       "Counted": {
-        "one": "{number} オーラ状",
-        "other": "{number} オーラ状",
-        "oneSized": "{sizes} オーラ状",
-        "otherSized": "{number} {sizes} オーラ状"
+        "one": "{number} 放射状",
+        "other": "{number} 放射状",
+        "oneSized": "{sizes} 放射状",
+        "otherSized": "{number} {sizes} 放射状"
       }
     },
     "Enemy": {
