@@ -14,6 +14,23 @@
 ＊現在は2024年版の対応を暫定的に行っています。下の説明が完成するまで時間がかかります。
 使用はできますが、不自然な翻訳に気づきましたら教えて下さい。
 
+### SRD 2024（`*24` packs）の日本語化
+
+本モジュールは **UI 翻訳** と **旧 SRD / ベーシックルール辞典** が中心です。  
+公式 dnd5e に含まれる **SRD 2024 コンペンディアム**（`classes24` / `spells24` / `equipment24` / `actors24` / `content24` など）の本文翻訳は、別モジュールで提供しています。
+
+* リポジトリ: https://github.com/kenken-trpg/translate-dnd5e-sdr2-ja  
+* マニフェスト: https://raw.githubusercontent.com/kenken-trpg/translate-dnd5e-sdr2-ja/main/module.json  
+
+**併用手順（推奨）**
+
+1. 本モジュール（`dnd5eja`）・`foundryVTTja`・`babele`・`lib-wrapper` を有効化  
+2. `translate-dnd5e-sdr2-ja` をインストールして有効化（Foundry が推奨モジュールとして案内する場合あり）  
+3. 言語を **日本語 (ja)** にする  
+4. Compendium の `*24` パック（クラス・呪文・アクター等）が日本語になることを確認  
+
+`translate-dnd5e-sdr2-ja` は本モジュールの置き換えではなく **補完** です。旧 SRD 辞典・UI 訳はこれまでどおり本モジュール側を使います。
+
 ### インストール方法
 
 以下のリンクをモッドとしてインストールしてください。
