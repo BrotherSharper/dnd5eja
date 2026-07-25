@@ -7,21 +7,23 @@
 * **対応dnd5eバージョン**: 6.0.0+（Foundry VTT 14.359+）
 * **V13 / dnd5e 5.3.x向け**: ブランチ `maintenance/5.3`
 
-＊現在は2024年版の対応を暫定的に行っています。下の説明が完成するまで時間がかかります。
-使用はできますが、不自然な翻訳に気づきましたら教えて下さい。
-＊dnd5e 6.0向けにUIキーを同期しています。新規UIの一部は英語プレースホルダーです（仕様: docs/I18N-TRANSLATION-FORMAT.md）。
+＊dnd5e 6.0向けにUIキーを同期しています。新規UIの一部は英語プレースホルダーの場合があります（仕様: docs/I18N-TRANSLATION-FORMAT.md）。
+＊SRD 2024（`*24` コンペンディアム）の Babele 翻訳を同梱しています。不自然な訳に気づいたら教えてください。
 
 ### インストール方法
 
 以下のリンクをモッドとしてインストールしてください。
 
 * リンク： https://raw.githubusercontent.com/BrotherSharper/dnd5eja/master/module.json
+* 6.0 作業線（fork）: https://raw.githubusercontent.com/kenken-trpg/dnd5eja/feature/dnd5e-6.0/module.json
+
+必要モジュール: **Babele**、**foundryVTTja**（および Babele 用の **lib-wrapper**）。
 
 ### 内容
-D&D5版システム用の翻訳ファイルよび辞典が追加されます。ベーシックルール（整備：TAKUMIさん）およびSRD（整備：オンセ工房サーバのみなさん）の辞典も中に含まれています。
-さらに、D&D2024をFVTTで購入した方はフリールールのデータも日本語で利用できるようになります。
+D&D5版システム用の翻訳ファイルおよび辞典が追加されます。ベーシックルール（整備：TAKUMIさん）およびSRD（整備：オンセ工房サーバのみなさん）の辞典も中に含まれています。
+さらに、D&D2024 / SRD 2024 のシステムコンペンディアム（`*24`）も日本語で利用できます。
 
-#### SRD
+#### SRD（従来）
 * クラス（自動レベルアップ付き）
 * サブクラス
 * クラス特徴
@@ -38,11 +40,21 @@ D&D5版システム用の翻訳ファイルよび辞典が追加されます。�
 * クラス
 * クラス特徴
 
+#### SRD 2024（dnd5e `*24` / Babele）
+* Classes / Origins / Feats / Spells / Equipment
+* Actors / Tables / Rules（content24）/ Monster Features
+* 翻訳ソースは srd2024 JA パック（参考実装: [translate-dnd5e-sdr2-ja](https://github.com/kenken-trpg/translate-dnd5e-sdr2-ja)）
+
 #### フリールール https://note.com/brothersharp/n/nf606c79c1819
-* 装備品
-* 今後ほかも追加予定
+* 装備品など（従来の暫定対応）
 
 このモッドを使用するには先にモッドとしてインストールし、ゲーム内でモッドを有効化する必要があります。
+
+### 注意: 他の SRD 2024 翻訳モジュールとの併用
+
+**`translate-dnd5e-sdr2-ja` と同時に有効にしないでください。**  
+同じ `dnd5e.*24` パックを両方とも翻訳するため、Babele のマージ結果で **パック表示名（label）や訳が上書き・混在**します。  
+実運用では **dnd5eja のみ**を有効にし、`translate-dnd5e-sdr2-ja` は無効（またはアンインストール）にしてください。
 
 ### 何か足りませんか？
 
