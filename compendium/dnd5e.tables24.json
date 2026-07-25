@@ -1,0 +1,1049 @@
+{
+  "label": "表",
+  "folders": {
+    "Bag of Tricks": "Bag of Tricks",
+    "Creating a Character": "Creating a Character",
+    "Item-Specific Tables": "Item-Specific Tables",
+    "Magic Items": "Magic Items",
+    "Monster Details": "Monster Details",
+    "Mysterious Deck": "Mysterious Deck",
+    "Random Magic Item Rarity by Level": "Random Magic Item Rarity by Level",
+    "Reincarnated Lineages": "Reincarnated Lineages",
+    "Sentient Item Attributes": "Sentient Item Attributes",
+    "Spells": "Spells"
+  },
+  "entries": {
+    "dmg1116RandomMag": {
+      "name": "レベル11-16",
+      "results": {
+        "1-11": "コモン",
+        "12-34": "アンコモン",
+        "35-70": "レア",
+        "71-93": "ヴェリー・レア",
+        "94-100": "レジェンダリー"
+      },
+      "description": ""
+    },
+    "dmg13CardDeckOfM": {
+      "name": "ミステリアス・デッキ：13枚のカード",
+      "results": {
+        "1-8": "エウリュアレー",
+        "9-16": "火炎",
+        "17-24": "道化",
+        "25-32": "鍵",
+        "33-40": "騎士",
+        "41-48": "月",
+        "49-56": "ローグ",
+        "57-64": "破滅",
+        "65-72": "髑髏",
+        "73-80": "星",
+        "81-88": "太陽",
+        "89-96": "玉座",
+        "97-100": "虚無"
+      },
+      "description": ""
+    },
+    "dmg14RandomMagic": {
+      "name": "レベル1-4",
+      "results": {
+        "1-54": "コモン",
+        "55-91": "アンコモン",
+        "92-100": "レア"
+      },
+      "description": ""
+    },
+    "dmg1720RandomMag": {
+      "name": "レベル17-20",
+      "results": {
+        "1-20": "レア",
+        "21-64": "ヴェリー・レア",
+        "65-100": "レジェンダリー"
+      },
+      "description": ""
+    },
+    "dmg22CardDeckOfM": {
+      "name": "ミステリアス・デッキ：22枚のカード",
+      "results": {
+        "1-5": "バランス",
+        "6-10": "彗星",
+        "11-14": "地下牢",
+        "15-18": "エウリュアレー",
+        "19-23": "運命",
+        "24-27": "火炎",
+        "28-31": "愚者",
+        "32-36": "宝石",
+        "37-41": "道化",
+        "42-46": "鍵",
+        "47-51": "騎士",
+        "52-56": "月",
+        "57-60": "謎",
+        "61-64": "ローグ",
+        "65-68": "破滅",
+        "69-73": "賢者",
+        "74-77": "髑髏",
+        "78-82": "星",
+        "83-87": "太陽",
+        "88-91": "鉤爪",
+        "92-96": "玉座",
+        "97-100": "虚無"
+      },
+      "description": ""
+    },
+    "dmg510RandomMagi": {
+      "name": "レベル5-10",
+      "results": {
+        "1-30": "コモン",
+        "31-81": "アンコモン",
+        "82-98": "レア",
+        "99-100": "ヴェリー・レア"
+      },
+      "description": ""
+    },
+    "dmgAmuletOfThePl": {
+      "name": "アミュレット・オヴ・ザ・プレインズ／次元界のお守りの着地点",
+      "results": {
+        "1-60": "あなたが名前を付けた次元界のランダムな場所",
+        "61-70": "[[/r 1d6]]を振って決定される内方次元界のランダムな場所：1なら風の元素界、2なら地の元素界、3なら火の元素界、4なら水の元素界、5ならフェイワイルド、6ならシャドウフェル",
+        "71-80": "[[/r 1d8]]を振って決定される内方次元界のランダムな場所：1 , アルボレア; 2 , アルカディア; 3 , ビーストランド; 4 , バイトピア; 5 , エリシウム; 6 , メカヌス; 7 , セレスティア山; 8 , イスガルド",
+        "81-90": "[[/r 1d8]]を振って決定される外方次元界のランダムな場所：1ならアビス、2ならアケロン、3ならカルケリ、4ならゲヘナ、5ならハデス、6ならリンボ、7なら九層地獄、8ならパンデモニウム",
+        "91-100": "アストラル界のランダムな場所"
+      },
+      "description": ""
+    },
+    "dmgArmorOfResist": {
+      "name": "アーマー・オヴ・レジスタンス抵抗種別",
+      "results": {
+        "1-1": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist.ActiveEffect.YreDFSu9z9mGCWt1]",
+        "2-2": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist.ActiveEffect.LTByr2rsRPBLLOA0]",
+        "3-3": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist.ActiveEffect.MqubvD3XEwB7DRST]",
+        "4-4": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist.ActiveEffect.lsPKUk288Jkvahsp]",
+        "5-5": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist.ActiveEffect.18IZ8X8zpDXyN33T]",
+        "6-6": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist.ActiveEffect.CfxFdUSiXkOUXym6]",
+        "7-7": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist.ActiveEffect.VST1qNRu1dHDzkD2]",
+        "8-8": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist.ActiveEffect.mmp5O2pZOxJUc2vq]",
+        "9-9": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist.ActiveEffect.jyWNVNHLYdxvCOQz]",
+        "10-10": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgArmorOfResist.ActiveEffect.cbsuJ2tdbBuT5e8U]"
+      },
+      "description": ""
+    },
+    "dmgBagOfBeansEff": {
+      "name": "バッグ・オヴ・ビーンズ効果表",
+      "results": {
+        "1-1": "[[/r 5d4#Toadstools]] 個のキノコが芽を出す。クリーチャーがそのキノコを1つ食べた場合、[[/r 1d2#Toadstool side-effect]]{any die}を振ること。奇数が出た場合、食べたクリーチャーは [[/save ability=con dc=15 format=long]] に成功しなければ[[/damage 5d6 type=poison]]のダメージを受け、1時間のあいだ &Reference[Poisoned] 状態になる。偶数が出た場合、食べたクリーチャーは1時間のあいだ [[/healing 5d6 type=temphp]] の一時的HPを得る。",
+        "2-10": "間欠泉が噴出し、[[/r 1d4#間欠泉の持続時間（分）]]分間、水、ビール、マヨネーズ、紅茶、酢、ワイン、油（DMが選択）のいずれかを30フィート上空に噴出する。",
+        "11-20": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.NB6wUgVqeOQtsQKu] が芽吹く。 [[/r 1d2#Treant alignment]]{any die}を振ること。奇数が出た場合、そのトレントは混沌にして悪、偶数が出た場合は混沌にして善となる。",
+        "21-30": "君の姿を模した動かない石像が立ち上がり、君に対して言葉で脅迫を始める。もし君がその場を離れ、他の者たちが近づくと、石像は君を最も悪しき悪党として語り、その新たに来た者たちに君を探し出し、攻撃するように指示する。もし君がその石像と同じ次元界にいる場合、石像は君の位置を知っている。この石像は24時間後に動かなくなる。",
+        "31-40": "緑色の炎を灯したかがり火が現れ、24時間燃え続けるか、消されるまで燃え続ける。",
+        "41-50": "３つの @UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.TaK6nQMGqZ0y8gt7] が芽を出す。",
+        "51-60": "[[/r 1d4 + 4#Bright-pink toads]] 匹の鮮やかなピンク色の@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobFrog000000]が這い出てくる。これらのヒキガエルのいずれかに触れると、それはDMの選んだ大型以下のモンスターに変化し、その属性と本性に従って行動する。そのモンスターは1分間存在し、その後鮮やかなピンク色の煙を残して消える。",
+        "61-70": "空腹の@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.1ES45ODWg3pCrkzv] が地面を掘り進んで現れ、襲いかかってくる。",
+        "71-80": "果樹が1本育つ。その木には[[/r 1d10 + 20#Pieces of fruit]]個の果実が実っており、そのうち[[/gmr 1d8#Fruits acting as Potions]]個はランダムに決定されるポーションとして機能する。木は1時間後に消えるが、収穫された果実は残り、魔法的な効果を30日間保持する。",
+        "81-90": "[[/r 1d4 + 3#Rainbow-colored eggs]] 個の虹色の卵の入っている巣が現れる。卵を食べたクリーチャーは[[/save ability=con dc=20 format=long]]を行うこと。セーヴに成功した場合、クリーチャーは自分の最も低い能力値1つを恒久的に1点上昇させる。同点が複数ある場合はランダムに選ぶ。セーヴに失敗した場合、クリーチャーは内部爆発により[[/damage 10d6 type=force]]のダメージを受ける。",
+        "91-95": "一辺60フィートの正方形の土台を持つピラミッドが地面から突き上がるように出現する。その内部には埋葬室があり、@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.t8WYD7ak07X7xpx8]、@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.UFW8M3JHzHkxUEGM]、あるいはDMが選んだ別のアンデッドが安置されている。その石棺には、DMが選んだ財宝が納められている。",
+        "96-100": "巨大な豆の木が芽を出し、DMが決めた高さまで成長する。その頂上は、壮大な景色、クラウド・ジャイアントの城、あるいは別の次元界など、DMの選んだ場所へと通じている。"
+      },
+      "description": ""
+    },
+    "dmgCandleOfInvoc": {
+      "name": "キャンドル・オヴ・インヴォケーション／祈祷のろうそく: 外方次元界の到着先",
+      "results": {
+        "1-5": "奈落",
+        "6-10": "アケロン",
+        "11-17": "アルボレア",
+        "18-25": "アルカディア",
+        "26-33": "ビーストランド",
+        "34-41": "バイトピア",
+        "42-46": "カルケリ",
+        "47-54": "エリュシオン",
+        "55-59": "ゲヘナ",
+        "60-64": "ハデス",
+        "65-69": "リンボ",
+        "70-77": "メカナス",
+        "78-85": "天界山セレスティア",
+        "86-90": "九層地獄",
+        "91-95": "パンデモニウム",
+        "96-100": "イスガルド"
+      },
+      "description": ""
+    },
+    "dmgCarpetOfFlyin": {
+      "name": "カーペット・オヴ・フライング／空飛ぶじゅうたん:サイズ、運搬能力、移動速度",
+      "results": {
+        "1-20": "3 × 5 フィート | 運搬能力200ポンド | 飛行速度80フィート",
+        "21-55": "4 × 6 フィート | 運搬能力400ポンド | 飛行速度60フィート",
+        "56-80": "5 × 7 フィート | 運搬能力600ポンド | 飛行速度40フィート",
+        "81-100": "6 × 9 フィート | 運搬能力800ポンド | 飛行速度30フィート"
+      },
+      "description": ""
+    },
+    "dmgEfreetiBottle": {
+      "name": "イフリート・ボトル／イフリートの壺",
+      "results": {
+        "1-1": "イフリート 君を攻撃する。5ラウンド戦った後、イフリートは姿を消し、ボトルは魔力を失う。",
+        "2-9": "イフリートは君の言語を理解し、1時間の間君の命令に従う。その後、ボトルに戻り、新しい栓で封印される。その栓は24時間取り外せない。次にボトルが開けられる2回も同じ効果が発生する。ボトルが4回目に開けられた場合、イフリートは逃げ出し、姿を消し、ボトルは魔力を失う。",
+        "10-10": "イフリート は君の言語 を理解し、君のために1回 <em>@UUID[Compendium.dnd-players-handbook.sells.Item.phbsplWish000000]</em>を使うことができる。イフリートは願いをかなえた後、または1時間経過すると姿を消し、ボトルは魔力を失う。"
+      },
+      "description": "<p>最初に@UUID\\[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEfreetiBottle]{bottle}が開けられたとき、ダンジョン・マスターは以下の表を振って、何が起こるかを決定する。</p>"
+    },
+    "dmgGrayBagOfTric": {
+      "name": "グレー・バッグ・オヴ・トリックス",
+      "results": {
+        "1-1": "ウィーゼル",
+        "2-2": "ジャイアント・ラット",
+        "3-3": "アナグマ",
+        "4-4": "ボア",
+        "5-5": "豹",
+        "6-6": "ジャイアント・バジャー",
+        "7-7": "ダイア・ウルフ",
+        "8-8": "ジャイアント・エルク"
+      },
+      "description": ""
+    },
+    "dmgHatOfManySpel": {
+      "name": "ハット・オヴ・メニー・スペル",
+      "results": {
+        "1-50": "君は[[/r 1d10]]を振ってランダムに呪文を唱える:1が出れば、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnlargeRed]（拡大効果）。2が出れば、{Enlarge/Reduce}（縮小効果）。3が出れば、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]。4が出れば、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]。5が出れば、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]。6が出れば、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]（自分に発動）。7が出れば、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLightningB]。8が出れば、@UUID[Compendium.dnd-players-handbook.spells.Item.phbPhantasmalFor]。9が出れば、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]。10が出れば、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStinkingCl]。",
+        "51-55": "君は次のターン終了まで、&Reference[Stunned]状態にあり、何か素晴らしいことが起きたと信じている。",
+        "56-60": "君から30フィート以内の10フィート立方体内に、無害な蝶の群れが現れる。この群れは1分後に散る。",
+        "61-65": "君は帽子から非魔法の物体を取り出す。1d4を振って物体を決定する:1が出れば、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]。2が出れば、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAlchemistsF]。3が出れば、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]。4が出れば、点火された@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]。",
+        "66-70": "君は「魔法酔い」にかかり、1時間の間、&Reference[Poisoned]状態になる。",
+        "71-75": "君は次のターン終了まで、&Reference[Petrified]状態である。",
+        "76-80": "君は帽子から非魔法の物体を取り出す。[[/r 1d4]]を振って物体を決定する:1が出れば、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]。2が出れば、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000] に@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]が一端に結びつけられている。3が出れば、@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]。4が出れば、50GP相当の宝石。",
+        "81-85": "君の近くの空いているスペースにクリーチャーが現れる。そのクリーチャーは君の支配下にはなく、通常通りに行動し、1時間後または0ヒット・ポイントになると消える。[[/r 1d4]]を振ってクリーチャーを決定する:1が出れば、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobCamel00000]。2が出れば、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobConstricto]。3が出れば、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobElephant00]。4が出れば、@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobMule000000]。",
+        "86-90": "敵対的な@UUID\\[Compendium.dnd-dungeon-masters-guide.actors.Actor.PcZ0QjIG6bHpffp9]{Swarm of Bats}が帽子から飛び出し、君のスペースを占拠して攻撃してくる。",
+        "91-95": "君の 30 フィート以内の何ものにも占められていないスペースに、別の存在の次元界への垂直、直径 10 フィートの双方向のポータル が開き、次のターンの終了時まで開いたままである。その行き先は DM が決定する。",
+        "96-100": "君は帽子から魔法のアイテムを取り出す。そのアイテムは[[/r 1d6]]で決定される。1d6を振ってアイテムのレアリティを決定する:1–3が出れば、コモン。4–5が出れば、アンコモン。6が出れば、レア。そのアイテムは、消費されるか破壊されない限り、1時間後に消える。アイテムはDMが選択する。"
+      },
+      "description": ""
+    },
+    "dmgDeckOfIllusio": {
+      "name": "デック・オヴ・イリュージョンズ／幻影のデック",
+      "results": {
+        "1-3": "@UUID[Compendium.dnd5e.actors24.Actor.mmAdultRedDragon]",
+        "4-6": "@UUID[Compendium.dnd5e.actors24.Actor.mmArchmage000000]",
+        "7-9": "@UUID[Compendium.dnd5e.actors24.Actor.mmAssassin000000]",
+        "10-12": "@UUID[Compendium.dnd5e.actors24.Actor.mmBanditCaptain0]",
+        "13-15": "@UUID[Compendium.dnd5e.actors24.Actor.mmBasilisk000000]",
+        "16-18": "@UUID[Compendium.dnd5e.actors24.Actor.mmBerserker00000]",
+        "19-21": "@UUID[Compendium.dnd5e.actors24.Actor.mmBugbearWarrior]",
+        "22-24": "@UUID[Compendium.dnd5e.actors24.Actor.mmCloudGiant0000]",
+        "25-27": "@UUID[Compendium.dnd5e.actors24.Actor.mmDruid000000000]",
+        "28-30": "@UUID[Compendium.dnd5e.actors24.Actor.mmErinyes0000000]",
+        "31-33": "@UUID[Compendium.dnd5e.actors24.Actor.mmEttin000000000]",
+        "34-36": "@UUID[Compendium.dnd5e.actors24.Actor.mmFireGiant00000]",
+        "37-39": "@UUID[Compendium.dnd5e.actors24.Actor.mmFrostGiant0000]",
+        "40-42": "@UUID[Compendium.dnd5e.actors24.Actor.mmGnollWarrior00]",
+        "43-45": "@UUID[Compendium.dnd5e.actors24.Actor.mmGoblinWarrior0]",
+        "46-48": "@UUID[Compendium.dnd5e.actors24.Actor.mmGuardianNaga00]",
+        "49-51": "@UUID[Compendium.dnd5e.actors24.Actor.mmHillGiant00000]",
+        "52-54": "@UUID[Compendium.dnd5e.actors24.Actor.mmHobgoblinWarri]",
+        "55-57": "@UUID[Compendium.dnd5e.actors24.Actor.mmIncubus0000000]",
+        "58-60": "@UUID[Compendium.dnd5e.actors24.Actor.mmIronGolem00000]",
+        "61-63": "@UUID[Compendium.dnd5e.actors24.Actor.mmKnight00000000]",
+        "64-66": "@UUID[Compendium.dnd5e.actors24.Actor.mmKoboldWarrior0]",
+        "67-69": "@UUID[Compendium.dnd5e.actors24.Actor.mmLich0000000000]",
+        "70-72": "@UUID[Compendium.dnd5e.actors24.Actor.mmMedusa00000000]",
+        "73-75": "@UUID[Compendium.dnd5e.actors24.Actor.mmNightHag000000]",
+        "76-78": "@UUID[Compendium.dnd5e.actors24.Actor.mmOgre0000000000]",
+        "79-81": "@UUID[Compendium.dnd5e.actors24.Actor.mmOni00000000000]",
+        "82-84": "@UUID[Compendium.dnd5e.actors24.Actor.mmPriest00000000]",
+        "85-87": "@UUID[Compendium.dnd5e.actors24.Actor.mmSuccubus000000]",
+        "88-90": "@UUID[Compendium.dnd5e.actors24.Actor.mmTroll000000000]",
+        "91-93": "@UUID[Compendium.dnd5e.actors24.Actor.mmWarriorVeteran]",
+        "94-96": "@UUID[Compendium.dnd5e.actors24.Actor.mmWyvern00000000]",
+        "97-100": "カードの引き手"
+      },
+      "description": "<p>これらのクリーチャー（カードの引き手を除く）のステータスブロックは<em>『モンスター・マニュアル』</em>に記載されている。</p>"
+    },
+    "dmgHornOfValhall": {
+      "name": "ホーン・オヴ・ヴァルハラ／ヴァルハラの角笛：タイプと前提条件",
+      "results": {
+        "1-40": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSilverHornOfV] (2 spirits); 前提条件なし",
+        "41-75": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBrassHornOfVa] (3 spirits); 単純武器への習熟",
+        "76-90": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgBronzeHornOfV] (4 spirits); 中装鎧への習熟",
+        "91-100": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgIronHornOfVal] (5 spirits); 軍用武器への習熟"
+      },
+      "description": ""
+    },
+    "dmgIronFlaskCont": {
+      "name": "アイアン・フラスク／鉄のビンの中身",
+      "results": {
+        "1-50": "クリーチャーいない",
+        "51-51": "アルカナロス",
+        "52-54": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.AnseLn7HwuP97grf]",
+        "55-56": "カンビオン",
+        "57-58": "ダオ",
+        "59-59": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.m4H3hjamBNMH09S9]",
+        "60-61": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.5P1VGAZQwOilwZQf]",
+        "62-63": "イフリート@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.LTomFUTBrkRi0Pj5]",
+        "64-65": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.3o2rQBqpzjIHmrBW]",
+        "66-67": "フォモール",
+        "68-68": "ギスヤンキの騎士",
+        "69-69": "ギスゼライのゼルス",
+        "70-71": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.OGPHF4sCVOAi87TU]",
+        "72-74": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.ec3lhsNv1ZRu7Qaq]",
+        "75-75": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.VmdyZDjqAc8vdncY]",
+        "76-77": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.oDspGxRQFBhE74L2]",
+        "78-79": "マリード",
+        "80-80": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.egsSDYbqoLCelb0J]",
+        "81-82": "メゾロス",
+        "83-84": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.rUg5JMnKNnZNBAq9]",
+        "85-86": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.xvh2UOKv1bh03Gih]",
+        "87-88": "ニュカロス",
+        "89-89": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.XEByBLeOkDgL3mrr]",
+        "90-91": "レッド・スラード",
+        "92-93": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.yVNPVJIBpQ2Mp3Xa]",
+        "94-94": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.lOYt73eaJojBDxAV]",
+        "95-95": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.VmdyZDjqAc8vdncY]",
+        "96-96": "ウルトロロス",
+        "97-99": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.6oc29m5uzzzb0pk3]",
+        "100-100": "@UUID[Compendium.dnd-dungeon-masters-guide.actors.Actor.2MZNHeOZweXAYbv1]"
+      },
+      "description": ""
+    },
+    "dmgManualOfGolem": {
+      "name": "マニュアル・オヴ・ゴーレム:種別、時間、費用",
+      "results": {
+        "1-5": "<strong>ゴーレム:</strong>クレイ・ゴーレム<br /><strong>時間：</strong>30日<br /><strong>費用：</strong>65,000GP",
+        "6-17": "<strong>ゴーレム:</strong>フレッシュ・ゴーレム<strong></strong><br /> <strong>時間：</strong>60日<br /><strong>費用：</strong>50,000GP",
+        "18-18": "<strong>ゴーレム:</strong>アイアン・ゴーレム<br /><strong>時間：</strong>120日<br /><strong>費用：</strong>100,000GP",
+        "19-20": "<strong>ゴーレム:</strong>ストーン・ゴーレム<br /><strong>期間：</strong>90日<br /><strong>費用：</strong>80,000GP"
+      },
+      "description": ""
+    },
+    "dmgNecklaceOfPra": {
+      "name": "ネックレス・オヴ・プレイヤー・ビーズ／数珠玉の首飾り　の種別",
+      "results": {
+        "1-6": "ビーズ・オヴ・ブレッシング: @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBless00000]",
+        "7-12": "ビーズ・オヴ・キュアリング: @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds] (level 2 version)",
+        "13-16": "ビーズ・オヴ・フェイヴァー: @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]",
+        "17-18": "ビーズ・オヴ・スマイティング: @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShiningSmi]",
+        "19-19": "ビーズ・オヴ・サモンズ: @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuardianof]",
+        "20-20": "ビーズ・オヴ・ウィンド・ウォーキング: @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWindWalk00]"
+      },
+      "description": ""
+    },
+    "dmgPotionMiscibi": {
+      "name": "ポーション混合",
+      "results": {
+        "1-1": "両方のポーションは効果を失い、その混合物は中心から半径5フィートの範囲で魔法の爆発を引き起こす。その範囲内の各クリーチャーは[[/damage 4d10 type=force]]のダメージを受ける。",
+        "2-8": "両方のポーションは効果を失い、その混合物は君が選んだ摂取型の毒に変わる（詳細は@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.UfAEdm3LbTzvQHC5]を参照）。",
+        "9-15": "両方のポーションの効果が失われる。",
+        "16-25": "1 つのポーションの効果が失われる。",
+        "26-35": "両方のポーションは効果を発揮するが、その数値効果と持続時間は半分になる。もしポーションに数値効果や持続時間がない場合、その効果は失われる。",
+        "36-90": "両方のポーションとも通常通りの効果 。",
+        "91-99": "両方のポーションは効果を発揮するが、1つのポーションの数値効果と持続時間は<span>2倍</span>になる。もしどちらのポーションにもこのように倍増させる要素がなければ、ポーションは通常通りに効果を発揮する。",
+        "100-100": "1つのポーションだけが効果を発揮し、その効果は永続的である。最も単純な効果を永続的にするか、最も楽しいと思われる効果を選ぶこと。例えば、ポーション・オヴ・ヒーリング／癒しの水薬は飲んだ者の最大ヒットポイントを[[/roll 2d4 + 2]]増加させるか、 ポーション・オヴ・インヴィジビリティ／不可視の水薬は飲んだ者に無限に不可視状態を付与するかもしれない。君の裁量で、ディスペル・マジック／魔法解呪 の呪文それに類似した魔法がこの永続的な効果を終わらせることがある。"
+      },
+      "description": ""
+    },
+    "dmgPotionOfResis": {
+      "name": "ポーション・オヴ・レジスタンス／ダメージ抵抗の水薬 の種別",
+      "results": {
+        "1-1": "酸",
+        "2-2": "［冷気］",
+        "3-3": "［火］",
+        "4-4": "［力場］",
+        "5-5": "［電撃］",
+        "6-6": "［死霊］",
+        "7-7": "［毒］",
+        "8-8": "［精神］",
+        "9-9": "［光輝］",
+        "10-10": "［雷鳴］"
+      },
+      "description": ""
+    },
+    "dmgQuaalsFeather": {
+      "name": "フェザー・トークン",
+      "results": {
+        "1-20": "@UUID[Compendium.dnd5e.equipment24.Item.dmgAnchorQuaalsF]",
+        "21-35": "@UUID[Compendium.dnd5e.equipment24.Item.dmgBirdQuaalsFea]",
+        "36-50": "@UUID[Compendium.dnd5e.equipment24.Item.dmgFanQuaalsFeat]",
+        "51-65": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSwanBoatQuaal]",
+        "66-90": "@UUID[Compendium.dnd5e.equipment24.Item.dmgTreeQuaalsFea]",
+        "91-100": "@UUID[Compendium.dnd5e.equipment24.Item.dmgWhipQuaalsFea]"
+      },
+      "description": ""
+    },
+    "dmgRingOfResista": {
+      "name": "リング・オヴ・レジスタンス／抵抗の指輪：ダメージ抵抗種別と宝石種",
+      "results": {
+        "1-1": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.dBl3gfYXWn7YguDb]",
+        "2-2": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.P5fYc9OEg5GKGgkR]",
+        "3-3": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.8IIAYzI3gqAJIBYo]",
+        "4-4": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.ivnRnslXhD6UZH0L]",
+        "5-5": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.96wcenml9tk62g37]",
+        "6-6": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.9r8SX6QYbeLa780J]",
+        "7-7": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.9r8SX6QYbeLa780J]",
+        "8-8": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.ls5HwdyGS36zGNsf]",
+        "9-9": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.zgCVJEc1e9dCj7Ut]",
+        "10-10": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgRingOfResista.ActiveEffect.JA9aLSXZ6W3O0W9l]"
+      },
+      "description": ""
+    },
+    "dmgRobeOfUsefulI": {
+      "name": "ローブ・オヴ・ユースフル・アイテムズ／便利な品々のローブ",
+      "results": {
+        "1-8": "[[/award 100GP]]のバッグ",
+        "9-15": "500gp相当の銀製の箱（1フィートの長さ、6インチの幅と深さ）",
+        "16-22": "鉄製の扉（最大10フィートの幅と10フィートの高さ、君の選択で片側にバーがついている）、君が届く開口部に設置できる；扉は開口部に合わせて調整され、取り付けられ、蝶番がついて開閉できる。",
+        "23-30": "100GP相当の宝石が10個",
+        "31-44": "木製はしご (24フィートの長さ)",
+        "45-51": "@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRidingHors] with a Riding Saddle",
+        "52-59": "開いた穴（10フィートの立方体）、君の周囲10フィート以内の地面に設置できる。",
+        "60-68": "4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]",
+        "69-75": "@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRowboat000] (12 feet long)",
+        "76-83": "呪文スクロール（レベル1、2、または3の呪文1つ、君の選択）",
+        "84-90": "2 @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobMastiff000]",
+        "91-96": "窓（2フィート×4フィート、最大2フィートの深さ）、君が届く垂直面に設置できる。",
+        "97-100": "@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRamPortable]"
+      },
+      "description": ""
+    },
+    "dmgRustBagOfTric": {
+      "name": "ラスト・バッグ・オヴ・トリックス",
+      "results": {
+        "1-1": "ラット",
+        "2-2": "フクロウ",
+        "3-3": "マスティフ",
+        "4-4": "ゴート",
+        "5-5": "ジャイアント・ゴート",
+        "6-6": "ジャイアント・ボア",
+        "7-7": "ライオン",
+        "8-8": "ブラウン・ベア"
+      },
+      "description": ""
+    },
+    "dmgSenAlignment0": {
+      "name": "属性",
+      "results": {
+        "1-15": "“秩序にして善”",
+        "16-35": "“中立にして善”",
+        "36-50": "“混沌にして善”",
+        "51-63": "“秩序にして中立”",
+        "64-73": "“真なる中立”",
+        "74-85": "“混沌にして中立”",
+        "86-89": "“秩序にして悪”",
+        "90-96": "“中立にして悪”",
+        "97-100": "“混沌にして悪”"
+      },
+      "description": ""
+    },
+    "dmgSenCommunicat": {
+      "name": "意思疎通",
+      "results": {
+        "1-6": "そのアイテムは、それを身につけたり、振り回したりするクリーチャーに感情を伝えることによってコミュニケーションをとる。",
+        "7-9": "そのアイテムは1つ以上の言語を話す。",
+        "10-10": "そのアイテムは1つ以上の言語を話す。加えて、そのアイテムはそれを持つか振るうクリーチャーとテレパシーで交信できる。"
+      },
+      "description": ""
+    },
+    "dmgSenSenses0000": {
+      "name": "感覚",
+      "results": {
+        "1-1": "30フィートまでの聴覚と標準的な視覚",
+        "2-2": "60フィートまでの聴覚と標準的な視覚",
+        "3-3": "120フィートまでの聴覚と標準的な視覚",
+        "4-4": "120フィートまでの聴覚と暗視"
+      },
+      "description": ""
+    },
+    "dmgSenSpecialPur": {
+      "name": "特別な目的",
+      "results": {
+        "1-1": "<strong>属性</strong>アイテムは、正反対の陣営の者を打倒または破壊しようとする。そのようなアイテムは決して“真なる中立” ではない。",
+        "2-2": "<strong>ベイン：</strong>このアイテムは、人造、フィーンド、またはアンデッド のような特定の種別のクリーチャーを妨害または破壊しようとします。",
+        "3-3": "<strong>作成者の探究者</strong>そのアイテムは 、その作成者を探し、そなぜそれが作られたのかを理解しようとする。作成者 ",
+        "4-4": "<strong>運命の探究者：</strong>このアイテムは、未来の出来事において、自分とその持ち主に重要な役割があると信じている。",
+        "5-5": "<strong>破壊者：</strong>このアイテムは破壊を渇望し、その使い手を無意味に戦わせるよう促す。",
+        "6-6": "<strong>栄光求む者：</strong>アイテムはその使い手のために名声や悪名を得ることで、世界で最も偉大な魔法のアイテムとして名を馳せようとする。",
+        "7-7": "<strong>伝承探究者：</strong>アイテムは知識を渇望するか、謎を解明したり、秘密を学んだり、暗号めいた予言を解き明かそうと決意している。",
+        "8-8": "<strong>守護者：</strong>アイテムは特定の種類のクリーチャー、例えばエルフやワーウルフを守ることを目的としている。",
+        "9-9": "<strong>ソウルメイト探究者：</strong>そのアイテムは別の知性ある 魔法のアイテム 、おそらく自分と似ているものを探す。",
+        "10-10": "<strong>テンプラー：</strong>このアイテムは、特定の神の使徒や利益を守ろうとするものである。"
+      },
+      "description": ""
+    },
+    "dmgSlayingAmmuni": {
+      "name": "抹殺の矢弾：クリーチャー種別",
+      "results": {
+        "1-10": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlayingAmmuni.ActiveEffect.4GIkMFeZQHZnfjvq]",
+        "11-15": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlayingAmmuni.ActiveEffect.70bFeuTndNorjLBe]",
+        "16-20": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlayingAmmuni.ActiveEffect.o4aDyFCK0ekd9w8j]",
+        "21-25": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlayingAmmuni.ActiveEffect.AvExH8PizzJN0jSM]",
+        "26-35": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlayingAmmuni.ActiveEffect.VRMET3XgPTjBG91L]",
+        "36-45": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlayingAmmuni.ActiveEffect.ku2JX8rDga8GUBul]",
+        "46-50": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlayingAmmuni.ActiveEffect.ZssaQ07jWS7jFiej]",
+        "51-60": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlayingAmmuni.ActiveEffect.3JnW3nSByOVKu1LW]",
+        "61-70": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlayingAmmuni.ActiveEffect.ulADMO3yope7gn5R]",
+        "71-75": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlayingAmmuni.ActiveEffect.MKSR9zEe2s3qVILa]",
+        "76-80": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlayingAmmuni.ActiveEffect.cFNisqoGRSTHYDI4]",
+        "81-85": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlayingAmmuni.ActiveEffect.3mSYXVx987sezjuS]",
+        "86-90": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlayingAmmuni.ActiveEffect.BsXM9mDyGJ1R754S]",
+        "91-100": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgSlayingAmmuni.ActiveEffect.4NXhqKrNtDQjBcc8]"
+      },
+      "description": ""
+    },
+    "dmgSphereOfAnnih": {
+      "name": "スフィアー・オヴ・アナイアレイション／虚無の球体 相互作用 結果表",
+      "results": {
+        "1-50": "スフィアは破壊された。",
+        "51-85": "スフィアは、ポータルを通過するか、異次元空間に移動する。",
+        "86-100": "空間の裂け目により、球体と、球体の 180 フィート以内にあるすべてのクリーチャーおよびオブジェクトがランダムな存在の次元界に送られます。"
+      },
+      "description": ""
+    },
+    "dmgTanBagOfTrick": {
+      "name": "タン・バッグ・オヴ・トリックス",
+      "results": {
+        "1-1": "ジャッカル",
+        "2-2": "エイプ",
+        "3-3": "バブーン",
+        "4-4": "アックス・ビーク",
+        "5-5": "ブラック・ベア",
+        "6-6": "ジャイアント・ウィーゼル",
+        "7-7": "ジャイアント・ハイエナ",
+        "8-8": "タイガー"
+      },
+      "description": ""
+    },
+    "dmgWandOfWonderE": {
+      "name": "ワンド・オヴ・ワンダー／びっくりワンド効果表",
+      "results": {
+        "1-20": "君は選ばれた起点から発動する呪文を唱える。1d10を振って呪文を決定する。1–2が出た場合、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]Darkness}；3–4が出た場合、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]；5–6が出た場合、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]；7–8が出た場合、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000]；9–10が出た場合、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStinkingCl]。",
+        "21-25": "選ばれた起点には何も起こらない。代わりに、君は次のターンの開始まで&Reference[Stunned]状態になり、何か素晴らしいことが起こったと信じる。",
+        "26-30": "君は@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]を唱える。この呪文によって作られた直線は、君から選ばれた起点へと伸びる。",
+        "31-35": "選ばれた起点には何も起こらない。代わりに、君は[[/damage 1d6 type=psychic]]のダメージを受ける。",
+        "36-40": "激しい雨が選ばれた起点を中心に、半径60フィート、高さ120フィートの円柱状の範囲で1分間降り注ぐ。その間、範囲内は&Reference[Lightly Obscured]状態になる。",
+        "41-45": "600匹の巨大な蝶の群れが、選ばれた起点を中心に、半径30フィート、高さ60フィートの円柱状の範囲を埋め尽くす。蝶は10分間その場に留まり、その間、範囲内は&Reference[Heavily Obscured]状態になる。",
+        "46-50": "君は@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLightningB]を唱える。この呪文によって作られた直線は、君から選ばれた起点へと伸びる。",
+        "51-55": "選ばれた起点に最も近いクリーチャーは、君が@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnlargeRed]をそのクリーチャーにかけたかのように拡大される。もし対象が君でなく、その呪文の影響を受けない場合、君がその対象になる。",
+        "56-60": "魔法で形成されたクリーチャーが、選ばれた起点にできるだけ近い空いている場所に現れる。そのクリーチャーは君の制御下にはなく、通常通りに行動し、1時間後または0ヒットポイントに達すると消える。[[/r 1d4]]を振って、現れるクリーチャーを決定する。1が出た場合、 ライノセラスが現れ、2が出た場合、エレファントが現れ、3–4が出た場合、ラットが現れる。",
+        "61-64": "選ばれた起点にできるだけ近い位置を中心とした半径60フィートの地面に草が生い茂る。すでに生えている草はその通常の10倍の大きさに成長し、1分間そのまま過剰に成長した状態が続く。",
+        "65-68": "DMの選んだ物体がエーテル界に消える。その物体は装備も携帯もされておらず、選ばれた起点から120フィート以内にあり、どの寸法においても10フィート以下でなければならない。範囲内にそのような物体がない場合、何も起こらない。",
+        "69-72": "選ばれた起点には何も起こらない。代わりに、君はまるで自分に@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnlargeRed]を唱えたかのように縮小し、その状態が1分間続く。",
+        "73-77": "選ばれた起点に最も近いクリーチャーから葉が生え始める。葉は摘まれない限り、24時間後に茶色くなり落ちる。",
+        "78-82": "選ばれた起点には何も起こらない。代わりに、君から30フィートの半径で色とりどりのきらめく光の爆発が広がる。範囲内の各クリーチャーは[[/save con 15]]セーヴィング・スローに成功しなければ、1分間&Reference[Blinded]状態になる。クリーチャーは自分のターンの終了時に再度セーヴを行い、成功すればその効果が終了する。",
+        "83-87": "選ばれた起点には何も起こらない。代わりに、君は自分自身に@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]を唱える。",
+        "88-92": "選ばれた起点には何も起こらない。代わりに、ワンドの先端から1つ1GPの価値がある[[/r 1d4*10 #Gems]]個の宝石が、幅5フィート、長さ30フィートの直線状に向かって発射される。各宝石は[[/damage 1 type=bludgeoning]]ダメージを与え、宝石の総ダメージはその直線上のすべてのクリーチャーに均等に分けられる。",
+        "93-97": "君は@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]を唱え、選ばれた起点に最も近いクリーチャーを対象とする。[[/r 1d4]]を振って、対象の新しい形態を決定する。1が出た場合、新しい形態はブラックベア；2が出た場合、新しい形態はジャイアント・ワスプ；3–4が出た場合、新しい形態はカエルになる。",
+        "98-100": "選ばれた起点に最も近いクリーチャーが[[/save con 15]]セーヴィング・スローを行う。セーヴに失敗すると、そのクリーチャーは&Reference[Restrained]状態になり、石化を始める。このようにして制約状態にある間、クリーチャーは次のターンの終了時に再度セーヴを行う。セーヴに成功すると効果は終了する。セーヴに失敗した場合、そのクリーチャーは拘束状態の代わりに&Reference[Petrified]状態になる。この石化状態は、クリーチャーが@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]呪文またはそれに類似する魔法によって解放されるまで続く。"
+      },
+      "description": "@UUID[Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgWandOfWonder0]の効果に関するロールテーブル。可能な場合には、その効果をアクティビティとして実行します。"
+    },
+    "mmAnimatedObject": {
+      "name": "アニメイテッド・オブジェクトの触媒",
+      "results": {
+        "1-1": "天上またはフィーンドが、その物体を用いて定命の者を守護したり苦しめたりしている。",
+        "2-2": "錬金術や異星の科学など、魔法と技術の組み合わせ。",
+        "3-3": "超自然的なトリックスターによって変化させられた者の本質。",
+        "4-4": "遊戯や策略の一環として関わったフェイ。",
+        "5-5": "護衛や使い魔を必要としていた魔法使い。",
+        "6-6": "偶然の産物で、その品は百年の使用を経て、かすかな生命のようなものを得た。",
+        "7-7": "魔法の楽器の奏でる歌。",
+        "8-8": "物体に取り憑いた精霊。",
+        "9-9": "荒ぶる魔法、失敗した呪文、あるいは混沌としたアーティファクト。",
+        "10-10": "強力なサイキック存在の意志。"
+      },
+      "description": "<p>この物体は……によってアニメートされた。</p>"
+    },
+    "mmBanditMotivati": {
+      "name": "山賊の動機",
+      "results": {
+        "1-1": "抑圧者としか戦わない。",
+        "2-2": "祖国に使い捨てにされた元兵士で、約束されていた報酬を自らの手で取り戻している。",
+        "3-3": "仲間以外を敵とみなすギャングの一員である。",
+        "4-4": "邪悪な指導者に、ためらいながら仕えている。",
+        "5-5": "密かに政府や地域の支配者のために働き、混乱を広めている。",
+        "6-6": "生き延びるために必要なものを奪っている。"
+      },
+      "description": "<p>山賊は……</p>"
+    },
+    "mmCultistAgendas": {
+      "name": "カルトの目的",
+      "results": {
+        "1-1": "支配的な秩序、ひとつの時代、あるいは世界そのものの終焉をもたらす。",
+        "2-2": "精神支配や超自然的な強制によって、自らの信仰を拡大する。",
+        "3-3": "現実の安穏な虚偽を焼き払い、忘れ去られた、あるいは恐るべき真実を暴き出す。",
+        "4-4": "大地を沈めたり火山を目覚めさせたりといった、世界規模の変化を引き起こす。",
+        "5-5": "他のクリーチャーの肉体や霊的存在を変質させるなど、生命を大規模に作り変える。",
+        "6-6": "自らの神格、あるいはその先触れ、武器、または領域をこの世界へ召喚する。"
+      },
+      "description": "<p>カルト信者は……しようとする</p>"
+    },
+    "mmCultSymbols000": {
+      "name": "カルトのシンボル",
+      "results": {
+        "1-1": "<strong>そのシンボルは</strong> 錬金術の記号である。",
+        "2-2": "<strong>そのシンボルは</strong>動物 である。",
+        "3-3": "<strong>そのシンボルは</strong>天体である。",
+        "4-4": "<strong>そのシンボルは</strong>神格の象徴である。",
+        "5-5": "<strong>そのシンボルは</strong>元素である。",
+        "6-6": "<strong>そのシンボルは</strong>目である。",
+        "7-7": "<strong>そのシンボルは</strong>幾何学的な紋様である。",
+        "8-8": "<strong>そのシンボルは</strong>文字または数字である。",
+        "9-9": "<strong>そのシンボルは</strong>モンスターの一部である。",
+        "10-10": "<strong>そのシンボルは</strong>髑髏である。"
+      },
+      "description": ""
+    },
+    "mmCultSymbolsDep": {
+      "name": "カルトのシンボル - 描写",
+      "results": {
+        "1-1": " 暦または地図<strong>として表される</strong>",
+        "2-2": "紋章、または紋章学的な意匠<strong>として表される</strong>",
+        "3-3": "精巧な図表<strong>として表される</strong>",
+        "4-4": "比喩的なイメージ<strong>として表される</strong>",
+        "5-5": "神秘的な存在<strong>として表される</strong>",
+        "6-6": "数式の一部<strong>として表される</strong>",
+        "7-7": "反復模様<strong>として表される</strong>",
+        "8-8": "引っかき傷の連なり<strong>として表される</strong>",
+        "9-9": "単純なピクトグラム<strong>として表される</strong>",
+        "10-10": "武器または道具<strong>として表される</strong>"
+      },
+      "description": ""
+    },
+    "mmDoppelgangerDe": {
+      "name": "ドッペルゲンガーの欺瞞",
+      "results": {
+        "1-1": "真の姿を持たずに生きる呪いをかけた神の神殿の内部に混乱を引き起こす。",
+        "2-2": "巨大な陰謀の証拠を隠蔽する。",
+        "3-3": "伝説の怪物になりすますことで恐怖によって共同体を支配する。",
+        "4-4": "退廃的な生活を楽しむために、貴族と入れ替わる。",
+        "5-5": "自らが失敗した魔法的創造を完成させる方法を学ぶため、ウィザードたちを密かに監視する。",
+        "6-6": "ドッペルゲンガーの侵略のためのスリーパー・エージェントとして行動すべく、影響力のある地位に就く。"
+      },
+      "description": "<p>ドッペルゲンガーは……を企む</p>"
+    },
+    "mmFireElementalC": {
+      "name": "ファイアー・エレメンタルの構成",
+      "results": {
+        "1-1": "色鮮やかな、超高温のガス。",
+        "2-2": "悪魔的または神聖な炎の柱。",
+        "3-3": "動物、フィーンド、スケルトン、スプライト、あるいはその他の存在の姿に見える、ぱちぱちと爆ぜる形状。",
+        "4-4": "主に白色、青色、あるいはさらに珍しい色を帯びた炎。",
+        "5-5": "穏やかな、あるいは苦悶する人型の姿。",
+        "6-6": "不気味な形状や象徴を形作る煙。",
+        "7-7": "杉、クローブ、香、あるいは焼けた肉のような匂いを放つ煤。",
+        "8-8": "燃えさしや燃え落ちる破片が渦巻いている。"
+      },
+      "description": "<p>ファイアー・エレメンタルの身体的特徴は……</p>"
+    },
+    "mmGelatinousCube": {
+      "name": "ゼラチナス・キューブの残骸",
+      "results": {
+        "1-1": "宝箱、あるいは最近捕らえられたミミック。",
+        "2-2": "目のように見える泡や岩の集合体。",
+        "3-3": "近くの扉や金庫の鍵。",
+        "4-4": "修理を要する注目すべき武器。",
+        "5-5": "著名な冒険者のものと思しき骸骨。",
+        "6-6": " 謎めいたメッセージが刻まれた石板。"
+      },
+      "description": "<p>ゼラチナス・キューブの内部に浮かんでいるのは……</p>"
+    },
+    "mmIncubusNightma": {
+      "name": "インキュバスの悪夢",
+      "results": {
+        "1-1": "怒り狂った家族の一員、あるいは権威ある人物。",
+        "2-2": "荒野を追い回されること。",
+        "3-3": "動物やモンスターに喰い尽くされること。",
+        "4-4": "落下すること、溺れること、あるいは窒息すること。",
+        "5-5": "破滅的な公衆の面前での恥辱。",
+        "6-6": "影めいた侵入者、あるいは怪物じみたシルエット。",
+        "7-7": "過去のトラウマとなる出来事。",
+        "8-8": "不気味、あるいは謎めいたメッセージを携えた訪問者。"
+      },
+      "description": "<p>インキュバスの犠牲者は……の夢を見る</p>"
+    },
+    "mmMageRoles00000": {
+      "name": "魔道士の役回り",
+      "results": {
+        "1-1": "星から魔力を引き出す天文学者。",
+        "2-2": "オカルトについて執筆する作家。",
+        "3-3": "驚異を創り出す魔法工学者。",
+        "4-4": "兆しを解釈する神託者。",
+        "5-5": "卓越した魔法の血統を持つ天才。",
+        "6-6": "呪文として力が顕現するサイオニック能力者。",
+        "7-7": "古代の伝承を研究する学者。",
+        "8-8": "支配者に助言を与える予言者。",
+        "9-9": "戦場で兵士を支援する戦闘魔術師。",
+        "10-10": "秘められた知恵を分かち与える魔女。"
+      },
+      "description": "<p>この魔道士は……</p>"
+    },
+    "mmMinotaurMazes0": {
+      "name": "ミノタウロスの迷宮",
+      "results": {
+        "1-1": "多層構造の鉱山や下水道。",
+        "2-2": "魔法のポータルで結ばれた複数の迷宮。",
+        "3-3": "迷路のような道が張り巡らされた有毒の沼地。",
+        "4-4": "埋もれた宮殿や神殿の遺跡。"
+      },
+      "description": "<p>バフォメットのミノタウロスは……に潜んでいる</p>"
+    },
+    "mmOwlbearDenFeat": {
+      "name": "アウルベアの巣の特徴",
+      "results": {
+        "1-1": "以前の住人――山賊、ウルフ、あるいはドラゴンなど――の痕跡。",
+        "2-2": "吐き戻されたペリットの山があり、そこに硬貨やその他の財宝が混じっている。",
+        "3-3": "1d6個のアウルベアの卵がある巣。",
+        "4-4": "土中や空洞になった樹木を通る通路。"
+      },
+      "description": "<p>アウルベアの巣には……がある</p>"
+    },
+    "mmPseudodragonTr": {
+      "name": "スードゥドラゴンのごちそう",
+      "results": {
+        "1-1": "派手に身に着けられる装身具。",
+        "2-2": "失われた友や主人の形見。",
+        "3-3": "アックスビークの卵のオムレツやマンモスの乳のチーズといった、風変わりな珍味。",
+        "4-4": "兄弟姉妹、ライバル、あるいは主人の所持品。",
+        "5-5": "宝石からアワビの殻に至るまでの、きらきらした贈り物。",
+        "6-6": "柔らかな寝床やぬいぐるみ。",
+        "7-7": "特定の料理人の看板デザート。",
+        "8-8": "手間と時間のかかる美容の手入れ。",
+        "9-9": "就寝前の物語やお気に入りの歌を聞くこと。",
+        "10-10": "戦利品やもっともらしい肩書き。"
+      },
+      "description": "<p>スードゥドラゴンは……を欲している</p>"
+    },
+    "mmShadowShapes00": {
+      "name": "シャドウの形",
+      "results": {
+        "1-1": "森に潜む歪んだ追跡者。",
+        "2-2": "邪悪な儀式の場の近くに棲みつくフィーンド。",
+        "3-3": "守銭奴の家に取り憑く、掴みかかる手。",
+        "4-4": "その名を口にした者を追い回す、不気味な物語の登場人物。",
+        "5-5": "不気味なパントマイムで振る舞う、その標的自身。",
+        "6-6": "冒涜された地に取り憑く、不吉な司祭。"
+      },
+      "description": "<p>シャドウは……の姿で現れる</p>"
+    },
+    "mmSkeletonPantom": {
+      "name": "スケルトンのパントマイム",
+      "results": {
+        "1-1": "食事の盆や、太古の書簡を、死した主人の納骨堂へと届ける。",
+        "2-2": "たとえ切り刻まれて木っ端のようになっても、他のスケルトンと戦闘訓練を延々と続ける。",
+        "3-3": "演技や踊り、読書など、生前に楽しんでいた行為を真似続ける。",
+        "4-4": "掃除、料理、採掘、祈りといった、見慣れた作業をこなす。",
+        "5-5": "自らの最期の瞬間を繰り返す。",
+        "6-6": "生前に守っていた持ち場に立って警護を続ける。"
+      },
+      "description": "<p>放っておくと、スケルトンは……</p>"
+    },
+    "mmStirgeRoosts00": {
+      "name": "スター ジのねぐら",
+      "results": {
+        "1-1": "廃墟となった建物の屋根裏や家具の中。",
+        "2-2": "洞窟や狭い裂け目。",
+        "3-3": " 空洞になった木や茂み。",
+        "4-4": "巨大な死骸となったクリーチャーの残骸。"
+      },
+      "description": "<p>狩りと狩りの合間、スタージは……に潜んでいる</p>"
+    },
+    "mmStoneGolemOrde": {
+      "name": "ストーン・ゴーレムの命令",
+      "results": {
+        "1-1": "儀式用の装束を身に着けた者だけを通す。",
+        "2-2": "都市の至宝の遺物に触れた者に《スロウ》をかけ、その者の拘束を支援する。",
+        "3-3": "統治者の職印のメダリオンを携えた者の命令で、ダムや橋を破壊する。",
+        "4-4": "欠けている紋章をその胸部にはめ込んだ者の命令に従い、その後1年間停止する。",
+        "5-5": "指導者の最期の言葉を唱えた者に、隠された通路を明かす。",
+        "6-6": "それが模している英雄を殺した種類のモンスターを警戒し、遭遇すれば戦う。"
+      },
+      "description": "<p>ストーン・ゴーレムは……という命令に従う</p>"
+    },
+    "mmSuccubusTempta": {
+      "name": "サキュバスの誘惑",
+      "results": {
+        "1-1": "失われた愛する者の姿を取ること。",
+        "2-2": "標的の近しい者を魅了すること。",
+        "3-3": "愛する者たちから引き離すこと。",
+        "4-4": "思いがけない幸運が訪れるよう出来事を操ること。",
+        "5-5": "おだてる配下を装うこと。",
+        "6-6": "庇護を必要とする者の姿を取ること。"
+      },
+      "description": "<p>サキュバスは……ことによって標的を操る</p>"
+    },
+    "mmVampireResting": {
+      "name": "ヴァンパイアの寝処",
+      "results": {
+        "1-1": "枯れ木の根の間に。",
+        "2-2": "淀んだ池の底に。",
+        "3-3": "墓土で満たされた棺桶。",
+        "4-4": "血や酢で満たされた大きな壺。",
+        "5-5": "変身によってのみ立ち入れる空間。",
+        "6-6": "像や鎧の内部に。"
+      },
+      "description": "<p>そのヴァンパイアの寝処は……である</p>"
+    },
+    "mmWarriorRoles00": {
+      "name": "戦士の役回り",
+      "results": {
+        "1-1": "貴族を守る護衛。",
+        "2-2": "風変わりな乗騎に乗る騎兵将校。",
+        "3-3": "神聖な大義のために戦う聖戦士。",
+        "4-4": "無敵を自称する決闘者。",
+        "5-5": "意味不明な質問を投げかける門番。",
+        "6-6": "新兵を訓練する老練な古参兵。",
+        "7-7": "特定の怪物を狩ることに長けた狩人。",
+        "8-8": "戦いに疲れ果てた退役将軍。",
+        "9-9": "自作の武器を持つ志願兵。",
+        "10-10": "腕前を証明しようとする若い傭兵。"
+      },
+      "description": "<p>戦士とは……</p>"
+    },
+    "mmWraithManifest": {
+      "name": "レイスの顕現",
+      "results": {
+        "1-1": "呪われた場所に宿る冒涜的な魔法。",
+        "2-2": "贖われた悪役から祓われた邪悪。",
+        "3-3": "百年に一度よみがえる伝説的な悪役。",
+        "4-4": "地元の人々が抱く、迷信や伝説への恐れ。",
+        "5-5": "悲劇の記憶。",
+        "6-6": "冒涜的な思想、あるいは忌まわしい伝承。",
+        "7-7": "一つ以上の苦しむ魂の責め苦。",
+        "8-8": "冒涜的なアーティファクトの凶悪さ。",
+        "9-9": "眠れる神の忌まわしい夢。",
+        "10-10": "シャドウフェルや負の次元界のような、生命を貪り求める領域の飽くなき貪欲。"
+      },
+      "description": "<p>レイスは……を体現する。</p>"
+    },
+    "phbElvenLineage0": {
+      "name": "エルフの血統",
+      "results": {
+        "1-1": "ドラウ",
+        "2-2": "ハイエルフ",
+        "3-3": "ウッドエルフ"
+      },
+      "description": "<p>君は、超自然的な能力を与える血統を受け継いでいる。</p>"
+    },
+    "phbFiendishLegac": {
+      "name": "フィーンドの遺産",
+      "results": {
+        "1-1": "ティーフリング・アビサル",
+        "2-2": "ティーフリング・クトゥニック",
+        "3-3": "ティーフリング・インファーナル"
+      },
+      "description": "<p>君は、超自然的な能力を与えるフィーンドの遺産を受け取った者である。</p>"
+    },
+    "phbgenCardinalDi": {
+      "name": "Cardinal Directions",
+      "results": {
+        "1-1": "北",
+        "2-2": "東",
+        "3-3": "南",
+        "4-4": "西"
+      },
+      "description": ""
+    },
+    "phbGnomishLineag": {
+      "name": "ノームの血統",
+      "results": {
+        "1-1": "フォレスト・ノーム",
+        "2-2": "ロック・ノーム"
+      },
+      "description": "<p>君は、超自然的な能力を与える血統を受け継いでいる。</p>"
+    },
+    "phbPrismaticLaye": {
+      "name": "プリズマティック・レイヤー",
+      "results": {
+        "1-1": "<p><strong>赤：</strong><em>セーヴ失敗：</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> 火</span>ダメージ。<em>セーヴ成功：</em> ダメージは半分。<em>追加効果：</em> 非魔法の遠隔攻撃はこの層を通過できず、この層は少なくとも25点の冷気ダメージを受けると破壊される。</p>",
+        "2-2": "<p><strong>オレンジ：</strong><em>セーヴ失敗：</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> 酸</span>ダメージ。<em>セーヴ成功：</em> ダメージは半分。<em>追加効果：</em> 魔法の遠隔攻撃はこの層を通過できず、この層は強風（<em>Gust of Wind</em>など）で破壊される。</p>",
+        "3-3": "<p><strong>黄：</strong><em>セーヴ失敗：</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> 雷</span>ダメージ。<em>セーヴ成功：</em> ダメージは半分。<em>追加効果：</em> この層は少なくとも60点の力場ダメージを受けると破壊される。</p>",
+        "4-4": "<p><strong>緑：</strong><em>セーヴ失敗：</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> 毒</span>ダメージ。<em>セーヴ成功：</em> ダメージは半分。<em>追加効果：</em> <em>Passwall</em>の呪文、または固体表面にポータルを開ける同等以上の呪文でこの層は破壊される。</p>",
+        "5-5": "<p><strong>青：</strong><em>セーヴ失敗：</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> 冷気</span>ダメージ。<em>セーヴ成功：</em> ダメージは半分。<em>追加効果：</em> この層は少なくとも25点の火ダメージを受けると破壊される。</p>",
+        "6-6": "<p><strong>藍：</strong><em>セーヴ失敗：</em> 目標は<span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>拘束</a></span>状態になり、自身のターン終了時ごとに<span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>【耐久力】</a></span>セーヴを行う。3回成功すると状態は解除される。3回失敗すると、<span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>石化</a></span>状態になり、<em>Greater Restoration</em>のような効果で解除されるまで続く。成功・失敗は連続でなくてもよく、3回のいずれかを集めるまで記録する。<em>追加効果：</em> 呪文はこの層を通過できず、<em>Daylight</em>の明るい光で破壊される。</p>",
+        "7-7": "<p><strong>紫：</strong><em>セーヴ失敗：</em> 目標は<span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>盲目</a></span>状態になり、次のターン開始時に<span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>【判断力】</a></span>セーヴを行う。成功すると状態は解除される。失敗すると状態は解除され、クリーチャーは別の次元に転移する（DMの判断）。<em>追加効果：</em> この層は<em>Dispel Magic</em>で破壊される。</p>"
+      },
+      "description": ""
+    },
+    "phbPrismaticRays": {
+      "name": "プリズマティック・レイ",
+      "results": {
+        "1-1": "<p><strong>赤：</strong><em>セーヴ失敗：</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> 火</span>ダメージ。<em>セーヴ成功：</em> ダメージは半分。</p>",
+        "2-2": "<p><strong>オレンジ：</strong><em>セーヴ失敗：</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> 酸</span>ダメージ。<em>セーヴ成功：</em> ダメージは半分。</p>",
+        "3-3": "<p><strong>黄：</strong><em>セーヴ失敗：</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> 雷</span>ダメージ。<em>セーヴ成功：</em> ダメージは半分。</p>",
+        "4-4": "<p><strong>緑：</strong><em>セーヴ失敗：</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> 毒</span>ダメージ。<em>セーヴ成功：</em> ダメージは半分。</p>",
+        "5-5": "<p><strong>青：</strong><em>セーヴ失敗：</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> 冷気</span>ダメージ。<em>セーヴ成功：</em> ダメージは半分。</p>",
+        "6-6": "<p><strong>藍：</strong><em>セーヴ失敗：</em> 目標は<span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>拘束</a></span>状態になり、自身のターン終了時ごとに<span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>【耐久力】</a></span>セーヴを行う。3回成功すると状態は解除され、3回失敗すると<span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>石化</a></span>状態になり、<em>Greater Restoration</em>のような効果で解除されるまで続く。成功・失敗は連続でなくてもよく、3回のいずれかを集めるまで記録する。</p>",
+        "7-7": " <p><strong>紫：</strong><em>セーヴ失敗：</em> 目標は<span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>盲目</a></span>状態になり、次のターン開始時に<span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>【判断力】</a></span>セーヴを行う。成功すると状態は解除され、失敗すると状態は解除されると同時に、クリーチャーは別の次元に転移する（DMの判断）。</p>",
+        "8-8": "<p><strong>特殊：</strong> 目標は2本の光線に打たれる。2回ロールし、8の目は振り直す。</p>"
+      },
+      "description": ""
+    },
+    "phbsplConfusionB": {
+      "name": "コンフュージョン時の行動",
+      "results": {
+        "1-1": "枢機卿の指示",
+        "2-6": "目標は動かず、行動もとらない。",
+        "7-8": "目標は移動せず、間合い以内にいるランダムなクリーチャー1体に対して近接攻撃を1回行う攻撃アクションをとる。間合い以内にクリーチャーがいない場合、対象は何もアクションをとらない。",
+        "9-10": "目標は行動を選択する。"
+      },
+      "description": "<p>ターンでの振る舞い</p>"
+    },
+    "phbsplReincarnat": {
+      "name": "転生後の種族",
+      "results": {
+        "1-1": "アアシマール",
+        "2-2": "ドラゴンボーン",
+        "3-3": "ドワーフ",
+        "4-4": "エルフの血統",
+        "5-5": "ノームの血統",
+        "6-6": "ゴライアス",
+        "7-7": "ハーフリング",
+        "8-8": "ヒューマン",
+        "9-9": "オーク",
+        "10-10": "フィーンドの遺産"
+      },
+      "description": "<p>ダイスロール [[/r 1d10]]し、以下の表を参照して種族を決定するか、DMが他のプレイ可能な種族を選ぶ。</p>"
+    },
+    "phbsplTeleportMi": {
+      "name": "テレポート大失敗表",
+      "results": {
+        "1-100": "<strong>関連物体：</strong>目標に命中",
+        "1-5": "<strong>非常によく知っている：</strong>事故",
+        "6-13": "<strong>非常によく知っている：</strong>類似地域",
+        "14-24": "<strong>非常によく知っている：</strong>目標を外す",
+        "25-100": "<strong>非常によく知っている：</strong>目標に命中",
+        "1-33": "<strong>一度見たことがある：</strong>事故",
+        "34-43": "<strong>一度見たことがある：</strong>類似地域",
+        "44-53": "<strong>見たことがある、または説明を聞いた：</strong>類似地域",
+        "54-73": "<strong>見たことがある、または説明を聞いた：</strong>目標を外す",
+        "1-43": "<strong>見たことがある、または説明を聞いた：</strong>事故",
+        "74-100": "<strong>見たことがある、または説明を聞いた：</strong>目標に命中",
+        "1-50": "<strong>偽りの目的地：</strong>事故",
+        "51-100": "<strong>偽りの目的地：</strong>類似地域"
+      },
+      "description": "<p><strong>大失敗 ダメージ:</strong>[[/damage 3d10 type=force]]。</p><p><strong>目的地を外れる 距離</strong>[[/r 2d12#Miles]]{2d12マイル} [[/r 1d8#Direction]]{方角}。</p>"
+    },
+    "phbStandardLangu": {
+      "name": "標準的な言語",
+      "results": {
+        "1-1": "サブ言語の表"
+      },
+      "description": ""
+    },
+    "phbStartingTrink": {
+      "name": "珍品奇品",
+      "results": {
+        "1-1": "ミイラ化したゴブリンの手",
+        "2-2": "月明かりにかすかに光るクリスタル（水晶） ",
+        "3-3": "未知の土地で鋳造された金貨",
+        "4-4": "君の知らない言語で書かれた日記",
+        "5-5": "決して変色しない真鍮の指輪",
+        "6-6": "ガラス製の古いチェスの駒",
+        "7-7": "六の目の面に髑髏の印が刻まれた、ナックルボーンズ製のサイコロ一対",
+        "8-8": "そばで眠ると不穏な夢を見せる、悪夢のような生き物をかたどった小さな偶像。",
+        "9-9": "誰かの髪の束",
+        "10-10": "あなたにとって未知の領域の土地の権利証",
+        "11-11": "不明な素材でできた1オンスのブロック",
+        "12-12": "針が刺さった小さな布の人形",
+        "13-13": "未知の獣の歯",
+        "14-14": "巨大な鱗、もしかしたらドラゴンかもしれない",
+        "15-15": "明るい緑色の羽",
+        "16-16": "あなたに似た姿が描かれた古い占い用のカード",
+        "17-17": "動く煙が入ったガラス玉",
+        "18-18": "1ポンドの赤い殻の卵",
+        "19-19": "泡を吹くパイプ",
+        "20-20": "漬け液に浮かぶ肉片が入ったガラス瓶",
+        "21-21": "あなたの子ども時代のかすかな記憶の曲を奏でる、ノーム細工のオルゴール",
+        "22-22": "うぬぼれたハーフリングの木製小像",
+        "23-23": "奇妙なルーンが刻まれた真鍮の球",
+        "24-24": "多色の石の円盤",
+        "25-25": "銀製のレイヴンの像",
+        "26-26": "47個の歯、うち一つは腐っている、が入った袋",
+        "27-27": "触れると常に暖かく感じる黒曜石の破片",
+        "28-28": "皮の首紐に通されたドラゴンの爪",
+        "29-29": "古い靴下のペア",
+        "30-30": "インクでもチョークでも黒鉛でもページに書き込めない白紙の本",
+        "31-31": "五芒星の銀製バッジ",
+        "32-32": "親族の持っていたナイフ",
+        "33-33": "切られた爪が入ったガラスの小瓶",
+        "34-34": "端に二つの小さな金属カップが付いた長方形の金属製装置で、濡れると火花を散らす",
+        "35-35": "白いビーズの付いた人間用サイズの手袋",
+        "36-36": "100個の小さなポケットがあるベスト",
+        "37-37": "重さのない石",
+        "38-38": "ゴブリンのスケッチ",
+        "39-39": "香水の匂いがする空のガラス瓶",
+        "40-40": "君以外の者には石炭の塊に見える宝石",
+        "41-41": "古い旗からの布片",
+        "42-42": "失われた軍団兵の階級章",
+        "43-43": "鐘のない銀製の小鐘",
+        "44-44": "ランプの中の機械仕掛けのカナリア",
+        "45-45": "底に多数の足が彫られた小型の宝箱",
+        "46-46": "透明なガラス瓶に入った死んだスプライト",
+        "47-47": "開口部がない金属缶で、中に液体、砂、クモ、または割れたガラス（君のお好みで）が入っているかのように音がする",
+        "48-48": "水で満たされたガラス玉の中に、時計仕掛けの金魚が泳いでいる",
+        "49-49": "柄にMの刻印がある銀のスプーン",
+        "50-50": "金色の木で作られた笛",
+        "51-51": "手のひら大の死んだスカラベ",
+        "52-52": "2体の玩具の兵士、一つは頭がない",
+        "53-53": "サイズの異なるボタンが詰まった小箱",
+        "54-54": "火をつけられないろうそく",
+        "55-55": "ドアのない小型の鳥かご",
+        "56-56": "古い鍵",
+        "57-57": "判読不能な宝の地図",
+        "58-58": "壊れた剣の柄",
+        "59-59": "兎の足",
+        "60-60": "ガラスの目",
+        "61-61": "醜い人物のカメオ",
+        "62-62": "コイン大の銀の頭蓋骨",
+        "63-63": "アラバスター製の仮面",
+        "64-64": "臭い黒く粘り気のある線香の円錐",
+        "65-65": "睡眠時に心地よい夢を与えるナイトキャップ",
+        "66-66": "骨製の一つのまきびし",
+        "67-67": "レンズのない金色の片眼鏡のフレーム",
+        "68-68": "それぞれ異なる色の面を持つ1インチ立方体",
+        "69-69": "クリスタル製のドアノブ",
+        "70-70": "ピンクの粉が入った小袋",
+        "71-71": "美しい歌の一節が、羊皮紙二枚に音符として記されている",
+        "72-72": "本物の涙を入れた銀の涙型イヤリング",
+        "73-73": "惨めな光景が詳細に描かれた卵の殻",
+        "74-74": "広げると眠そうな猫が現れる扇子",
+        "75-75": "骨製の笛のセット",
+        "76-76": "マナーとエチケットについて書かれた本で押された四つ葉のクローバー",
+        "77-77": "機械仕掛けの装置が描かれた羊皮紙一枚",
+        "78-78": "見つけたどの刃にも合わない、装飾豊かな鞘",
+        "79-79": "殺人事件が起きたパーティの招待状",
+        "80-80": "中央にネズミの頭が刻まれた青銅の五芒星",
+        "81-81": "大魔法使いの名前が刺繍された紫色のハンカチ",
+        "82-82": "寺院、城、またはその他の建造物の半分の平面図",
+        "83-83": "折り畳まれた布片が、広げるとおしゃれな帽子に変わる",
+        "84-84": "遠くの都市の銀行における預金領収書",
+        "85-85": "7ページ欠けている日記",
+        "86-86": "蓋に「dreams」と刻まれた空の銀製嗅ぎ煙草入れ",
+        "87-87": "未知の神に捧げる鉄の聖印",
+        "88-88": "伝説の英雄の栄枯盛衰を描いた書物、最後の章が欠けている",
+        "89-89": "ドラゴンの血の入った小瓶",
+        "90-90": "エルフ風の古代の矢",
+        "91-91": "曲がらない針",
+        "92-92": "ドワーフ風の装飾ブローチ",
+        "93-93": "美しいラベルの貼られた空のワインボトル。ラベルには「ザ・ウィザード・オブ・ワインズ・ワイナリー、レッド・ドラゴン・クラッシュ、331422-W」と記されている。",
+        "94-94": "誰かの髪の束",
+        "95-95": "石化したネズミ",
+        "96-96": "ドラゴンの頭蓋骨と骨十字が描かれた黒い海賊旗",
+        "97-97": "観察されていないときに動き回る、小さな機械仕掛けのカニまたはクモ",
+        "98-98": "「グリフォン・グリース」と書かれたラベルのついたラード入りのガラス瓶",
+        "99-99": "底が陶器の木箱で、両端に頭がある生きているミミズを収めたもの",
+        "100-100": "英雄の灰が入った金属製の骨壺"
+      },
+      "description": ""
+    },
+    "phbSublanguageTa": {
+      "name": "サブ言語の表",
+      "results": {
+        "1-1": "<strong>言語：</strong>共通手話。<strong>起源：</strong>シジル",
+        "2-2": "<strong>言語：</strong>竜語<strong>起源：</strong>ドラゴン",
+        "3-4": "<strong>言語：</strong>ドワーフ語。<strong>起源：</strong>ドワーフ",
+        "5-6": "<strong>言語：</strong>エルフ語。<strong>起源：</strong>エルフ",
+        "7-7": "<strong>言語：</strong>巨人語<strong>起源：</strong>ジャイアント",
+        "8-8": "<strong>言語：</strong>ノーム語。<strong>起源：</strong>ノーム",
+        "9-9": "<strong>言語：</strong>ゴブリン語。<strong>起源：</strong>ゴブリン類",
+        "10-11": "<strong>言語：</strong>ハーフリング語。<strong>起源：</strong>ハーフリング",
+        "12-12": "<strong>言語：</strong>オーク語。<strong>起源：</strong>オーク"
+      },
+      "description": ""
+    }
+  }
+}

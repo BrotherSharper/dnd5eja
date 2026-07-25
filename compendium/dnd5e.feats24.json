@@ -1,0 +1,242 @@
+{
+  "label": "特技",
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "mergeEffects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancementById"
+    }
+  },
+  "folders": {
+    "Epic Boon Feats": "Epic Boon Feats",
+    "Fighting Style Feats": "Fighting Style Feats",
+    "General Feats": "General Feats",
+    "Origin Feats": "Origin Feats"
+  },
+  "entries": {
+    "phbBoonofCombatP": {
+      "name": "武勇の証",
+      "description": "<p>君は以下の利益を得る。</p><p><strong>能力値上昇</strong> 君が選んだ能力値を1上昇させる（最大値30）</p><p><strong>鋭い狙い：</strong> 攻撃ロールでミスした場合、代わりにヒットすることができる。この利益を一度使用すると、次のターンの開始まで再度使用することはできない。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "zNqJRAI2ON8SRu40": {
+          "title": "",
+          "hint": ""
+        }
+      }
+    },
+    "phbBoonofDimensi": {
+      "name": "霧渡りの証",
+      "description": "<p>君は以下の利益を得る。</p><p><strong>能力値上昇</strong>君が選んだ能力値を1上昇させる（最大値30）。 </p><p><strong>瞬間移動：</strong> 君が攻撃アクションか魔法アクション使用したとき、視界内で30フィート以内の何ものにも占められていない場所へ瞬間移動することができる。</p>",
+      "activities": {
+        "2nds7MCSvJOeZ3Ar": {
+          "name": "瞬間移動"
+        }
+      },
+      "effects": {},
+      "advancement": {
+        "zNqJRAI2ON8SRu40": {
+          "title": "",
+          "hint": ""
+        }
+      }
+    },
+    "phbBoonofFate000": {
+      "name": "宿命の証",
+      "description": "<p>次の利益を得る：</p><p><strong>能力値上昇:</strong>好きな能力値を1点上昇させる（最大30まで）。</p><p><strong>宿命強化:</strong>自分または60フィート以内の他のクリーチャーがD20テストで成功または失敗したとき、2d4を振って、その合計をd20ロールへのボーナスまたはペナルティとして適用できる。この利益を使用した後、イニシアチブを振るか小休憩または大休憩を終えるまで再使用できない。</p><section id=\"secret-zl5SPZXJtl1mEKOl\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p><strong>宿命強化</strong> 用途にはロールが含まれ、小休憩または大休憩後に自動的に使用回数が回復する。 ただし、イニシアティブをロールした後は自動的にリフレッシュされない。</p></section>",
+      "activities": {
+        "BSFYZ98EvNknWsaE": {
+          "name": "宿命強化"
+        }
+      },
+      "effects": {},
+      "advancement": {
+        "zNqJRAI2ON8SRu40": {
+          "title": "",
+          "hint": ""
+        }
+      }
+    },
+    "phbBoonofIrresis": {
+      "name": "直撃の証",
+      "description": "<p>次の利益を得る：</p><p><strong>能力値上昇: </strong> 好きな能力値を1点上昇させる（最大30まで）。</p><p><strong>防御貫通:</strong> 君が与える［殴打］［刺突］［斬撃］ダメージは常に抵抗を無視する。</p><p><strong>抗いがたい直撃</strong> 攻撃ロールのD20で20を出した場合、この特技によって上昇した能力値に等しい追加ダメージを対象に与えることができる。 追加ダメージの種類は攻撃の種類と同じである。.</p><section id=\"secret-B9D2nT6vBjWr9JMV\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この特技の効果は自動化されていない。 追加ダメージはダメージのダイアログ・ロール・ボックスの状況ボーナス欄で追加できる。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "zNqJRAI2ON8SRu40": {
+          "title": "",
+          "hint": ""
+        }
+      }
+    },
+    "phbBoonofSpellRe": {
+      "name": "呪文自在の証",
+      "description": "<p>以下の利益を得る。</p><p><strong>能力値上昇：</strong>【知力】、【判断力】、【魅力】いずれかの能力値を1増加させる。最大値は30である。</p><p><strong>無限の魔力：</strong>君がレベル1～4の呪文スロットで呪文を唱えるたび、[[/r 1d4]]を振る。出目が呪文スロットのレベルと同じなら、そのスロットは消費されない。</p><section id=\"secret-KMAFFZCOzi6Cuemh\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>もし同じ出目であれば、呪文を使用する際に消費オプションのチェックを外してください。</p></section>",
+      "activities": {
+        "mN72GMXgdNXQJhJN": {
+          "name": "スロット消費なしロール"
+        }
+      },
+      "effects": {},
+      "advancement": {
+        "zNqJRAI2ON8SRu40": {
+          "title": "",
+          "hint": ""
+        }
+      }
+    },
+    "phbBoonofTruesig": {
+      "name": "超視覚の証",
+      "description": "<p>以下の利益を得る。</p><p><strong>能力値上昇</strong>好きな能力値1つを最大30まで1増加させる。</p><p><strong>超視覚：</strong>君は射程距離60フィートの超視覚を持つ。</p><section id=\"secret-MmPASAH8hA8METnP\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この特徴には射程距離60フィートの超視覚を与えるActive Effectが含まれる。</p></section>",
+      "activities": {},
+      "effects": {
+        "IY36CpEENqnz03c5": {
+          "name": "Boon of Truesight"
+        }
+      },
+      "advancement": {
+        "zNqJRAI2ON8SRu40": {
+          "title": "",
+          "hint": ""
+        }
+      }
+    },
+    "phbBoonoftheNigh": {
+      "name": "夜の精霊の証",
+      "description": "<p>以下の利益を得る。</p><p><strong>能力値上昇</strong>選択した能力値1つを最大30まで1増加させる。</p><p><strong>影との融合：</strong>\"薄暗い\"あかりまたは暗闇の中にいる間、ボーナス・アクションとして自分に&amp;Reference[Invisible] 状態を与えることができる。この状態は、アクション、ボーナス・アクション、リアクションを取った直後に終了する。</p><p><strong>影形態：</strong>”薄暗い\"光や闇の中にいる間、君は［精神］と［光輝］を除く全てのダメージに対する抵抗を持つ。</p><section id=\"secret-fpWHPSTNYUeGtg0w\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この特徴の<strong>夜の精霊の証</strong>アクティブ・エフェクトは抵抗耐性を含むが、シートの効果タブでオン・オフを切り替える必要がある。</p><p>影との融合 <strong>用途には、不可視状態を適用するアクティブエフェクトが含まれています。",
+      "activities": {
+        "z2BNb47xtdCmqViA": {
+          "name": "影との融合"
+        }
+      },
+      "effects": {
+        "f6JofmGpxquX9bqb": {
+          "name": "Boon of the Night Spirit"
+        },
+        "Zusz9sywPycPxb1N": {
+          "name": "Merged with Shadows"
+        }
+      },
+      "advancement": {
+        "zNqJRAI2ON8SRu40": {
+          "title": "",
+          "hint": ""
+        }
+      }
+    },
+    "phbfstArchery000": {
+      "name": "弓術",
+      "description": "<p><em>戦闘スタイル特技 (前提条件: 戦闘スタイルの特技)</em></p><p>遠隔武器を使って行う攻撃ロールに+2 のボーナスを得る。</p><section id=\"secret-n13Z6zR2u0CiIA7D\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この機能には、遠隔武器の攻撃ロールにボーナスを追加するアクティブ効果が含まれる。</p></section>",
+      "activities": {},
+      "effects": {
+        "kigkIjyf2OGWqdVU": {
+          "name": "Archery Style"
+        }
+      },
+      "advancement": {}
+    },
+    "phbfstDefense000": {
+      "name": "戦闘スタイル：防御",
+      "description": "<p><em>戦闘スタイル特技 (前提条件: 戦闘スタイルの特技)</em></p><p>軽装鎧、中装鎧、または重装鎧を着ている間、アーマー・クラスに+1 のボーナスを得る。</p><section id=\"secret-y8skH0HHunT4I5NR\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この機能にはアーマークラスのボーナスを与えるアクティブ・エフェクトが含まれている。アーマーを着用していない時は無効化する。</p></section>",
+      "activities": {},
+      "effects": {
+        "W0ObItz7sS8ZJ09Y": {
+          "name": "Defense"
+        }
+      },
+      "advancement": {}
+    },
+    "phbfstGreatWeapo": {
+      "name": "両手武器戦闘",
+      "description": "<p><em>(前提条件: 戦闘スタイルの特技)</em></p><p>両手で持っている近接武器で攻撃を行った際、そのダメージダイスで 1 または 2 が出た場合、3として扱う。この利益を得るには、その武器が両手用または両用の性質を持っている必要がある。</p><section id=\"secret-jkbP75uR9eNGIRN0\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この効果は自動化されていない。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbfstTwoWeaponF": {
+      "name": "二刀流",
+      "description": "<p><em>(前提条件: 戦闘スタイルの特徴)</em></p><p>軽武器の特性を持つ武器を使用した結果、追加攻撃を行なう場合、その攻撃のダメージに自分の能力値修正をまだ加えていなければ、そのダメージに自分の能力値修正を加えることができる。</p><section class=\"secret\" id=\"secret-hYptyfGCa0gLDQRT\"><p><strong>取り扱いメモ</strong></p><p>この機能は自動化されていない。ダメージ・ロールのシチュエーション・ボーナス欄に自分の修正を加えることができる。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbftAbilityScor": {
+      "name": "能力値上昇",
+      "description": "<p><em>一般特技 (前提条件: レベル 4+)</em></p><p>好きな能力値を 1 つ 2 点上げるか、好きな能力値を 2 つ 1 点ずつ上げる。この特技では、いずれの能力値も 20 を超えることはできない。</p><p><strong>● 複数回取得可: </strong> この特技を複数回取ることができる。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "cDQbaWgvyIw3Q6Ew": {
+          "title": "",
+          "hint": ""
+        }
+      }
+    },
+    "phbftAlert000000": {
+      "name": "警戒",
+      "description": "<p>以下の利益を得る：</p><p><strong>イニシアチブ習熟</strong> イニシアチブをロールする際、習熟ボーナスをロールに加えることができる。</p><p><strong>イニシアチブ交換</strong>イニシアチブをロールした直後、同じ戦闘において、自分のイニシアチブと、効果に同意する味方のイ ニジチブを交換することができる。君または味方が&amp;Reference[Incapacitated] [無力化]の状態である場合、この交換を行うことはできない。</p><section id=\"secret-yzfXk3D5M1jv9ixH\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この機能には君のイニシアティブへのボーナスが自動的に含まれる。</p></section>",
+      "activities": {},
+      "effects": {
+        "uvZy4Zzi0oPd54qs": {
+          "name": "Alert"
+        }
+      },
+      "advancement": {}
+    },
+    "phbftGrappler000": {
+      "name": "組み技の達人",
+      "description": "<p>以下の利益を得る：</p><p><strong>能力値上昇</strong> 【筋力】または【敏捷力】が1上昇する。（最大値20）</p><p><strong>攻撃＆つかみ：</strong> 自分のターンに攻撃アクションの一部として素手打撃でクリーチャーにヒットした場合、ダメージとつかみの両方を使用できる。この恩恵は1ターンに1回のみ使用できる。</p><p><strong>攻撃有利：</strong>君は君に&amp;Reference[Grappled] つかまれているクリーチャーに対しての攻撃ロールに有利を得る。</p><p><strong>素早いつかみ：</strong> 君に掴まれたクリーチャーを移動させる際、そのクリーチャーのサイズが君以下であれば、君のスピードは半分にならない。</p><section id=\"secret-LAjjGo55LPacAy8v\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>有利は自動化されていない。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "LrAuj0THVHMjO158": {
+          "title": "",
+          "hint": ""
+        }
+      }
+    },
+    "phbftMagicInitia": {
+      "name": "魔法のたしなみ",
+      "description": "<p>君は以下の利益を得る：</p><p><strong>初級呪文２つ：</strong>以下の中からクラスを1つ選択すること：クレリック、ドルイド、ウィザード。君は選択したクラスの呪文リストから2つの初級呪文を選び、それを修得する。これらの呪文の呪文発動能力値は【知力】、【判断力】、【魅力】のいずれかである(この特技を修得した時点で選択すること)。</p><strong><p>1レベル呪文修得：</strong>この特技を修得した時に選択した呪文リストから1レベル呪文を1つ選択し、それを修得する。君はその呪文を常に準備しており、1回だけ呪文スロットを消費せずに発動できる(この能力は大休憩を終了すると回復する)。</p><p><strong>呪文入れ替え：</strong>レベルが上がるたび、君はこの特技で修得した呪文を別の呪文に入れ替えることができる。ただし、同じ呪文リストから選択しなければならない。</p><p><strong>重複取得可能：</strong>君はこの特技を複数回選択することができる。その場合、選択するたびに異なる呪文リストを選択すること。</p><section id=\"secret-7JQCSgnGrtu9huzf\" class=\"secret\"><p>取り扱いメモ</p><p>呪文は手書きでシートに記入する必要があります。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "ElkyDafWSUXOkPdJ": {
+          "title": "Two Cantrips",
+          "hint": ""
+        },
+        "ZbKHs2FVCkJVNW8p": {
+          "title": "Level 1 Spell",
+          "hint": ""
+        }
+      }
+    },
+    "phbftSavageAttac": {
+      "name": "凶暴な戦士",
+      "description": "<p>1ターンに1回、君は近接武器攻撃のダメージ・ロールを行なう際、その武器のダメージ・ダイスを再ロールし、いずれか好きなほうの値を使用することができる。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbftSkilled0000": {
+      "name": "技術習熟",
+      "description": "<p>君は技能および道具を両方あわせて3種類選択し、それらに習熟する。</p><p><strong>複数回選択可能：</strong> この特技は何度でも取得することができる。</p><section class=\"secret\" id=\"secret-36vceWBnGWiMkySr\"><p><strong>取り扱いメモ</strong></p><p>この機能は自動的に習熟を付与するものではありません。シートの  <strong>\"</strong>詳細 \"タブで \"編集 \"モードを切り替え、技能の横にある丸をクリックして習熟を選択することができます。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "Mm4MAeZK89zGqmyH": {
+          "title": "Rasgos",
+          "hint": ""
+        }
+      }
+    }
+  }
+}

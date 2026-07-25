@@ -1,6 +1,11 @@
 Hooks.once('babele.init', (babele) => {
 
 	if(typeof Babele !== 'undefined') {
+		// Babele 2.9+: register() accepts only {module, dir, lang}.
+		// Pack labels and field mappings live in compendium/dnd5e.*.json.
+		// Named converters (activities, mergeEffects, …) are registered from
+		// scripts/converters24.js (esmodule) and referenced by JSON mapping.
+		// Legacy packs are English-name keyed; SRD 2024 *24 packs are _id keyed.
 		babele.register({
 			module: 'dnd5eja',
 			lang: 'ja',

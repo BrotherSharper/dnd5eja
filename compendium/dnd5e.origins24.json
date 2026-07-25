@@ -1,0 +1,846 @@
+{
+  "label": "起源",
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "mergeEffects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancementById"
+    }
+  },
+  "folders": {
+    "Backgrounds": "Backgrounds",
+    "Dragonborn": "Dragonborn",
+    "Dwarf": "Dwarf",
+    "Elf": "Elf",
+    "Gnome": "Gnome",
+    "Goliath": "Goliath",
+    "Halfling": "Halfling",
+    "Human": "Human",
+    "Orc": "Orc",
+    "Species": "Species",
+    "Tiefling": "Tiefling",
+    "Traits": "Traits"
+  },
+  "entries": {
+    "phbbgAcolyte0000": {
+      "name": "侍祭",
+      "description": "<p><strong>能力値:</strong>【知力】、【判断力】、【魅力】</p><p><strong>特技:</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia] (クレリック)</p><p><strong>技能習熟:</strong>〈看破〉、〈宗教〉</p><p><strong>道具習熟:</strong>書道用品</p><p><strong>装備品:</strong><em>以下のAまたはBを選択: </em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{書道用品}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{本} (祈祷), 聖印, @UUID[Compendium.dnd5e.items.Item.9c0CHs90xqPw81iP]{羊皮紙} (10 枚), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{ローブ}, 8 GP; または (B) 50 GP</p><p>　神殿での奉仕に専念し、町の一角にある神殿や神聖な森の中にある隠れた聖域で、神やパンテオンを称える儀式を行っていた。君は祭司の下で宗教を学び、その指導と自身の献身によって、礼拝所とそこで祈る人々に奉仕するためのわずかな神聖な力を操る方法を学んだ。</p>",
+      "advancement": {
+        "kDI6zoUamHzFTvHG": {
+          "title": "Background Ability Score Improvement",
+          "hint": "Your background allows you to increase your Intelligence, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+        },
+        "Lk1ScjOCqRDtX2Tg": {
+          "title": "Background Proficiencies",
+          "hint": "Your background grants you proficiency in Insight and Religion. It also grants you proficiency in Calligrapher's Supplies."
+        },
+        "ygyW1bVUTnCnjxY2": {
+          "title": "Background Feat",
+          "hint": "Your background grants you the Magic Initiate (Cleric) feat."
+        },
+        "McRHkSL3WnG2Po7g": {
+          "title": "Choose Languages",
+          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+        }
+      },
+      "activities": {},
+      "effects": {}
+    },
+    "phbbgCriminal000": {
+      "name": "犯罪者",
+      "description": "<p><strong>能力値:</strong>【敏捷力】、【耐久力】、【知力】</p><p><strong>特技：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftAlert000000]</p><p><strong>技能習熟:</strong>〈隠密〉、〈手先の早業〉</p><p><strong>道具習熟:</strong>盗賊道具</p><p><strong>装備品:</strong><em>以下のAまたはBを選択:</em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{ダガー}2本, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{盗賊道具}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{かなてこ}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{ポーチ}２個, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{旅人の服}, 16 GP; または (B) 50 GP</p><p>　暗い路地で生活を成り立たせ、財布を切り取ったり店を盗んだりしていた。もしかしたら、同じような犯罪者たちの小さなギャングの一員だったかもしれないし、地元の盗賊ギルドやもっと恐ろしい犯罪者たちに対抗して一匹狼として生き抜いてきたかもしれない。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "8gFHAigaFboVUSgH": {
+          "title": "Background Ability Score Improvement",
+          "hint": "Your background allows you to increase your Dexterity, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+        },
+        "WJA48TLxfqlc3ygz": {
+          "title": "Background Feat",
+          "hint": "Your backgrounds you the Alert feat."
+        },
+        "CdiCt0Cr9bP9FQNO": {
+          "title": "Background Proficiencies",
+          "hint": "Your background grants you proficiency in Sleight of Hand and Stealth. It also grants you proficiency with Thieves' Tools."
+        },
+        "pLGiyOjTP7nwuwTl": {
+          "title": "Choose Languages",
+          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+        }
+      }
+    },
+    "phbbgSage0000000": {
+      "name": "賢者",
+      "description": "<p><strong>能力値:</strong>【耐久力】、【知力】、【判断力】</p><p><strong>特技:</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]</p><p><strong>技能習熟:</strong>〈魔法学〉、〈歴史〉</p><p><strong>道具習熟:</strong>書道用品</p><p><strong>装備:</strong><em>以下のAまたはBを選択:</em>(A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{クオータースタッフ}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{書道用品}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{本} (歴史), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{羊皮紙} (8枚), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{ローブ}, 8 GP; または (B) 50 GP</p><p>　領主館や修道院を巡りながら、図書館へのアクセスの代わりに様々な雑用やサービスを提供していた。長い夜を過ごしながら書物や巻物を学び、多元宇宙の知識を得た。魔法の初歩も学び、その知識をさらに求めている。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "3O61L5uTy5jRCqJb": {
+          "title": "Background Ability Score Improvement",
+          "hint": "Your background allows you to increase your Constitution, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+        },
+        "DMd8rikwPlZdpP1l": {
+          "title": "Background Proficiencies",
+          "hint": "Your background grants you proficiency in Arcana and History. It also grants you proficiency with Calligrapher's Supplies."
+        },
+        "kKt7VMmZUuRr35dP": {
+          "title": "Background Feat",
+          "hint": "Your backgrounds grants you the Magic Initiate (Wizard) feat."
+        },
+        "pLGiyOjTP7nwuwTl": {
+          "title": "Choose Languages",
+          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+        }
+      }
+    },
+    "phbbgSoldier0000": {
+      "name": "兵士",
+      "description": "<p><strong>能力値:</strong>【筋力】、【敏捷力】、【耐久力】</p><p><strong>特技：</strong>@UUID[Compendium.dnd-players-handbook.feats.Item.phbftSavageAttac]</p><p><strong>技能習熟:</strong>〈威圧〉、〈運動〉</p><p><strong>道具習熟:</strong><em>好きな</em><em>ゲーム道具1種類</em> (@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{第6章}参照)</p><p><strong>装備:</strong><em>AまたはBを選択:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{スピア}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortbow00]{ショートボウ}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{アロー}20本, ゲーム道具(上記と同じ), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{治療用具}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{矢筒}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT], 14 GP; または (B) 50 GP</p><p>　成人したと同時に戦争の訓練を始め、武器を取る前の人生の記憶はほとんどない。戦闘は君の血に刻まれている。時折、最初に学んだ基本的な戦闘練習を反射的に行ってしまうことがある。最終的にはその訓練を戦場で役立て、戦争を通じて王国を守ってきた。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "5hLHlmqxzoAta0uf": {
+          "title": "Background Ability Score Improvement",
+          "hint": "Your background allows you to increase your Strength, Dexterity, and Constitution scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+        },
+        "y4FZ4I6wU0F8DEjO": {
+          "title": "Background Proficiencies",
+          "hint": "Your background grants you proficiency in Athletics and Intimidation. It also grants you proficiency with any Gaming Set."
+        },
+        "tk8CFgIW7fXL0mlu": {
+          "title": "Background Feat",
+          "hint": "Your background grants you the Savage Attacker feat."
+        },
+        "pLGiyOjTP7nwuwTl": {
+          "title": "Choose Languages",
+          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+        }
+      }
+    },
+    "phbspAbyssalTief": {
+      "name": "ティーフリング・アビサル",
+      "description": "<p>ティーフリングは下方次元界で生まれるか、下方次元界を起源とする悪魔のような祖先を持つ。ティーフリングは、デビルやデーモン、他のフィーンドと血縁関係にある。 この下方次元界との繋がりはティーフリングのフィーンドとしての遺産であり、それは力の約束とともにもたらされるが、ティーフリングの道徳観には何の影響も及ぼさない。</p><p>ティーフリングは、その凶悪な遺産を受け入れるか嘆くかを選ぶ。</p><h3 data-anchor=\"abyssal\">アビス</h3><p>アビスのエントロピー、パンデモニウムの混沌、カルチェリの絶望は、アビスの遺産を持つティーフリングに呼びかけている。角、毛皮、牙、特異な香りは、そのようなティーフリングに共通する身体的特徴であり、そのほとんどは悪魔の血が脈々と流れている。</p><h3 data-anchor=\"tiefling-traits\">ティーフリングの特徴</h3><p><strong>クリーチャー種別:</strong>人型生物</p><p><strong>サイズ: </strong>中型(約4–7フィートの身長)または小型 (約3–4フィートの身長)、 この種族を選ぶときに選択する</p><p><strong>移動速度:</strong> 30フィート</p><p>ティーフリングとして、以下の特徴を持つ。</p><p><strong>暗視 </strong>60フィートの範囲で暗視を持つ。</p><p><strong>フィーンドの遺産</strong>君は超自然的な能力を授かる遺産を受け取った。</p><p>君がキャラクターレベル3および5に達すると、表に示されているようにより高いレベルの呪文を学ぶ。それらの呪文は常に準備されている。呪文スロットを消費せずに一度だけ発動することができ、この方法で発動する能力は大休憩を終えたときに再び得る。また、その呪文を適切なレベルの呪文スロットを使用して発動することもできる。この特徴で発動する呪文の呪文発動能力は、【知力】、【判断力】、または【魅力】のいずれか（遺産を選択する際に選ぶ）である。</p><p><strong>異世界の存在。</strong> 君は@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]（初級呪文）を知っている。この特性で唱えた場合、その呪文は、君の「フィーンドの遺産」の特性で使用するのと同じ呪文能力を使用する。</p><table><caption>アビスの遺産特徴</caption><thead><tr><td>レベル1</td><td>レベル3</td><td>レベル5</td></tr></thead><tbody><tr><td>君は[毒]ダメージに抵抗を持つ。君はまた初級呪文 @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra] を学んでいる。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]</td></tr></tbody></table>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "lskxIeib6rIreZ1h": {
+          "title": "",
+          "hint": "Meidum (about 4-7 feet tall) or Small (about 3-4 feet tall)"
+        },
+        "T8T6H9TudTleafUL": {
+          "title": "Tiefling Traits",
+          "hint": ""
+        },
+        "V8h8fLg4XG1QGewy": {
+          "title": "Abyssal Tiefling Traits",
+          "hint": "You have Resistance to Poison damage."
+        },
+        "VhCiGFOLtG8H93jy": {
+          "title": "Abyssal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        "KwcwntR3Ai0R5iPN": {
+          "title": "Abyssal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        "9iZufhdzY3XN7Em3": {
+          "title": "Abyssal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        "YENpPevreTnGrRVK": {
+          "title": "Otherworldly Presence",
+          "hint": ""
+        }
+      }
+    },
+    "phbspChthonicTie": {
+      "name": "ティーフリング・クトゥニック",
+      "description": "<p>ティーフリングは下方次元界で生まれるか、下方次元界を起源とする悪魔のような祖先を持つ。ティーフリングは、デビルやデーモン、他のフィーンドと血縁関係にある。 この下方次元界との繋がりはティーフリングのフィーンドとしての遺産であり、それは力の約束とともにもたらされるが、ティーフリングの道徳観には何の影響も及ぼさない。</p><p>ティーフリングは、その凶悪な遺産を受け入れるか嘆くかを選ぶ。</p><h3 data-anchor=\"chthonic\">クトゥニック</h3><p>クトゥニックの遺産を持つティーフリングは、カルチェリだけでなく、ゲヘナの貪欲さや黄泉の国の陰鬱さも感じている。このようなティーフリングの中には死体のような者もいる。また、サキュバスのような得体の知れない美しさを持つ者もいれば、ナイト・バグやユゴロスのような肉体的特徴を持つ者もいる。</p><h3 data-anchor=\"tiefling-traits\">ティーフリングの特徴</h3><p><strong>クリーチャー種別:</strong>人型生物</p><p><strong>サイズ: </strong>中型(約4–7フィートの身長)または小型 (約3–4フィートの身長)、 この種族を選ぶときに選択する</p><p><strong>移動速度:</strong> 30フィート</p><p>ティーフリングとして、以下の特徴を持つ。</p><p><strong>暗視 </strong>60フィートの範囲で暗視を持つ。</p><p><strong>フィーンドの遺産</strong>君は超自然的な能力を授かる遺産を受け取った。</p><p>君がキャラクターレベル3および5に達すると、表に示されているようにより高いレベルの呪文を学ぶ。それらの呪文は常に準備されている。呪文スロットを消費せずに一度だけ発動することができ、この方法で発動する能力は大休憩を終えたときに再び得る。また、その呪文を適切なレベルの呪文スロットを使用して発動することもできる。この特徴で発動する呪文の呪文発動能力は、【知力】、【判断力】、または【魅力】のいずれか（遺産を選択する際に選ぶ）である。</p><p><strong>異世界の存在。</strong> 君は@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]（初級呪文）を知っている。この特徴で唱えた場合、その呪文は、君の「フィーンドの遺産」の特徴で使用するのと同じ呪文発動能力を使用する。</p><table><caption>フィーンドの遺産</caption><thead><tr><td>レベル1</td><td>レベル3</td><td>レベル5</td></tr></thead><tbody><tr><td>君は[死霊]ダメージに対する抵抗を持つ。また君は初級呪文@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch] を学んでいる。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]</td></tr></tbody></table>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "lskxIeib6rIreZ1h": {
+          "title": "",
+          "hint": "Meidum (about 4-7 feet tall) or Small (about 3-4 feet tall)"
+        },
+        "T8T6H9TudTleafUL": {
+          "title": "Tiefling Traits",
+          "hint": ""
+        },
+        "kcfmKwJkaV9btwJU": {
+          "title": "Otherworldly Presence",
+          "hint": ""
+        },
+        "O6M9VGAwHx9Kkfhj": {
+          "title": "Chthonic Tiefling Traits",
+          "hint": "You have Resistance to Necrotic damage."
+        },
+        "pIi692Cevlw7qZRe": {
+          "title": "Chthonic Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        "DU7Y6D1IJSSgObJK": {
+          "title": "Chthonic Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        "R0k1RmQximNOQw1R": {
+          "title": "Chthonic Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        }
+      }
+    },
+    "phbspDragonborn0": {
+      "name": "ドラゴンボーン",
+      "description": "<p>ドラゴンボーンの祖先はクロマティック・ドラゴンとメタリック・ドラゴンの卵から孵化した。ある説では、これらの卵はドラゴンの神バハムートとティアマトの祝福を受けたとされ、バハムートとティアマトは自分たちに似せて創られた人間で多元宇宙を埋め尽くそうとしていた。別の説では、神々の祝福を受けずにドラゴンが最初のドラゴンボーンを生み出したという。その起源が何であれ、ドラゴンボーンは物質界に住処を築いている。</p><p>ドラゴンボーンは翼のない二足歩行のドラゴンのような外見をしており、鱗に覆われ、明るい目を持ち、骨太で頭には角が生えている。</p><h3 data-anchor=\"dragonborn-traits\">ドラゴンボーンの特徴</h3><p><strong>クリーチャー種別</strong>人型生物</p><p><strong>サイズ：</strong>中型（身長約5～7フィート）</p><strong>移動速度：</strong>30フィート<p><p>ドラゴンボーンとして、君は以下の特別な特徴を持っている。</p><p><strong>祖先の竜</strong>君の血統はドラゴンの始祖に由来する。祖先の竜表からドラゴンの種類を選ぶ。君の選択は君の外見だけでなく、ブレス攻撃とダメージ抵抗の特徴にも影響する。</p><table><caption>祖先の竜</caption><thead><tr><td>ドラゴン</td><td>ダメージ種別</td><td>ドラゴン</td><td>ダメージ種別</td></tr></thead><tbody><tr><td>ブラック</td><td>［酸］</td><td>ゴールド</td><td>［火］</td></tr><tr><td>ブルー</td><td>［電撃］</td><td>グリーン</td><td>［毒］</td></tr><tr><td>ブラス</td><td>［火］</td><td>レッド</td><td>［火］</td></tr><tr><td>ブロンズ</td><td>［電撃］</td><td>シルバー</td><td>［冷気］</td></tr><tr><td>カッパー</td><td>［酸］</td><td>ホワイト</td><td>［冷気］</td></tr></tbody></table><p><strong>ブレス攻撃</strong>自分のターンに攻撃アクションを取ったとき、自分の攻撃の1つを、幅5フィートの15フィート・円錐形か30フィート・直線上の魔法のエネルギーのブレスに置き換えることができる（形状はその都度選択する）。その効果範囲にいる各クリーチャーは、【敏捷力】セーヴィング・スロー（DC8＋君の【耐久力】修正値＋習熟ボーナス）を行なわなければならない。セーヴに失敗した場合、クリーチャーは祖先の竜の特徴によって決定される種別の1d10のダメージを受ける。セーヴに成功した場合、クリーチャーはその半分のダメージを受ける。このダメージは、君がキャラクター・レベル5（2d10）、11（3d10）、17（4d10）に達したときに1d10増加する。君はこのブレス攻撃を君の習熟ボーナスに等しい回数使用することができ、大休憩を終えると使用した回数をすべて回復する。</p><p><strong>ダメージ抵抗</strong>祖先の竜の特徴で決定されるダメージ種別への抵抗を得る。</p><p><strong>暗視</strong>60フィートの暗視を持つ。</p><p><strong>竜の翼</strong>キャラクター・レベル5になると、竜の魔力を呼応させ一時的な飛行能力を得ることができる。ボーナス・アクションとして、君は背中に霊体状の翼を生やし、その翼は10分間、あるいは翼を引っ込める（アクションは不要）か無力状態になるまで持続する。その間、君の移動速度に等しい飛行移動速度が得られる。翼はブレス攻撃と同じエネルギーでできているように見える。一度この特徴を使用すると、大休憩を終えるまで再び使用することはできない。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "65BqBxGcj6z4S803": {
+          "title": "",
+          "hint": "Medium (about 5–7 feet tall)"
+        },
+        "XA1fKbmfBiCHnVzs": {
+          "title": "Breath Weapon",
+          "hint": ""
+        },
+        "raWgGHnxSicEwTb9": {
+          "title": "Draconic Ancestry",
+          "hint": ""
+        },
+        "8maGZKJ9TOIgNR80": {
+          "title": "Damage Resistance",
+          "hint": "You have Resistance to the damage type determined by your Draconic Ancestry trait."
+        },
+        "jOGAWKkPIAbshOpo": {
+          "title": "Draconic Flight",
+          "hint": ""
+        }
+      }
+    },
+    "phbspDrow0000000": {
+      "name": "ドラウ",
+      "description": "<p>エルフは神コアロンによって創造され、最初のエルフたちは自由に形を変えることができた。彼らは神ロルスと共謀し、コアロンの支配を奪おうとしたため、コアロンによってこの能力を失った。ロルスがアビスに追放されたとき、多くのエルフは彼女を放棄し、コアロンの許しを得たが、一度失ったものは永遠に失われた。</p><p>自由に形を変えることができなくなったエルフたちは、フェイワイルドに退き、その飛翔がこの次元の影響を受けて深まった。時間が経つにつれて、多くのエルフは好奇心に駆られて他の次元を探索し、物質界の世界にも到達した。</p><p>エルフは尖った耳を持ち、顔や体に毛がない。彼らの寿命は約750年で、眠ることはなく、休息が必要なときは瞑想状態に入る。その状態では、周囲を認識しながら、記憶や瞑想に没頭する。</p><p>エルフが千年以上住んだ環境は、エルフを微妙に変化させ、特定の種類の魔法を授ける。ドラウ、ハイエルフ、ウッドエルフは、このように変化したエルフの例である。</p><h3 data-anchor=\"drow\">ドラウ</h3><p>ドラウは通常アンダーダークに住んでおり、その影響を受けている。一部のドラウ個人や社会はアンダーダークを完全に避けているが、その魔法を引き継いでいる。エベロン設定では、ドラウはゼンドリック大陸の熱帯雨林や巨大な廃墟に住んでいる。</h3><p><strong>クリーチャーの種別:</strong> 人型生物</p><p><strong>サイズ: </strong>中型 (約5～6フィートの身長)</p><p><strong>移動速度:</strong> 30フィート</p><p>エルフとして、以下の特徴を持つ。</p><p><strong>暗視: </strong>60フィートの範囲で暗視を持つ。</p><p><strong>エルフの血統: </strong>君は超自然的な能力を授ける血統に属している。エルフの血統表から1つの血統を選ぶ。君はその血統のレベル1の特徴を得る。</p><p>君がキャラクターレベル3および5に達すると、表に示されているようにより高いレベルの呪文を学ぶ。それらの呪文は常に準備されている。呪文スロットを消費せずに一度だけ唱えることができ、この方法で唱える能力は大休憩を終えたときに再び得る。また、その呪文を適切なレベルの呪文スロットを使用して唱えることもできる。この特徴で唱える呪文の呪文発動能力は、【知力】、【判断力】、または【魅力】のいずれか（血統を選択する際に選ぶ）である。</p><table><caption>ドラウの血統特徴</caption><thead><tr><td>レベル 1</td><td>レベル 3</td><td>レベル 5</td></tr></thead><tbody><tr><td>暗視の範囲が120フィートに増加。さらに、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{ダンシング・ライツ} の初級呪文を知っている。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{フェアリー・ファイアー}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{ダークネス}</td></tr></tbody></table><p><strong>フェイの血筋:</strong>  &amp;Reference[Charmed] を回避または終了するためのセーヴィング・スローに有利を持つ。</p><p><strong>鋭敏感覚:</strong>〈看破〉、〈知覚〉、または〈生存〉技能に習熟している。</p><p><strong>瞑想:</strong> 眠る必要がなく、魔法で眠らされることもない。瞑想状態で4時間を過ごすと、大休憩を終えたことになる。その間、意識を保ったままである。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "title": "",
+          "hint": "Medium (about 5–6 feet tall)"
+        },
+        "boHzoT53gYPvJ9o2": {
+          "title": "Elf Traits",
+          "hint": ""
+        },
+        "nccRK77cXNtEHCHX": {
+          "title": "Keen Senses",
+          "hint": "You have proficiency in the Insight, Perception, or Survival skill."
+        },
+        "LWGXpgeZc3PwUgTg": {
+          "title": "Drow Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        "hIn6cR8fRweVWhTp": {
+          "title": "Drow Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        "18x2qczDE0MerZfa": {
+          "title": "Drow Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        }
+      }
+    },
+    "phbspDwarf000000": {
+      "name": "ドワーフ",
+      "description": "<p>ドワーフは、鍛冶の神によって太古の時代に大地から生み出された。異なる世界ではモラディン、レオルクスなどと呼ばれるその神は、ドワーフに石と金属への親和性と地下での生活を与えた。また、山々のように頑丈で、約350年の寿命を持つように作られた。</p><p>背が低く、しばしば髭を生やしたドワーフは、山の斜面や地下に都市や要塞を刻んだ。彼らの最も古い伝説は、山頂やアンダーダークの怪物との戦いを語っている。それが巨人のような巨大な怪物であれ、地下の恐怖であれ、ドワーフはそうした物語に触発されて、勇敢な行為、特に小さき者が大いなる者を打ち負かすことを歌うことが多い。</p><p>多元宇宙のいくつかの世界では、ドワーフの最初の集落は丘陵や山岳地帯に建てられ、そこに祖先を持つ家族はそれぞれ自分たちを「丘のドワーフ」や「山のドワーフ」と呼んでいる。グレイホークやドラゴンランスの設定にはそのようなコミュニティが存在する。</p><h3 data-anchor=\"dwarf-traits\">ドワーフの特徴</h3><p><strong>クリーチャーの種別: </strong>人型生物</p><p><strong>サイズ:  </strong>中型 (約4～5フィートの身長)</p><p><strong>移動速度:</strong> 30フィート</p><p>ドワーフとして、以下の特徴を持つ。</p><p><strong>暗視: </strong>120フィートの範囲で暗視を持つ。</p><p><strong>ドワーフの毒耐性:</strong> ［毒］ダメージに対する抵抗力を持つ。また、毒状態を回避または終了するためのセーヴィング・スローに有利を持つ。</p><p><strong>壮健なるドワーフ:</strong> ヒット・ポイントの最大値が1増加し、レベルを得るごとにさらに1増加する。</p><p><strong>石工の勘:</strong> ボーナス・アクションとして、60フィートの範囲で振動感知を10分間得ることができる。この振動感知を使用するためには、石の表面にいるか、石の表面に触れている必要がある。石は自然のものであっても加工されたものであってもよい。このボーナス・アクションは、習熟ボーナスに等しい回数使用でき、大休憩を終えるとすべての使用回数が回復する。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "6HdONjMD4UozXSfC": {
+          "title": "",
+          "hint": "Medium (about 4–5 feet tall)"
+        },
+        "PphNMhWLl5mEgAZf": {
+          "title": "Dwarf Traits",
+          "hint": ""
+        },
+        "S3kro3b0bq0Ks6Y8": {
+          "title": "Dwarven Resilience",
+          "hint": "You have Resistance to Poison damage."
+        }
+      }
+    },
+    "phbspForestGnome": {
+      "name": "フォレスト・ノーム",
+      "description": "<p>ノームは発明、幻想、地下生活の神々によって創造された魔法の民である。初期のノームは、ノームの秘密主義的な性質と、森や穴の中で生活する性質から、他の民衆の目に触れることはほとんどなかった。大きさでは劣るが、賢さではそれを補っていた。罠や迷路のようなトンネルで捕食者を混乱させた。また、ガール・グリッターゴールド、バールヴァン・ワイルドワンダラー、バラバー・クロークシャドウといった神々から魔法を学び、変装して彼らを訪れた。その魔法がやがてフォレスト・ノームとロック・ノームの系譜を生み出した。</p><p>ノームは大きな目と尖った耳を持つ小柄な民族で、425年ほど生きる。多くのノームは、たとえその「屋根」が帽子以外の何物でも、頭上に屋根がある感覚が好きだ。</p><h3 data-anchor=\"gnome-traits\">ノームの特徴</h3><p><strong>クリーチャー種別</strong>人型生物</p><p><strong>サイズ：</strong>小型（身長約3～4フィート）</p><p><strong>移動速度：</strong>30フィート</p><p>ノームである君は以下の特別な特徴を持っている。</p><p><strong>暗視</strong>君は60フィートの暗視を持つ。</p><p><strong>ノームの狡知</strong>君は【知力】【判断力】【魅力】セーヴィング・スローに有利を得る。</p><p><strong>ノームの血統</strong>君は超自然的な能力を付与される血統の一員である。どの血統を選んでも、この特徴で唱える呪文の呪文発動能力は【知力】【判断力】【魅力】のいずれかになる（血統選択時に能力を選択する）。</p><p><strong>フォレスト・ノーム</strong>君は初級呪文 @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus] を学んでいる。君はまた@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA] を常に準備している。呪文スロットがなくても、君の習熟ボーナスに等しい回数だけこの呪文を唱えることができ、大休憩を終えると、使い切った使用回数をすべて回復する。また、手持ちの呪文スロットを使ってその呪文を唱えることもできる。</p>\n",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "O7gYRGMSW3atQ2Yc": {
+          "title": "",
+          "hint": "Small (about 3-4 feet tall)"
+        },
+        "LcGnqnqKYFw0PcE9": {
+          "title": "Gnome Traits",
+          "hint": ""
+        },
+        "KIOe7GcuEGboouMQ": {
+          "title": "Forest Gnome Lineage Spell",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        "5ENIyYfAxcpuh426": {
+          "title": "Forest Gnome Lineage Cantrip",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        }
+      }
+    },
+    "phbspGoliath0000": {
+      "name": "ゴライアス",
+      "description": "<p>ほとんどの人々よりはるかに大きいゴライアスはジャイアントの遠い子孫である。 それぞれのゴライアスは最初のジャイアントの恩恵を受けており、その恩恵は様々な超自然的恩恵となって現れる。その中には急速に成長し、一時的にゴライアスの巨大な親戚の身長に近づく能力もある。</p><p>ゴライアスはその家系のジャイアントを彷彿とさせる身体的特徴を持っている。たとえば、ストーン・ジャイアントのようなゴライアスもいれば、ファイア・ジャイアントのようなゴライアスもいる。 どのジャイアントが親族であったとしても、ゴライアスは多元宇宙で独自の道を切り開いてきた。—古くから巨人族を苦しめてきた内輪もめに邪魔されることなく—そして、先祖が到達した以上の高みを目指す。</p><h3 data-anchor=\"goliath-traits\">ゴライアスの特徴</h3><p><strong>クリーチャー種別: </strong>人型生物</p><p><strong>サイズ: </strong>中型(およそ身長7–8フィート)</p><p><strong>移動速度:</strong> 35フィート</p><p>ゴライアスの特別な特徴</p><p><strong>ジャイアントの祖先。</strong> 君はジャイアント（巨人）の子孫だ。 先祖からの超自然的な恩恵である以下の特徴から1つを選択する。選択した特徴を、自分の習熟ボーナスと同じ回数使用することができる。大休憩終了時に全ての使用回数が回復する:</p><p><strong>雲の遊歩(クラウド・ジャイアント). </strong>ボーナスアクションとして、君は見ることができる30フィート以内の何ものにも占められていない場所に魔法的な瞬間移動をする。</p><p><strong>火の燃焼 (ファイア・ジャイアント).</strong> 君が目標に攻撃ロールをヒットさせてダメージを与えた時、目標に追加で1d10［火］ダメージを与える。</p><p><strong>霜の氷結 (フロスト・ジャイアント).</strong> 君が目標に攻撃ロールをヒットさせてダメージを与えた時、追加で1d6［冷気］ダメージを与える。目標は次の君のターン開始時まで、移動速度が10フィート減少する。</p><p><strong>丘の転ばせ (ヒル・ジャイアント). </strong>君が大型以下のサイズのクリーチャーに攻撃ロールをヒットさせてダメージを与えた時、目標を&amp;Reference[Prone] にすることができる。</p><p><strong>石の頑丈さ (ストーン・ジャイアント).</strong> 君がダメージを受けた時、リアクションを使用して、1d12をロールすることができる。ロールの結果に【耐久力】修正値を加えた数値をそのダメージの合計から減少させる。</p><p><strong>嵐の雷鳴 (ストーム・ジャイアント).</strong>君が60フィート以内のクリーチャーからダメージを受けた時、君はリアクションを使用して、1d8［雷鳴］ダメージをそのクリーチャーに与えることができる。</p><p><strong>巨体化。</strong> キャラクターが5レベルになったら、君は十分な広さの場所があれば、ボーナスアクションとして君のサイズを大型に変更することができる。このこの変身は10分間、または君が終了させるまで続く（アクションは不要）。持続時間の間、君は【筋力】能力値判定に有利を得て、移動速度が10フィート上昇する。  一度この特性を使用したら、大休憩終了時まで再びつかうことはできない。</p><p><strong>優れた体格</strong> 君はつかまれた状態を終了させるためのいかなるセーヴィング・スローにも有利を得る。また君は運搬能力を決定する時に1段階大きなサイズとみなされる。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "LETPMtBLvmzWUUb0": {
+          "title": "",
+          "hint": "Medium (about 7-8 feet tall)"
+        },
+        "PZxMcT5tVtvvf62P": {
+          "title": "Goliath Traits",
+          "hint": ""
+        },
+        "LrdYfRLrRlgsZrNn": {
+          "title": "Giant Ancestry",
+          "hint": "You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+        },
+        "9cKoMls1KVDsdD4A": {
+          "title": "Goliath Traits",
+          "hint": ""
+        }
+      }
+    },
+    "phbspHalfling000": {
+      "name": "ハーフリング",
+      "description": "<p>命、家庭、暖炉を重んじる神々に愛され、導かれているハーフリングは、家族とコミュニティが生活を形作る田園の楽園に引き寄せられる。それにもかかわらず、多くのハーフリングは勇敢で冒険心に満ちた精神を持ち、発見の旅に出て、より大きな世界を探索し、新しい友人を作る機会を得る。彼らのサイズはヒューマンの子供に似ているため、群衆の中を目立たずに通り抜けたり、狭い場所をすり抜けたりすることができる。.</p><p>ハーフリング、特にハーフリングの冒険者と時間を過ごしたことのある人は、ハーフリングの「幸運」が実際に作用する瞬間を目撃したことがあるかもしれない。ハーフリングが命の危険にさらされたとき、見えない力がハーフリングを助けるかのように介入することがある。多くのハーフリングは幸運の力を信じ、この特異な贈り物をヤンダーラ、ブランドーベアリス、チャーマレインといった慈悲深い神々の一柱または複数に由来すると考えている。この贈り物が彼らの豊かな寿命（約150年）に寄与している可能性もある。</p><p>ハーフリングのコミュニティは多種多様である。世界の未開の部分に隠れた静かなシャイアから、エベロンの設定におけるボロマール氏族のような犯罪組織や、ダークサンの設定における領土的な暴徒まで、さまざまである。</p><p>地下生活を好むハーフリングは、時にはストロングハート・ハーフリングやスタウトと呼ばれることがある。遊牧的なハーフリングや、ヒューマンや他の背の高い人々の間に住むハーフリングは、時にはライトフット・ハーフリングやトールフェローと呼ばれる。</p><h3 data-anchor=\"halfling-traits\">ハーフリングの特徴</h3><p><strong>クリーチャーの種別: </strong>人型生物</p><p><strong>サイズ: </strong>小型 (約2～3フィートの身長)</p><p><strong>移動速度:</strong> 30フィート</p><p>ハーフリングとして、以下の特徴を持つ。</p><p><strong>ハーフリングの勇気:</strong> 恐怖状態を回避または終了するためのセーヴィング・スローに有利を持つ。</p><p><strong>すり抜け移動:</strong> 自分よりサイズが1大きいクリーチャーの空間を通り抜けることができるが、同じ空間に止まることはできない。</p><p><strong>ハーフリングの幸運:</strong> D20テストでd20のロールが1になったとき、再度ロールできる。その際、再ロールした結果を使用しなければならない。</p><p><strong>隠密の天性:</strong>自分より少なくとも1サイズ大きいクリーチャーによってのみ隠蔽されている場合でも、隠れ身アクションを取ることができる。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "GYp1vi82hSEoe3mO": {
+          "title": "",
+          "hint": "Small (about 2-3 feet tall)"
+        },
+        "GFHErdA52SfUBvB5": {
+          "title": "Halfling Traits",
+          "hint": ""
+        }
+      }
+    },
+    "phbspHighElf0000": {
+      "name": "ハイエルフ",
+      "description": "<p>エルフは神コアロンによって創造され、最初のエルフたちは自由に形を変えることができた。彼らは神ロルスと共謀し、コアロンの支配を奪おうとしたため、コアロンによってこの能力を失った。ロルスがアビスに追放されたとき、多くのエルフは彼女を放棄し、コアロンの許しを得たが、一度失ったものは永遠に失われた。</p><p>自由に形を変えることができなくなったエルフたちは、フェイワイルドに退き、その飛翔がこの次元の影響を受けて深まった。時間が経つにつれて、多くのエルフは好奇心に駆られて他の次元を探索し、物質界の世界にも到達した。</p><p>エルフは尖った耳を持ち、顔や体に毛がない。彼らの寿命は約750年で、眠ることはなく、休息が必要なときは瞑想状態に入る。その状態では、周囲を認識しながら、記憶や瞑想に没頭する。</p><p>エルフが千年以上住んだ環境は、エルフを微妙に変化させ、特定の種類の魔法を授ける。ドラウ、ハイエルフ、ウッドエルフは、このように変化したエルフの例である。</p><h3 data-anchor=\"drow\">ハイエルフ</h3><p>ハイエルフは、フェイワイルドと物質界の交差点に浸透した魔法の影響を受けている。いくつかの世界では、ハイエルフは他の名前で自分たちを呼ぶ。たとえば、フォーゴトン・レルム設定では太陽エルフや月エルフと呼ばれ、ドラゴンランス設定ではシルヴァネスティやクァリネスティ、エベロン設定ではエアレニと呼ばれる。</h3><p><strong>クリーチャーの種別:</strong> 人型生物</p><p><strong>サイズ: </strong>中型 (約5～6フィートの身長)</p><p><strong>移動速度:</strong> 30フィート</p><p>エルフとして、以下の特徴を持つ。</p><p><strong>暗視: </strong> 60フィートの範囲で暗視を持つ。</p><p><strong>エルフの血統: </strong>君は超自然的な能力を授ける血統に属している。エルフの血統表から1つの血統を選ぶ。君はその血統のレベル1の特徴を得る。</p><p>君がキャラクターレベル3および5に達すると、表に示されているようにより高いレベルの呪文を学ぶ。それらの呪文は常に準備されている。呪文スロットを消費せずに一度だけ唱えることができ、この方法で唱える能力は大休憩を終えたときに再び得る。また、その呪文を適切なレベルの呪文スロットを使用して唱えることもできる。この特徴で唱える呪文の呪文発動能力は、【知力】、【判断力】、または【魅力】のいずれか（血統を選択する際に選ぶ）である。</p><table><caption>ハイエルフの血統特徴</caption><thead><tr><td>レベル 1</td><td>レベル 3</td><td>レベル 5</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{プレスティディジテイション}の初級呪文を知っている。大休憩を終えたとき、@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{ウィザード呪文リスト}から異なる初級呪文と交換できる。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{ディテクト・マジック}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{ミスティ・ステップ}</td></tr></tbody></table><p><strong>フェイの血筋:</strong> &amp;Reference[Charmed] を回避または終了するためのセーヴィング・スローに有利を持つ。</p><p><strong>鋭敏感覚:</strong>〈看破〉、〈知覚〉、または〈生存〉技能に習熟している。</p><p><strong>瞑想:</strong> 眠る必要がなく、魔法で眠らされることもない。瞑想状態で4時間を過ごすと、大休憩を終えたことになる。その間、意識を保ったままである。",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "title": "",
+          "hint": "Medium (about 5–6 feet tall)"
+        },
+        "boHzoT53gYPvJ9o2": {
+          "title": "Elf Traits",
+          "hint": ""
+        },
+        "wyzOrBj4qIVsCKc7": {
+          "title": "Keen Senses",
+          "hint": "You have proficiency in the Insight, Perception, or Survival skill."
+        },
+        "hraql8YRB41ssDA6": {
+          "title": "High Elf Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        "iztB4GPENKXiA72M": {
+          "title": "High Elf Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        "1LZlC6uInez1oV7n": {
+          "title": "High Elf Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        }
+      }
+    },
+    "phbspHuman000000": {
+      "name": "ヒューマン",
+      "description": "<p>多元宇宙全体に見られるヒューマンは、多様でありながらも数多く存在し、与えられた年数でできるだけ多くのことを成し遂げようと努める。彼らの野心と資源力は、多くの世界で称賛され、尊敬され、時には恐れられている。</p><p>ヒューマンの外見は地球の人々と同じく多様であり、多くの神を信仰している。人類の起源については学者たちの間で議論があるが、最も初期の人類の集まりの一つが、円環型の多元宇宙の中心に位置する街シギルで起こったと言われている。シギルは「ドアの都」として知られ、共通語が生まれた場所でもある。そこから、ヒューマンは多元宇宙のあらゆる場所に広がり、「ドアの都」の国際性を持ち込んだのかもしれない。</p><h3 data-anchor=\"human-traits\">ヒューマンの特徴</h3><p><strong>クリーチャーの種別:</strong>人型生物</p><p><strong>サイズ: </strong>中型 (約4～7フィートの身長) または 小型 (約2～4フィートの身長)、この種族を選択する際に選ぶ</p><p><strong>移動速度: </strong>30フィート</p><p>ヒューマンとして、以下の特徴を持つ。</p><p><strong>臨機の才:</strong>大休憩を終えるたびに、ヒロイック・インスピレーションを得る。</p><p><strong>多芸: </strong>任意の1つの技能に習熟を得る。</p><p><strong>多才さ:</strong> 任意の起源の特技を得る（第5章参照）。技能習熟の特技が推奨される。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "dLxv96vt2B2KOEe2": {
+          "title": "",
+          "hint": "Medium (about 4-7 feet tall) or Small (about 2-4 feet tall), chosen when you select this species"
+        },
+        "2H3yQa0PfjBgXw2W": {
+          "title": "Human Traits",
+          "hint": ""
+        },
+        "xIdIaWtTj1cBERln": {
+          "title": "Skillful",
+          "hint": "You gain proficiency in one skill of your choice."
+        },
+        "KB8IQLwyuL6SOFnv": {
+          "title": "Versatile",
+          "hint": "You gain an Origin feat of your choice. Skillful is recommended."
+        }
+      }
+    },
+    "phbspInfernalTie": {
+      "name": "ティーフリング・インファーナル",
+      "description": "<p>ティーフリングは下方次元界で生まれるか、下方次元界を起源とする悪魔のような祖先を持つ。ティーフリングは、デビルやデーモン、他のフィーンドと血縁関係にある。 この下方次元界との繋がりはティーフリングのフィーンドとしての遺産であり、それは力の約束とともにもたらされるが、ティーフリングの道徳観には何の影響も及ぼさない。</p><p>ティーフリングは、その凶悪な遺産を受け入れるか嘆くかを選ぶ。</p><h3 data-anchor=\"abyssal\">地獄</h3><p>地獄の遺産は、ゲヘナだけでなく、九層地獄やアケロンの荒れ狂う戦場ともつながっている。角、棘、尻尾、金色の目、かすかな硫黄や煙の臭いが、そのようなティーフリングの一般的な身体的特徴であり、そのほとんどは先祖を悪魔に遡る。</p><h3 data-anchor=\"tiefling-traits\">ティーフリングの特徴</h3><p><strong>クリーチャー種別:</strong>人型生物</p><p><strong>サイズ: </strong>中型(約4–7フィートの身長)または小型 (約3–4フィートの身長)、 この種族を選ぶときに選択する</p><p><strong>移動速度:</strong> 30フィート</p><p>ティーフリングとして、以下の特徴を持つ。</p><p><strong>暗視 </strong>60フィートの範囲で暗視を持つ。</p><p><strong>フィーンドの遺産</strong>君は超自然的な能力を授かる遺産を受け取った。</p>君がキャラクターレベル3および5に達すると、表に示されているようにより高いレベルの呪文を学ぶ。それらの呪文は常に準備されている。呪文スロットを消費せずに一度だけ発動することができ、この方法で発動する能力は大休憩を終えたときに再び得る。また、その呪文を適切なレベルの呪文スロットを使用して発動することもできる。この特徴で発動する呪文の呪文発動能力は、【知力】、【判断力】、または【魅力】のいずれか（遺産を選択する際に選ぶ）である。異世界の存在。 君は@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]（初級呪文）を知っている。この特性で唱えた場合、その呪文は、君の「フィーンドの遺産」の特性で使用するのと同じ呪文能力を使用する。<p><p><strong>異世界の存在</strong>君は@UUID[Compendium.dnd-players-handbook.sells.Item.phbsplThaumaturg]という初級呪文を知っています。この特徴でそれを唱えた場合、その呪文は君の特徴であるフィーンドの遺産で使用しているのと同じ呪文発動能力を使用する。</p><table><caption>フィーンドの遺産</caption><thead><tr><td>1レベル</td><td>レベル3</td><td>レベル5</td></tr></thead><tbody><tr><td>君は[火]ダメージに抵抗を持つ。君はまた初級呪文@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00] を知っている。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]</td></tr></tbody></table>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "lskxIeib6rIreZ1h": {
+          "title": "",
+          "hint": "Meidum (about 4-7 feet tall) or Small (about 3-4 feet tall)"
+        },
+        "T8T6H9TudTleafUL": {
+          "title": "Tiefling Traits",
+          "hint": ""
+        },
+        "bD2XFMWGPkFJLr2w": {
+          "title": "Otherworldly Presence",
+          "hint": ""
+        },
+        "9V9xGP0Fsqh3NDsB": {
+          "title": "Infernal Tiefling Traits",
+          "hint": "You have Resistance to Fire damage."
+        },
+        "gMovXMwHeD9cCL99": {
+          "title": "Infernal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        "ol3SWLw2FTNEiXrb": {
+          "title": "Infernal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        "cj8h25IH0Zvdy3Bm": {
+          "title": "Infernal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        }
+      }
+    },
+    "phbspOrc00000000": {
+      "name": "オーク",
+      "description": "<p>オークの起源は、物質平原の広い大地を闊歩していた強力な神グルームシュに遡る。グルームッシュは子供たちに、大平原、広大な洞窟、荒れ狂う海をさまよい、そこに潜む怪物に立ち向かうための贈り物を授けた。他の神々に帰依するようになっても、オークはグルームシュの賜物である持久力、決断力、暗闇を見通す能力を保持している。</p><p>オークは平均的に背が高く、横幅が広い。灰色の肌、鋭く尖った耳、小さな牙のような下顎の犬歯が特徴的である。ある世界のオークの若者たちは、彼らの祖先の偉大な旅と苦難について聞かされている。それらの物語に触発されたオークの多くは、グルームシュがいつ自分たちに昔の英雄的な行為に匹敵するような呼びかけをするのか、そして自分たちがグルームシュの寵愛を受けるに値することを証明できるのかと考えている。他のオークたちは、古い物語を過去のものとし、自分たちの道を見つけることに満足している。</p><h3 data-anchor=\"orc-traits\">オークの特徴</h3><p><strong>クリーチャー種別</strong>人型生物</p><p><strong>サイズ：</strong>中型（身長約6～7フィート）</p><p><strong>移動相度：30フィート</p><p>オークである君は以下の特別な特徴を持っている。</p><p><strong>アドレナリン・ラッシュ</strong>君はボーナス・アクションとして早足アクションを取ることができる。その際、君は君の習熟ボーナスに等しい数の一時的ヒット・ポイントを得る。この特徴は君の習熟ボーナスに等しい回数使用することができ、小休憩または大休憩が終わると、使用した回数をすべて回復する。</p><p><strong>暗視</strong>君は120フィートの暗視を持つ。</p><p><strong>オークのしぶとさ</strong>ヒット・ポイントが0になったが死亡しなかった場合、代わりにヒット・ポイントを1にすることができる。一度この特徴を使用すると、小休憩を終えるまで再び使用することはできない。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "B2sUOuY0KhoULqlX": {
+          "title": "",
+          "hint": "Medium (about 6-7 feet tall)"
+        },
+        "C2ehwp5W2SMJ88Wy": {
+          "title": "Orc Traits",
+          "hint": ""
+        }
+      }
+    },
+    "phbspRockGnome00": {
+      "name": "ロック・ノーム",
+      "description": "<p>ノームは発明、幻想、地下生活の神々によって創造された魔法の民である。初期のノームは、ノームの秘密主義的な性質と、森や穴の中で生活する性質から、他の民衆の目に触れることはほとんどなかった。大きさでは劣るが、賢さではそれを補っていた。罠や迷路のようなトンネルで捕食者を混乱させた。また、ガール・グリッターゴールド、バールヴァン・ワイルドワンダラー、バラバー・クロークシャドウといった神々から魔法を学び、変装して彼らを訪れた。その魔法がやがてフォレスト・ノームとロック・ノームの系譜を生み出した。</p><p>ノームは大きな目と尖った耳を持つ小柄な民族で、425年ほど生きる。多くのノームは、たとえその「屋根」が帽子以外の何物でも、頭上に屋根がある感覚が好きだ。</p><h3 data-anchor=\"gnome-traits\">ノームの特徴</h3><p><strong>クリーチャー種別</strong>人型生物</p><p><strong>サイズ：</strong>小型（身長約3～4フィート）</p><p><strong>移動速度：</strong>30フィート</p><p>ノームである君は以下の特別な特徴を持っている。</p><p><strong>暗視</strong>君は60フィートの範囲の暗視を持っている。</p><p><strong>ノームの狡知</strong>君は【知力】【判断力】【魅力】のセーヴィング・スローで有利を得る。<p><strong>ノームの血統</strong>君は超自然的な能力を付与される血統の一員である。どの血統を選んでも、この特徴で唱える呪文の呪文発動能力は【知力】【判断力】【魅力】のいずれかになる（血統選択時に能力を選択する）。</p><p><strong>ロック・ノーム</strong>君は初級呪文@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMending000]と@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]を学んでいる。加えて、10分間を消費し<em>プレスティディジテイション</em>を使用して、おもちゃ、火おこし、オルゴールなどの小さな時計仕掛けの装置（AC5、HP1）を作成する。装置を作成する際、以下の効果から1つを選んでその機能を決定する。 <em>プレスティディジテイション</em>; その装置は、君か他のクリーチャーが接触しそれを起動するボーナス・アクションを取るたび、その効果を発生させる。選ばれた効果にオプションがある場合、君はその装置を作成する際にそのオプションの1つを選ぶ。たとえば、呪文の点火-消火の効果を選んだ場合、君はその装置が火を点火するか消火するかを決定する。このような装置は一度に3つ存在させることができ、各装置は作成から8時間後か、君が利用アクションとして接触して解体したときにバラバラになる。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "O7gYRGMSW3atQ2Yc": {
+          "title": "",
+          "hint": "Small (about 3-4 feet tall)"
+        },
+        "LcGnqnqKYFw0PcE9": {
+          "title": "Gnome Traits",
+          "hint": ""
+        },
+        "RNvJhB97kaJrZTfU": {
+          "title": "Rock Gnome Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        }
+      }
+    },
+    "phbsptAbyssalLeg": {
+      "name": "フィーンドの遺産：奈落",
+      "description": "<p>君は超自然的な能力を付与する遺産を受け取っている。</p><p>キャラクター・レベルが3および5に達したとき、君は表に示すような、より高いレベルの呪文を習得する。君はその呪文を常に準備している。その呪文は呪文スロットがなくても1度だけ唱えることができ、大休憩を終えるとそのように唱える能力を回復する。また、適切なレベルの呪文スロットを持っていれば、それを使って呪文を唱えることもできる。この特徴を使って唱える呪文には、【知力】【判断力】【魅力】のいずれかが君の呪文発動能力として適用される（遺産を選択する際に能力を選択する）。</p><h3 data-anchor=\"abyssal\">アビス</h3><p>アビスのエントロピー、パンデモニウムの混沌、カルチェリの絶望が、アビスの遺産を持つティーフリングを呼び寄せる。角、毛皮、牙、特異な香りはそのようなティーフリングに共通する身体的特徴であり、そのほとんどは悪魔の血が脈々と流れている。</p><table><caption>アビスの遺産特徴：レベル1<td><td>レベル3</td><td>レベル5</td><tr><thead><tbody><tr><td>君は［毒］ダメージに抵抗を持つ。また、君は初級呪文@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]を学んでいる。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>取り扱いメモ</strong></p><p>抵抗と呪文は自動的に付与され、レベルアップ時に呪文発動能力を選択するよう促される。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptAdrenaline": {
+      "name": "アドレナリン・ラッシュ",
+      "description": "<p>ボーナス・アクションとして早足アクションを行うことができる。その際、君の習熟ボーナスに等しい数の一時的ヒット・ポイントを獲得する。この特徴は君の習熟ボーナスに等しい回数だけ使用することができ、大休憩を終えると消費した回数をすべて回復する。</p>",
+      "activities": {
+        "jN5Zo6mDXll3c4Cz": {
+          "name": "アドレナリン・ラッシュ: 早足"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptBrave00000": {
+      "name": "勇気",
+      "description": "<p>&amp;Reference[Frightened]をもたらす効果に対するセーヴィング・スローに有利を得る。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptBreathWeap": {
+      "name": "ブレス攻撃",
+      "description": "<p>君のターンに攻撃アクションを用いて、君は自分の攻撃の1つを、15フィート円錐形か幅5フィート・長さ30フィート直線状のいずれかの魔法のエネルギーの吐息に置き換えることができる(形状はその都度選択する)。範囲内の各クリーチャーは【敏捷力】セーヴィング・スロー(難易度8+君の【耐久力】修正値+君の習熟ボーナス)を行なわなければならない。セーヴに失敗した場合、祖先の竜の特徴によって決定される種類の1d10ダメージを受ける。成功した場合、その半分のダメージを受ける。このダメージは5レベルで(2d10)、11レベルで(3d10)、17レベルで(4d10)に上昇する。このブレス攻撃は習熟ボーナスに等しい回数使用でき、大休憩を終えると使用回数がすべて回復する。</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>取り扱いメモ</strong></p><p><strong> ブレス攻撃(円錐形)</strong>と<strong> ブレス攻撃(直線状)</strong>の用途は、いずれもテンプレートタイプに設定されており、各タイプのダメージが含まれている。また、ダメージはレベルアップに応じて変化する。</p><p> ダメージロールのダイアログボックスでダメージタイプを選択できる。その後、君が選んだダメージは記憶されます。用途を編集して他のダメージタイプを削除すれば、この操作を省略できます。</p></section>",
+      "activities": {
+        "dxCRYmNSSGp6L2yh": {
+          "name": "ブレス攻撃（円錐形）"
+        },
+        "iyK44COq6gbdbkc2": {
+          "name": "ブレス攻撃（直線状）"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptChthonicLe": {
+      "name": "フィーンドの遺産：クトゥニック",
+      "description": "<p>君は超自然的な能力を授かる遺産を受け取った。</p><p>君がキャラクターレベル3および5に達すると、表に示されているようにより高いレベルの呪文を学ぶ。それらの呪文は常に準備されている。呪文スロットを消費せずに一度だけ発動することができ、この方法で発動する能力は大休憩を終えたときに再び得る。また、その呪文を適切なレベルの呪文スロットを使用して発動することもできる。この特徴で発動する呪文の呪文発動能力は、【知力】、【判断力】、または【魅力】のいずれか（遺産を選択する際に選ぶ）である。</p><h3 data-anchor=\"chthonic\">クトゥニック</h3><p>クトゥニックの遺産を持つティーフリングは、カルケリだけでなく、ゲヘナの貪欲さやハデスの陰鬱さも感じている。その中には死体のような姿の者もいる。また、サキュバスのような得体の知れない美しさを持つ者もいれば、ナイト・バグやユゴロスのような肉体的特徴を持つ者もいる。</p><table><caption>クトゥニックの遺産</caption><thead><tr><td>レベル1</td><td>レベル3</td><td>レベル5</td></tr></thead><tbody><tr><td>君は［死霊］ダメージに対抗を持つ。また君は初級呪文@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]を学んでいる。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>取り扱いメモ</strong></p><p>抵抗と呪文は自動的に付与され、レベルアップ時に呪文発動能力を選択するよう促される。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptCloudsJaun": {
+      "name": "雲の遊歩",
+      "description": "<p>ボーナス・アクションとして、君は自分が見える何ものにも占められていないスペースまで最大30フィート魔法のテレポートを行なうことができる。</p>",
+      "activities": {
+        "t4npBWLqABsnPZwL": {
+          "name": "雲の遊歩"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptDraconicFl": {
+      "name": "竜の翼",
+      "description": "<p>キャラクター・レベル5になると、竜の魔力を呼応させ一時的な飛行能力を得ることができる。ボーナス・アクションとして、君は背中に霊体状の翼を生やし、その翼は10分間、あるいは翼を引っ込める（アクションは不要）か無力状態になるまで持続する。その間、君の移動速度に等しい飛行移動速度が得られる。翼はブレス攻撃と同じエネルギーでできているように見える。一度この特徴を使用すると、大休憩を終えるまで再び使用することはできない。</p><section id=\"secret-pP4PH5jVYBp1OEa3\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この特徴には追跡用のアクティブ効果が含まれているが、自動的に飛行移動速度が付与されるわけではない。</p></section>",
+      "activities": {
+        "FrsJbUcch66Cr7OZ": {
+          "name": "竜の翼"
+        }
+      },
+      "effects": {
+        "waI4oHqhpbKUem0M": {
+          "name": "Draconic Flight"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptDrowElfLin": {
+      "name": "エルフの血統(ドラウ)",
+      "description": "<p>君は超自然的な能力を授ける血統に属している。エルフの血統表から1つの血統を選ぶ。君はその血統のレベル1の特徴を得る。</p><p>君がキャラクターレベル3および5に達すると、表に示されているようにより高いレベルの呪文を学ぶ。それらの呪文は常に準備されている。呪文スロットを消費せずに一度だけ唱えることができ、この方法で唱える能力は大休憩を終えたときに再び得る。また、その呪文を適切なレベルの呪文スロットを使用して唱えることもできる。この特徴で唱える呪文の呪文発動能力は、【知力】、【判断力】、または【魅力】のいずれか（血統を選択する際に選ぶ）である。</p><h3>ドラウの血統特徴</h3><table><thead><tr><td><p>レベル 1</p></td><td><p>レベル 3</p><td>レベル 5</p></td></tr></thead><tbody><tr><td><p>暗視の範囲が120フィートに増加。さらに、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{ダンシング・ライツ} の初級呪文を知っている。</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{フェアリー・ファイアー}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{ダークネス}</p></td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>取り扱いメモ</strong></p><p>種族を選択し、レベルアップすると、関連する特徴や呪文が自動的に付与される。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptDwarvenRes": {
+      "name": "ドワーフの毒耐性",
+      "description": "<p>［毒］ダメージに対する抵抗力を持つ。また、毒状態を回避または終了するためのセーヴィング・スローに有利を持つ。</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>毒のダメージに対する抵抗は自動的に付与されるが、毒状態を回避/終了する際のセーヴィング・スローの有利は付与されない。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptDwarvenTou": {
+      "name": "壮健なるドワーフ",
+      "description": "<p>ヒット・ポイントの最大値が1増加し、レベルを得るごとにさらに1増加する。</p><section class=\"secret\" id=\"secret-FK9DFLudP5EzEss9\"><p><strong>取り扱いメモ</strong></p><p>ヒットポイントの上限はレベル毎に自動的に増加する。</p></section>",
+      "activities": {},
+      "effects": {
+        "Na7W3p67eT9YqW87": {
+          "name": "Dwarven Toughness"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptFeyAncestr": {
+      "name": "フェイの血筋",
+      "description": "&amp;Reference[Charmed]を回避または終了するためのセーヴィング・スローに有利を持つ。",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptFiresBurn0": {
+      "name": "火の燃焼",
+      "description": "<p>攻撃ロールで対象に命中しダメージを与えたとき、対象に1d10の[火]ダメージを与えることができます。</p>",
+      "activities": {
+        "002cv19dj8WGzSl2": {
+          "name": "火傷"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptForestGnom": {
+      "name": "フォレスト・ノームの血統",
+      "description": "<p>君は初級呪文 @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]を知っている。君はまた @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]を常に準備している。呪文スロットがなくても、君の習熟ボーナスに等しい回数だけこの呪文を唱えることができ、大休憩を終えると、使い切った使用回数をすべて回復する。また、手持ちの呪文スロットを使ってその呪文を唱えることもできる。</p><section id=\"secret-CwVBuqSGI27gl6R9\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>呪文スロット消費なしはこの呪文に含まれている。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptFrostsChil": {
+      "name": "霜の氷結",
+      "description": "<p>攻撃ロールで対象に命中しダメージを与えたとき、次のターンの開始時まで、その対象に1d6の［冷気］ダメージを与え、その対象の移動速度を10フィート減少させることができる。</p><section id=\"secret-jxuUuY0r33aiP0zL\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この特徴には、追尾に使用でき移動速度を10ft.減少させるアクティブ効果が含まれる。</p></section>",
+      "activities": {
+        "6goWQaWLexUqgig8": {
+          "name": "凍結"
+        }
+      },
+      "effects": {
+        "YHKgdj2KIbQRBZWW": {
+          "name": "Chilled"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptGiantAnces": {
+      "name": "巨人の血筋",
+      "description": "<p>君はジャイアントの子孫だ。 先祖からの超自然的な恩恵である以下の特徴から1つを選択する。 選択した特徴を、自分の習熟ボーナスと同じ回数使用することができる。大休憩終了時に全ての使用回数が回復する:</p><p><strong>雲の遊歩(クラウド・ジャイアント)： </strong>ボーナスアクションとして、君は見ることができる30フィート以内の何ものにも占められていない場所に魔法的な瞬間移動をする。</p><p><strong>炎の燃焼 (ファイア・ジャイアント)：</strong>君が目標に攻撃ロールをヒットさせてダメージを与えた時、目標に追加で1d10［火］ダメージを与える。</p><p><strong>霜の氷結 (フロスト・ジャイアント)：</strong> 君が目標に攻撃ロールをヒットさせてダメージを与えた時、追加で1d6［冷気］ダメージを与える。目標は次の君のターン開始時まで、移動速度が10フィート減少する。</p><p><strong>丘の転ばせ (ヒル・ジャイアント)：</strong>君が大型以下のサイズのクリーチャーに攻撃ロールをヒットさせてダメージを与えた時、目標を&amp;Reference[Prone] にすることができる。</p><p><strong>岩の耐久力 (ストーン・ジャイアント)：</strong> 君がダメージを受けた時、リアクションを使用して、1d12をロールすることができる。ロールの結果に【耐久力】修正値を加えた数値をそのダメージの合計から減少させる。</p><p><strong>嵐の雷鳴 (ストーム・ジャイアント).</strong>君が60フィート以内のクリーチャーからダメージを受けた時、君はリアクションを使用して、1d8［雷鳴］ダメージをそのクリーチャーに与えることができる。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptGnomishCun": {
+      "name": "ノームの機転",
+      "description": "<p>【知力】、【判断力】、【魅力】セーヴィング・スローに有利を得る。</p>",
+      "activities": {},
+      "effects": {
+        "KNWLGPsZSHtINp6L": {
+          "name": "Gnomish Cunning",
+          "description": "<p>You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p>"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptHalflingNi": {
+      "name": "すり抜け移動",
+      "description": "<p>自分よりサイズが 1 大きいクリーチャーの空間を通り抜けることができるが、同じ空間に止まることはできない。</p>",
+      "activities": {},
+      "effects": {
+        "HtNoV5usxEadPbqp": {
+          "name": "Halfling Nimbleness"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptHighElfLin": {
+      "name": "エルフの血統(ハイ・エルフ)",
+      "description": "<p>君は超自然的な能力を授ける血統に属している。エルフの血統表から1つの血統を選ぶ。君はその血統のレベル1の特徴を得る。</p><p>君がキャラクターレベル3および5に達すると、表に示されているようにより高いレベルの呪文を学ぶ。それらの呪文は常に準備されている。呪文スロットを消費せずに一度だけ唱えることができ、この方法で唱える能力は大休憩を終えたときに再び得る。また、その呪文を適切なレベルの呪文スロットを使用して唱えることもできる。この特徴で唱える呪文の呪文発動能力は、【知力】、【判断力】、または【魅力】のいずれか（血統を選択する際に選ぶ）である。</p><h3>ハイエルフの血統特徴</h3><table><thead><tr><td><p>レベル 1</p></td><td><p>レベル 3</p><td>レベル 5</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{プレスティディジテイション}の初級呪文を知っている。大休憩を終えたとき、ウィザード呪文リストから異なる初級呪文と交換できる。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{ディテクト・マジック}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{ミスティ・ステップ}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>取り扱いメモ</strong></p><p>種族を選択し、レベルアップすると、関連する特徴や呪文が自動的に付与される。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptHillsTumbl": {
+      "name": "丘の転ばせ",
+      "description": "<p>大型以下のサイズのクリーチャーに攻撃をヒットさせダメージを与えた場合、目標は &amp;Reference[Prone] 状態になる。</p>",
+      "activities": {
+        "I2wKOUDxhIb5hHb7": {
+          "name": "丘の転ばせ"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptInfernalLe": {
+      "name": "フィーンドの遺産：地獄",
+      "description": "<p>君は超自然的な能力を授かる遺産を受け取った。</p><p>君がキャラクターレベル3および5に達すると、表に示されているようにより高いレベルの呪文を学ぶ。それらの呪文は常に準備されている。呪文スロットを消費せずに一度だけ発動することができ、この方法で発動する能力は大休憩を終えたときに再び得る。また、その呪文を適切なレベルの呪文スロットを使用して発動することもできる。この特徴で発動する呪文の呪文発動能力は、【知力】、【判断力】、または【魅力】のいずれか（遺産を選択する際に選ぶ）である。</p><h3 data-anchor=\"chthonic\">地獄</h3><p>地獄の遺産は、ゲヘナだけでなく、九つの地獄やアケロンの荒れ狂う戦場ともつながっている。角、棘、尻尾、金色の目、かすかな硫黄や煙の臭いが、そのようなティーフリングの一般的な身体的特徴であり、そのほとんどは先祖を悪魔に遡る。</p><table><caption>地獄の血の遺産</caption><thead><tr><td>レベル1</td><td>レベル3</td><td>レベル5</td></tr></thead><tbody><tr><td>君は［火］ダメージに抵抗を持つ。君はまた初級呪文@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]を学んでいる。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]</td></tr></tbody></table><section class=\"secret\" id=\"secret-UpLnecebx3jeydEG\"><p><strong>取り扱いメモ</strong></p><p>抵抗と呪文は自動的に付与される。レベルアップ時に呪文能力を選択するよう促される。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptKeenSenses": {
+      "name": "鋭敏感覚",
+      "description": "<p>〈看破〉、〈知覚〉、または〈生存〉技能に習熟している。</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この種族を選択すると、技能選択のプロンプトが表示されます</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptLargeForm0": {
+      "name": "大型形態",
+      "description": "<p>キャラクター・レベル5になると、十分な広さの場所にいる場合、ボーナス・アクションとして自分のサイズを大型に変更できる。この変身は10分間、またはそれを終了するまで続く（アクションは不要）。その間、君は【筋力】判定に有利となり、移動速度が10フィート増加する。一度この特徴を使用すると、大休憩を終えるまで再び使用することはできない。</p><section class=\"secret\" id=\"secret-MnS2QCGjgh6nXxEa\"><p><strong>取り扱いメモ</strong></p><p>この特徴には、移動速度を自動的に増加させるアクティブ効果が含まれるが、有利は自動化されない。</p></section>",
+      "activities": {
+        "5jJ0wfYo2b4k26Em": {
+          "name": "拡大"
+        }
+      },
+      "effects": {
+        "QI7POclNlvX9a8VD": {
+          "name": "Large Form",
+          "description": "<p>For the duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can’t use it again until you finish a Long Rest.</p>"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptLuck000000": {
+      "name": "幸運",
+      "description": "<p>D20 テストで d20 のロールが 1 になったとき、再度ロールできる。その際、再ロールした結果を使用しなければならない。</p>",
+      "activities": {},
+      "effects": {
+        "k1FDpZEBCHzRsFSA": {
+          "name": "Luck"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptNaturallyS": {
+      "name": "隠密の天性",
+      "description": "<p>自分より少なくとも 1 サイズ大きいクリーチャーによってのみ隠蔽されている場合でも、隠れ身アクションを取ることができる。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptOtherworld": {
+      "name": "異世界の威風",
+      "description": "<p>君は@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]（初級呪文）を知っている。この特性で唱えた場合、その呪文は、君の「フィーンドの遺産」の特性で使用するのと同じ呪文能力を使用する。</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この呪文を得ると、この呪文の自分の呪文発動能力を選べるようになる。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptPowerfulBu": {
+      "name": "優れた体格",
+      "description": "<p>君はつかまれた状態を終了させるためのいかなるセーヴィング・スローにも有利を得る。また君は運搬能力を決める際には、君のサイズ分類は１段階大きいものとみなされる。</p><section id=\"secret-7qaTRjmRe4PD41G3\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この特徴にはアクティブ・エフェクトが含まれており、運搬能力を決定する際にサイズが自動的にアップグレードされる。</p></section>",
+      "activities": {},
+      "effects": {
+        "ge1u3EIFvsoj3jZu": {
+          "name": "Powerful Build"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptRelentless": {
+      "name": "オークのしぶとさ",
+      "description": "<p>君のヒット・ポイントが0になり、しかも君が即死しないなら、君のヒット・ポイントは0ではなく1になる。君はこの特徴を1度使用したなら、大休憩を終えるまでは、再び使用できない。</p>",
+      "activities": {
+        "DULUqgjDy0u99UKM": {
+          "name": "執念のしぶとさ"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptResourcefu": {
+      "name": "臨機応変",
+      "description": "<p>君は大休憩を終えるたびにヒロイック・インスピレーションを得る。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptRockGnomeL": {
+      "name": "ロック・ノームの血統",
+      "description": "<p>君は @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMending000]と@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi] の初級呪文を知っている。加えて、君は10分間を消費することで、 <em>プレスティディジテイション</em> を使用して、おもちゃ、火おこし、オルゴールなどの小さな時計仕掛けの装置（AC5、HP1）を作成する。装置を作成する際、以下の効果から1つを選んでその機能を決定する。 <em>プレスティディジテイション</em>; その装置は、君か他のクリーチャーが接触しそれを起動するボーナス・アクションを取るたび、その効果を発生させる。選ばれた効果にオプションがある場合、君はその装置を作成する際にそのオプションの1つを選ぶ。たとえば、呪文の点火-消火の効果を選んだ場合、君はその装置が火を点火するか消火するかを決定する。このような装置は一度に3つ存在させることができ、各装置は作成から8時間後か、君が利用アクションとして接触して解体したときにバラバラになる。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptSkillful00": {
+      "name": "技能達者",
+      "description": "<p>君は選択した1つ技能に習熟する。</p><section id=\"secret-lvP62g2xTxkz2VN3\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この種族を獲得した時に技能の選択肢が表示される。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptStonecunni": {
+      "name": "石工の勘",
+      "description": "<p>君はボーナス・アクションを使用することで10分間60フィート以内の&amp;Reference[Tremorsense] を得る。この振動感知を使用するには、石の上にいるか石に触れている必要がある。石は自然の石でも加工された石でもよい。このボーナス・アクションは、君の習熟ボーナスに等しい回数だけ使用でき、大休憩を終えると消費した使用回数をすべて回復する。</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>取り扱いメモ</strong></p><p>この特徴には使用の回数制限と、60フィートの振動感知を与えるアクティブ効果が含まれる。トークンの視覚設定を自動的に更新することはない。</p></section>",
+      "activities": {
+        "NTjnXm1AYqdOUJOB": {
+          "name": "石工の勘"
+        }
+      },
+      "effects": {
+        "SAbuNo2AO3XXtkdv": {
+          "name": "Stonecunning"
+        }
+      },
+      "advancement": {}
+    },
+    "phbsptStonesEndu": {
+      "name": "石の頑丈さ",
+      "description": "<p>君がダメージを受けたときに、リアクションを使用することで1d12＋【耐久力】修正値分のダメージを軽減することができる。</p>",
+      "activities": {
+        "vrWhAQ6Bj4gznxHq": {
+          "name": "Midi回復"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptStormsThun": {
+      "name": "嵐の雷鳴",
+      "description": "<p>君が、60フィート以内のクリーチャーからダメージを受けたとき、リアクションとして、そのクリーチャーに1d8［雷鳴］ ダメージを与えることができる。</p>",
+      "activities": {
+        "3eWfDnXfYJVJqT1z": {
+          "name": "嵐の雷鳴"
+        }
+      },
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptTrance0000": {
+      "name": "トランス",
+      "description": "<p>眠る必要がなく、魔法で眠らされることもない。瞑想状態で 4 時間を過ごすと、大休憩を終えたことになる。その間、意識を保ったままである。</p>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptVersatile0": {
+      "name": "両用",
+      "description": "<p>君は@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{起源特技} から選択したものを得る。 @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{技能習熟} が推奨される。</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>取り扱いメモ</strong></p><p>この種族を獲得したときに選択肢が表示される。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbsptWoodElfLin": {
+      "name": "エルフの血統(ウッド・エルフ)",
+      "description": "<p>君は超自然的な能力を授ける血統に属している。エルフの血統表から1つの血統を選ぶ。君はその血統のレベル1の特徴を得る。</p><p>君がキャラクターレベル3および5に達すると、表に示されているようにより高いレベルの呪文を学ぶ。それらの呪文は常に準備されている。呪文スロットを消費せずに一度だけ唱えることができ、この方法で唱える能力は大休憩を終えたときに再び得る。また、その呪文を適切なレベルの呪文スロットを使用して唱えることもできる。この特徴で唱える呪文の呪文発動能力は、【知力】、【判断力】、または【魅力】のいずれか（血統を選択する際に選ぶ）である。</p><h3>ウッドエルフの血統特徴</h3><table><thead><tr><td><p>レベル 1</p></td><td><p>レベル 3</p><td>レベル 5</td></tr></thead><tbody><tr><td>移動速度が35フィートに増加。さらに、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{ドルイドクラフト} の初級呪文を知っている。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]{ロングストライダー}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{パス・ウィズアウト・トレイス}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>取り扱いメモ</strong></p><p>種族を選択し、レベルアップすると、関連する特徴や呪文が自動的に付与される。</p></section>",
+      "activities": {},
+      "effects": {},
+      "advancement": {}
+    },
+    "phbspWoodElf0000": {
+      "name": "ウッドエルフ",
+      "description": "<p>エルフは神コアロンによって創造され、最初のエルフたちは自由に形を変えることができた。彼らは神ロルスと共謀し、コアロンの支配を奪おうとしたため、コアロンによってこの能力を失った。ロルスがアビスに追放されたとき、多くのエルフは彼女を放棄し、コアロンの許しを得たが、一度失ったものは永遠に失われた。</p><p>自由に形を変えることができなくなったエルフたちは、フェイワイルドに退き、その飛翔がこの次元の影響を受けて深まった。時間が経つにつれて、多くのエルフは好奇心に駆られて他の次元を探索し、物質界の世界にも到達した。</p><p>エルフは尖った耳を持ち、顔や体に毛がない。彼らの寿命は約750年で、眠ることはなく、休息が必要なときは瞑想状態に入る。その状態では、周囲を認識しながら、記憶や瞑想に没頭する。</p><p>エルフが千年以上住んだ環境は、エルフを微妙に変化させ、特定の種類の魔法を授ける。ドラウ、ハイエルフ、ウッドエルフは、このように変化したエルフの例である。</p><h3 data-anchor=\"drow\">ウッドエルフ</h3><p>ウッドエルフは、原始の森の魔法を内に秘めている。彼らは多くの名前で知られており、野生エルフ、緑のエルフ、森のエルフなどと呼ばれる。グレイホーク設定では隠遁者のウッドエルフがグルガッチであり、ドラゴンランスとエベロン設定ではカゴネスティやタイアンダルと呼ばれる。</h3><p><strong>クリーチャーの種別:</strong> 人型生物</p><p><strong>サイズ: </strong>中型 (約5～6フィートの身長)</p><p><strong>移動速度:</strong> 30フィート</p><p>エルフとして、以下の特徴を持つ。</p><p><strong>暗視: </strong> 60フィートの範囲で暗視を持つ。</p><p><strong>エルフの血統: </strong>君は超自然的な能力を授ける血統に属している。エルフの血統表から1つの血統を選ぶ。君はその血統のレベル1の特徴を得る。</p><p>君がキャラクターレベル3および5に達すると、表に示されているようにより高いレベルの呪文を学ぶ。それらの呪文は常に準備されている。呪文スロットを消費せずに一度だけ唱えることができ、この方法で唱える能力は大休憩を終えたときに再び得る。また、その呪文を適切なレベルの呪文スロットを使用して唱えることもできる。この特徴で唱える呪文の呪文発動能力は、【知力】、【判断力】、または【魅力】のいずれか（血統を選択する際に選ぶ）である。</p><table><caption>ウッドエルフの血統特徴</caption><thead><tr><td>レベル 1</td><td>レベル 3</td><td>レベル 5</td></tr></thead><tbody><tr><td>移動速度が35フィートに増加。さらに、@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{ドルイドクラフト} の初級呪文を知っている。</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]{ロングストライダー}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{パス・ウィズアウト・トレイス}</td></tr></tbody></table><p><strong>フェイの血筋:</strong> &amp;Reference[Charmed] を回避または終了するためのセーヴィング・スローに有利を持つ。</p><p><strong>鋭敏感覚:</strong>〈看破〉、〈知覚〉、または〈生存〉技能に習熟している。</p><p><strong>瞑想:</strong> 眠る必要がなく、魔法で眠らされることもない。瞑想状態で4時間を過ごすと、大休憩を終えたことになる。その間、意識を保ったままである。",
+      "activities": {},
+      "effects": {},
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "title": "",
+          "hint": "Medium (about 5–6 feet tall)"
+        },
+        "boHzoT53gYPvJ9o2": {
+          "title": "Elf Traits",
+          "hint": ""
+        },
+        "YFS9oEa9Iw1molNm": {
+          "title": "Wood Elf Traits",
+          "hint": ""
+        },
+        "FRJszO7cYchbaGzt": {
+          "title": "Wood Elf Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        "zFsEPXauTgmYxqiJ": {
+          "title": "Wood Elf Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        "RwuXccrKfMuuWLKr": {
+          "title": "Keen Senses",
+          "hint": "You have proficiency in the Insight, Perception, or Survival skill."
+        }
+      }
+    }
+  }
+}

@@ -207,6 +207,9 @@
   "scripts": [
     "./main.js", "./babele-register.js"
   ],
+  "esmodules": [
+    "./scripts/converters24.js"
+  ],
   "styles": [
     "css/dnd5ejp.css",
     "css/tidy5ejp.css",
