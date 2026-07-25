@@ -1,0 +1,49 @@
+{
+  "date": "2026-07-25",
+  "foundry": "14.365",
+  "dnd5e": "6.0.0",
+  "branch": "feature/dnd5e-6.0",
+  "commit": "d2aedeb",
+  "world": "test",
+  "modulesActive": [
+    "dnd5eja",
+    "babele",
+    "foundryVTTja",
+    "lib-wrapper",
+    "translate-dnd5e-sdr2-ja"
+  ],
+  "notes": [
+    "Initial world join cached pre-esmodules module.json; after return-to-setup + relaunch, converters24.js loaded and activities converter registered.",
+    "translate-dnd5e-sdr2-ja was also active; pack labels for actors24/equipment24/content24 still show that module's scaffold labels. Disable it for clean dnd5eja label verification.",
+    "Legacy smoke #5 (Fire Bolt via dnd5e.spells) fails on 6.0 because cantrips live in spells24; verified via spells24 as ファイアー・ボルト."
+  ],
+  "smoke72": {
+    "1_modules": "PASS",
+    "2_i18n": "PASS",
+    "4_goblin": "PASS (ゴブリン)",
+    "5_fireBolt": "PASS via spells24 (ファイアー・ボルト)"
+  },
+  "smoke24": {
+    "overall": "PASS",
+    "converters": ["activities", "mergeEffects", "advancementById", "actorFullById"],
+    "packs": {
+      "classes24": "クレリック + body JA",
+      "spells24": "JA name + body",
+      "origins24": "侍祭 + body JA",
+      "equipment24": "毛布 + body JA",
+      "actors24": "ゴブリンの戦士 + biography JA",
+      "feats24": "武勇の証 + body JA",
+      "content24": "ルール用語集 + page JA"
+    },
+    "labelsObservedWithTranslateAlsoActive": {
+      "actors24": "dnd-dungeon-masters-guide.actors",
+      "equipment24": "dnd-dungeon-masters-guide.equipment",
+      "content24": "ダンジョン・マスターズ・ガイド",
+      "origins24": "キャラクターの起源",
+      "classes24": "クラス",
+      "spells24": "呪文",
+      "feats24": "特技"
+    }
+  },
+  "verdict": "PASS (content). Labels for some *24 packs overridden by co-enabled translate-dnd5e-sdr2-ja."
+}
